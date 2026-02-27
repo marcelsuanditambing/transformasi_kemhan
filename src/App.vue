@@ -5,7 +5,7 @@
       <router-view />
     </main>
     <footer class="footer">
-      <p>&copy; 2026 Defense Transformation</p>
+      <p>&copy; 2026 Transformasi Digital Kemhan</p>
     </footer>
   </div>
 </template>
