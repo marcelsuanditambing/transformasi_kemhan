@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  smart-defense:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: smart-defense:latest
+    ports:
+      - "80:80"
+    restart: unless-stopped
+    # optional environment variables could be defined here
