@@ -7,6 +7,6 @@ services:
       dockerfile: Dockerfile
     image: smart-defense:latest
     ports:
-      - "80:80"
+      - "5173:80"
     restart: unless-stopped
     # optional environment variables could be defined here
