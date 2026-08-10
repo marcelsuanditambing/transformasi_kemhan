@@ -2,7 +2,7 @@
   <nav class="navbar">
     <ul>
       <li>
-        <router-link to="/" exact-active-class="active">Landing Page</router-link>
+        <router-link to="/" exact-active-class="active">TOGAF Pertahanan Indonesia</router-link>
       </li>
       <li>
         <router-link to="/arsitektur" active-class="active">Arsitektur Transformasi Digital Kemhan</router-link>
