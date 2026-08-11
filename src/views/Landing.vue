@@ -38,8 +38,8 @@
             <span class="tag">{{ badge(selected.label) }}</span>{{ selected.title }}
           </h2>
 
-          <!-- Fase C: pilih sub-domain -->
-          <template v-if="selected.hasSubDomains && !selectedSub">
+          <!-- Fase C: pengantar + dua sub-domain sebagai tab -->
+          <template v-if="selected.hasSubDomains">
             <p v-for="(p, i) in selected.intro" :key="i" class="para">{{ p }}</p>
             <div class="subchoice">
               <button
@@ -47,18 +47,18 @@
                 :key="s.id"
                 type="button"
                 class="subcard"
+                :class="{ active: s.id === selectedSubId }"
+                :aria-pressed="s.id === selectedSubId"
                 @click="selectedSubId = s.id"
               >
                 <span class="subcard-title">{{ s.title }}</span>
-                <span class="subcard-go">Baca →</span>
+                <span class="subcard-go">{{ s.id === selectedSubId ? 'Sedang dibaca' : 'Baca →' }}</span>
               </button>
             </div>
           </template>
 
-          <!-- Detail fase / sub-domain -->
-          <template v-else>
-            <h3 v-if="selected.hasSubDomains" class="sub-title">{{ detail.title }}</h3>
-
+          <!-- Detail: paragraf + tabel (fase biasa, atau sub-domain terpilih) -->
+          <template v-if="detail">
             <p v-for="(p, i) in detail.paragraphs" :key="'p' + i" class="para">{{ p }}</p>
 
             <div class="io" v-if="detail.io">
@@ -280,6 +280,12 @@ function scrollToContentOnMobile() {
   box-shadow: 0 6px 20px rgba(23, 33, 58, 0.08);
   transform: translateY(-2px);
 }
+.subcard.active {
+  border-color: var(--ember);
+  box-shadow: 0 0 0 1px var(--ember);
+  background: #fff7f1;
+}
+.subcard.active .subcard-go { color: var(--ember); }
 .subcard-title { font-size: 1.1rem; font-weight: 700; color: var(--ink); }
 .subcard-go { font-size: 0.85rem; color: var(--ember); font-weight: 600; }
 
