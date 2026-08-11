@@ -59,7 +59,7 @@
 
           <!-- Detail: paragraf + tabel (fase biasa, atau sub-domain terpilih) -->
           <template v-if="detail">
-            <p v-for="(p, i) in detail.paragraphs" :key="'p' + i" class="para">{{ p }}</p>
+            <p v-for="(p, i) in detailBefore" :key="'pb' + i" class="para">{{ p }}</p>
 
             <div class="io" v-if="detail.io">
               <div class="io-col">
@@ -75,6 +75,8 @@
                 <ol><li v-for="(x, i) in detail.io.output" :key="'ou' + i">{{ x }}</li></ol>
               </div>
             </div>
+
+            <p v-for="(p, i) in detailAfter" :key="'pa' + i" class="para">{{ p }}</p>
           </template>
         </template>
       </div>
@@ -119,6 +121,24 @@ const currentSub = computed(() => {
 const detail = computed(() =>
   selected.value && selected.value.hasSubDomains ? currentSub.value : selected.value
 );
+
+// Tabel disisipkan tepat setelah paragraf yang menyebut "Tabel"
+// (kalimat pengarah "…terdapat pada Tabel …"), yaitu paragraf kedua.
+// Bila tak ditemukan, tabel muncul setelah paragraf kedua sebagai cadangan.
+const tableSplitIndex = computed(() => {
+  const paras = (detail.value && detail.value.paragraphs) || [];
+  if (!paras.length) return 0;
+  const idx = paras.findIndex((p) => /\bTabel\b/i.test(p));
+  return idx === -1 ? Math.min(1, paras.length - 1) : idx;
+});
+const detailBefore = computed(() => {
+  const paras = (detail.value && detail.value.paragraphs) || [];
+  return paras.slice(0, tableSplitIndex.value + 1);
+});
+const detailAfter = computed(() => {
+  const paras = (detail.value && detail.value.paragraphs) || [];
+  return paras.slice(tableSplitIndex.value + 1);
+});
 
 // Label badge: hanya huruf tunggal (A–I). Untuk "Preliminary" kosong (lingkaran saja).
 function badge(label) {
