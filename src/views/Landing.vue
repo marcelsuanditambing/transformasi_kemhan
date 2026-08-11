@@ -4,7 +4,6 @@
       <h1 class="brand">
         <button type="button" class="brand-btn" @click="reset">{{ overview.title }}</button>
       </h1>
-      <p class="subtitle">{{ overview.subtitle }}</p>
     </header>
 
     <div class="layout">
@@ -26,7 +25,7 @@
       </figure>
 
       <!-- Kanan (desktop) / bawah (mobile): penjelasan -->
-      <div class="content" :class="{ 'is-justify': selectedId === 'preliminary' }">
+      <div class="content">
         <!-- Tampilan awal: ikhtisar -->
         <template v-if="!selected">
           <p v-for="(p, i) in overview.paragraphs" :key="i" class="para">{{ p }}</p>
@@ -218,13 +217,6 @@ function scrollToContentOnMobile() {
   line-height: 1.05;
 }
 .brand-btn:hover { color: var(--ember); }
-.subtitle {
-  max-width: 46ch;
-  margin: 0.9rem auto 0;
-  color: var(--ink-soft);
-  font-size: 1.02rem;
-  line-height: 1.5;
-}
 
 /* ---- Layout: dua kolom di desktop, tumpuk di mobile ---- */
 .layout {
@@ -265,14 +257,13 @@ function scrollToContentOnMobile() {
 
 /* ---- Content ---- */
 .content { scroll-margin-top: 1rem; padding-top: 0.35rem; }
-/* Uji coba: rata kanan-kiri khusus untuk fase Preliminary */
-.content.is-justify .para { text-align: justify; }
 .para {
   max-width: 68ch;
   margin: 0 0 1.05rem;
   line-height: 1.72;
   color: var(--ink-soft);
   font-size: 1.02rem;
+  text-align: justify;
 }
 .phase-title {
   display: flex;
