@@ -57,9 +57,18 @@
             </div>
           </template>
 
-          <!-- Detail: paragraf + tabel (fase biasa, atau sub-domain terpilih) -->
+          <!-- Detail: paragraf (+ gambar) + tabel -->
           <template v-if="detail">
-            <p v-for="(p, i) in detailBefore" :key="'pb' + i" class="para">{{ p }}</p>
+            <!-- Paragraf pertama -->
+            <p v-if="detailBefore.length" class="para">{{ detailBefore[0] }}</p>
+
+            <!-- Gambar sub-domain (di antara paragraf 1 dan 2) -->
+            <figure v-if="detailFigure" class="phase-figure">
+              <img :src="detailFigure" :alt="'Diagram ' + detail.title" />
+            </figure>
+
+            <!-- Sisa paragraf sebelum tabel -->
+            <p v-for="(p, i) in detailBefore.slice(1)" :key="'pb' + i" class="para">{{ p }}</p>
 
             <div class="io" v-if="detail.io">
               <div class="io-col">
@@ -87,7 +96,15 @@
 <script setup>
 import { ref, computed, watch } from 'vue';
 import wheel from '@/assets/images/togaf-pertahanan-indoneisa.svg';
+import dataArchFigure from '@/assets/images/data-architecture.drawio.svg';
+import appArchFigure from '@/assets/images/application-architecture.drawio.svg';
 import { overview, phases } from '@/data/togafPhases.js';
+
+// Gambar per sub-domain (disisipkan di antara paragraf 1 dan 2).
+const figures = {
+  'data-architecture': dataArchFigure,
+  'application-architecture': appArchFigure,
+};
 
 // Posisi tiap node pada diagram, dalam persen (dihitung dari koordinat SVG).
 const nodePos = {
@@ -139,6 +156,8 @@ const detailAfter = computed(() => {
   const paras = (detail.value && detail.value.paragraphs) || [];
   return paras.slice(tableSplitIndex.value + 1);
 });
+// Gambar untuk detail yang sedang tampil (hanya sub-domain tertentu).
+const detailFigure = computed(() => (detail.value ? figures[detail.value.id] || null : null));
 
 // Label badge: hanya huruf tunggal (A–I). Untuk "Preliminary" kosong (lingkaran saja).
 function badge(label) {
@@ -274,6 +293,19 @@ function scrollToContentOnMobile() {
   font-weight: 700;
 }
 .sub-title { font-size: 1.35rem; margin: 0.1rem 0 1.1rem; }
+
+/* Gambar sub-domain (latar transparan, menyatu dengan halaman) */
+.phase-figure {
+  margin: 0.4rem 0 1.4rem;
+  background: transparent;
+}
+.phase-figure img {
+  display: block;
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+  margin: 0 auto;
+}
 
 /* Pilihan sub-domain (Fase C) */
 .subchoice {
