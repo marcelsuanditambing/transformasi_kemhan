@@ -4,6 +4,7 @@
       <h1 class="brand">
         <button type="button" class="brand-btn" @click="reset">{{ overview.title }}</button>
       </h1>
+      <p class="subtitle">{{ overview.subtitle }}</p>
     </header>
 
     <div class="layout">
@@ -25,7 +26,7 @@
       </figure>
 
       <!-- Kanan (desktop) / bawah (mobile): penjelasan -->
-      <div class="content">
+      <div class="content" :class="{ 'is-justify': selectedId === 'preliminary' }">
         <!-- Tampilan awal: ikhtisar -->
         <template v-if="!selected">
           <p v-for="(p, i) in overview.paragraphs" :key="i" class="para">{{ p }}</p>
@@ -264,6 +265,8 @@ function scrollToContentOnMobile() {
 
 /* ---- Content ---- */
 .content { scroll-margin-top: 1rem; padding-top: 0.35rem; }
+/* Uji coba: rata kanan-kiri khusus untuk fase Preliminary */
+.content.is-justify .para { text-align: justify; }
 .para {
   max-width: 68ch;
   margin: 0 0 1.05rem;
