@@ -4,7 +4,6 @@
       <h1 class="brand">
         <button type="button" class="brand-btn" @click="reset">{{ overview.title }}</button>
       </h1>
-      <p class="subtitle">{{ overview.subtitle }}</p>
     </header>
 
     <div class="layout">
