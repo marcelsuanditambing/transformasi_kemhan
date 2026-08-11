@@ -1,76 +1,43 @@
 <template>
-  <section class="togaf">
+  <section class="arsi">
     <header class="intro">
       <h1 class="brand">
-        <button type="button" class="brand-btn" @click="reset">{{ overview.title }}</button>
+        <button type="button" class="brand-btn" @click="reset">Arsitektur Transformasi Digital Kemhan</button>
       </h1>
     </header>
 
     <div class="layout">
-      <!-- Kiri (desktop) / atas (mobile): diagram roda (komponen bersama) -->
+      <!-- Kiri (desktop) / atas (mobile): roda TOGAF (komponen bersama) -->
       <TogafWheel :active="selectedId" @select="selectPhase" />
 
-      <!-- Kanan (desktop) / bawah (mobile): penjelasan -->
+      <!-- Kanan (desktop) / bawah (mobile): implementasi (Bab IV) -->
       <div class="content">
-        <!-- Tampilan awal: ikhtisar -->
         <template v-if="!selected">
-          <p v-for="(p, i) in overview.paragraphs" :key="i" class="para">{{ p }}</p>
+          <p class="para lead">
+            Bagian ini memuat implementasi TOGAF Pertahanan Indonesia berdasarkan Bab IV tesis.
+            Klik salah satu fase pada diagram untuk membaca implementasinya.
+          </p>
         </template>
 
-        <!-- Fase terpilih -->
         <template v-else>
           <h2 class="phase-title">
-            <span class="tag">{{ badge(selected.label) }}</span>{{ selected.title }}
+            <span class="tag">{{ badge(selected) }}</span>{{ selected.title }}
           </h2>
 
-          <!-- Fase C: pengantar + dua sub-domain sebagai tab -->
-          <template v-if="selected.hasSubDomains">
-            <p v-for="(p, i) in selected.intro" :key="i" class="para">{{ p }}</p>
-            <div class="subchoice">
-              <button
-                v-for="s in selected.subDomains"
-                :key="s.id"
-                type="button"
-                class="subcard"
-                :class="{ active: s.id === selectedSubId }"
-                :aria-pressed="s.id === selectedSubId"
-                @click="selectedSubId = s.id"
-              >
-                <span class="subcard-title">{{ s.title }}</span>
-                <span class="subcard-go">{{ s.id === selectedSubId ? 'Sedang dibaca' : 'Baca →' }}</span>
-              </button>
-            </div>
-          </template>
+          <p v-if="selected.comingSoon" class="coming">Content coming soon…</p>
 
-          <!-- Detail: paragraf (+ gambar) + tabel -->
-          <template v-if="detail">
-            <!-- Paragraf pertama -->
-            <p v-if="detailBefore.length" class="para">{{ detailBefore[0] }}</p>
+          <template v-else>
+            <p v-for="(p, i) in selected.intro || []" :key="'intro' + i" class="para">{{ p }}</p>
 
-            <!-- Gambar sub-domain (di antara paragraf 1 dan 2) -->
-            <figure v-if="detailFigure" class="phase-figure">
-              <img :src="detailFigure" :alt="'Diagram ' + detail.title" />
-            </figure>
+            <section v-for="sec in selected.sections" :key="sec.no" class="sec">
+              <h3 class="sec-title"><span class="sec-no">{{ sec.no }}.</span>{{ sec.title }}</h3>
+              <BlockList :blocks="sec.blocks" />
 
-            <!-- Sisa paragraf sebelum tabel -->
-            <p v-for="(p, i) in detailBefore.slice(1)" :key="'pb' + i" class="para">{{ p }}</p>
-
-            <div class="io" v-if="detail.io">
-              <div class="io-col">
-                <h4 class="io-head io-input">Input</h4>
-                <ol><li v-for="(x, i) in detail.io.input" :key="'in' + i">{{ x }}</li></ol>
-              </div>
-              <div class="io-col">
-                <h4 class="io-head io-step">Step</h4>
-                <ol><li v-for="(x, i) in detail.io.step" :key="'st' + i">{{ x }}</li></ol>
-              </div>
-              <div class="io-col">
-                <h4 class="io-head io-output">Output</h4>
-                <ol><li v-for="(x, i) in detail.io.output" :key="'ou' + i">{{ x }}</li></ol>
-              </div>
-            </div>
-
-            <p v-for="(p, i) in detailAfter" :key="'pa' + i" class="para">{{ p }}</p>
+              <section v-for="sub in sec.subsections || []" :key="sub.no" class="subsec">
+                <h4 class="subsec-title"><span class="sec-no">{{ sub.no }}</span>{{ sub.title }}</h4>
+                <BlockList :blocks="sub.blocks" />
+              </section>
+            </section>
           </template>
         </template>
       </div>
@@ -79,77 +46,70 @@
 </template>
 
 <script setup>
-import { ref, computed, watch } from 'vue';
+import { ref, computed, watch, h } from 'vue';
 import TogafWheel from '@/components/TogafWheel.vue';
-import dataArchFigure from '@/assets/images/data-architecture.drawio.svg';
-import appArchFigure from '@/assets/images/application-architecture.drawio.svg';
-import { overview, phases } from '@/data/togafPhases.js';
+import { phases } from '@/data/arsitekturFase.js';
 
-// Gambar per sub-domain (disisipkan di antara paragraf 1 dan 2).
-const figures = {
-  'data-architecture': dataArchFigure,
-  'application-architecture': appArchFigure,
+// Merender blok berurutan (paragraf, gambar, tabel) sesuai urutan tesis.
+const BlockList = {
+  props: { blocks: { type: Array, default: () => [] } },
+  setup(props) {
+    return () =>
+      props.blocks.map((b, i) => {
+        if (b.t === 'p') return h('p', { class: 'para', key: i }, b.v);
+        if (b.t === 'fig')
+          return h('figure', { class: 'fig', key: i }, [
+            h('img', { src: b.src, alt: b.cap }),
+            b.cap ? h('figcaption', b.cap) : null,
+          ]);
+        if (b.t === 'table') {
+          const cols = (b.header || []).length || 1;
+          const thead =
+            b.header && b.header.length
+              ? h('thead', [h('tr', b.header.map((c) => h('th', c)))])
+              : null;
+          const tbody = h(
+            'tbody',
+            (b.rows || []).map((row) => {
+              if (row.length === 1 && cols > 1)
+                return h('tr', { class: 'row-head' }, [h('td', { colspan: cols }, row[0])]);
+              return h('tr', row.map((c) => h('td', c)));
+            })
+          );
+          return h('div', { class: 'table-wrap', key: i }, [
+            b.title ? h('p', { class: 'table-title' }, b.title) : null,
+            h('table', [thead, tbody]),
+          ]);
+        }
+        return null;
+      });
+  },
 };
 
 const selectedId = ref(null);
-const selectedSubId = ref(null);
-
 const selected = computed(() => phases.find((p) => p.id === selectedId.value) || null);
-const currentSub = computed(() => {
-  if (!selected.value || !selected.value.hasSubDomains) return null;
-  return selected.value.subDomains.find((s) => s.id === selectedSubId.value) || null;
-});
-const detail = computed(() =>
-  selected.value && selected.value.hasSubDomains ? currentSub.value : selected.value
-);
 
-// Tabel disisipkan tepat setelah paragraf yang menyebut "Tabel"
-// (kalimat pengarah "…terdapat pada Tabel …"), yaitu paragraf kedua.
-// Bila tak ditemukan, tabel muncul setelah paragraf kedua sebagai cadangan.
-const tableSplitIndex = computed(() => {
-  const paras = (detail.value && detail.value.paragraphs) || [];
-  if (!paras.length) return 0;
-  const idx = paras.findIndex((p) => /\bTabel\b/i.test(p));
-  return idx === -1 ? Math.min(1, paras.length - 1) : idx;
-});
-const detailBefore = computed(() => {
-  const paras = (detail.value && detail.value.paragraphs) || [];
-  return paras.slice(0, tableSplitIndex.value + 1);
-});
-const detailAfter = computed(() => {
-  const paras = (detail.value && detail.value.paragraphs) || [];
-  return paras.slice(tableSplitIndex.value + 1);
-});
-// Gambar untuk detail yang sedang tampil (hanya sub-domain tertentu).
-const detailFigure = computed(() => (detail.value ? figures[detail.value.id] || null : null));
+const letters = {
+  'architecture-vision': 'A', 'business-architecture': 'B', 'information-system-architecture': 'C',
+  'technology-architecture': 'D', 'c5isr-architecture': 'E', 'opportunities-solutions': 'F',
+  'migration-planning': 'G', 'implementation-governance': 'H', 'architecture-change-management': 'I',
+};
+function badge(phase) { return letters[phase.id] || ''; }
 
-// Label badge: hanya huruf tunggal (A–I). Untuk "Preliminary" kosong (lingkaran saja).
-function badge(label) {
-  return label.length === 1 ? label : '';
-}
-
-function selectPhase(id) {
-  selectedId.value = id;
-  selectedSubId.value = null;
-  scrollToContentOnMobile();
-}
-function reset() {
-  selectedId.value = null;
-  selectedSubId.value = null;
-}
-watch(selectedSubId, scrollToContentOnMobile);
-// Pada layar kecil (tumpuk), gulir ke penjelasan; pada desktop (dua kolom) tidak perlu.
+function selectPhase(id) { selectedId.value = id; scrollToContentOnMobile(); }
+function reset() { selectedId.value = null; }
+watch(selectedId, scrollToContentOnMobile);
 function scrollToContentOnMobile() {
   if (window.matchMedia('(min-width: 901px)').matches) return;
   requestAnimationFrame(() => {
-    const el = document.querySelector('.togaf .content');
+    const el = document.querySelector('.arsi .content');
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
 }
 </script>
 
 <style scoped>
-.togaf {
+.arsi {
   --ink: #17213a;
   --ink-soft: #454f6b;
   --muted: #6b7488;
@@ -166,24 +126,15 @@ function scrollToContentOnMobile() {
   color: var(--ink);
 }
 
-/* ---- Header ---- */
 .intro { text-align: center; padding: 0.5rem 0 2rem; }
 .brand { margin: 0; }
 .brand-btn {
-  font: inherit;
-  border: 0;
-  background: none;
-  cursor: pointer;
-  padding: 0;
-  color: var(--ink);
-  font-size: clamp(1.9rem, 5vw, 3rem);
-  font-weight: 800;
-  letter-spacing: -0.02em;
-  line-height: 1.05;
+  font: inherit; border: 0; background: none; cursor: pointer; padding: 0;
+  color: var(--ink); font-size: clamp(1.6rem, 4.2vw, 2.6rem);
+  font-weight: 800; letter-spacing: -0.02em; line-height: 1.08;
 }
 .brand-btn:hover { color: var(--ember); }
 
-/* ---- Layout: dua kolom di desktop, tumpuk di mobile ---- */
 .layout {
   display: grid;
   grid-template-columns: minmax(320px, 430px) 1fr;
@@ -191,131 +142,55 @@ function scrollToContentOnMobile() {
   align-items: start;
 }
 
-/* ---- Content ---- */
 .content { scroll-margin-top: 1rem; padding-top: 0.35rem; }
 .para {
-  max-width: 68ch;
-  margin: 0 0 1.05rem;
-  line-height: 1.72;
-  color: var(--ink-soft);
-  font-size: 1.02rem;
-  text-align: justify;
+  max-width: 70ch; margin: 0 0 1.05rem; line-height: 1.72;
+  color: var(--ink-soft); font-size: 1.02rem; text-align: justify;
 }
+.lead { color: var(--muted); }
+.coming { color: var(--muted); font-size: 1.1rem; padding: 1rem 0; }
+
 .phase-title {
-  display: flex;
-  align-items: center;
-  gap: 0.7rem;
-  font-size: clamp(1.5rem, 4vw, 2.1rem);
-  letter-spacing: -0.015em;
-  margin: 0 0 1.4rem;
+  display: flex; align-items: center; gap: 0.7rem;
+  font-size: clamp(1.5rem, 4vw, 2.1rem); letter-spacing: -0.015em; margin: 0 0 1.4rem;
 }
 .tag {
-  flex: none;
-  display: grid;
-  place-items: center;
-  width: 2.1rem;
-  height: 2.1rem;
-  border-radius: 50%;
-  background: var(--gold-soft);
-  color: var(--ink);
-  font-size: 1rem;
-  font-weight: 700;
-}
-.sub-title { font-size: 1.35rem; margin: 0.1rem 0 1.1rem; }
-
-/* Gambar sub-domain (latar transparan, menyatu dengan halaman) */
-.phase-figure {
-  margin: 0.4rem 0 1.4rem;
-  background: transparent;
-}
-.phase-figure img {
-  display: block;
-  width: 100%;
-  max-width: 640px;
-  height: auto;
-  margin: 0 auto;
+  flex: none; display: grid; place-items: center; width: 2.1rem; height: 2.1rem;
+  border-radius: 50%; background: var(--gold-soft); color: var(--ink); font-size: 1rem; font-weight: 700;
 }
 
-/* Pilihan sub-domain (Fase C) */
-.subchoice {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  max-width: 68ch;
-  margin: 1.5rem 0 0;
+.sec { margin: 0 0 2.25rem; }
+.sec-title {
+  font-size: 1.28rem; margin: 1.6rem 0 0.9rem; letter-spacing: -0.01em;
+  padding-bottom: 0.4rem; border-bottom: 2px solid var(--line);
 }
-.subcard {
-  text-align: left;
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  padding: 1.15rem 1.25rem;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
-}
-.subcard:hover {
-  border-color: var(--gold);
-  box-shadow: 0 6px 20px rgba(23, 33, 58, 0.08);
-  transform: translateY(-2px);
-}
-.subcard.active {
-  border-color: var(--ember);
-  box-shadow: 0 0 0 1px var(--ember);
-  background: #fff7f1;
-}
-.subcard.active .subcard-go { color: var(--ember); }
-.subcard-title { font-size: 1.1rem; font-weight: 700; color: var(--ink); }
-.subcard-go { font-size: 0.85rem; color: var(--ember); font-weight: 600; }
+.sec-no { color: var(--gold); font-weight: 800; margin-right: 0.4rem; }
+.subsec { margin: 1.25rem 0 0 0; padding-left: 1rem; border-left: 3px solid var(--gold-soft); }
+.subsec-title { font-size: 1.08rem; margin: 0 0 0.7rem; }
+.subsec-title .sec-no { margin-right: 0.5rem; }
 
-/* Tabel Input / Step / Output */
-.io {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin: 1.75rem 0 0.5rem;
-}
-.io-col {
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  padding: 1.1rem 1.15rem 1.25rem;
-}
-.io-head {
-  font-family: var(--mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  margin: 0 0 0.75rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--line);
-}
-.io-input { color: var(--gold); border-bottom-color: var(--gold-soft); }
-.io-step { color: var(--ink); border-bottom-color: var(--ink); }
-.io-output { color: var(--ember); border-bottom-color: var(--ember); }
-.io-col ol { margin: 0; padding-left: 1.2rem; }
-.io-col li { font-size: 0.9rem; line-height: 1.55; color: var(--ink-soft); margin-bottom: 0.55rem; }
-.io-col li:last-child { margin-bottom: 0; }
+.fig { margin: 0.6rem 0 1.4rem; background: transparent; }
+.fig :deep(img) { display: block; width: 100%; max-width: 720px; height: auto; margin: 0 auto; }
+.fig :deep(figcaption) { margin-top: 0.5rem; text-align: center; font-size: 0.85rem; color: var(--muted); }
 
-/* ---- Responsif: tumpuk (gambar di atas, penjelasan di bawah) ---- */
+.table-wrap { margin: 1.1rem 0 1.5rem; overflow-x: auto; }
+.table-title { font-size: 0.9rem; font-weight: 700; color: var(--ink); margin: 0 0 0.5rem; }
+.table-wrap :deep(table) {
+  width: 100%; border-collapse: collapse; font-size: 0.9rem;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden;
+}
+.table-wrap :deep(th) {
+  text-align: left; background: #f0eee8; color: var(--ink);
+  font-weight: 700; padding: 0.6rem 0.8rem; border-bottom: 2px solid var(--line);
+}
+.table-wrap :deep(td) {
+  padding: 0.55rem 0.8rem; border-bottom: 1px solid var(--line);
+  color: var(--ink-soft); line-height: 1.5; vertical-align: top;
+}
+.table-wrap :deep(.row-head td) { background: #faf9f6; font-weight: 700; color: var(--ink); }
+.table-wrap :deep(tr:last-child td) { border-bottom: 0; }
+
 @media (max-width: 900px) {
   .layout { grid-template-columns: 1fr; gap: 1.75rem; }
-  .io { grid-template-columns: 1fr; }
-  .subchoice { grid-template-columns: 1fr; }
-}
-@media (prefers-reduced-motion: reduce) {
-  .subcard { transition: none; }
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px; height: 1px;
-  padding: 0; margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
 }
 </style>
