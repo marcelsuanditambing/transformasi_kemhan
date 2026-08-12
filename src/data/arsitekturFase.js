@@ -952,6 +952,10 @@ export const phases = [
                     "Organisasi berbasis kapabilitas yang matang dan berkelanjutan"
                   ]
                 ]
+              },
+              {
+                "t": "p",
+                "v": "Dengan demikian, fase Business Architecture menghasilkan fondasi organisasi dan tata kelola yang menjadi prasyarat bagi keberhasilan transformasi pada fase-fase teknis berikutnya."
               }
             ]
           }
