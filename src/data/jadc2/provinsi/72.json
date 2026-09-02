@@ -1,0 +1,1855 @@
+{
+ "kode": "72",
+ "nama": "Sulawesi Tengah",
+ "wilayah": [
+  {
+   "kode_bps": "72",
+   "nama": "Sulawesi Tengah",
+   "level": "prov",
+   "induk_kode": "",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "72.01",
+   "nama": "Kabupaten Banggai",
+   "level": "kab",
+   "induk_kode": "72",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "72.01.01",
+   "nama": "Batui",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.02",
+   "nama": "Bunta",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.03",
+   "nama": "Kintom",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.04",
+   "nama": "Luwuk",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.05",
+   "nama": "Lamala",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.06",
+   "nama": "Balantak",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.07",
+   "nama": "Pagimana",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.08",
+   "nama": "Bualemo",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.09",
+   "nama": "Toili",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.10",
+   "nama": "Masama",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.11",
+   "nama": "Luwuk Timur",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.12",
+   "nama": "Toili Barat",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.13",
+   "nama": "Nuhon",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.14",
+   "nama": "Moilong",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.15",
+   "nama": "Batui Selatan",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.16",
+   "nama": "Lobu",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.17",
+   "nama": "Simpang Raya",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.18",
+   "nama": "Balantak Selatan",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.19",
+   "nama": "Balantak Utara",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.20",
+   "nama": "Luwuk Selatan",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.21",
+   "nama": "Luwuk Utara",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.22",
+   "nama": "Mantoh",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.23",
+   "nama": "Nambo",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.01.24",
+   "nama": "Toili Jaya",
+   "level": "kec",
+   "induk_kode": "72.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.02",
+   "nama": "Kabupaten Poso",
+   "level": "kab",
+   "induk_kode": "72",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "72.02.01",
+   "nama": "Poso Kota",
+   "level": "kec",
+   "induk_kode": "72.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.02.02",
+   "nama": "Poso Pesisir",
+   "level": "kec",
+   "induk_kode": "72.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.02.03",
+   "nama": "Lage",
+   "level": "kec",
+   "induk_kode": "72.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.02.04",
+   "nama": "Pamona Puselemba",
+   "level": "kec",
+   "induk_kode": "72.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.02.05",
+   "nama": "Pamona Timur",
+   "level": "kec",
+   "induk_kode": "72.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.02.06",
+   "nama": "Pamona Selatan",
+   "level": "kec",
+   "induk_kode": "72.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.02.07",
+   "nama": "Lore Utara",
+   "level": "kec",
+   "induk_kode": "72.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.02.08",
+   "nama": "Lore Tengah",
+   "level": "kec",
+   "induk_kode": "72.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.02.09",
+   "nama": "Lore Selatan",
+   "level": "kec",
+   "induk_kode": "72.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.02.18",
+   "nama": "Poso Pesisir Utara",
+   "level": "kec",
+   "induk_kode": "72.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.02.19",
+   "nama": "Poso Pesisir Selatan",
+   "level": "kec",
+   "induk_kode": "72.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.02.20",
+   "nama": "Pamona Barat",
+   "level": "kec",
+   "induk_kode": "72.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.02.21",
+   "nama": "Poso Kota Selatan",
+   "level": "kec",
+   "induk_kode": "72.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.02.22",
+   "nama": "Poso Kota Utara",
+   "level": "kec",
+   "induk_kode": "72.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.02.23",
+   "nama": "Lore Barat",
+   "level": "kec",
+   "induk_kode": "72.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.02.24",
+   "nama": "Lore Timur",
+   "level": "kec",
+   "induk_kode": "72.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.02.25",
+   "nama": "Lore Peore",
+   "level": "kec",
+   "induk_kode": "72.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.02.26",
+   "nama": "Pamona Tenggara",
+   "level": "kec",
+   "induk_kode": "72.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.02.27",
+   "nama": "Pamona Utara",
+   "level": "kec",
+   "induk_kode": "72.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.03",
+   "nama": "Kabupaten Donggala",
+   "level": "kab",
+   "induk_kode": "72",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "72.03.04",
+   "nama": "Rio Pakava",
+   "level": "kec",
+   "induk_kode": "72.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.03.06",
+   "nama": "Dampelas",
+   "level": "kec",
+   "induk_kode": "72.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.03.08",
+   "nama": "Banawa",
+   "level": "kec",
+   "induk_kode": "72.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.03.09",
+   "nama": "Labuan",
+   "level": "kec",
+   "induk_kode": "72.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.03.10",
+   "nama": "Sindue",
+   "level": "kec",
+   "induk_kode": "72.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.03.11",
+   "nama": "Sirenja",
+   "level": "kec",
+   "induk_kode": "72.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.03.12",
+   "nama": "Balaesang",
+   "level": "kec",
+   "induk_kode": "72.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.03.14",
+   "nama": "Sojol",
+   "level": "kec",
+   "induk_kode": "72.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.03.18",
+   "nama": "Banawa Selatan",
+   "level": "kec",
+   "induk_kode": "72.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.03.19",
+   "nama": "Tanantovea",
+   "level": "kec",
+   "induk_kode": "72.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.03.21",
+   "nama": "Pinembani",
+   "level": "kec",
+   "induk_kode": "72.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.03.24",
+   "nama": "Sindue Tombusabora",
+   "level": "kec",
+   "induk_kode": "72.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.03.25",
+   "nama": "Sindue Tobata",
+   "level": "kec",
+   "induk_kode": "72.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.03.27",
+   "nama": "Banawa Tengah",
+   "level": "kec",
+   "induk_kode": "72.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.03.30",
+   "nama": "Sojol Utara",
+   "level": "kec",
+   "induk_kode": "72.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.03.31",
+   "nama": "Balaesang Tanjung",
+   "level": "kec",
+   "induk_kode": "72.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.04",
+   "nama": "Kabupaten Toli-Toli",
+   "level": "kab",
+   "induk_kode": "72",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "72.04.01",
+   "nama": "Dampal Selatan",
+   "level": "kec",
+   "induk_kode": "72.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.04.02",
+   "nama": "Dampal Utara",
+   "level": "kec",
+   "induk_kode": "72.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.04.03",
+   "nama": "Dondo",
+   "level": "kec",
+   "induk_kode": "72.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.04.04",
+   "nama": "Basidondo",
+   "level": "kec",
+   "induk_kode": "72.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.04.05",
+   "nama": "Ogodeide",
+   "level": "kec",
+   "induk_kode": "72.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.04.06",
+   "nama": "Lampasio",
+   "level": "kec",
+   "induk_kode": "72.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.04.07",
+   "nama": "Baolan",
+   "level": "kec",
+   "induk_kode": "72.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.04.08",
+   "nama": "Galang",
+   "level": "kec",
+   "induk_kode": "72.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.04.09",
+   "nama": "Tolitoli Utara",
+   "level": "kec",
+   "induk_kode": "72.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.04.10",
+   "nama": "Dako Pemean",
+   "level": "kec",
+   "induk_kode": "72.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.05",
+   "nama": "Kabupaten Buol",
+   "level": "kab",
+   "induk_kode": "72",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "72.05.01",
+   "nama": "Momunu",
+   "level": "kec",
+   "induk_kode": "72.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.05.02",
+   "nama": "Lakea",
+   "level": "kec",
+   "induk_kode": "72.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.05.03",
+   "nama": "Bokat",
+   "level": "kec",
+   "induk_kode": "72.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.05.04",
+   "nama": "Bunobogu",
+   "level": "kec",
+   "induk_kode": "72.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.05.05",
+   "nama": "Paleleh",
+   "level": "kec",
+   "induk_kode": "72.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.05.06",
+   "nama": "Biau",
+   "level": "kec",
+   "induk_kode": "72.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.05.07",
+   "nama": "Tiloan",
+   "level": "kec",
+   "induk_kode": "72.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.05.08",
+   "nama": "Bukal",
+   "level": "kec",
+   "induk_kode": "72.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.05.09",
+   "nama": "Gadung",
+   "level": "kec",
+   "induk_kode": "72.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.05.10",
+   "nama": "Karamat",
+   "level": "kec",
+   "induk_kode": "72.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.05.11",
+   "nama": "Paleleh Barat",
+   "level": "kec",
+   "induk_kode": "72.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.06",
+   "nama": "Kabupaten Morowali",
+   "level": "kab",
+   "induk_kode": "72",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "72.06.05",
+   "nama": "Bungku Tengah",
+   "level": "kec",
+   "induk_kode": "72.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.06.06",
+   "nama": "Bungku Selatan",
+   "level": "kec",
+   "induk_kode": "72.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.06.07",
+   "nama": "Menui Kepulauan",
+   "level": "kec",
+   "induk_kode": "72.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.06.08",
+   "nama": "Bungku Barat",
+   "level": "kec",
+   "induk_kode": "72.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.06.09",
+   "nama": "Bumi Raya",
+   "level": "kec",
+   "induk_kode": "72.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.06.10",
+   "nama": "Bahodopi",
+   "level": "kec",
+   "induk_kode": "72.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.06.12",
+   "nama": "Wita Ponda",
+   "level": "kec",
+   "induk_kode": "72.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.06.15",
+   "nama": "Bungku Pesisir",
+   "level": "kec",
+   "induk_kode": "72.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.06.18",
+   "nama": "Bungku Timur",
+   "level": "kec",
+   "induk_kode": "72.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.06.20",
+   "nama": "Sombori Kepulauan",
+   "level": "kec",
+   "induk_kode": "72.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.07",
+   "nama": "Kabupaten Banggai Kepulauan",
+   "level": "kab",
+   "induk_kode": "72",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "72.07.03",
+   "nama": "Totikum",
+   "level": "kec",
+   "induk_kode": "72.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.07.04",
+   "nama": "Tinangkung",
+   "level": "kec",
+   "induk_kode": "72.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.07.05",
+   "nama": "Liang",
+   "level": "kec",
+   "induk_kode": "72.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.07.06",
+   "nama": "Bulagi",
+   "level": "kec",
+   "induk_kode": "72.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.07.07",
+   "nama": "Buko",
+   "level": "kec",
+   "induk_kode": "72.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.07.09",
+   "nama": "Bulagi Selatan",
+   "level": "kec",
+   "induk_kode": "72.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.07.11",
+   "nama": "Tinangkung Selatan",
+   "level": "kec",
+   "induk_kode": "72.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.07.15",
+   "nama": "Totikum Selatan",
+   "level": "kec",
+   "induk_kode": "72.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.07.16",
+   "nama": "Peling Tengah",
+   "level": "kec",
+   "induk_kode": "72.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.07.17",
+   "nama": "Bulagi Utara",
+   "level": "kec",
+   "induk_kode": "72.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.07.18",
+   "nama": "Buko Selatan",
+   "level": "kec",
+   "induk_kode": "72.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.07.19",
+   "nama": "Tinangkung Utara",
+   "level": "kec",
+   "induk_kode": "72.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08",
+   "nama": "Kabupaten Parigi Moutong",
+   "level": "kab",
+   "induk_kode": "72",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "72.08.01",
+   "nama": "Parigi",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08.02",
+   "nama": "Ampibabo",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08.03",
+   "nama": "Tinombo",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08.04",
+   "nama": "Moutong",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08.05",
+   "nama": "Tomini",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08.06",
+   "nama": "Sausu",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08.07",
+   "nama": "Bolano Lambunu",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08.08",
+   "nama": "Kasimbar",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08.09",
+   "nama": "Torue",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08.10",
+   "nama": "Tinombo Selatan",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08.11",
+   "nama": "Parigi Selatan",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08.12",
+   "nama": "Mepanga",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08.13",
+   "nama": "Toribulu",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08.14",
+   "nama": "Taopa",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08.15",
+   "nama": "Balinggi",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08.16",
+   "nama": "Parigi Barat",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08.17",
+   "nama": "Siniu",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08.18",
+   "nama": "Palasa",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08.19",
+   "nama": "Parigi Utara",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08.20",
+   "nama": "Parigi Tengah",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08.21",
+   "nama": "Bolano",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08.22",
+   "nama": "Ongka Malino",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.08.23",
+   "nama": "Sidoan",
+   "level": "kec",
+   "induk_kode": "72.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.09",
+   "nama": "Kabupaten Tojo Una Una",
+   "level": "kab",
+   "induk_kode": "72",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "72.09.01",
+   "nama": "Una Una",
+   "level": "kec",
+   "induk_kode": "72.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.09.02",
+   "nama": "Togean",
+   "level": "kec",
+   "induk_kode": "72.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.09.03",
+   "nama": "Walea Kepulauan",
+   "level": "kec",
+   "induk_kode": "72.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.09.04",
+   "nama": "Ampana Tete",
+   "level": "kec",
+   "induk_kode": "72.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.09.05",
+   "nama": "Ampana Kota",
+   "level": "kec",
+   "induk_kode": "72.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.09.06",
+   "nama": "Ulubongka",
+   "level": "kec",
+   "induk_kode": "72.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.09.07",
+   "nama": "Tojo Barat",
+   "level": "kec",
+   "induk_kode": "72.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.09.08",
+   "nama": "Tojo",
+   "level": "kec",
+   "induk_kode": "72.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.09.09",
+   "nama": "Walea Besar",
+   "level": "kec",
+   "induk_kode": "72.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.09.10",
+   "nama": "Ratolindo",
+   "level": "kec",
+   "induk_kode": "72.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.09.11",
+   "nama": "Batudaka",
+   "level": "kec",
+   "induk_kode": "72.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.09.12",
+   "nama": "Talatako",
+   "level": "kec",
+   "induk_kode": "72.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.10",
+   "nama": "Kabupaten Sigi",
+   "level": "kab",
+   "induk_kode": "72",
+   "pesisir": false
+  },
+  {
+   "kode_bps": "72.10.01",
+   "nama": "Sigi Biromaru",
+   "level": "kec",
+   "induk_kode": "72.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.10.02",
+   "nama": "Palolo",
+   "level": "kec",
+   "induk_kode": "72.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.10.03",
+   "nama": "Nokilalaki",
+   "level": "kec",
+   "induk_kode": "72.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.10.04",
+   "nama": "Lindu",
+   "level": "kec",
+   "induk_kode": "72.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.10.05",
+   "nama": "Kulawi",
+   "level": "kec",
+   "induk_kode": "72.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.10.06",
+   "nama": "Kulawi Selatan",
+   "level": "kec",
+   "induk_kode": "72.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.10.07",
+   "nama": "Pipikoro",
+   "level": "kec",
+   "induk_kode": "72.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.10.08",
+   "nama": "Gumbasa",
+   "level": "kec",
+   "induk_kode": "72.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.10.09",
+   "nama": "Dolo Selatan",
+   "level": "kec",
+   "induk_kode": "72.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.10.10",
+   "nama": "Tanambulava",
+   "level": "kec",
+   "induk_kode": "72.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.10.11",
+   "nama": "Dolo Barat",
+   "level": "kec",
+   "induk_kode": "72.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.10.12",
+   "nama": "Dolo",
+   "level": "kec",
+   "induk_kode": "72.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.10.13",
+   "nama": "Kinovaro",
+   "level": "kec",
+   "induk_kode": "72.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.10.14",
+   "nama": "Marawola",
+   "level": "kec",
+   "induk_kode": "72.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.10.15",
+   "nama": "Marawola Barat",
+   "level": "kec",
+   "induk_kode": "72.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.11",
+   "nama": "Kabupaten Banggai Laut",
+   "level": "kab",
+   "induk_kode": "72",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "72.11.01",
+   "nama": "Banggai",
+   "level": "kec",
+   "induk_kode": "72.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.11.02",
+   "nama": "Banggai Utara",
+   "level": "kec",
+   "induk_kode": "72.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.11.03",
+   "nama": "Bokan Kepulauan",
+   "level": "kec",
+   "induk_kode": "72.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.11.04",
+   "nama": "Bangkurung",
+   "level": "kec",
+   "induk_kode": "72.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.11.05",
+   "nama": "Labobo",
+   "level": "kec",
+   "induk_kode": "72.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.11.06",
+   "nama": "Banggai Selatan",
+   "level": "kec",
+   "induk_kode": "72.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.11.07",
+   "nama": "Banggai Tengah",
+   "level": "kec",
+   "induk_kode": "72.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.12",
+   "nama": "Kabupaten Morowali Utara",
+   "level": "kab",
+   "induk_kode": "72",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "72.12.01",
+   "nama": "Petasia",
+   "level": "kec",
+   "induk_kode": "72.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.12.02",
+   "nama": "Petasia Timur",
+   "level": "kec",
+   "induk_kode": "72.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.12.03",
+   "nama": "Lembo Raya",
+   "level": "kec",
+   "induk_kode": "72.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.12.04",
+   "nama": "Lembo",
+   "level": "kec",
+   "induk_kode": "72.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.12.05",
+   "nama": "Mori Atas",
+   "level": "kec",
+   "induk_kode": "72.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.12.06",
+   "nama": "Mori Utara",
+   "level": "kec",
+   "induk_kode": "72.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.12.07",
+   "nama": "Soyo Jaya",
+   "level": "kec",
+   "induk_kode": "72.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.12.08",
+   "nama": "Bungku Utara",
+   "level": "kec",
+   "induk_kode": "72.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.12.09",
+   "nama": "Mamosalato",
+   "level": "kec",
+   "induk_kode": "72.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.12.10",
+   "nama": "Petasia Barat",
+   "level": "kec",
+   "induk_kode": "72.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.71",
+   "nama": "Kota Palu",
+   "level": "kab",
+   "induk_kode": "72",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "72.71.01",
+   "nama": "Palu Timur",
+   "level": "kec",
+   "induk_kode": "72.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.71.02",
+   "nama": "Palu Barat",
+   "level": "kec",
+   "induk_kode": "72.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.71.03",
+   "nama": "Palu Selatan",
+   "level": "kec",
+   "induk_kode": "72.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.71.04",
+   "nama": "Palu Utara",
+   "level": "kec",
+   "induk_kode": "72.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.71.05",
+   "nama": "Ulujadi",
+   "level": "kec",
+   "induk_kode": "72.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.71.06",
+   "nama": "Tatanga",
+   "level": "kec",
+   "induk_kode": "72.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.71.07",
+   "nama": "Tawaeli",
+   "level": "kec",
+   "induk_kode": "72.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "72.71.08",
+   "nama": "Mantikulore",
+   "level": "kec",
+   "induk_kode": "72.71",
+   "pesisir": null
+  }
+ ],
+ "satuan": [
+  {
+   "id": "ad-kodim-1305",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1305/Tolitoli",
+   "induk_id": "ad-korem-132",
+   "markas": "Tolitoli",
+   "sumber": "korem132-tniad.mil.id ; id.wikipedia.org/wiki/Komando_Resor_Militer_132",
+   "berlaku_per_tanggal": "2026-08-31",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": "Wil: Tolitoli, Buol."
+  },
+  {
+   "id": "ad-kodim-1306",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1306/Kota Palu",
+   "induk_id": "ad-korem-132",
+   "markas": "Palu (Birobuli Utara)",
+   "sumber": "korem132-tniad.mil.id ; id.wikipedia.org/wiki/Komando_Resor_Militer_132",
+   "berlaku_per_tanggal": "2026-08-31",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": "Wil: Kota Palu, Donggala, Parigi Moutong, Sigi. (dahulu 1306/Donggala)"
+  },
+  {
+   "id": "ad-kodim-1307",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1307/Poso",
+   "induk_id": "ad-korem-132",
+   "markas": "Poso (Bonesompe)",
+   "sumber": "korem132-tniad.mil.id ; id.wikipedia.org/wiki/Komando_Resor_Militer_132",
+   "berlaku_per_tanggal": "2026-08-31",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": "Wil: Poso, Tojo Una-Una."
+  },
+  {
+   "id": "ad-kodim-1308",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1308/Banggai",
+   "induk_id": "ad-korem-132",
+   "markas": "Luwuk",
+   "sumber": "korem132-tniad.mil.id ; id.wikipedia.org/wiki/Komando_Resor_Militer_132",
+   "berlaku_per_tanggal": "2026-08-31",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": "Wil: Banggai, Banggai Kepulauan, Banggai Laut. (dahulu 1308/Luwuk Banggai)"
+  },
+  {
+   "id": "ad-kodim-1311",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1311/Morowali",
+   "induk_id": "ad-korem-132",
+   "markas": "Bungku",
+   "sumber": "korem132-tniad.mil.id ; id.wikipedia.org/wiki/Komando_Resor_Militer_132",
+   "berlaku_per_tanggal": "2026-08-31",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": "Wil: Morowali, Morowali Utara."
+  },
+  {
+   "id": "ad-koramil-1311-09",
+   "matra": "AD",
+   "tingkat": "Koramil",
+   "nama": "Koramil 1311-09/Bahodopi",
+   "induk_id": "ad-kodim-1311",
+   "markas": "Bahodopi",
+   "sumber": "korem132-tniad.mil.id ; id.wikipedia.org/wiki/Komando_Resor_Militer_132",
+   "berlaku_per_tanggal": "2026-08-31",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": "CONTOH lapisan kecamatan. Tambahkan Koramil lain dengan pola sama."
+  },
+  {
+   "id": "al-lanal-palu",
+   "matra": "AL",
+   "tingkat": "Lanal",
+   "nama": "Lanal Palu (Tipe B)",
+   "induk_id": "al-lantamal-6",
+   "markas": "Palu",
+   "sumber": "id.wikipedia.org/wiki/Pangkalan_TNI_AL_Palu ; lantamal6-koarmada2.tnial.mil.id",
+   "berlaku_per_tanggal": "2026-08-31",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": "Wilayah kerja: 10 kab/kota pesisir Sulteng (ALKI II & III). TIDAK termasuk Tolitoli & Buol dalam daftar resmi."
+  },
+  {
+   "id": "al-posal-morowali",
+   "matra": "AL",
+   "tingkat": "Posal",
+   "nama": "Pos TNI AL Morowali",
+   "induk_id": "al-lanal-palu",
+   "markas": "Morowali",
+   "sumber": "id.wikipedia.org/wiki/Pangkalan_TNI_AL_Palu ; lantamal6-koarmada2.tnial.mil.id",
+   "berlaku_per_tanggal": "2026-08-31",
+   "tingkat_keyakinan": "sedang",
+   "catatan": "Terkonfirmasi aktif (operasi 2022 & 2025)."
+  },
+  {
+   "id": "au-lanud-haluoleo",
+   "matra": "AU",
+   "tingkat": "Lanud",
+   "nama": "Lanud Haluoleo",
+   "induk_id": "au-koopsud-2",
+   "markas": "Kendari, Sulawesi Tenggara",
+   "sumber": "aturan pemetaan (lihat Panduan) — Lanud definitif di Sulteng belum terkonfirmasi",
+   "berlaku_per_tanggal": "2026-08-31",
+   "tingkat_keyakinan": "rendah",
+   "catatan": "Di LUAR Sulteng. Dipakai sebagai 'terkait-terdekat' utk Morowali (aturan: Lanud terdekat)."
+  }
+ ],
+ "pemetaan": [
+  {
+   "kode_wilayah": "72.01",
+   "satuan_id": "ad-kodim-1308",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "korem132-tniad.mil.id ; id.wikipedia.org/wiki/Komando_Resor_Militer_132",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Banggai"
+  },
+  {
+   "kode_wilayah": "72.01",
+   "satuan_id": "al-lanal-palu",
+   "peran": "terkait",
+   "aturan_pemetaan": "kabupaten pesisir dalam wilayah kerja Lanal Palu",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "id.wikipedia.org/wiki/Pangkalan_TNI_AL_Palu ; lantamal6-koarmada2.tnial.mil.id",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Banggai | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.01",
+   "satuan_id": "au-koopsud-2",
+   "peran": "terkait",
+   "aturan_pemetaan": "sektor operasi Koopsud II (Lanud definitif di Sulteng belum ada)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "aturan pemetaan (lihat Panduan) — Lanud definitif di Sulteng belum terkonfirmasi",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Banggai (PERLU VERIFIKASI) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.02",
+   "satuan_id": "ad-kodim-1307",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "korem132-tniad.mil.id ; id.wikipedia.org/wiki/Komando_Resor_Militer_132",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Poso"
+  },
+  {
+   "kode_wilayah": "72.02",
+   "satuan_id": "al-lanal-palu",
+   "peran": "terkait",
+   "aturan_pemetaan": "kabupaten pesisir dalam wilayah kerja Lanal Palu",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "id.wikipedia.org/wiki/Pangkalan_TNI_AL_Palu ; lantamal6-koarmada2.tnial.mil.id",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Poso | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.02",
+   "satuan_id": "au-koopsud-2",
+   "peran": "terkait",
+   "aturan_pemetaan": "sektor operasi Koopsud II (Lanud definitif di Sulteng belum ada)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "aturan pemetaan (lihat Panduan) — Lanud definitif di Sulteng belum terkonfirmasi",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Poso (PERLU VERIFIKASI) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.03",
+   "satuan_id": "ad-kodim-1306",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "korem132-tniad.mil.id ; id.wikipedia.org/wiki/Komando_Resor_Militer_132",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Donggala"
+  },
+  {
+   "kode_wilayah": "72.03",
+   "satuan_id": "al-lanal-palu",
+   "peran": "terkait",
+   "aturan_pemetaan": "kabupaten pesisir dalam wilayah kerja Lanal Palu",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "id.wikipedia.org/wiki/Pangkalan_TNI_AL_Palu ; lantamal6-koarmada2.tnial.mil.id",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Donggala | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.03",
+   "satuan_id": "au-koopsud-2",
+   "peran": "terkait",
+   "aturan_pemetaan": "sektor operasi Koopsud II (Lanud definitif di Sulteng belum ada)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "aturan pemetaan (lihat Panduan) — Lanud definitif di Sulteng belum terkonfirmasi",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Donggala (PERLU VERIFIKASI) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.04",
+   "satuan_id": "",
+   "peran": "terkait",
+   "aturan_pemetaan": "pesisir tetapi DI LUAR daftar wilayah kerja Lanal Palu — cek Lanal terkait",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "id.wikipedia.org/wiki/Pangkalan_TNI_AL_Palu ; lantamal6-koarmada2.tnial.mil.id",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Toli-Toli (PERLU VERIFIKASI) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.04",
+   "satuan_id": "ad-kodim-1305",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "korem132-tniad.mil.id ; id.wikipedia.org/wiki/Komando_Resor_Militer_132",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Toli-Toli"
+  },
+  {
+   "kode_wilayah": "72.04",
+   "satuan_id": "au-koopsud-2",
+   "peran": "terkait",
+   "aturan_pemetaan": "sektor operasi Koopsud II (Lanud definitif di Sulteng belum ada)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "aturan pemetaan (lihat Panduan) — Lanud definitif di Sulteng belum terkonfirmasi",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Toli-Toli (PERLU VERIFIKASI) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.05",
+   "satuan_id": "",
+   "peran": "terkait",
+   "aturan_pemetaan": "pesisir tetapi DI LUAR daftar wilayah kerja Lanal Palu — cek Lanal terkait",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "id.wikipedia.org/wiki/Pangkalan_TNI_AL_Palu ; lantamal6-koarmada2.tnial.mil.id",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Buol (PERLU VERIFIKASI) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.05",
+   "satuan_id": "ad-kodim-1305",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "korem132-tniad.mil.id ; id.wikipedia.org/wiki/Komando_Resor_Militer_132",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Buol"
+  },
+  {
+   "kode_wilayah": "72.05",
+   "satuan_id": "au-koopsud-2",
+   "peran": "terkait",
+   "aturan_pemetaan": "sektor operasi Koopsud II (Lanud definitif di Sulteng belum ada)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "aturan pemetaan (lihat Panduan) — Lanud definitif di Sulteng belum terkonfirmasi",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Buol (PERLU VERIFIKASI) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.06",
+   "satuan_id": "ad-kodim-1311",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "korem132-tniad.mil.id ; id.wikipedia.org/wiki/Komando_Resor_Militer_132",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Morowali"
+  },
+  {
+   "kode_wilayah": "72.06",
+   "satuan_id": "al-posal-morowali",
+   "peran": "terkait",
+   "aturan_pemetaan": "kabupaten pesisir + Posal dalam wilayah kerja Lanal Palu",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "id.wikipedia.org/wiki/Pangkalan_TNI_AL_Palu ; lantamal6-koarmada2.tnial.mil.id",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Morowali | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.06",
+   "satuan_id": "au-lanud-haluoleo",
+   "peran": "terkait",
+   "aturan_pemetaan": "Lanud terdekat (beda provinsi)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "aturan pemetaan (lihat Panduan) — Lanud definitif di Sulteng belum terkonfirmasi",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Morowali — contoh sesuai permintaan | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.06.10",
+   "satuan_id": "ad-koramil-1311-09",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Koramil",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "korem132-tniad.mil.id ; id.wikipedia.org/wiki/Komando_Resor_Militer_132",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "CONTOH lapisan kecamatan (Bahodopi)"
+  },
+  {
+   "kode_wilayah": "72.07",
+   "satuan_id": "ad-kodim-1308",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "korem132-tniad.mil.id ; id.wikipedia.org/wiki/Komando_Resor_Militer_132",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Banggai Kepulauan"
+  },
+  {
+   "kode_wilayah": "72.07",
+   "satuan_id": "al-lanal-palu",
+   "peran": "terkait",
+   "aturan_pemetaan": "kabupaten pesisir dalam wilayah kerja Lanal Palu",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "id.wikipedia.org/wiki/Pangkalan_TNI_AL_Palu ; lantamal6-koarmada2.tnial.mil.id",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Banggai Kepulauan | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.07",
+   "satuan_id": "au-koopsud-2",
+   "peran": "terkait",
+   "aturan_pemetaan": "sektor operasi Koopsud II (Lanud definitif di Sulteng belum ada)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "aturan pemetaan (lihat Panduan) — Lanud definitif di Sulteng belum terkonfirmasi",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Banggai Kepulauan (PERLU VERIFIKASI) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.08",
+   "satuan_id": "ad-kodim-1306",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "korem132-tniad.mil.id ; id.wikipedia.org/wiki/Komando_Resor_Militer_132",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Parigi Moutong"
+  },
+  {
+   "kode_wilayah": "72.08",
+   "satuan_id": "al-lanal-palu",
+   "peran": "terkait",
+   "aturan_pemetaan": "kabupaten pesisir dalam wilayah kerja Lanal Palu",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "id.wikipedia.org/wiki/Pangkalan_TNI_AL_Palu ; lantamal6-koarmada2.tnial.mil.id",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Parigi Moutong | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.08",
+   "satuan_id": "au-koopsud-2",
+   "peran": "terkait",
+   "aturan_pemetaan": "sektor operasi Koopsud II (Lanud definitif di Sulteng belum ada)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "aturan pemetaan (lihat Panduan) — Lanud definitif di Sulteng belum terkonfirmasi",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Parigi Moutong (PERLU VERIFIKASI) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.09",
+   "satuan_id": "ad-kodim-1307",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "korem132-tniad.mil.id ; id.wikipedia.org/wiki/Komando_Resor_Militer_132",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Tojo Una Una"
+  },
+  {
+   "kode_wilayah": "72.09",
+   "satuan_id": "al-lanal-palu",
+   "peran": "terkait",
+   "aturan_pemetaan": "kabupaten pesisir dalam wilayah kerja Lanal Palu",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "id.wikipedia.org/wiki/Pangkalan_TNI_AL_Palu ; lantamal6-koarmada2.tnial.mil.id",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Tojo Una Una | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.09",
+   "satuan_id": "au-koopsud-2",
+   "peran": "terkait",
+   "aturan_pemetaan": "sektor operasi Koopsud II (Lanud definitif di Sulteng belum ada)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "aturan pemetaan (lihat Panduan) — Lanud definitif di Sulteng belum terkonfirmasi",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Tojo Una Una (PERLU VERIFIKASI) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.10",
+   "satuan_id": "",
+   "peran": "-",
+   "aturan_pemetaan": "kabupaten pedalaman: tidak ada satuan AL",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "id.wikipedia.org/wiki/Pangkalan_TNI_AL_Palu ; lantamal6-koarmada2.tnial.mil.id",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Sigi (N/A untuk AL)"
+  },
+  {
+   "kode_wilayah": "72.10",
+   "satuan_id": "ad-kodim-1306",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "korem132-tniad.mil.id ; id.wikipedia.org/wiki/Komando_Resor_Militer_132",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Sigi"
+  },
+  {
+   "kode_wilayah": "72.10",
+   "satuan_id": "au-koopsud-2",
+   "peran": "terkait",
+   "aturan_pemetaan": "sektor operasi Koopsud II (Lanud definitif di Sulteng belum ada)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "aturan pemetaan (lihat Panduan) — Lanud definitif di Sulteng belum terkonfirmasi",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Sigi (PERLU VERIFIKASI) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.11",
+   "satuan_id": "ad-kodim-1308",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "korem132-tniad.mil.id ; id.wikipedia.org/wiki/Komando_Resor_Militer_132",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Banggai Laut"
+  },
+  {
+   "kode_wilayah": "72.11",
+   "satuan_id": "al-lanal-palu",
+   "peran": "terkait",
+   "aturan_pemetaan": "kabupaten pesisir dalam wilayah kerja Lanal Palu",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "id.wikipedia.org/wiki/Pangkalan_TNI_AL_Palu ; lantamal6-koarmada2.tnial.mil.id",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Banggai Laut | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.11",
+   "satuan_id": "au-koopsud-2",
+   "peran": "terkait",
+   "aturan_pemetaan": "sektor operasi Koopsud II (Lanud definitif di Sulteng belum ada)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "aturan pemetaan (lihat Panduan) — Lanud definitif di Sulteng belum terkonfirmasi",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Banggai Laut (PERLU VERIFIKASI) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.12",
+   "satuan_id": "ad-kodim-1311",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "korem132-tniad.mil.id ; id.wikipedia.org/wiki/Komando_Resor_Militer_132",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Morowali Utara"
+  },
+  {
+   "kode_wilayah": "72.12",
+   "satuan_id": "al-lanal-palu",
+   "peran": "terkait",
+   "aturan_pemetaan": "kabupaten pesisir dalam wilayah kerja Lanal Palu (Posal Morut perlu verifikasi)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "id.wikipedia.org/wiki/Pangkalan_TNI_AL_Palu ; lantamal6-koarmada2.tnial.mil.id",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Morowali Utara | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.12",
+   "satuan_id": "au-koopsud-2",
+   "peran": "terkait",
+   "aturan_pemetaan": "sektor operasi Koopsud II (Lanud definitif di Sulteng belum ada)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "aturan pemetaan (lihat Panduan) — Lanud definitif di Sulteng belum terkonfirmasi",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kabupaten Morowali Utara (PERLU VERIFIKASI) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.71",
+   "satuan_id": "ad-kodim-1306",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "korem132-tniad.mil.id ; id.wikipedia.org/wiki/Komando_Resor_Militer_132",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kota Palu"
+  },
+  {
+   "kode_wilayah": "72.71",
+   "satuan_id": "al-lanal-palu",
+   "peran": "terkait",
+   "aturan_pemetaan": "kabupaten pesisir dalam wilayah kerja Lanal Palu",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "id.wikipedia.org/wiki/Pangkalan_TNI_AL_Palu ; lantamal6-koarmada2.tnial.mil.id",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kota Palu | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "72.71",
+   "satuan_id": "au-koopsud-2",
+   "peran": "terkait",
+   "aturan_pemetaan": "sektor operasi Koopsud II (Lanud definitif di Sulteng belum ada)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "aturan pemetaan (lihat Panduan) — Lanud definitif di Sulteng belum terkonfirmasi",
+   "berlaku_per_tanggal": "2026-08-31",
+   "catatan": "Kota Palu (PERLU VERIFIKASI) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  }
+ ]
+}

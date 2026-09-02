@@ -1,0 +1,1081 @@
+{
+ "kode": "82",
+ "nama": "Maluku Utara",
+ "wilayah": [
+  {
+   "kode_bps": "82",
+   "nama": "Maluku Utara",
+   "level": "prov",
+   "induk_kode": "",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "82.01",
+   "nama": "Kabupaten Halmahera Barat",
+   "level": "kab",
+   "induk_kode": "82",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.01.01",
+   "nama": "Jailolo",
+   "level": "kec",
+   "induk_kode": "82.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.01.02",
+   "nama": "Loloda",
+   "level": "kec",
+   "induk_kode": "82.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.01.03",
+   "nama": "Ibu",
+   "level": "kec",
+   "induk_kode": "82.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.01.04",
+   "nama": "Sahu",
+   "level": "kec",
+   "induk_kode": "82.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.01.05",
+   "nama": "Jailolo Selatan",
+   "level": "kec",
+   "induk_kode": "82.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.01.07",
+   "nama": "Ibu Utara",
+   "level": "kec",
+   "induk_kode": "82.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.01.08",
+   "nama": "Ibu Selatan",
+   "level": "kec",
+   "induk_kode": "82.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.01.09",
+   "nama": "Sahu Timur",
+   "level": "kec",
+   "induk_kode": "82.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.01.10",
+   "nama": "Loloda Tengah",
+   "level": "kec",
+   "induk_kode": "82.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.02",
+   "nama": "Kabupaten Halmahera Tengah",
+   "level": "kab",
+   "induk_kode": "82",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.02.01",
+   "nama": "Weda",
+   "level": "kec",
+   "induk_kode": "82.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.02.02",
+   "nama": "Patani",
+   "level": "kec",
+   "induk_kode": "82.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.02.03",
+   "nama": "Pulau Gebe",
+   "level": "kec",
+   "induk_kode": "82.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.02.04",
+   "nama": "Weda Utara",
+   "level": "kec",
+   "induk_kode": "82.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.02.05",
+   "nama": "Weda Selatan",
+   "level": "kec",
+   "induk_kode": "82.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.02.06",
+   "nama": "Patani Utara",
+   "level": "kec",
+   "induk_kode": "82.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.02.07",
+   "nama": "Weda Tengah",
+   "level": "kec",
+   "induk_kode": "82.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.02.08",
+   "nama": "Patani Barat",
+   "level": "kec",
+   "induk_kode": "82.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.02.09",
+   "nama": "Weda Timur",
+   "level": "kec",
+   "induk_kode": "82.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.02.10",
+   "nama": "Patani Timur",
+   "level": "kec",
+   "induk_kode": "82.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.03",
+   "nama": "Kabupaten Halmahera Utara",
+   "level": "kab",
+   "induk_kode": "82",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.03.04",
+   "nama": "Galela",
+   "level": "kec",
+   "induk_kode": "82.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.03.05",
+   "nama": "Tobelo",
+   "level": "kec",
+   "induk_kode": "82.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.03.06",
+   "nama": "Tobelo Selatan",
+   "level": "kec",
+   "induk_kode": "82.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.03.07",
+   "nama": "Kao",
+   "level": "kec",
+   "induk_kode": "82.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.03.08",
+   "nama": "Malifut",
+   "level": "kec",
+   "induk_kode": "82.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.03.09",
+   "nama": "Loloda Utara",
+   "level": "kec",
+   "induk_kode": "82.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.03.10",
+   "nama": "Tobelo Utara",
+   "level": "kec",
+   "induk_kode": "82.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.03.11",
+   "nama": "Tobelo Tengah",
+   "level": "kec",
+   "induk_kode": "82.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.03.12",
+   "nama": "Tobelo Timur",
+   "level": "kec",
+   "induk_kode": "82.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.03.13",
+   "nama": "Tobelo Barat",
+   "level": "kec",
+   "induk_kode": "82.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.03.14",
+   "nama": "Galela Barat",
+   "level": "kec",
+   "induk_kode": "82.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.03.15",
+   "nama": "Galela Utara",
+   "level": "kec",
+   "induk_kode": "82.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.03.16",
+   "nama": "Galela Selatan",
+   "level": "kec",
+   "induk_kode": "82.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.03.19",
+   "nama": "Loloda Kepulauan",
+   "level": "kec",
+   "induk_kode": "82.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.03.20",
+   "nama": "Kao Utara",
+   "level": "kec",
+   "induk_kode": "82.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.03.21",
+   "nama": "Kao Barat",
+   "level": "kec",
+   "induk_kode": "82.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.03.22",
+   "nama": "Kao Teluk",
+   "level": "kec",
+   "induk_kode": "82.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04",
+   "nama": "Kabupaten Halmahera Selatan",
+   "level": "kab",
+   "induk_kode": "82",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.01",
+   "nama": "Pulau Makian",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.02",
+   "nama": "Kayoa",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.03",
+   "nama": "Gane Timur",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.04",
+   "nama": "Gane Barat",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.05",
+   "nama": "Obi Selatan",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.06",
+   "nama": "Obi",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.07",
+   "nama": "Bacan Timur",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.08",
+   "nama": "Bacan",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.09",
+   "nama": "Bacan Barat",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.10",
+   "nama": "Makian Barat",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.11",
+   "nama": "Kayoa Barat",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.12",
+   "nama": "Kayoa Selatan",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.13",
+   "nama": "Kayoa Utara",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.14",
+   "nama": "Bacan Barat Utara",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.15",
+   "nama": "Kasiruta Barat",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.16",
+   "nama": "Kasiruta Timur",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.17",
+   "nama": "Bacan Selatan",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.18",
+   "nama": "Kepulauan Botanglomang",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.19",
+   "nama": "Mandioli Selatan",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.20",
+   "nama": "Mandioli Utara",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.21",
+   "nama": "Bacan Timur Selatan",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.22",
+   "nama": "Bacan Timur Tengah",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.23",
+   "nama": "Gane Barat Selatan",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.24",
+   "nama": "Gane Barat Utara",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.25",
+   "nama": "Kepulauan Joronga",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.26",
+   "nama": "Gane Timur Selatan",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.27",
+   "nama": "Gane Timur Tengah",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.28",
+   "nama": "Obi Barat",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.29",
+   "nama": "Obi Timur",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.04.30",
+   "nama": "Obi Utara",
+   "level": "kec",
+   "induk_kode": "82.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.05",
+   "nama": "Kabupaten Kepulauan Sula",
+   "level": "kab",
+   "induk_kode": "82",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.05.01",
+   "nama": "Mangoli Timur",
+   "level": "kec",
+   "induk_kode": "82.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.05.02",
+   "nama": "Sanana",
+   "level": "kec",
+   "induk_kode": "82.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.05.03",
+   "nama": "Sulabesi Barat",
+   "level": "kec",
+   "induk_kode": "82.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.05.06",
+   "nama": "Mangoli Barat",
+   "level": "kec",
+   "induk_kode": "82.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.05.07",
+   "nama": "Sulabesi Tengah",
+   "level": "kec",
+   "induk_kode": "82.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.05.08",
+   "nama": "Sulabesi Timur",
+   "level": "kec",
+   "induk_kode": "82.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.05.09",
+   "nama": "Sulabesi Selatan",
+   "level": "kec",
+   "induk_kode": "82.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.05.10",
+   "nama": "Mangoli Utara Timur",
+   "level": "kec",
+   "induk_kode": "82.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.05.11",
+   "nama": "Mangoli Tengah",
+   "level": "kec",
+   "induk_kode": "82.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.05.12",
+   "nama": "Mangoli Selatan",
+   "level": "kec",
+   "induk_kode": "82.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.05.13",
+   "nama": "Mangoli Utara",
+   "level": "kec",
+   "induk_kode": "82.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.05.18",
+   "nama": "Sanana Utara",
+   "level": "kec",
+   "induk_kode": "82.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.06",
+   "nama": "Kabupaten Halmahera Timur",
+   "level": "kab",
+   "induk_kode": "82",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.06.01",
+   "nama": "Wasile",
+   "level": "kec",
+   "induk_kode": "82.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.06.02",
+   "nama": "Maba",
+   "level": "kec",
+   "induk_kode": "82.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.06.03",
+   "nama": "Maba Selatan",
+   "level": "kec",
+   "induk_kode": "82.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.06.04",
+   "nama": "Wasile Selatan",
+   "level": "kec",
+   "induk_kode": "82.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.06.05",
+   "nama": "Wasile Tengah",
+   "level": "kec",
+   "induk_kode": "82.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.06.06",
+   "nama": "Wasile Utara",
+   "level": "kec",
+   "induk_kode": "82.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.06.07",
+   "nama": "Wasile Timur",
+   "level": "kec",
+   "induk_kode": "82.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.06.08",
+   "nama": "Maba Tengah",
+   "level": "kec",
+   "induk_kode": "82.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.06.09",
+   "nama": "Maba Utara",
+   "level": "kec",
+   "induk_kode": "82.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.06.10",
+   "nama": "Kota Maba",
+   "level": "kec",
+   "induk_kode": "82.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.07",
+   "nama": "Kabupaten Pulau Morotai",
+   "level": "kab",
+   "induk_kode": "82",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.07.01",
+   "nama": "Morotai Selatan",
+   "level": "kec",
+   "induk_kode": "82.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.07.02",
+   "nama": "Morotai Selatan Barat",
+   "level": "kec",
+   "induk_kode": "82.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.07.03",
+   "nama": "Morotai Jaya",
+   "level": "kec",
+   "induk_kode": "82.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.07.04",
+   "nama": "Morotai Utara",
+   "level": "kec",
+   "induk_kode": "82.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.07.05",
+   "nama": "Morotai Timur",
+   "level": "kec",
+   "induk_kode": "82.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.07.06",
+   "nama": "Pulau Rao",
+   "level": "kec",
+   "induk_kode": "82.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.08",
+   "nama": "Kabupaten Pulau Taliabu",
+   "level": "kab",
+   "induk_kode": "82",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.08.01",
+   "nama": "Taliabu Barat",
+   "level": "kec",
+   "induk_kode": "82.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.08.02",
+   "nama": "Taliabu Barat Laut",
+   "level": "kec",
+   "induk_kode": "82.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.08.03",
+   "nama": "Lede",
+   "level": "kec",
+   "induk_kode": "82.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.08.04",
+   "nama": "Taliabu Utara",
+   "level": "kec",
+   "induk_kode": "82.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.08.05",
+   "nama": "Taliabu Timur",
+   "level": "kec",
+   "induk_kode": "82.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.08.06",
+   "nama": "Taliabu Timur Selatan",
+   "level": "kec",
+   "induk_kode": "82.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.08.07",
+   "nama": "Taliabu Selatan",
+   "level": "kec",
+   "induk_kode": "82.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.08.08",
+   "nama": "Tabona",
+   "level": "kec",
+   "induk_kode": "82.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.71",
+   "nama": "Kota Ternate",
+   "level": "kab",
+   "induk_kode": "82",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.71.01",
+   "nama": "Pulau Ternate",
+   "level": "kec",
+   "induk_kode": "82.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.71.02",
+   "nama": "Kota Ternate Selatan",
+   "level": "kec",
+   "induk_kode": "82.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.71.03",
+   "nama": "Kota Ternate Utara",
+   "level": "kec",
+   "induk_kode": "82.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.71.04",
+   "nama": "Moti",
+   "level": "kec",
+   "induk_kode": "82.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.71.05",
+   "nama": "Pulau Batang Dua",
+   "level": "kec",
+   "induk_kode": "82.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.71.06",
+   "nama": "Kota Ternate Tengah",
+   "level": "kec",
+   "induk_kode": "82.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.71.07",
+   "nama": "Pulau Hiri",
+   "level": "kec",
+   "induk_kode": "82.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.71.08",
+   "nama": "Ternate Barat",
+   "level": "kec",
+   "induk_kode": "82.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.72",
+   "nama": "Kota Tidore Kepulauan",
+   "level": "kab",
+   "induk_kode": "82",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.72.01",
+   "nama": "Tidore",
+   "level": "kec",
+   "induk_kode": "82.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.72.02",
+   "nama": "Oba Utara",
+   "level": "kec",
+   "induk_kode": "82.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.72.03",
+   "nama": "Oba",
+   "level": "kec",
+   "induk_kode": "82.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.72.04",
+   "nama": "Tidore Selatan",
+   "level": "kec",
+   "induk_kode": "82.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.72.05",
+   "nama": "Tidore Utara",
+   "level": "kec",
+   "induk_kode": "82.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.72.06",
+   "nama": "Oba Tengah",
+   "level": "kec",
+   "induk_kode": "82.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.72.07",
+   "nama": "Oba Selatan",
+   "level": "kec",
+   "induk_kode": "82.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "82.72.08",
+   "nama": "Tidore Timur",
+   "level": "kec",
+   "induk_kode": "82.72",
+   "pesisir": null
+  }
+ ],
+ "satuan": [
+  {
+   "id": "ad-kodim-1501",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1501/Kota Ternate",
+   "induk_id": "ad-korem-152",
+   "markas": "Kota Ternate",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-1508",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1508/Kab. Halmahera Utara",
+   "induk_id": "ad-korem-152",
+   "markas": "Kab. Halmahera Utara",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-1509",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1509/Kab. Halmahera Selatan",
+   "induk_id": "ad-korem-152",
+   "markas": "Kab. Halmahera Selatan",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "au-lanud-morotai",
+   "matra": "AU",
+   "tingkat": "Lanud",
+   "nama": "Lanud Leo Wattimena",
+   "induk_id": "au-koopsud-3",
+   "markas": "Morotai",
+   "sumber": "aturan AU (Lanud provinsi) + Koopsud III",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "rendah",
+   "catatan": ""
+  }
+ ],
+ "pemetaan": [
+  {
+   "kode_wilayah": "82",
+   "satuan_id": "al-kodaeral-9",
+   "peran": "terkait",
+   "aturan_pemetaan": "wilayah pesisir provinsi (Lanal/Posal per kab perlu detail)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "Kodaeral / Koarmada RI",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Maluku Utara — via Lanal Ternate/Tobelo; Kodaeral IX (Ambon) atau VIII (Manado) — verifikasi | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "82",
+   "satuan_id": "au-lanud-morotai",
+   "peran": "terkait",
+   "aturan_pemetaan": "Lanud di/terdekat provinsi (aturan AU)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "Koopsud III",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Maluku Utara — Lanud Leo Wattimena (Morotai) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "82.01",
+   "satuan_id": "ad-kodam-16-ptm",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Halmahera Barat — Kodam ad-kodam-16-ptm TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "82.02",
+   "satuan_id": "ad-kodam-16-ptm",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Halmahera Tengah — Kodam ad-kodam-16-ptm TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "82.03",
+   "satuan_id": "ad-kodim-1508",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Halmahera Utara — Kodim 1508 < Korem 152 < ad-kodam-16-ptm. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "82.04",
+   "satuan_id": "ad-kodim-1509",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Halmahera Selatan — Kodim 1509 < Korem 152 < ad-kodam-16-ptm. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "82.05",
+   "satuan_id": "ad-kodam-16-ptm",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Kepulauan Sula — Kodam ad-kodam-16-ptm TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "82.06",
+   "satuan_id": "ad-kodam-16-ptm",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Halmahera Timur — Kodam ad-kodam-16-ptm TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "82.07",
+   "satuan_id": "ad-kodam-16-ptm",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Pulau Morotai — Kodam ad-kodam-16-ptm TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "82.08",
+   "satuan_id": "ad-kodam-16-ptm",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Pulau Taliabu — Kodam ad-kodam-16-ptm TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "82.71",
+   "satuan_id": "ad-kodim-1501",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Ternate — Kodim 1501 < Korem 152 < ad-kodam-16-ptm. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "82.72",
+   "satuan_id": "ad-kodam-16-ptm",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Tidore Kepulauan — Kodam ad-kodam-16-ptm TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  }
+ ]
+}

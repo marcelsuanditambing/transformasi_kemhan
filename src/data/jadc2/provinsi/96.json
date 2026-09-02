@@ -1,0 +1,1087 @@
+{
+ "kode": "96",
+ "nama": "Papua Barat Daya",
+ "wilayah": [
+  {
+   "kode_bps": "96",
+   "nama": "Papua Barat Daya",
+   "level": "prov",
+   "induk_kode": "",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "96.01",
+   "nama": "Kabupaten Sorong",
+   "level": "kab",
+   "induk_kode": "96",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.01",
+   "nama": "Makbon",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.02",
+   "nama": "Beraur",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.03",
+   "nama": "Salawati",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.04",
+   "nama": "Seget",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.05",
+   "nama": "Aimas",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.06",
+   "nama": "Klamono",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.07",
+   "nama": "Sayosa",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.08",
+   "nama": "Segun",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.09",
+   "nama": "Mayamuk",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.10",
+   "nama": "Salawati Selatan",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.11",
+   "nama": "Klabot",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.12",
+   "nama": "Klawak",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.13",
+   "nama": "Maudus",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.14",
+   "nama": "Mariat",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.15",
+   "nama": "Klayili",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.16",
+   "nama": "Klaso",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.17",
+   "nama": "Moisegen",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.18",
+   "nama": "Sorong",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.19",
+   "nama": "Bagun",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.20",
+   "nama": "Wemak",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.21",
+   "nama": "Sunook",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.22",
+   "nama": "Buk",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.23",
+   "nama": "Saengkeduk",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.24",
+   "nama": "Malabotom",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.25",
+   "nama": "Konhir",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.26",
+   "nama": "Klasafet",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.27",
+   "nama": "Hobard",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.28",
+   "nama": "Salawati Tengah",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.29",
+   "nama": "Botain",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.01.30",
+   "nama": "Sayosa Timur",
+   "level": "kec",
+   "induk_kode": "96.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.02",
+   "nama": "Kabupaten Sorong Selatan",
+   "level": "kab",
+   "induk_kode": "96",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.02.01",
+   "nama": "Teminabuan",
+   "level": "kec",
+   "induk_kode": "96.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.02.02",
+   "nama": "Inanwatan",
+   "level": "kec",
+   "induk_kode": "96.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.02.03",
+   "nama": "Sawiat",
+   "level": "kec",
+   "induk_kode": "96.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.02.04",
+   "nama": "Kokoda",
+   "level": "kec",
+   "induk_kode": "96.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.02.05",
+   "nama": "Moswaren",
+   "level": "kec",
+   "induk_kode": "96.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.02.06",
+   "nama": "Seremuk",
+   "level": "kec",
+   "induk_kode": "96.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.02.07",
+   "nama": "Wayer",
+   "level": "kec",
+   "induk_kode": "96.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.02.08",
+   "nama": "Kais",
+   "level": "kec",
+   "induk_kode": "96.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.02.09",
+   "nama": "Konda",
+   "level": "kec",
+   "induk_kode": "96.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.02.10",
+   "nama": "Matemani",
+   "level": "kec",
+   "induk_kode": "96.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.02.11",
+   "nama": "Kokoda Utara",
+   "level": "kec",
+   "induk_kode": "96.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.02.12",
+   "nama": "Saifi",
+   "level": "kec",
+   "induk_kode": "96.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.02.13",
+   "nama": "Fokour",
+   "level": "kec",
+   "induk_kode": "96.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.02.14",
+   "nama": "Salkma",
+   "level": "kec",
+   "induk_kode": "96.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.02.15",
+   "nama": "Kais Darat",
+   "level": "kec",
+   "induk_kode": "96.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03",
+   "nama": "Kabupaten Raja Ampat",
+   "level": "kab",
+   "induk_kode": "96",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.01",
+   "nama": "Misool (Misool Utara)",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.02",
+   "nama": "Waigeo Utara",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.03",
+   "nama": "Waigeo Selatan",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.04",
+   "nama": "Salawati Utara",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.05",
+   "nama": "Ayau",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.06",
+   "nama": "Misool Timur",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.07",
+   "nama": "Waigeo Barat",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.08",
+   "nama": "Waigeo Timur",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.09",
+   "nama": "Teluk Mayalibit",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.10",
+   "nama": "Kofiau",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.11",
+   "nama": "Meos Mansar",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.12",
+   "nama": "Misool Selatan",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.13",
+   "nama": "Warwarbomi",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.14",
+   "nama": "Waigeo Barat Kepulauan",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.15",
+   "nama": "Misool Barat",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.16",
+   "nama": "Kepulauan Sembilan",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.17",
+   "nama": "Kota Waisai",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.18",
+   "nama": "Tiplol Mayalibit",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.19",
+   "nama": "Batanta Utara",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.20",
+   "nama": "Salawati Barat",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.21",
+   "nama": "Salawati Tengah",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.22",
+   "nama": "Supnin",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.23",
+   "nama": "Kepulauan Ayau",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.03.24",
+   "nama": "Batanta Selatan",
+   "level": "kec",
+   "induk_kode": "96.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04",
+   "nama": "Kabupaten Tambrauw",
+   "level": "kab",
+   "induk_kode": "96",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.01",
+   "nama": "Fef",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.02",
+   "nama": "Miyah",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.03",
+   "nama": "Yembun",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.04",
+   "nama": "Kwoor",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.05",
+   "nama": "Sausapor",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.06",
+   "nama": "Abun",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.07",
+   "nama": "Syujak",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.08",
+   "nama": "Moraid",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.09",
+   "nama": "Kebar",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.10",
+   "nama": "Amberbaken",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.11",
+   "nama": "Senopi",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.12",
+   "nama": "Mubrani",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.13",
+   "nama": "Bikar",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.14",
+   "nama": "Bamusbama",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.15",
+   "nama": "Ases",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.16",
+   "nama": "Miyah Selatan",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.17",
+   "nama": "Ireres",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.18",
+   "nama": "Tobouw",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.19",
+   "nama": "Wilhem Roumbouts",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.20",
+   "nama": "Tinggouw",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.21",
+   "nama": "Kwesefo",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.22",
+   "nama": "Mawabuan",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.23",
+   "nama": "Kebar Timur",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.24",
+   "nama": "Kebar Selatan",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.25",
+   "nama": "Manekar",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.26",
+   "nama": "Mpur",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.27",
+   "nama": "Amberbaken Barat",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.28",
+   "nama": "Kasi",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.04.29",
+   "nama": "Selemkai",
+   "level": "kec",
+   "induk_kode": "96.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05",
+   "nama": "Kabupaten Maybrat",
+   "level": "kab",
+   "induk_kode": "96",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.01",
+   "nama": "Aifat",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.02",
+   "nama": "Aifat Utara",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.03",
+   "nama": "Aifat Timur",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.04",
+   "nama": "Aifat Selatan",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.05",
+   "nama": "Aitinyo Barat",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.06",
+   "nama": "Aitinyo",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.07",
+   "nama": "Aitinyo Utara",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.08",
+   "nama": "Ayamaru",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.09",
+   "nama": "Ayamaru Utara",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.10",
+   "nama": "Ayamaru Timur",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.11",
+   "nama": "Mare",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.12",
+   "nama": "Aifat Timur Tengah",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.13",
+   "nama": "Aifat Timur Jauh",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.14",
+   "nama": "Aifat Timur Selatan",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.15",
+   "nama": "Ayamaru Selatan",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.16",
+   "nama": "Ayamaru Jaya",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.17",
+   "nama": "Ayamaru Selatan Jaya",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.18",
+   "nama": "Ayamaru Timur Selatan",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.19",
+   "nama": "Ayamaru Utara Timur",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.20",
+   "nama": "Ayamaru Tengah",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.21",
+   "nama": "Ayamaru Barat",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.22",
+   "nama": "Aitinyo Tengah",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.23",
+   "nama": "Aitinyo Raya",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.05.24",
+   "nama": "Mare Selatan",
+   "level": "kec",
+   "induk_kode": "96.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.71",
+   "nama": "Kota Sorong",
+   "level": "kab",
+   "induk_kode": "96",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.71.01",
+   "nama": "Sorong",
+   "level": "kec",
+   "induk_kode": "96.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.71.02",
+   "nama": "Sorong Timur",
+   "level": "kec",
+   "induk_kode": "96.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.71.03",
+   "nama": "Sorong Barat",
+   "level": "kec",
+   "induk_kode": "96.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.71.04",
+   "nama": "Sorong Kepulauan",
+   "level": "kec",
+   "induk_kode": "96.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.71.05",
+   "nama": "Sorong Utara",
+   "level": "kec",
+   "induk_kode": "96.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.71.06",
+   "nama": "Sorong Manoi",
+   "level": "kec",
+   "induk_kode": "96.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.71.07",
+   "nama": "Sorong Kota",
+   "level": "kec",
+   "induk_kode": "96.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.71.08",
+   "nama": "Klaurung",
+   "level": "kec",
+   "induk_kode": "96.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.71.09",
+   "nama": "Malaimsimsa",
+   "level": "kec",
+   "induk_kode": "96.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "96.71.10",
+   "nama": "Maladum Mes",
+   "level": "kec",
+   "induk_kode": "96.71",
+   "pesisir": null
+  }
+ ],
+ "satuan": [
+  {
+   "id": "ad-kodim-1704",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1704/Kab. Sorong",
+   "induk_id": "ad-korem-171",
+   "markas": "Kab. Sorong",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "au-lanud-sorong",
+   "matra": "AU",
+   "tingkat": "Lanud",
+   "nama": "Lanud Sorong",
+   "induk_id": "au-koopsud-3",
+   "markas": "Sorong (Jefman)",
+   "sumber": "aturan AU (Lanud provinsi) + Koopsud III",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "rendah",
+   "catatan": ""
+  }
+ ],
+ "pemetaan": [
+  {
+   "kode_wilayah": "96",
+   "satuan_id": "al-kodaeral-14",
+   "peran": "terkait",
+   "aturan_pemetaan": "wilayah pesisir provinsi (Lanal/Posal per kab perlu detail)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Kodaeral / Koarmada RI",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Papua Barat Daya — Kodaeral XIV Sorong | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "96",
+   "satuan_id": "au-lanud-sorong",
+   "peran": "terkait",
+   "aturan_pemetaan": "Lanud di/terdekat provinsi (aturan AU)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "Koopsud III",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Papua Barat Daya — Lanud Sorong (Jefman) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "96.01",
+   "satuan_id": "ad-kodim-1704",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Sorong — Kodim 1704 (Lampiran II 2014). Struktur Korem/Kodam Papua banyak berubah 2016-2025; Kodim terkonfirmasi, induk perlu cek akhir."
+  },
+  {
+   "kode_wilayah": "96.02",
+   "satuan_id": "ad-kodam-18-ksr",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Sorong Selatan — Kodam ad-kodam-18-ksr TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "96.03",
+   "satuan_id": "ad-kodam-18-ksr",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Raja Ampat — Kodam ad-kodam-18-ksr TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "96.04",
+   "satuan_id": "ad-kodam-18-ksr",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Tambrauw — Kodam ad-kodam-18-ksr TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "96.05",
+   "satuan_id": "ad-kodam-18-ksr",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Maybrat — Kodam ad-kodam-18-ksr TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "96.71",
+   "satuan_id": "ad-kodam-18-ksr",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Sorong — Kodam ad-kodam-18-ksr TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  }
+ ]
+}

@@ -1,0 +1,1577 @@
+{
+ "kode": "61",
+ "nama": "Kalimantan Barat",
+ "wilayah": [
+  {
+   "kode_bps": "61",
+   "nama": "Kalimantan Barat",
+   "level": "prov",
+   "induk_kode": "",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "61.01",
+   "nama": "Kabupaten Sambas",
+   "level": "kab",
+   "induk_kode": "61",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.01.01",
+   "nama": "Sambas",
+   "level": "kec",
+   "induk_kode": "61.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.01.02",
+   "nama": "Teluk Keramat",
+   "level": "kec",
+   "induk_kode": "61.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.01.03",
+   "nama": "Jawai",
+   "level": "kec",
+   "induk_kode": "61.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.01.04",
+   "nama": "Tebas",
+   "level": "kec",
+   "induk_kode": "61.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.01.05",
+   "nama": "Pemangkat",
+   "level": "kec",
+   "induk_kode": "61.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.01.06",
+   "nama": "Sejangkung",
+   "level": "kec",
+   "induk_kode": "61.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.01.07",
+   "nama": "Selakau",
+   "level": "kec",
+   "induk_kode": "61.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.01.08",
+   "nama": "Paloh",
+   "level": "kec",
+   "induk_kode": "61.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.01.09",
+   "nama": "Sajingan Besar",
+   "level": "kec",
+   "induk_kode": "61.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.01.10",
+   "nama": "Subah",
+   "level": "kec",
+   "induk_kode": "61.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.01.11",
+   "nama": "Galing",
+   "level": "kec",
+   "induk_kode": "61.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.01.12",
+   "nama": "Tekarang",
+   "level": "kec",
+   "induk_kode": "61.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.01.13",
+   "nama": "Semparuk",
+   "level": "kec",
+   "induk_kode": "61.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.01.14",
+   "nama": "Sajad",
+   "level": "kec",
+   "induk_kode": "61.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.01.15",
+   "nama": "Sebawi",
+   "level": "kec",
+   "induk_kode": "61.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.01.16",
+   "nama": "Jawai Selatan",
+   "level": "kec",
+   "induk_kode": "61.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.01.17",
+   "nama": "Tangaran",
+   "level": "kec",
+   "induk_kode": "61.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.01.18",
+   "nama": "Salatiga",
+   "level": "kec",
+   "induk_kode": "61.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.01.19",
+   "nama": "Selakau Timur",
+   "level": "kec",
+   "induk_kode": "61.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.02",
+   "nama": "Kabupaten Mempawah",
+   "level": "kab",
+   "induk_kode": "61",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.02.01",
+   "nama": "Mempawah Hilir",
+   "level": "kec",
+   "induk_kode": "61.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.02.06",
+   "nama": "Toho",
+   "level": "kec",
+   "induk_kode": "61.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.02.07",
+   "nama": "Sungai Pinyuh",
+   "level": "kec",
+   "induk_kode": "61.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.02.08",
+   "nama": "Jongkat",
+   "level": "kec",
+   "induk_kode": "61.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.02.12",
+   "nama": "Sungai Kunyit",
+   "level": "kec",
+   "induk_kode": "61.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.02.15",
+   "nama": "Segedong",
+   "level": "kec",
+   "induk_kode": "61.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.02.16",
+   "nama": "Anjongan",
+   "level": "kec",
+   "induk_kode": "61.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.02.17",
+   "nama": "Sadaniang",
+   "level": "kec",
+   "induk_kode": "61.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.02.18",
+   "nama": "Mempawah Timur",
+   "level": "kec",
+   "induk_kode": "61.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.03",
+   "nama": "Kabupaten Sanggau",
+   "level": "kab",
+   "induk_kode": "61",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.03.01",
+   "nama": "Kapuas",
+   "level": "kec",
+   "induk_kode": "61.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.03.02",
+   "nama": "Mukok",
+   "level": "kec",
+   "induk_kode": "61.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.03.03",
+   "nama": "Noyan",
+   "level": "kec",
+   "induk_kode": "61.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.03.04",
+   "nama": "Jangkang",
+   "level": "kec",
+   "induk_kode": "61.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.03.05",
+   "nama": "Bonti",
+   "level": "kec",
+   "induk_kode": "61.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.03.06",
+   "nama": "Beduai",
+   "level": "kec",
+   "induk_kode": "61.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.03.07",
+   "nama": "Sekayam",
+   "level": "kec",
+   "induk_kode": "61.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.03.08",
+   "nama": "Kembayan",
+   "level": "kec",
+   "induk_kode": "61.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.03.09",
+   "nama": "Parindu",
+   "level": "kec",
+   "induk_kode": "61.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.03.10",
+   "nama": "Tayan Hulu",
+   "level": "kec",
+   "induk_kode": "61.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.03.11",
+   "nama": "Tayan Hilir",
+   "level": "kec",
+   "induk_kode": "61.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.03.12",
+   "nama": "Balai",
+   "level": "kec",
+   "induk_kode": "61.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.03.13",
+   "nama": "Toba",
+   "level": "kec",
+   "induk_kode": "61.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.03.20",
+   "nama": "Meliau",
+   "level": "kec",
+   "induk_kode": "61.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.03.21",
+   "nama": "Entikong",
+   "level": "kec",
+   "induk_kode": "61.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.04",
+   "nama": "Kabupaten Ketapang",
+   "level": "kab",
+   "induk_kode": "61",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.04.01",
+   "nama": "Matan Hilir Utara",
+   "level": "kec",
+   "induk_kode": "61.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.04.02",
+   "nama": "Marau",
+   "level": "kec",
+   "induk_kode": "61.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.04.03",
+   "nama": "Manis Mata",
+   "level": "kec",
+   "induk_kode": "61.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.04.04",
+   "nama": "Kendawangan",
+   "level": "kec",
+   "induk_kode": "61.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.04.05",
+   "nama": "Sandai",
+   "level": "kec",
+   "induk_kode": "61.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.04.07",
+   "nama": "Sungai Laur",
+   "level": "kec",
+   "induk_kode": "61.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.04.08",
+   "nama": "Simpang Hulu",
+   "level": "kec",
+   "induk_kode": "61.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.04.11",
+   "nama": "Nanga Tayap",
+   "level": "kec",
+   "induk_kode": "61.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.04.12",
+   "nama": "Matan Hilir Selatan",
+   "level": "kec",
+   "induk_kode": "61.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.04.13",
+   "nama": "Tumbang Titi",
+   "level": "kec",
+   "induk_kode": "61.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.04.14",
+   "nama": "Jelai Hulu",
+   "level": "kec",
+   "induk_kode": "61.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.04.16",
+   "nama": "Delta Pawan",
+   "level": "kec",
+   "induk_kode": "61.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.04.17",
+   "nama": "Muara Pawan",
+   "level": "kec",
+   "induk_kode": "61.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.04.18",
+   "nama": "Benua Kayong",
+   "level": "kec",
+   "induk_kode": "61.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.04.19",
+   "nama": "Hulu Sungai",
+   "level": "kec",
+   "induk_kode": "61.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.04.20",
+   "nama": "Simpang Dua",
+   "level": "kec",
+   "induk_kode": "61.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.04.21",
+   "nama": "Air Upas",
+   "level": "kec",
+   "induk_kode": "61.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.04.22",
+   "nama": "Singkup",
+   "level": "kec",
+   "induk_kode": "61.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.04.24",
+   "nama": "Pemahan",
+   "level": "kec",
+   "induk_kode": "61.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.04.25",
+   "nama": "Sungai Melayu Rayak",
+   "level": "kec",
+   "induk_kode": "61.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.05",
+   "nama": "Kabupaten Sintang",
+   "level": "kab",
+   "induk_kode": "61",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.05.01",
+   "nama": "Sintang",
+   "level": "kec",
+   "induk_kode": "61.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.05.02",
+   "nama": "Tempunak",
+   "level": "kec",
+   "induk_kode": "61.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.05.03",
+   "nama": "Sepauk",
+   "level": "kec",
+   "induk_kode": "61.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.05.04",
+   "nama": "Ketungau Hilir",
+   "level": "kec",
+   "induk_kode": "61.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.05.05",
+   "nama": "Ketungau Tengah",
+   "level": "kec",
+   "induk_kode": "61.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.05.06",
+   "nama": "Ketungau Hulu",
+   "level": "kec",
+   "induk_kode": "61.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.05.07",
+   "nama": "Dedai",
+   "level": "kec",
+   "induk_kode": "61.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.05.08",
+   "nama": "Kayan Hilir",
+   "level": "kec",
+   "induk_kode": "61.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.05.09",
+   "nama": "Kayan Hulu",
+   "level": "kec",
+   "induk_kode": "61.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.05.14",
+   "nama": "Serawai",
+   "level": "kec",
+   "induk_kode": "61.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.05.15",
+   "nama": "Ambalau",
+   "level": "kec",
+   "induk_kode": "61.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.05.19",
+   "nama": "Kelam Permai",
+   "level": "kec",
+   "induk_kode": "61.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.05.20",
+   "nama": "Sungai Tebelian",
+   "level": "kec",
+   "induk_kode": "61.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.05.21",
+   "nama": "Binjai Hulu",
+   "level": "kec",
+   "induk_kode": "61.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06",
+   "nama": "Kabupaten Kapuas Hulu",
+   "level": "kab",
+   "induk_kode": "61",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.01",
+   "nama": "Putussibau Utara",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.02",
+   "nama": "Bika",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.03",
+   "nama": "Embaloh Hilir",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.04",
+   "nama": "Embaloh Hulu",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.05",
+   "nama": "Bunut Hilir",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.06",
+   "nama": "Bunut Hulu",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.07",
+   "nama": "Jongkong",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.08",
+   "nama": "Hulu Gurung",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.09",
+   "nama": "Selimbau",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.10",
+   "nama": "Semitau",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.11",
+   "nama": "Seberuang",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.12",
+   "nama": "Batang Lupar",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.13",
+   "nama": "Empanang",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.14",
+   "nama": "Badau",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.15",
+   "nama": "Silat Hilir",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.16",
+   "nama": "Silat Hulu",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.17",
+   "nama": "Putussibau Selatan",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.18",
+   "nama": "Kalis",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.19",
+   "nama": "Boyan Tanjung",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.20",
+   "nama": "Mentebah",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.21",
+   "nama": "Pengkadan",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.22",
+   "nama": "Suhaid",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.06.23",
+   "nama": "Puring Kencana",
+   "level": "kec",
+   "induk_kode": "61.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.07",
+   "nama": "Kabupaten Bengkayang",
+   "level": "kab",
+   "induk_kode": "61",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.07.01",
+   "nama": "Sungai Raya",
+   "level": "kec",
+   "induk_kode": "61.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.07.02",
+   "nama": "Samalantan",
+   "level": "kec",
+   "induk_kode": "61.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.07.03",
+   "nama": "Ledo",
+   "level": "kec",
+   "induk_kode": "61.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.07.04",
+   "nama": "Bengkayang",
+   "level": "kec",
+   "induk_kode": "61.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.07.05",
+   "nama": "Seluas",
+   "level": "kec",
+   "induk_kode": "61.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.07.06",
+   "nama": "Sanggau Ledo",
+   "level": "kec",
+   "induk_kode": "61.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.07.07",
+   "nama": "Jagoi Babang",
+   "level": "kec",
+   "induk_kode": "61.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.07.08",
+   "nama": "Monterado",
+   "level": "kec",
+   "induk_kode": "61.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.07.09",
+   "nama": "Teriak",
+   "level": "kec",
+   "induk_kode": "61.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.07.10",
+   "nama": "Suti Semarang",
+   "level": "kec",
+   "induk_kode": "61.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.07.11",
+   "nama": "Capkala",
+   "level": "kec",
+   "induk_kode": "61.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.07.12",
+   "nama": "Siding",
+   "level": "kec",
+   "induk_kode": "61.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.07.13",
+   "nama": "Lumar",
+   "level": "kec",
+   "induk_kode": "61.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.07.14",
+   "nama": "Sungai Betung",
+   "level": "kec",
+   "induk_kode": "61.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.07.15",
+   "nama": "Sungai Raya Kepulauan",
+   "level": "kec",
+   "induk_kode": "61.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.07.16",
+   "nama": "Lembah Bawang",
+   "level": "kec",
+   "induk_kode": "61.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.07.17",
+   "nama": "Tujuh Belas",
+   "level": "kec",
+   "induk_kode": "61.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.08",
+   "nama": "Kabupaten Landak",
+   "level": "kab",
+   "induk_kode": "61",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.08.01",
+   "nama": "Ngabang",
+   "level": "kec",
+   "induk_kode": "61.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.08.02",
+   "nama": "Mempawah Hulu",
+   "level": "kec",
+   "induk_kode": "61.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.08.03",
+   "nama": "Menjalin",
+   "level": "kec",
+   "induk_kode": "61.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.08.04",
+   "nama": "Mandor",
+   "level": "kec",
+   "induk_kode": "61.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.08.05",
+   "nama": "Air Besar",
+   "level": "kec",
+   "induk_kode": "61.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.08.06",
+   "nama": "Menyuke",
+   "level": "kec",
+   "induk_kode": "61.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.08.07",
+   "nama": "Sengah Temila",
+   "level": "kec",
+   "induk_kode": "61.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.08.08",
+   "nama": "Meranti",
+   "level": "kec",
+   "induk_kode": "61.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.08.09",
+   "nama": "Kuala Behe",
+   "level": "kec",
+   "induk_kode": "61.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.08.10",
+   "nama": "Sebangki",
+   "level": "kec",
+   "induk_kode": "61.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.08.11",
+   "nama": "Jelimpo",
+   "level": "kec",
+   "induk_kode": "61.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.08.12",
+   "nama": "Banyuke Hulu",
+   "level": "kec",
+   "induk_kode": "61.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.08.13",
+   "nama": "Sompak",
+   "level": "kec",
+   "induk_kode": "61.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.09",
+   "nama": "Kabupaten Sekadau",
+   "level": "kab",
+   "induk_kode": "61",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.09.01",
+   "nama": "Sekadau Hilir",
+   "level": "kec",
+   "induk_kode": "61.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.09.02",
+   "nama": "Sekadau Hulu",
+   "level": "kec",
+   "induk_kode": "61.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.09.03",
+   "nama": "Nanga Taman",
+   "level": "kec",
+   "induk_kode": "61.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.09.04",
+   "nama": "Nanga Mahap",
+   "level": "kec",
+   "induk_kode": "61.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.09.05",
+   "nama": "Belitang Hilir",
+   "level": "kec",
+   "induk_kode": "61.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.09.06",
+   "nama": "Belitang Hulu",
+   "level": "kec",
+   "induk_kode": "61.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.09.07",
+   "nama": "Belitang",
+   "level": "kec",
+   "induk_kode": "61.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.10",
+   "nama": "Kabupaten Melawi",
+   "level": "kab",
+   "induk_kode": "61",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.10.01",
+   "nama": "Belimbing",
+   "level": "kec",
+   "induk_kode": "61.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.10.02",
+   "nama": "Nanga Pinoh",
+   "level": "kec",
+   "induk_kode": "61.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.10.03",
+   "nama": "Ella Hilir",
+   "level": "kec",
+   "induk_kode": "61.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.10.04",
+   "nama": "Menukung",
+   "level": "kec",
+   "induk_kode": "61.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.10.05",
+   "nama": "Sayan",
+   "level": "kec",
+   "induk_kode": "61.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.10.06",
+   "nama": "Tanah Pinoh",
+   "level": "kec",
+   "induk_kode": "61.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.10.07",
+   "nama": "Sokan",
+   "level": "kec",
+   "induk_kode": "61.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.10.08",
+   "nama": "Pinoh Utara",
+   "level": "kec",
+   "induk_kode": "61.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.10.09",
+   "nama": "Pinoh Selatan",
+   "level": "kec",
+   "induk_kode": "61.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.10.10",
+   "nama": "Belimbing Hulu",
+   "level": "kec",
+   "induk_kode": "61.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.10.11",
+   "nama": "Tanah Pinoh Barat",
+   "level": "kec",
+   "induk_kode": "61.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.11",
+   "nama": "Kabupaten Kayong Utara",
+   "level": "kab",
+   "induk_kode": "61",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.11.01",
+   "nama": "Sukadana",
+   "level": "kec",
+   "induk_kode": "61.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.11.02",
+   "nama": "Simpang Hilir",
+   "level": "kec",
+   "induk_kode": "61.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.11.03",
+   "nama": "Teluk Batang",
+   "level": "kec",
+   "induk_kode": "61.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.11.04",
+   "nama": "Pulau Maya",
+   "level": "kec",
+   "induk_kode": "61.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.11.05",
+   "nama": "Seponti",
+   "level": "kec",
+   "induk_kode": "61.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.11.06",
+   "nama": "Kepulauan Karimata",
+   "level": "kec",
+   "induk_kode": "61.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.12",
+   "nama": "Kabupaten Kubu Raya",
+   "level": "kab",
+   "induk_kode": "61",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.12.01",
+   "nama": "Sungai Raya",
+   "level": "kec",
+   "induk_kode": "61.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.12.02",
+   "nama": "Kuala Mandor B",
+   "level": "kec",
+   "induk_kode": "61.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.12.03",
+   "nama": "Sungai Ambawang",
+   "level": "kec",
+   "induk_kode": "61.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.12.04",
+   "nama": "Terentang",
+   "level": "kec",
+   "induk_kode": "61.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.12.05",
+   "nama": "Batu Ampar",
+   "level": "kec",
+   "induk_kode": "61.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.12.06",
+   "nama": "Kubu",
+   "level": "kec",
+   "induk_kode": "61.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.12.07",
+   "nama": "Rasau Jaya",
+   "level": "kec",
+   "induk_kode": "61.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.12.08",
+   "nama": "Teluk Pakedai",
+   "level": "kec",
+   "induk_kode": "61.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.12.09",
+   "nama": "Sungai Kakap",
+   "level": "kec",
+   "induk_kode": "61.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.71",
+   "nama": "Kota Pontianak",
+   "level": "kab",
+   "induk_kode": "61",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.71.01",
+   "nama": "Pontianak Selatan",
+   "level": "kec",
+   "induk_kode": "61.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.71.02",
+   "nama": "Pontianak Timur",
+   "level": "kec",
+   "induk_kode": "61.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.71.03",
+   "nama": "Pontianak Barat",
+   "level": "kec",
+   "induk_kode": "61.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.71.04",
+   "nama": "Pontianak Utara",
+   "level": "kec",
+   "induk_kode": "61.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.71.05",
+   "nama": "Pontianak Kota",
+   "level": "kec",
+   "induk_kode": "61.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.71.06",
+   "nama": "Pontianak Tenggara",
+   "level": "kec",
+   "induk_kode": "61.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.72",
+   "nama": "Kota Singkawang",
+   "level": "kab",
+   "induk_kode": "61",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.72.01",
+   "nama": "Singkawang Tengah",
+   "level": "kec",
+   "induk_kode": "61.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.72.02",
+   "nama": "Singkawang Barat",
+   "level": "kec",
+   "induk_kode": "61.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.72.03",
+   "nama": "Singkawang Timur",
+   "level": "kec",
+   "induk_kode": "61.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.72.04",
+   "nama": "Singkawang Utara",
+   "level": "kec",
+   "induk_kode": "61.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "61.72.05",
+   "nama": "Singkawang Selatan",
+   "level": "kec",
+   "induk_kode": "61.72",
+   "pesisir": null
+  }
+ ],
+ "satuan": [
+  {
+   "id": "ad-kodim-1201",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1201/Kab. Pontianak",
+   "induk_id": "ad-korem-121",
+   "markas": "Kab. Pontianak",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-1202",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1202/Kota Singkawang",
+   "induk_id": "ad-korem-121",
+   "markas": "Kota Singkawang",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-1203",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1203/Kab. Ketapang",
+   "induk_id": "ad-korem-121",
+   "markas": "Kab. Ketapang",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-1204",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1204/Kab. Sanggau",
+   "induk_id": "ad-korem-121",
+   "markas": "Kab. Sanggau",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-1205",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1205/Kab. Sintang",
+   "induk_id": "ad-korem-121",
+   "markas": "Kab. Sintang",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-1206",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1206/Kab. Kapuas Hulu",
+   "induk_id": "ad-korem-121",
+   "markas": "Kab. Kapuas Hulu",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "au-lanud-supadio",
+   "matra": "AU",
+   "tingkat": "Lanud",
+   "nama": "Lanud Supadio",
+   "induk_id": "au-koopsud-1",
+   "markas": "Pontianak",
+   "sumber": "aturan AU (Lanud provinsi) + Koopsud",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "sedang",
+   "catatan": ""
+  }
+ ],
+ "pemetaan": [
+  {
+   "kode_wilayah": "61",
+   "satuan_id": "al-kodaeral-12",
+   "peran": "terkait",
+   "aturan_pemetaan": "wilayah pesisir provinsi (Lanal/Posal per kab perlu detail)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Kodaeral / Koarmada RI",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kalimantan Barat — Kodaeral XII Pontianak (eks-Lantamal XII) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "61",
+   "satuan_id": "au-lanud-supadio",
+   "peran": "terkait",
+   "aturan_pemetaan": "Lanud di/terdekat provinsi (aturan AU)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Koopsud",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kalimantan Barat — Lanud Supadio (Pontianak) — Koopsud I | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "61.01",
+   "satuan_id": "ad-kodam-12-tpr",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Sambas — Kodam ad-kodam-12-tpr TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "61.02",
+   "satuan_id": "ad-kodam-12-tpr",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Mempawah — Kodam ad-kodam-12-tpr TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "61.03",
+   "satuan_id": "ad-kodim-1204",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Sanggau — Kodim 1204 < Korem 121 < ad-kodam-12-tpr. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "61.04",
+   "satuan_id": "ad-kodim-1203",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Ketapang — Kodim 1203 < Korem 121 < ad-kodam-12-tpr. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "61.05",
+   "satuan_id": "ad-kodim-1205",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Sintang — Kodim 1205 < Korem 121 < ad-kodam-12-tpr. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "61.06",
+   "satuan_id": "ad-kodim-1206",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Kapuas Hulu — Kodim 1206 < Korem 121 < ad-kodam-12-tpr. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "61.07",
+   "satuan_id": "ad-kodam-12-tpr",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Bengkayang — Kodam ad-kodam-12-tpr TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "61.08",
+   "satuan_id": "ad-kodam-12-tpr",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Landak — Kodam ad-kodam-12-tpr TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "61.09",
+   "satuan_id": "ad-kodam-12-tpr",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Sekadau — Kodam ad-kodam-12-tpr TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "61.10",
+   "satuan_id": "ad-kodam-12-tpr",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Melawi — Kodam ad-kodam-12-tpr TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "61.11",
+   "satuan_id": "ad-kodam-12-tpr",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Kayong Utara — Kodam ad-kodam-12-tpr TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "61.12",
+   "satuan_id": "ad-kodam-12-tpr",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Kubu Raya — Kodam ad-kodam-12-tpr TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "61.71",
+   "satuan_id": "ad-kodim-1201",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Pontianak — Kodim 1201 < Korem 121 < ad-kodam-12-tpr. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "61.72",
+   "satuan_id": "ad-kodim-1202",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Singkawang — Kodim 1202 < Korem 121 < ad-kodam-12-tpr. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  }
+ ]
+}

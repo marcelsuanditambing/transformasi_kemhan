@@ -1,0 +1,1625 @@
+{
+ "kode": "13",
+ "nama": "Sumatera Barat",
+ "wilayah": [
+  {
+   "kode_bps": "13",
+   "nama": "Sumatera Barat",
+   "level": "prov",
+   "induk_kode": "",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "13.01",
+   "nama": "Kabupaten Pesisir Selatan",
+   "level": "kab",
+   "induk_kode": "13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.01.01",
+   "nama": "Pancung Soal",
+   "level": "kec",
+   "induk_kode": "13.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.01.02",
+   "nama": "Ranah Pesisir",
+   "level": "kec",
+   "induk_kode": "13.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.01.03",
+   "nama": "Lengayang",
+   "level": "kec",
+   "induk_kode": "13.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.01.04",
+   "nama": "Batang Kapas",
+   "level": "kec",
+   "induk_kode": "13.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.01.05",
+   "nama": "IV Jurai",
+   "level": "kec",
+   "induk_kode": "13.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.01.06",
+   "nama": "Bayang",
+   "level": "kec",
+   "induk_kode": "13.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.01.07",
+   "nama": "Koto XI Tarusan",
+   "level": "kec",
+   "induk_kode": "13.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.01.08",
+   "nama": "Sutera",
+   "level": "kec",
+   "induk_kode": "13.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.01.09",
+   "nama": "Linggo Sari Baganti",
+   "level": "kec",
+   "induk_kode": "13.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.01.10",
+   "nama": "Lunang",
+   "level": "kec",
+   "induk_kode": "13.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.01.11",
+   "nama": "Basa Ampek Balai Tapan",
+   "level": "kec",
+   "induk_kode": "13.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.01.12",
+   "nama": "IV Nagari Bayang Utara",
+   "level": "kec",
+   "induk_kode": "13.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.01.13",
+   "nama": "Airpura",
+   "level": "kec",
+   "induk_kode": "13.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.01.14",
+   "nama": "Ranah Ampek Hulu Tapan",
+   "level": "kec",
+   "induk_kode": "13.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.01.15",
+   "nama": "Silaut",
+   "level": "kec",
+   "induk_kode": "13.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.02",
+   "nama": "Kabupaten Solok",
+   "level": "kab",
+   "induk_kode": "13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.02.03",
+   "nama": "Pantai Cermin",
+   "level": "kec",
+   "induk_kode": "13.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.02.04",
+   "nama": "Lembah Gumanti",
+   "level": "kec",
+   "induk_kode": "13.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.02.05",
+   "nama": "Payung Sekaki",
+   "level": "kec",
+   "induk_kode": "13.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.02.06",
+   "nama": "Lembang Jaya",
+   "level": "kec",
+   "induk_kode": "13.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.02.07",
+   "nama": "Gunung Talang",
+   "level": "kec",
+   "induk_kode": "13.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.02.08",
+   "nama": "Bukit Sundi",
+   "level": "kec",
+   "induk_kode": "13.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.02.09",
+   "nama": "IX Koto Sungai Lasi",
+   "level": "kec",
+   "induk_kode": "13.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.02.10",
+   "nama": "Kubung",
+   "level": "kec",
+   "induk_kode": "13.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.02.11",
+   "nama": "X Koto Singkarak",
+   "level": "kec",
+   "induk_kode": "13.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.02.12",
+   "nama": "X Koto Diatas",
+   "level": "kec",
+   "induk_kode": "13.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.02.13",
+   "nama": "Junjung Sirih",
+   "level": "kec",
+   "induk_kode": "13.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.02.17",
+   "nama": "Hiliran Gumanti",
+   "level": "kec",
+   "induk_kode": "13.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.02.18",
+   "nama": "Tigo Lurah",
+   "level": "kec",
+   "induk_kode": "13.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.02.19",
+   "nama": "Danau Kembar",
+   "level": "kec",
+   "induk_kode": "13.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.03",
+   "nama": "Kabupaten Sijunjung",
+   "level": "kab",
+   "induk_kode": "13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.03.03",
+   "nama": "Tanjung Gadang",
+   "level": "kec",
+   "induk_kode": "13.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.03.04",
+   "nama": "Sijunjung",
+   "level": "kec",
+   "induk_kode": "13.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.03.05",
+   "nama": "IV Nagari",
+   "level": "kec",
+   "induk_kode": "13.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.03.06",
+   "nama": "Kamang Baru",
+   "level": "kec",
+   "induk_kode": "13.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.03.07",
+   "nama": "Lubuk Tarok",
+   "level": "kec",
+   "induk_kode": "13.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.03.08",
+   "nama": "Koto VII",
+   "level": "kec",
+   "induk_kode": "13.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.03.09",
+   "nama": "Sumpur Kudus",
+   "level": "kec",
+   "induk_kode": "13.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.03.10",
+   "nama": "Kupitan",
+   "level": "kec",
+   "induk_kode": "13.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.04",
+   "nama": "Kabupaten Tanah Datar",
+   "level": "kab",
+   "induk_kode": "13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.04.01",
+   "nama": "X Koto",
+   "level": "kec",
+   "induk_kode": "13.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.04.02",
+   "nama": "Batipuh",
+   "level": "kec",
+   "induk_kode": "13.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.04.03",
+   "nama": "Rambatan",
+   "level": "kec",
+   "induk_kode": "13.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.04.04",
+   "nama": "Lima Kaum",
+   "level": "kec",
+   "induk_kode": "13.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.04.05",
+   "nama": "Tanjung Emas",
+   "level": "kec",
+   "induk_kode": "13.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.04.06",
+   "nama": "Lintau Buo",
+   "level": "kec",
+   "induk_kode": "13.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.04.07",
+   "nama": "Sungayang",
+   "level": "kec",
+   "induk_kode": "13.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.04.08",
+   "nama": "Sungai Tarab",
+   "level": "kec",
+   "induk_kode": "13.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.04.09",
+   "nama": "Pariangan",
+   "level": "kec",
+   "induk_kode": "13.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.04.10",
+   "nama": "Salimpaung",
+   "level": "kec",
+   "induk_kode": "13.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.04.11",
+   "nama": "Padang Ganting",
+   "level": "kec",
+   "induk_kode": "13.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.04.12",
+   "nama": "Tanjuang Baru",
+   "level": "kec",
+   "induk_kode": "13.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.04.13",
+   "nama": "Lintau Buo Utara",
+   "level": "kec",
+   "induk_kode": "13.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.04.14",
+   "nama": "Batipuah Selatan",
+   "level": "kec",
+   "induk_kode": "13.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.05",
+   "nama": "Kabupaten Padang Pariaman",
+   "level": "kab",
+   "induk_kode": "13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.05.01",
+   "nama": "Lubuak Aluang",
+   "level": "kec",
+   "induk_kode": "13.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.05.02",
+   "nama": "Batang Anai",
+   "level": "kec",
+   "induk_kode": "13.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.05.03",
+   "nama": "Nan Sabaris",
+   "level": "kec",
+   "induk_kode": "13.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.05.04",
+   "nama": "2 x 11 Anam Lingkuang",
+   "level": "kec",
+   "induk_kode": "13.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.05.05",
+   "nama": "VII Koto",
+   "level": "kec",
+   "induk_kode": "13.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.05.06",
+   "nama": "V Koto",
+   "level": "kec",
+   "induk_kode": "13.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.05.07",
+   "nama": "Sungai Garinggiang",
+   "level": "kec",
+   "induk_kode": "13.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.05.08",
+   "nama": "Sungai Limau",
+   "level": "kec",
+   "induk_kode": "13.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.05.09",
+   "nama": "IV Koto Aua Malintang",
+   "level": "kec",
+   "induk_kode": "13.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.05.10",
+   "nama": "Ulakan Tapakih",
+   "level": "kec",
+   "induk_kode": "13.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.05.11",
+   "nama": "Sintuak Toboh Gadang",
+   "level": "kec",
+   "induk_kode": "13.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.05.12",
+   "nama": "VII Koto Padang Sago",
+   "level": "kec",
+   "induk_kode": "13.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.05.13",
+   "nama": "Batang Gasan",
+   "level": "kec",
+   "induk_kode": "13.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.05.14",
+   "nama": "V Koto Timur",
+   "level": "kec",
+   "induk_kode": "13.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.05.15",
+   "nama": "2 x 11 Kayu Tanam",
+   "level": "kec",
+   "induk_kode": "13.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.05.16",
+   "nama": "Koto Patamuan",
+   "level": "kec",
+   "induk_kode": "13.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.05.17",
+   "nama": "Anam Lingkuang",
+   "level": "kec",
+   "induk_kode": "13.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.06",
+   "nama": "Kabupaten Agam",
+   "level": "kab",
+   "induk_kode": "13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.06.01",
+   "nama": "Tanjung Mutiara",
+   "level": "kec",
+   "induk_kode": "13.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.06.02",
+   "nama": "Lubuk Basung",
+   "level": "kec",
+   "induk_kode": "13.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.06.03",
+   "nama": "Tanjung Raya",
+   "level": "kec",
+   "induk_kode": "13.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.06.04",
+   "nama": "Matur",
+   "level": "kec",
+   "induk_kode": "13.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.06.05",
+   "nama": "IV Koto",
+   "level": "kec",
+   "induk_kode": "13.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.06.06",
+   "nama": "Banuhampu",
+   "level": "kec",
+   "induk_kode": "13.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.06.07",
+   "nama": "Ampek Angkek",
+   "level": "kec",
+   "induk_kode": "13.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.06.08",
+   "nama": "Baso",
+   "level": "kec",
+   "induk_kode": "13.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.06.09",
+   "nama": "Tilatang Kamang",
+   "level": "kec",
+   "induk_kode": "13.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.06.10",
+   "nama": "Palupuh",
+   "level": "kec",
+   "induk_kode": "13.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.06.11",
+   "nama": "Palembayan",
+   "level": "kec",
+   "induk_kode": "13.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.06.12",
+   "nama": "Sungai Pua",
+   "level": "kec",
+   "induk_kode": "13.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.06.13",
+   "nama": "Ampek Nagari",
+   "level": "kec",
+   "induk_kode": "13.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.06.14",
+   "nama": "Candung",
+   "level": "kec",
+   "induk_kode": "13.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.06.15",
+   "nama": "Kamang Magek",
+   "level": "kec",
+   "induk_kode": "13.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.06.16",
+   "nama": "Malalak",
+   "level": "kec",
+   "induk_kode": "13.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.07",
+   "nama": "Kabupaten Lima Puluh Kota",
+   "level": "kab",
+   "induk_kode": "13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.07.01",
+   "nama": "Suliki",
+   "level": "kec",
+   "induk_kode": "13.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.07.02",
+   "nama": "Guguak",
+   "level": "kec",
+   "induk_kode": "13.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.07.03",
+   "nama": "Payakumbuh",
+   "level": "kec",
+   "induk_kode": "13.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.07.04",
+   "nama": "Luak",
+   "level": "kec",
+   "induk_kode": "13.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.07.05",
+   "nama": "Harau",
+   "level": "kec",
+   "induk_kode": "13.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.07.06",
+   "nama": "Pangkalan Koto Baru",
+   "level": "kec",
+   "induk_kode": "13.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.07.07",
+   "nama": "Kapur IX",
+   "level": "kec",
+   "induk_kode": "13.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.07.08",
+   "nama": "Gunuang Omeh",
+   "level": "kec",
+   "induk_kode": "13.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.07.09",
+   "nama": "Lareh Sago Halaban",
+   "level": "kec",
+   "induk_kode": "13.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.07.10",
+   "nama": "Situjuah Limo Nagari",
+   "level": "kec",
+   "induk_kode": "13.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.07.11",
+   "nama": "Mungka",
+   "level": "kec",
+   "induk_kode": "13.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.07.12",
+   "nama": "Bukik Barisan",
+   "level": "kec",
+   "induk_kode": "13.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.07.13",
+   "nama": "Akabiluru",
+   "level": "kec",
+   "induk_kode": "13.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.08",
+   "nama": "Kabupaten Pasaman",
+   "level": "kab",
+   "induk_kode": "13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.08.04",
+   "nama": "Bonjol",
+   "level": "kec",
+   "induk_kode": "13.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.08.05",
+   "nama": "Lubuk Sikaping",
+   "level": "kec",
+   "induk_kode": "13.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.08.07",
+   "nama": "Panti",
+   "level": "kec",
+   "induk_kode": "13.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.08.08",
+   "nama": "Mapat Tunggul",
+   "level": "kec",
+   "induk_kode": "13.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.08.12",
+   "nama": "Duo Koto",
+   "level": "kec",
+   "induk_kode": "13.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.08.13",
+   "nama": "Tigo Nagari",
+   "level": "kec",
+   "induk_kode": "13.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.08.14",
+   "nama": "Rao",
+   "level": "kec",
+   "induk_kode": "13.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.08.15",
+   "nama": "Mapat Tunggul Selatan",
+   "level": "kec",
+   "induk_kode": "13.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.08.16",
+   "nama": "Simpang Alahan Mati",
+   "level": "kec",
+   "induk_kode": "13.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.08.17",
+   "nama": "Padang Gelugur",
+   "level": "kec",
+   "induk_kode": "13.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.08.18",
+   "nama": "Rao Utara",
+   "level": "kec",
+   "induk_kode": "13.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.08.19",
+   "nama": "Rao Selatan",
+   "level": "kec",
+   "induk_kode": "13.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.09",
+   "nama": "Kabupaten Kepulauan Mentawai",
+   "level": "kab",
+   "induk_kode": "13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.09.01",
+   "nama": "Pagai Utara",
+   "level": "kec",
+   "induk_kode": "13.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.09.02",
+   "nama": "Sipora Selatan",
+   "level": "kec",
+   "induk_kode": "13.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.09.03",
+   "nama": "Siberut Selatan",
+   "level": "kec",
+   "induk_kode": "13.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.09.04",
+   "nama": "Siberut Utara",
+   "level": "kec",
+   "induk_kode": "13.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.09.05",
+   "nama": "Siberut Barat",
+   "level": "kec",
+   "induk_kode": "13.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.09.06",
+   "nama": "Siberut Barat Daya",
+   "level": "kec",
+   "induk_kode": "13.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.09.07",
+   "nama": "Siberut Tengah",
+   "level": "kec",
+   "induk_kode": "13.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.09.08",
+   "nama": "Sipora Utara",
+   "level": "kec",
+   "induk_kode": "13.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.09.09",
+   "nama": "Sikakap",
+   "level": "kec",
+   "induk_kode": "13.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.09.10",
+   "nama": "Pagai Selatan",
+   "level": "kec",
+   "induk_kode": "13.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.10",
+   "nama": "Kabupaten Dharmasraya",
+   "level": "kab",
+   "induk_kode": "13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.10.01",
+   "nama": "Koto Baru",
+   "level": "kec",
+   "induk_kode": "13.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.10.02",
+   "nama": "Pulau Punjung",
+   "level": "kec",
+   "induk_kode": "13.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.10.03",
+   "nama": "Sungai Rumbai",
+   "level": "kec",
+   "induk_kode": "13.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.10.04",
+   "nama": "Sitiung",
+   "level": "kec",
+   "induk_kode": "13.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.10.05",
+   "nama": "Sembilan Koto",
+   "level": "kec",
+   "induk_kode": "13.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.10.06",
+   "nama": "Timpeh",
+   "level": "kec",
+   "induk_kode": "13.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.10.07",
+   "nama": "Koto Salak",
+   "level": "kec",
+   "induk_kode": "13.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.10.08",
+   "nama": "Tiumang",
+   "level": "kec",
+   "induk_kode": "13.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.10.09",
+   "nama": "Padang Laweh",
+   "level": "kec",
+   "induk_kode": "13.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.10.10",
+   "nama": "Asam Jujuhan",
+   "level": "kec",
+   "induk_kode": "13.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.10.11",
+   "nama": "Koto Besar",
+   "level": "kec",
+   "induk_kode": "13.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.11",
+   "nama": "Kabupaten Solok Selatan",
+   "level": "kab",
+   "induk_kode": "13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.11.01",
+   "nama": "Sangir",
+   "level": "kec",
+   "induk_kode": "13.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.11.02",
+   "nama": "Sungai Pagu",
+   "level": "kec",
+   "induk_kode": "13.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.11.03",
+   "nama": "Koto Parik Gadang Diateh",
+   "level": "kec",
+   "induk_kode": "13.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.11.04",
+   "nama": "Sangir Jujuan",
+   "level": "kec",
+   "induk_kode": "13.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.11.05",
+   "nama": "Sangir Batang Hari",
+   "level": "kec",
+   "induk_kode": "13.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.11.06",
+   "nama": "Pauh Duo",
+   "level": "kec",
+   "induk_kode": "13.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.11.07",
+   "nama": "Sangir Balai Janggo",
+   "level": "kec",
+   "induk_kode": "13.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.12",
+   "nama": "Kabupaten Pasaman Barat",
+   "level": "kab",
+   "induk_kode": "13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.12.01",
+   "nama": "Sungai Beremas",
+   "level": "kec",
+   "induk_kode": "13.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.12.02",
+   "nama": "Lembah Melintang",
+   "level": "kec",
+   "induk_kode": "13.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.12.03",
+   "nama": "Pasaman",
+   "level": "kec",
+   "induk_kode": "13.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.12.04",
+   "nama": "Talamau",
+   "level": "kec",
+   "induk_kode": "13.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.12.05",
+   "nama": "Kinali",
+   "level": "kec",
+   "induk_kode": "13.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.12.06",
+   "nama": "Gunung Tuleh",
+   "level": "kec",
+   "induk_kode": "13.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.12.07",
+   "nama": "Ranah Batahan",
+   "level": "kec",
+   "induk_kode": "13.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.12.08",
+   "nama": "Koto Balingka",
+   "level": "kec",
+   "induk_kode": "13.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.12.09",
+   "nama": "Sungai Aur",
+   "level": "kec",
+   "induk_kode": "13.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.12.10",
+   "nama": "Luhak Nan Duo",
+   "level": "kec",
+   "induk_kode": "13.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.12.11",
+   "nama": "Sasak Ranah Pasisie",
+   "level": "kec",
+   "induk_kode": "13.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.71",
+   "nama": "Kota Padang",
+   "level": "kab",
+   "induk_kode": "13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.71.01",
+   "nama": "Padang Selatan",
+   "level": "kec",
+   "induk_kode": "13.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.71.02",
+   "nama": "Padang Timur",
+   "level": "kec",
+   "induk_kode": "13.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.71.03",
+   "nama": "Padang Barat",
+   "level": "kec",
+   "induk_kode": "13.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.71.04",
+   "nama": "Padang Utara",
+   "level": "kec",
+   "induk_kode": "13.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.71.05",
+   "nama": "Bungus Teluk Kabung",
+   "level": "kec",
+   "induk_kode": "13.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.71.06",
+   "nama": "Lubuk Begalung",
+   "level": "kec",
+   "induk_kode": "13.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.71.07",
+   "nama": "Lubuk Kilangan",
+   "level": "kec",
+   "induk_kode": "13.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.71.08",
+   "nama": "Pauh",
+   "level": "kec",
+   "induk_kode": "13.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.71.09",
+   "nama": "Kuranji",
+   "level": "kec",
+   "induk_kode": "13.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.71.10",
+   "nama": "Nanggalo",
+   "level": "kec",
+   "induk_kode": "13.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.71.11",
+   "nama": "Koto Tangah",
+   "level": "kec",
+   "induk_kode": "13.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.72",
+   "nama": "Kota Solok",
+   "level": "kab",
+   "induk_kode": "13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.72.01",
+   "nama": "Lubuk Sikarah",
+   "level": "kec",
+   "induk_kode": "13.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.72.02",
+   "nama": "Tanjung Harapan",
+   "level": "kec",
+   "induk_kode": "13.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.73",
+   "nama": "Kota Sawahlunto",
+   "level": "kab",
+   "induk_kode": "13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.73.01",
+   "nama": "Lembah Segar",
+   "level": "kec",
+   "induk_kode": "13.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.73.02",
+   "nama": "Barangin",
+   "level": "kec",
+   "induk_kode": "13.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.73.03",
+   "nama": "Silungkang",
+   "level": "kec",
+   "induk_kode": "13.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.73.04",
+   "nama": "Talawi",
+   "level": "kec",
+   "induk_kode": "13.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.74",
+   "nama": "Kota Padang Panjang",
+   "level": "kab",
+   "induk_kode": "13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.74.01",
+   "nama": "Padang Panjang Timur",
+   "level": "kec",
+   "induk_kode": "13.74",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.74.02",
+   "nama": "Padang Panjang Barat",
+   "level": "kec",
+   "induk_kode": "13.74",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.75",
+   "nama": "Kota Bukittinggi",
+   "level": "kab",
+   "induk_kode": "13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.75.01",
+   "nama": "Guguak Panjang",
+   "level": "kec",
+   "induk_kode": "13.75",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.75.02",
+   "nama": "Mandiangin Koto Selayan",
+   "level": "kec",
+   "induk_kode": "13.75",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.75.03",
+   "nama": "Aur Birugo Tigo Baleh",
+   "level": "kec",
+   "induk_kode": "13.75",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.76",
+   "nama": "Kota Payakumbuh",
+   "level": "kab",
+   "induk_kode": "13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.76.01",
+   "nama": "Payakumbuh Barat",
+   "level": "kec",
+   "induk_kode": "13.76",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.76.02",
+   "nama": "Payakumbuh Utara",
+   "level": "kec",
+   "induk_kode": "13.76",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.76.03",
+   "nama": "Payakumbuh Timur",
+   "level": "kec",
+   "induk_kode": "13.76",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.76.04",
+   "nama": "Lamposi Tigo Nagori",
+   "level": "kec",
+   "induk_kode": "13.76",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.76.05",
+   "nama": "Payakumbuh Selatan",
+   "level": "kec",
+   "induk_kode": "13.76",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.77",
+   "nama": "Kota Pariaman",
+   "level": "kab",
+   "induk_kode": "13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.77.01",
+   "nama": "Pariaman Tengah",
+   "level": "kec",
+   "induk_kode": "13.77",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.77.02",
+   "nama": "Pariaman Utara",
+   "level": "kec",
+   "induk_kode": "13.77",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.77.03",
+   "nama": "Pariaman Selatan",
+   "level": "kec",
+   "induk_kode": "13.77",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "13.77.04",
+   "nama": "Pariaman Timur",
+   "level": "kec",
+   "induk_kode": "13.77",
+   "pesisir": null
+  }
+ ],
+ "satuan": [
+  {
+   "id": "au-lanud-sutan-sjahrir",
+   "matra": "AU",
+   "tingkat": "Lanud",
+   "nama": "Lanud Sutan Sjahrir",
+   "induk_id": "au-koopsud-1",
+   "markas": "Padang",
+   "sumber": "aturan AU (Lanud provinsi) + Koopsud I",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "sedang",
+   "catatan": ""
+  }
+ ],
+ "pemetaan": [
+  {
+   "kode_wilayah": "13",
+   "satuan_id": "al-kodaeral-2",
+   "peran": "terkait",
+   "aturan_pemetaan": "wilayah pesisir provinsi (Lanal/Posal per kab perlu detail)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Kodaeral / Koarmada RI",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Sumatera Barat — Kodaeral II Padang (eks-Lantamal II) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "13",
+   "satuan_id": "au-lanud-sutan-sjahrir",
+   "peran": "terkait",
+   "aturan_pemetaan": "Lanud di/terdekat provinsi (aturan AU)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Koopsud I",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Sumatera Barat — Lanud Sutan Sjahrir (Padang) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "13.01",
+   "satuan_id": "ad-korem-032",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Pesisir Selatan"
+  },
+  {
+   "kode_wilayah": "13.02",
+   "satuan_id": "ad-korem-032",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Solok"
+  },
+  {
+   "kode_wilayah": "13.03",
+   "satuan_id": "ad-korem-032",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Sijunjung"
+  },
+  {
+   "kode_wilayah": "13.04",
+   "satuan_id": "ad-korem-032",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Tanah Datar"
+  },
+  {
+   "kode_wilayah": "13.05",
+   "satuan_id": "ad-korem-032",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Padang Pariaman"
+  },
+  {
+   "kode_wilayah": "13.06",
+   "satuan_id": "ad-korem-032",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Agam"
+  },
+  {
+   "kode_wilayah": "13.07",
+   "satuan_id": "ad-korem-032",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Lima Puluh Kota"
+  },
+  {
+   "kode_wilayah": "13.08",
+   "satuan_id": "ad-korem-032",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Pasaman"
+  },
+  {
+   "kode_wilayah": "13.09",
+   "satuan_id": "ad-korem-032",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Kepulauan Mentawai"
+  },
+  {
+   "kode_wilayah": "13.10",
+   "satuan_id": "ad-korem-032",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Dharmasraya"
+  },
+  {
+   "kode_wilayah": "13.11",
+   "satuan_id": "ad-korem-032",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Solok Selatan"
+  },
+  {
+   "kode_wilayah": "13.12",
+   "satuan_id": "ad-korem-032",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Pasaman Barat"
+  },
+  {
+   "kode_wilayah": "13.71",
+   "satuan_id": "ad-korem-032",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Padang"
+  },
+  {
+   "kode_wilayah": "13.72",
+   "satuan_id": "ad-korem-032",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Solok"
+  },
+  {
+   "kode_wilayah": "13.73",
+   "satuan_id": "ad-korem-032",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Sawahlunto"
+  },
+  {
+   "kode_wilayah": "13.74",
+   "satuan_id": "ad-korem-032",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Padang Panjang"
+  },
+  {
+   "kode_wilayah": "13.75",
+   "satuan_id": "ad-korem-032",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Bukittinggi"
+  },
+  {
+   "kode_wilayah": "13.76",
+   "satuan_id": "ad-korem-032",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Payakumbuh"
+  },
+  {
+   "kode_wilayah": "13.77",
+   "satuan_id": "ad-korem-032",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Pariaman"
+  }
+ ]
+}

@@ -1,0 +1,497 @@
+{
+ "kode": "19",
+ "nama": "Kepulauan Bangka Belitung",
+ "wilayah": [
+  {
+   "kode_bps": "19",
+   "nama": "Kepulauan Bangka Belitung",
+   "level": "prov",
+   "induk_kode": "",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "19.01",
+   "nama": "Kabupaten Bangka",
+   "level": "kab",
+   "induk_kode": "19",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.01.01",
+   "nama": "Sungailiat",
+   "level": "kec",
+   "induk_kode": "19.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.01.02",
+   "nama": "Belinyu",
+   "level": "kec",
+   "induk_kode": "19.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.01.03",
+   "nama": "Merawang",
+   "level": "kec",
+   "induk_kode": "19.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.01.04",
+   "nama": "Mendo Barat",
+   "level": "kec",
+   "induk_kode": "19.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.01.05",
+   "nama": "Pemali",
+   "level": "kec",
+   "induk_kode": "19.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.01.06",
+   "nama": "Bakam",
+   "level": "kec",
+   "induk_kode": "19.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.01.07",
+   "nama": "Riau Silip",
+   "level": "kec",
+   "induk_kode": "19.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.01.08",
+   "nama": "Puding Besar",
+   "level": "kec",
+   "induk_kode": "19.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.02",
+   "nama": "Kabupaten Belitung",
+   "level": "kab",
+   "induk_kode": "19",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.02.01",
+   "nama": "Tanjungpandan",
+   "level": "kec",
+   "induk_kode": "19.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.02.02",
+   "nama": "Membalong",
+   "level": "kec",
+   "induk_kode": "19.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.02.03",
+   "nama": "Selat Nasik",
+   "level": "kec",
+   "induk_kode": "19.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.02.04",
+   "nama": "Sijuk",
+   "level": "kec",
+   "induk_kode": "19.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.02.05",
+   "nama": "Badau",
+   "level": "kec",
+   "induk_kode": "19.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.03",
+   "nama": "Kabupaten Bangka Selatan",
+   "level": "kab",
+   "induk_kode": "19",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.03.01",
+   "nama": "Toboali",
+   "level": "kec",
+   "induk_kode": "19.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.03.02",
+   "nama": "Lepar",
+   "level": "kec",
+   "induk_kode": "19.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.03.03",
+   "nama": "Airgegas",
+   "level": "kec",
+   "induk_kode": "19.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.03.04",
+   "nama": "Simpang Rimba",
+   "level": "kec",
+   "induk_kode": "19.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.03.05",
+   "nama": "Payung",
+   "level": "kec",
+   "induk_kode": "19.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.03.06",
+   "nama": "Tukak Sadai",
+   "level": "kec",
+   "induk_kode": "19.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.03.07",
+   "nama": "Pulau Besar",
+   "level": "kec",
+   "induk_kode": "19.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.03.08",
+   "nama": "Kepulauan Pongok",
+   "level": "kec",
+   "induk_kode": "19.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.04",
+   "nama": "Kabupaten Bangka Tengah",
+   "level": "kab",
+   "induk_kode": "19",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.04.01",
+   "nama": "Koba",
+   "level": "kec",
+   "induk_kode": "19.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.04.02",
+   "nama": "Pangkalan Baru",
+   "level": "kec",
+   "induk_kode": "19.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.04.03",
+   "nama": "Sungai Selan",
+   "level": "kec",
+   "induk_kode": "19.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.04.04",
+   "nama": "Simpang Katis",
+   "level": "kec",
+   "induk_kode": "19.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.04.05",
+   "nama": "Namang",
+   "level": "kec",
+   "induk_kode": "19.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.04.06",
+   "nama": "Lubuk Besar",
+   "level": "kec",
+   "induk_kode": "19.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.05",
+   "nama": "Kabupaten Bangka Barat",
+   "level": "kab",
+   "induk_kode": "19",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.05.01",
+   "nama": "Mentok",
+   "level": "kec",
+   "induk_kode": "19.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.05.02",
+   "nama": "Simpang Teritip",
+   "level": "kec",
+   "induk_kode": "19.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.05.03",
+   "nama": "Jebus",
+   "level": "kec",
+   "induk_kode": "19.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.05.04",
+   "nama": "Kelapa",
+   "level": "kec",
+   "induk_kode": "19.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.05.05",
+   "nama": "Tempilang",
+   "level": "kec",
+   "induk_kode": "19.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.05.06",
+   "nama": "Parittiga",
+   "level": "kec",
+   "induk_kode": "19.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.06",
+   "nama": "Kabupaten Belitung Timur",
+   "level": "kab",
+   "induk_kode": "19",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.06.01",
+   "nama": "Manggar",
+   "level": "kec",
+   "induk_kode": "19.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.06.02",
+   "nama": "Gantung",
+   "level": "kec",
+   "induk_kode": "19.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.06.03",
+   "nama": "Dendang",
+   "level": "kec",
+   "induk_kode": "19.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.06.04",
+   "nama": "Kelapa Kampit",
+   "level": "kec",
+   "induk_kode": "19.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.06.05",
+   "nama": "Damar",
+   "level": "kec",
+   "induk_kode": "19.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.06.06",
+   "nama": "Simpang Renggiang",
+   "level": "kec",
+   "induk_kode": "19.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.06.07",
+   "nama": "Simpang Pesak",
+   "level": "kec",
+   "induk_kode": "19.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.71",
+   "nama": "Kota Pangkal Pinang",
+   "level": "kab",
+   "induk_kode": "19",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.71.01",
+   "nama": "Bukit Intan",
+   "level": "kec",
+   "induk_kode": "19.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.71.02",
+   "nama": "Taman Sari",
+   "level": "kec",
+   "induk_kode": "19.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.71.03",
+   "nama": "Pangkal Balam",
+   "level": "kec",
+   "induk_kode": "19.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.71.04",
+   "nama": "Rangkui",
+   "level": "kec",
+   "induk_kode": "19.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.71.05",
+   "nama": "Gerunggang",
+   "level": "kec",
+   "induk_kode": "19.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.71.06",
+   "nama": "Gabek",
+   "level": "kec",
+   "induk_kode": "19.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "19.71.07",
+   "nama": "Girimaya",
+   "level": "kec",
+   "induk_kode": "19.71",
+   "pesisir": null
+  }
+ ],
+ "satuan": [
+  {
+   "id": "au-lanud-smh",
+   "matra": "AU",
+   "tingkat": "Lanud",
+   "nama": "Lanud Sri Mulyono Herlambang",
+   "induk_id": "au-koopsud-1",
+   "markas": "Palembang",
+   "sumber": "aturan AU (Lanud provinsi) + Koopsud I",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "sedang",
+   "catatan": ""
+  }
+ ],
+ "pemetaan": [
+  {
+   "kode_wilayah": "19",
+   "satuan_id": "al-kodaeral-3",
+   "peran": "terkait",
+   "aturan_pemetaan": "wilayah pesisir provinsi (Lanal/Posal per kab perlu detail)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Kodaeral / Koarmada RI",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kepulauan Bangka Belitung — via Lanal Pangkal Pinang (Kodaeral III) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "19",
+   "satuan_id": "au-lanud-smh",
+   "peran": "terkait",
+   "aturan_pemetaan": "Lanud di/terdekat provinsi (aturan AU)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "Koopsud I",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kepulauan Bangka Belitung — terdekat Palembang (Depati Amir = bandara sipil) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "19.01",
+   "satuan_id": "ad-korem-045",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Bangka"
+  },
+  {
+   "kode_wilayah": "19.02",
+   "satuan_id": "ad-korem-045",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Belitung"
+  },
+  {
+   "kode_wilayah": "19.03",
+   "satuan_id": "ad-korem-045",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Bangka Selatan"
+  },
+  {
+   "kode_wilayah": "19.04",
+   "satuan_id": "ad-korem-045",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Bangka Tengah"
+  },
+  {
+   "kode_wilayah": "19.05",
+   "satuan_id": "ad-korem-045",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Bangka Barat"
+  },
+  {
+   "kode_wilayah": "19.06",
+   "satuan_id": "ad-korem-045",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Belitung Timur"
+  },
+  {
+   "kode_wilayah": "19.71",
+   "satuan_id": "ad-korem-045",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Pangkal Pinang"
+  }
+ ]
+}

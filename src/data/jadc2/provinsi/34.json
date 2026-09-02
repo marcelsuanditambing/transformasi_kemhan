@@ -1,0 +1,740 @@
+{
+ "kode": "34",
+ "nama": "DI Yogyakarta",
+ "wilayah": [
+  {
+   "kode_bps": "34",
+   "nama": "DI Yogyakarta",
+   "level": "prov",
+   "induk_kode": "",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "34.01",
+   "nama": "Kabupaten Kulon Progo",
+   "level": "kab",
+   "induk_kode": "34",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.01.01",
+   "nama": "Temon",
+   "level": "kec",
+   "induk_kode": "34.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.01.02",
+   "nama": "Wates",
+   "level": "kec",
+   "induk_kode": "34.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.01.03",
+   "nama": "Panjatan",
+   "level": "kec",
+   "induk_kode": "34.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.01.04",
+   "nama": "Galur",
+   "level": "kec",
+   "induk_kode": "34.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.01.05",
+   "nama": "Lendah",
+   "level": "kec",
+   "induk_kode": "34.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.01.06",
+   "nama": "Sentolo",
+   "level": "kec",
+   "induk_kode": "34.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.01.07",
+   "nama": "Pengasih",
+   "level": "kec",
+   "induk_kode": "34.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.01.08",
+   "nama": "Kokap",
+   "level": "kec",
+   "induk_kode": "34.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.01.09",
+   "nama": "Girimulyo",
+   "level": "kec",
+   "induk_kode": "34.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.01.10",
+   "nama": "Nanggulan",
+   "level": "kec",
+   "induk_kode": "34.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.01.11",
+   "nama": "Samigaluh",
+   "level": "kec",
+   "induk_kode": "34.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.01.12",
+   "nama": "Kalibawang",
+   "level": "kec",
+   "induk_kode": "34.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.02",
+   "nama": "Kabupaten Bantul",
+   "level": "kab",
+   "induk_kode": "34",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.02.01",
+   "nama": "Srandakan",
+   "level": "kec",
+   "induk_kode": "34.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.02.02",
+   "nama": "Sanden",
+   "level": "kec",
+   "induk_kode": "34.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.02.03",
+   "nama": "Kretek",
+   "level": "kec",
+   "induk_kode": "34.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.02.04",
+   "nama": "Pundong",
+   "level": "kec",
+   "induk_kode": "34.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.02.05",
+   "nama": "Bambanglipuro",
+   "level": "kec",
+   "induk_kode": "34.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.02.06",
+   "nama": "Pandak",
+   "level": "kec",
+   "induk_kode": "34.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.02.07",
+   "nama": "Pajangan",
+   "level": "kec",
+   "induk_kode": "34.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.02.08",
+   "nama": "Bantul",
+   "level": "kec",
+   "induk_kode": "34.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.02.09",
+   "nama": "Jetis",
+   "level": "kec",
+   "induk_kode": "34.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.02.10",
+   "nama": "Imogiri",
+   "level": "kec",
+   "induk_kode": "34.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.02.11",
+   "nama": "Dlingo",
+   "level": "kec",
+   "induk_kode": "34.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.02.12",
+   "nama": "Banguntapan",
+   "level": "kec",
+   "induk_kode": "34.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.02.13",
+   "nama": "Pleret",
+   "level": "kec",
+   "induk_kode": "34.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.02.14",
+   "nama": "Piyungan",
+   "level": "kec",
+   "induk_kode": "34.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.02.15",
+   "nama": "Sewon",
+   "level": "kec",
+   "induk_kode": "34.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.02.16",
+   "nama": "Kasihan",
+   "level": "kec",
+   "induk_kode": "34.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.02.17",
+   "nama": "Sedayu",
+   "level": "kec",
+   "induk_kode": "34.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.03",
+   "nama": "Kabupaten Gunungkidul",
+   "level": "kab",
+   "induk_kode": "34",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.03.01",
+   "nama": "Wonosari",
+   "level": "kec",
+   "induk_kode": "34.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.03.02",
+   "nama": "Nglipar",
+   "level": "kec",
+   "induk_kode": "34.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.03.03",
+   "nama": "Playen",
+   "level": "kec",
+   "induk_kode": "34.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.03.04",
+   "nama": "Patuk",
+   "level": "kec",
+   "induk_kode": "34.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.03.05",
+   "nama": "Paliyan",
+   "level": "kec",
+   "induk_kode": "34.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.03.06",
+   "nama": "Panggang",
+   "level": "kec",
+   "induk_kode": "34.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.03.07",
+   "nama": "Tepus",
+   "level": "kec",
+   "induk_kode": "34.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.03.08",
+   "nama": "Semanu",
+   "level": "kec",
+   "induk_kode": "34.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.03.09",
+   "nama": "Karangmojo",
+   "level": "kec",
+   "induk_kode": "34.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.03.10",
+   "nama": "Ponjong",
+   "level": "kec",
+   "induk_kode": "34.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.03.11",
+   "nama": "Rongkop",
+   "level": "kec",
+   "induk_kode": "34.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.03.12",
+   "nama": "Semin",
+   "level": "kec",
+   "induk_kode": "34.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.03.13",
+   "nama": "Ngawen",
+   "level": "kec",
+   "induk_kode": "34.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.03.14",
+   "nama": "Gedangsari",
+   "level": "kec",
+   "induk_kode": "34.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.03.15",
+   "nama": "Saptosari",
+   "level": "kec",
+   "induk_kode": "34.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.03.16",
+   "nama": "Girisubo",
+   "level": "kec",
+   "induk_kode": "34.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.03.17",
+   "nama": "Tanjungsari",
+   "level": "kec",
+   "induk_kode": "34.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.03.18",
+   "nama": "Purwosari",
+   "level": "kec",
+   "induk_kode": "34.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.04",
+   "nama": "Kabupaten Sleman",
+   "level": "kab",
+   "induk_kode": "34",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.04.01",
+   "nama": "Gamping",
+   "level": "kec",
+   "induk_kode": "34.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.04.02",
+   "nama": "Godean",
+   "level": "kec",
+   "induk_kode": "34.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.04.03",
+   "nama": "Moyudan",
+   "level": "kec",
+   "induk_kode": "34.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.04.04",
+   "nama": "Minggir",
+   "level": "kec",
+   "induk_kode": "34.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.04.05",
+   "nama": "Seyegan",
+   "level": "kec",
+   "induk_kode": "34.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.04.06",
+   "nama": "Mlati",
+   "level": "kec",
+   "induk_kode": "34.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.04.07",
+   "nama": "Depok",
+   "level": "kec",
+   "induk_kode": "34.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.04.08",
+   "nama": "Berbah",
+   "level": "kec",
+   "induk_kode": "34.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.04.09",
+   "nama": "Prambanan",
+   "level": "kec",
+   "induk_kode": "34.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.04.10",
+   "nama": "Kalasan",
+   "level": "kec",
+   "induk_kode": "34.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.04.11",
+   "nama": "Ngemplak",
+   "level": "kec",
+   "induk_kode": "34.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.04.12",
+   "nama": "Ngaglik",
+   "level": "kec",
+   "induk_kode": "34.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.04.13",
+   "nama": "Sleman",
+   "level": "kec",
+   "induk_kode": "34.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.04.14",
+   "nama": "Tempel",
+   "level": "kec",
+   "induk_kode": "34.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.04.15",
+   "nama": "Turi",
+   "level": "kec",
+   "induk_kode": "34.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.04.16",
+   "nama": "Pakem",
+   "level": "kec",
+   "induk_kode": "34.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.04.17",
+   "nama": "Cangkringan",
+   "level": "kec",
+   "induk_kode": "34.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.71",
+   "nama": "Kota Yogyakarta",
+   "level": "kab",
+   "induk_kode": "34",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.71.01",
+   "nama": "Tegalrejo",
+   "level": "kec",
+   "induk_kode": "34.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.71.02",
+   "nama": "Jetis",
+   "level": "kec",
+   "induk_kode": "34.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.71.03",
+   "nama": "Gondokusuman",
+   "level": "kec",
+   "induk_kode": "34.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.71.04",
+   "nama": "Danurejan",
+   "level": "kec",
+   "induk_kode": "34.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.71.05",
+   "nama": "Gedongtengen",
+   "level": "kec",
+   "induk_kode": "34.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.71.06",
+   "nama": "Ngampilan",
+   "level": "kec",
+   "induk_kode": "34.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.71.07",
+   "nama": "Wirobrajan",
+   "level": "kec",
+   "induk_kode": "34.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.71.08",
+   "nama": "Mantrijeron",
+   "level": "kec",
+   "induk_kode": "34.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.71.09",
+   "nama": "Kraton",
+   "level": "kec",
+   "induk_kode": "34.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.71.10",
+   "nama": "Gondomanan",
+   "level": "kec",
+   "induk_kode": "34.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.71.11",
+   "nama": "Pakualaman",
+   "level": "kec",
+   "induk_kode": "34.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.71.12",
+   "nama": "Mergangsan",
+   "level": "kec",
+   "induk_kode": "34.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.71.13",
+   "nama": "Umbulharjo",
+   "level": "kec",
+   "induk_kode": "34.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "34.71.14",
+   "nama": "Kotagede",
+   "level": "kec",
+   "induk_kode": "34.71",
+   "pesisir": null
+  }
+ ],
+ "satuan": [
+  {
+   "id": "ad-kodim-0729",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 0729/Kab. Bantul",
+   "induk_id": "ad-korem-072",
+   "markas": "Kab. Bantul",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-0730",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 0730/Kab. Gunung Kidul",
+   "induk_id": "ad-korem-072",
+   "markas": "Kab. Gunung Kidul",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-0731",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 0731/Kab. Kulon Progo",
+   "induk_id": "ad-korem-072",
+   "markas": "Kab. Kulon Progo",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-0732",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 0732/Kab. Sleman",
+   "induk_id": "ad-korem-072",
+   "markas": "Kab. Sleman",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-0734",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 0734/Yogyakarta",
+   "induk_id": "ad-korem-072",
+   "markas": "Yogyakarta",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "au-lanud-adisutjipto",
+   "matra": "AU",
+   "tingkat": "Lanud",
+   "nama": "Lanud Adisutjipto",
+   "induk_id": "au-koopsud-1",
+   "markas": "Yogyakarta",
+   "sumber": "aturan AU (Lanud provinsi) + Koopsud I",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "rendah",
+   "catatan": ""
+  }
+ ],
+ "pemetaan": [
+  {
+   "kode_wilayah": "34",
+   "satuan_id": "al-koarmada-ri",
+   "peran": "terkait",
+   "aturan_pemetaan": "wilayah pesisir provinsi (Lanal/Posal per kab perlu detail)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "Kodaeral III / Koarmada RI",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "DI Yogyakarta — via Lanal Yogyakarta; induk Kodaeral PERLU VERIFIKASI | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "34",
+   "satuan_id": "au-lanud-adisutjipto",
+   "peran": "terkait",
+   "aturan_pemetaan": "Lanud di/terdekat provinsi (aturan AU)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "Koopsud I",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "DI Yogyakarta — Lanud Adisutjipto (Yogyakarta) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "34.01",
+   "satuan_id": "ad-kodim-0731",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Kulon Progo — Kodim 0731 < Korem 072 < ad-kodam-4-dpg. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "34.02",
+   "satuan_id": "ad-kodim-0729",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Bantul — Kodim 0729 < Korem 072 < ad-kodam-4-dpg. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "34.03",
+   "satuan_id": "ad-kodim-0730",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Gunungkidul — Kodim 0730 < Korem 072 < ad-kodam-4-dpg. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "34.04",
+   "satuan_id": "ad-kodim-0732",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Sleman — Kodim 0732 < Korem 072 < ad-kodam-4-dpg. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "34.71",
+   "satuan_id": "ad-kodim-0734",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Yogyakarta — Kodim 0734 < Korem 072 < ad-kodam-4-dpg. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  }
+ ]
+}
