@@ -20,7 +20,7 @@
           v-model="query"
           type="text"
           class="cari__input"
-          placeholder="mis. Bahodopi, Morowali, Kupang…"
+          placeholder="mis. Coblong, Jatinangor, Kupang…"
           autocomplete="off"
           role="combobox"
           :aria-expanded="buka"
@@ -90,7 +90,7 @@ const emit = defineEmits(['pilih']);
 const { cariWilayah, daftarProvinsi, daftarKabupaten, daftarKecamatan } = useJadc2();
 
 const modes = [
-  { id: 'cari', label: 'Cari nama' },
+  { id: 'cari', label: 'Cari wilayah' },
   { id: 'bertingkat', label: 'Pilih bertingkat' },
 ];
 const mode = ref('cari');
