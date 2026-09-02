@@ -644,12 +644,12 @@
  "pemetaan": [
   {
    "kode_wilayah": "75",
-   "satuan_id": "al-lantamal-8",
+   "satuan_id": "al-kodaeral-8",
    "peran": "terkait",
    "aturan_pemetaan": "wilayah pesisir provinsi (Lanal/Posal per kab perlu detail)",
    "tingkat_keyakinan": "rendah",
    "sumber": "koarmada2.tnial.mil.id (transformasi Kodaeral, Agt 2025)",
-   "berlaku_per_tanggal": "2026-09-01",
+   "berlaku_per_tanggal": "2026-09-02",
    "catatan": "Gorontalo — via Lanal Gorontalo; induk (Lantamal VIII / Kodaeral?) perlu verifikasi | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
   },
   {

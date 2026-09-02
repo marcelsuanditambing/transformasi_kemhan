@@ -972,6 +972,18 @@
   "catatan": "Bina Koarmada III. NTT + (historis) NTB & sebagian Maluku."
  },
  {
+  "id": "al-kodaeral-8",
+  "matra": "AL",
+  "tingkat": "Kodaeral",
+  "nama": "Kodaeral VIII (eks-Lantamal VIII)",
+  "induk_id": "al-koarmada-2",
+  "markas": "Manado",
+  "sumber": "Kompas (14 Kodaeral, 12-08-2025)",
+  "berlaku_per_tanggal": "2026-09-02",
+  "tingkat_keyakinan": "sedang",
+  "catatan": "Transformasi dari Lantamal VIII (Agustus 2025). Mengampu Sulut & Gorontalo."
+ },
+ {
   "id": "al-kodaeral-9",
   "matra": "AL",
   "tingkat": "Kodaeral",
@@ -982,30 +994,6 @@
   "berlaku_per_tanggal": "2026-09-01",
   "tingkat_keyakinan": "sedang",
   "catatan": "Maluku (+ mungkin Malut)."
- },
- {
-  "id": "al-lantamal-6",
-  "matra": "AL",
-  "tingkat": "Lantamal",
-  "nama": "Lantamal VI",
-  "induk_id": "al-koarmada-2",
-  "markas": "Makassar",
-  "sumber": "id.wikipedia.org/wiki/Pangkalan_TNI_AL_Palu ; lantamal6-koarmada2.tnial.mil.id",
-  "berlaku_per_tanggal": "2026-08-31",
-  "tingkat_keyakinan": "tinggi",
-  "catatan": "Pembina Lanal Palu."
- },
- {
-  "id": "al-lantamal-8",
-  "matra": "AL",
-  "tingkat": "Lantamal",
-  "nama": "Lantamal VIII",
-  "induk_id": "al-koarmada-2",
-  "markas": "Manado",
-  "sumber": "koarmada2.tnial.mil.id (transformasi Kodaeral, Agt 2025)",
-  "berlaku_per_tanggal": "2026-09-01",
-  "tingkat_keyakinan": "rendah",
-  "catatan": "Status Kodaeral pasca-2025 PERLU VERIFIKASI."
  },
  {
   "id": "al-posal-morut",
