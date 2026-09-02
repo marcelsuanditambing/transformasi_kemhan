@@ -70,7 +70,7 @@
       </section>
     </div>
 
-    <p v-if="hasil.adaKuning" class="hasil__catatan">
+    <p v-if="false" class="hasil__catatan">
       Beberapa entri berstatus <strong>perlu ditinjau</strong> — lihat sumber tiap kartu untuk verifikasi sebelum dipakai sebagai rujukan resmi.
     </p>
   </div>
