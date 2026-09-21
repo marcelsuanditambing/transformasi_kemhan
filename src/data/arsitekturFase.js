@@ -9,6 +9,11 @@ import fig5 from '@/assets/images/business-capability-map-kemhan.drawio.svg';
 import fig6 from '@/assets/images/struktur-organisasi-kemhan-to-be.drawio.svg';
 import fig7 from '@/assets/images/business-capability-map-kemhan-to-be.drawio.svg';
 import fig8 from '@/assets/images/roadmap-implementasi-fase-business-architecture.drawio.svg';
+// Fase Information System Architecture (IV.4) & Technology Architecture (IV.5)
+import figISBaselineSilo from '@/assets/images/Baseline Integrasi antar Aplikasi (Silo).drawio.svg';
+import figISModelTarget from '@/assets/images/Model Integrasi Target dengan Rasionalisasi Aplikasi.drawio.svg';
+import figTechBaseline from '@/assets/images/Arsitektur Teknologi Baseline.drawio.svg';
+import figTechTarget from '@/assets/images/Arsitektur Teknologi Target.drawio.svg';
 
 export const phases = [
   {
@@ -966,12 +971,1972 @@ export const phases = [
   {
     "id": "information-system-architecture",
     "title": "Fase Information System Architecture",
-    "comingSoon": true
+    "intro": [
+      "Fase Information Systems Architecture menentukan arsitektur sistem informasi yang mendukung proses bisnis pertahanan, mencakup arsitektur data (data architecture) dan arsitektur aplikasi (application architecture) yang dikerjakan berurutan dengan arsitektur data didahulukan. Arsitektur data dirancang berdasarkan Peraturan Presiden Nomor 39 Tahun 2019 tentang Satu Data Indonesia dan Peraturan Menteri Pertahanan Nomor 1 Tahun 2023 tentang Satu Data Pertahanan, sehingga penataan data pertahanan selaras dengan kebijakan tata kelola data nasional maupun sektor pertahanan.",
+      "Kedua sub-domain arsitektur sistem informasi bermula dari inventarisasi aplikasi Kemhan tahun 2025 yang menjadi kondisi baseline bersama. Inventaris mencatat 247 aplikasi yang terdiri atas 176 aplikasi umum dan 71 aplikasi khusus."
+    ],
+    "sections": [
+      {
+        "no": "1",
+        "title": "Data Architecture",
+        "blocks": [
+          {
+            "t": "p",
+            "v": "Arsitektur data merancang struktur definisi, klasifikasi, dan tata kelola kepemilikan Data Pertahanan. Mengacu Permenhan Nomor 1 Tahun 2023, Data Pertahanan adalah data yang dibina dan diselenggarakan oleh Kementerian Pertahanan dan Tentara Nasional Indonesia untuk kepentingan penyelenggaraan pertahanan negara. Perancangan berpedoman pada prinsip Data as Strategic Asset serta empat prinsip Satu Data Indonesia, yaitu pemenuhan standar data, metadata, kaidah interoperabilitas data, dan penggunaan kode referensi serta data induk."
+          },
+          {
+            "t": "p",
+            "v": "Rekapitulasi aplikasi baseline per satuan kerja yang menjadi dasar bersama arsitektur data dan aplikasi disajikan pada tabel berikut."
+          },
+          {
+            "t": "table",
+            "title": "Rekapitulasi Aplikasi Baseline per Satuan Kerja",
+            "header": [
+              "No.",
+              "Satuan Kerja",
+              "Umum",
+              "Khusus",
+              "Jumlah"
+            ],
+            "rows": [
+              [
+                "1",
+                "Direktorat Jenderal Strategi Pertahanan",
+                "10",
+                "0",
+                "10"
+              ],
+              [
+                "2",
+                "Direktorat Jenderal Perencanaan Pertahanan",
+                "22",
+                "0",
+                "22"
+              ],
+              [
+                "3",
+                "Direktorat Jenderal Potensi Pertahanan",
+                "8",
+                "4",
+                "12"
+              ],
+              [
+                "4",
+                "Direktorat Jenderal Kekuatan Pertahanan",
+                "21",
+                "0",
+                "21"
+              ],
+              [
+                "5",
+                "Inspektorat Jenderal",
+                "2",
+                "1",
+                "3"
+              ],
+              [
+                "6",
+                "Biro Perencanaan dan Keuangan",
+                "2",
+                "0",
+                "2"
+              ],
+              [
+                "7",
+                "Biro Kepegawaian",
+                "2",
+                "4",
+                "6"
+              ],
+              [
+                "8",
+                "Biro Hukum",
+                "0",
+                "1",
+                "1"
+              ],
+              [
+                "9",
+                "Biro Tata Usaha dan Protokol",
+                "16",
+                "0",
+                "16"
+              ],
+              [
+                "10",
+                "Biro Umum",
+                "17",
+                "0",
+                "17"
+              ],
+              [
+                "11",
+                "Biro Informasi Pertahanan",
+                "0",
+                "2",
+                "2"
+              ],
+              [
+                "12",
+                "Biro Organisasi dan Tata Laksana",
+                "0",
+                "1",
+                "1"
+              ],
+              [
+                "13",
+                "Biro Peraturan Perundang-undangan",
+                "1",
+                "0",
+                "1"
+              ],
+              [
+                "14",
+                "Badan Logistik Pertahanan",
+                "5",
+                "1",
+                "6"
+              ],
+              [
+                "15",
+                "Badan Teknologi Pertahanan",
+                "18",
+                "1",
+                "19"
+              ],
+              [
+                "16",
+                "Badan Pengembangan Sumber Daya Manusia Pertahanan",
+                "0",
+                "27",
+                "27"
+              ],
+              [
+                "17",
+                "Pusat Data dan Informasi",
+                "6",
+                "8",
+                "14"
+              ],
+              [
+                "18",
+                "Badan Informasi dan Komunikasi Intelijen Pertahanan",
+                "0",
+                "16",
+                "16"
+              ],
+              [
+                "19",
+                "Pusat Kelaikan",
+                "13",
+                "0",
+                "13"
+              ],
+              [
+                "20",
+                "Pusat Kesehatan Pertahanan",
+                "14",
+                "4",
+                "18"
+              ],
+              [
+                "21",
+                "Pusat Pelaporan dan Pembinaan Keuangan Pertahanan",
+                "12",
+                "1",
+                "13"
+              ],
+              [
+                "22",
+                "Universitas Pertahanan",
+                "7",
+                "0",
+                "7"
+              ],
+              [
+                "",
+                "Total",
+                "176",
+                "71",
+                "247"
+              ]
+            ]
+          }
+        ],
+        "subsections": [
+          {
+            "no": "1.1",
+            "title": "Arsitektur Data Baseline",
+            "blocks": [
+              {
+                "t": "p",
+                "v": "Arsitektur data baseline diturunkan dari inventarisasi aplikasi Kemhan tahun 2025 yang mencatat 247 aplikasi, terdiri atas 176 aplikasi umum dan 71 aplikasi khusus. Aplikasi umum merupakan sistem nasional yang digunakan bersama oleh banyak instansi seperti SAKTI, SIMPEG, SIRUP, KRISNA, dan OM-SPAN, sehingga Kemhan berkedudukan sebagai pengguna, bukan pemilik datanya. Data pada aplikasi umum tunduk pada tata kelola instansi penyelenggara masing-masing di tingkat nasional dan karenanya berada di luar lingkup arsitektur data Kemhan. Sebaliknya, aplikasi khusus merupakan aplikasi yang dibina dan diselenggarakan sendiri oleh Kemhan, sehingga datanya merupakan Data Pertahanan dan menjadi lingkup utama arsitektur data serta Satu Data Pertahanan."
+              }
+            ]
+          },
+          {
+            "no": "1.2",
+            "title": "Model Entitas Data Pertahanan",
+            "blocks": [
+              {
+                "t": "p",
+                "v": "Model entitas data menggambarkan objek data pokok (entitas) yang menjadi rujukan proses bisnis pertahanan beserta sumber dan pengelolanya. Entitas data diturunkan dari fungsi 71 aplikasi khusus yang menghasilkan Data Pertahanan, kemudian dikelompokkan menurut kedekatan domainnya, yaitu domain kepegawaian, hukum, dan pengawasan; layanan publik dan potensi pertahanan; pendidikan, kesehatan, litbang, dan keuangan; serta data strategis, geospasial, dan keamanan siber. Daftar entitas data utama Data Pertahanan disajikan pada tabel berikut."
+              },
+              {
+                "t": "table",
+                "title": "Entitas Data Pertahanan",
+                "header": [
+                  "No.",
+                  "Entitas Data",
+                  "Aplikasi",
+                  "Deskripsi"
+                ],
+                "rows": [
+                  [
+                    "Kepegawaian, Hukum, dan Pengawasan"
+                  ],
+                  [
+                    "1",
+                    "Data Kinerja Pegawai",
+                    "E-Kinerja, E-LAPKIN",
+                    "Capaian dan laporan kinerja pegawai serta kinerja organisasi"
+                  ],
+                  [
+                    "2",
+                    "Data Kompetensi & Asesmen",
+                    "SIAC",
+                    "Hasil asesmen kompetensi dan pemetaan talenta pegawai"
+                  ],
+                  [
+                    "3",
+                    "Data Kartu Identitas Pegawai",
+                    "E-KTA, SiUdin",
+                    "Identitas resmi dan kartu tanda anggota pegawai"
+                  ],
+                  [
+                    "4",
+                    "Data Perkara & Dokumentasi Hukum",
+                    "Si Rokum",
+                    "Perkara, pendapat hukum, dan dokumentasi produk hukum"
+                  ],
+                  [
+                    "5",
+                    "Data Pengawasan Intern",
+                    "SIMWAS",
+                    "Temuan, rekomendasi, dan tindak lanjut hasil pengawasan intern"
+                  ],
+                  [
+                    "Layanan Publik dan Potensi Pertahanan"
+                  ],
+                  [
+                    "6",
+                    "Data Layanan Informasi Publik",
+                    "E-PPID, Smart Mobile Reporting",
+                    "Permohonan informasi publik"
+                  ],
+                  [
+                    "7",
+                    "Data Veteran",
+                    "Veteran",
+                    "Identitas, status, dan hak-hak veteran pertahanan negara"
+                  ],
+                  [
+                    "8",
+                    "Data Sumber Daya & Industri Pertahanan",
+                    "Sisinfo Sumdahan, Daya Serap",
+                    "Potensi sumber daya nasional dan kapasitas industri pertahanan"
+                  ],
+                  [
+                    "9",
+                    "Data Perizinan Pertahanan",
+                    "Perizinan",
+                    "Permohonan dan penerbitan izin di bidang industri pertahanan"
+                  ],
+                  [
+                    "Pendidikan, Kesehatan, Litbang, dan Keuangan"
+                  ],
+                  [
+                    "10",
+                    "Data Peserta Didik & Akademik",
+                    "Aplikasi Pengelolaan Siswa/Akademik, Sistem Layanan Diklat",
+                    "Peserta didik, kurikulum, jadwal, dan nilai akademik"
+                  ],
+                  [
+                    "11",
+                    "Data Alumni",
+                    "Sistem Pengelolaan Alumni",
+                    "Riwayat dan penelusuran alumni pendidikan pertahanan"
+                  ],
+                  [
+                    "12",
+                    "Data Bahan Ajar & Pembelajaran Digital",
+                    "Bahan Ajar Digital, VR Diklat, Sistem Pembelajaran Elektronik",
+                    "Materi ajar, modul, dan konten pembelajaran digital"
+                  ],
+                  [
+                    "13",
+                    "Data Rekam Medis & Pasien",
+                    "SimRS, Sismadak",
+                    "Rekam medis, riwayat layanan, dan mutu pelayanan pasien"
+                  ],
+                  [
+                    "14",
+                    "Data Klaim Layanan Kesehatan",
+                    "E-Klaim",
+                    "Pengajuan dan verifikasi klaim layanan kesehatan"
+                  ],
+                  [
+                    "15",
+                    "Data Penelitian & Pengembangan",
+                    "Data Digital Arsip Penelitian",
+                    "Arsip hasil penelitian dan pengembangan pertahanan"
+                  ],
+                  [
+                    "16",
+                    "Data Pelaporan Keuangan Internal",
+                    "EMINU",
+                    "Pelaporan dan pemantauan keuangan internal Kemhan"
+                  ],
+                  [
+                    "Data Strategis, Geospasial, dan Keamanan Siber"
+                  ],
+                  [
+                    "17",
+                    "Data Geospasial Wilayah Pertahanan",
+                    "Peta Tematik Wilayah Pertahanan, Layanan Peta Digital, IGD Sumdahan",
+                    "Peta tematik dan data spasial wilayah serta objek pertahanan"
+                  ],
+                  [
+                    "18",
+                    "Data Log & Insiden Keamanan Siber",
+                    "SIEM, Splunk, Honeypot, Log Manajemen",
+                    "Catatan aktivitas, deteksi, dan penanganan insiden keamanan siber"
+                  ],
+                  [
+                    "19",
+                    "Data Identitas & Kendali Akses",
+                    "Single Sign On (SSO), Access Control",
+                    "Identitas pengguna, hak akses, dan otentikasi sistem"
+                  ],
+                  [
+                    "20",
+                    "Data Aset & Infrastruktur TIK",
+                    "Rack Management, EMS, The Dude, Cacti",
+                    "Inventaris dan kondisi perangkat, jaringan, serta infrastruktur TIK"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "no": "1.3",
+            "title": "Klasifikasi Data menurut Tingkat Kerahasiaan",
+            "blocks": [
+              {
+                "t": "p",
+                "v": "Klasifikasi data menurut tingkat kerahasiaan diperlukan untuk menyeimbangkan kewajiban berbagi-pakai data dengan kewajiban kerahasiaan pertahanan. Mengacu pada Permenhan Nomor 1 Tahun 2023 tentang Satu Data Pertahanan Pasal 21, klasifikasi Data Pertahanan terdiri atas tiga tingkat, yaitu Klasifikasi Data Terbuka, Klasifikasi Data Terbatas, dan Klasifikasi Data Rahasia, sebagaimana disajikan pada tabel berikut."
+              },
+              {
+                "t": "table",
+                "title": "Klasifikasi Data Pertahanan",
+                "header": [
+                  "Klasifikasi",
+                  "Kriteria",
+                  "Kendali Akses"
+                ],
+                "rows": [
+                  [
+                    "Data Terbuka",
+                    "Data yang diperbolehkan untuk diketahui publik",
+                    "Terbuka untuk publik melalui Portal Satu Data Pertahanan"
+                  ],
+                  [
+                    "Data Terbatas",
+                    "Data yang hanya dapat diakses oleh kementerian/lembaga yang diberikan akses oleh Walidata Pertahanan",
+                    "Otentikasi dan hak akses berbasis izin oleh Walidata Pertahanan"
+                  ],
+                  [
+                    "Data Rahasia",
+                    "Data yang hanya dapat diakses oleh pejabat berwenang di Kemhan, Markas Besar TNI, dan Markas Besar Angkatan",
+                    "Otorisasi khusus, enkripsi, dan pencatatan audit"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "no": "1.4",
+            "title": "Kamus Data dan Standar Penamaan",
+            "blocks": [
+              {
+                "t": "p",
+                "v": "Kamus data (data dictionary) dan standar penamaan disusun untuk memenuhi prinsip Satu Data Indonesia dan Satu Data Pertahanan, yaitu pemenuhan standar data, metadata, kaidah interoperabilitas, serta penggunaan kode referensi dan data induk. Tanpa definisi dan penamaan yang seragam, entitas data yang sama dapat direkam berbeda antaraplikasi khusus sehingga menghambat interoperabilitas. Standar penamaan yang ditetapkan sebagai berikut:"
+              },
+              {
+                "t": "p",
+                "v": "a. nama entitas dan atribut menggunakan bahasa Indonesia baku, deskriptif, dan tidak memakai singkatan yang ambigu;"
+              },
+              {
+                "t": "p",
+                "v": "b. penamaan atribut mengikuti pola [entitas]_[atribut] dengan huruf kecil dan pemisah garis bawah (snake_case), misalnya pegawai_nip dan veteran_nomor;"
+              },
+              {
+                "t": "p",
+                "v": "c. setiap entitas memiliki satu pengidentifikasi unik (primary key) yang baku, misalnya NIP/NRP untuk pegawai dan nomor registrasi untuk veteran;"
+              },
+              {
+                "t": "p",
+                "v": "d. setiap entitas dan atribut memiliki definisi tunggal yang disepakati dan dicatat dalam kamus data; dan"
+              },
+              {
+                "t": "p",
+                "v": "e. metadata mengikuti struktur dan format baku Satu Data Indonesia, mencakup definisi, format, satuan, klasifikasi, dan wali data."
+              }
+            ]
+          },
+          {
+            "no": "1.5",
+            "title": "Matriks Kepemilikan dan Tata Kelola Data",
+            "blocks": [
+              {
+                "t": "p",
+                "v": "Tata kelola Data Pertahanan mengikuti penyelenggara Satu Data Pertahanan sebagaimana ditetapkan Permenhan Nomor 1 Tahun 2023. Penetapan peran yang jelas menjamin setiap Data Pertahanan memiliki produsen dan wali data yang bertanggung jawab atas mutunya. Peran-peran tersebut disajikan pada tabel berikut."
+              },
+              {
+                "t": "table",
+                "title": "Peran Penyelenggaraan Satu Data Pertahanan",
+                "header": [
+                  "Peran",
+                  "Tugas Pokok",
+                  "Pemangku Peran"
+                ],
+                "rows": [
+                  [
+                    "Pengarah",
+                    "Mengoordinasikan pelaksanaan, pemantauan, evaluasi, dan pelaporan Satu Data Pertahanan kepada Menteri",
+                    "Sekretaris Jenderal Kemhan"
+                  ],
+                  [
+                    "Walidata Pertahanan",
+                    "Merencanakan, mengumpulkan, memeriksa, mengelola, dan menyebarluaskan data melalui Portal Satu Data Pertahanan",
+                    "Pusat Data dan Informasi"
+                  ],
+                  [
+                    "Produsen Data Pertahanan",
+                    "Menghasilkan data sesuai prinsip Satu Data serta menyampaikan data dan metadata kepada Walidata",
+                    "Satuan kerja penghasil data di lingkungan Kemhan dan Mabes TNI"
+                  ],
+                  [
+                    "Pengolah Data Pertahanan",
+                    "Mendistribusikan Data Pertahanan hingga sampai kepada Walidata",
+                    "Satuan kerja pengelola data di Mabes Angkatan"
+                  ],
+                  [
+                    "Pengaman Sistem Data Pertahanan",
+                    "Mengamankan, memantau, menguji, dan merespons ancaman siber terhadap sistem Satu Data Pertahanan",
+                    "Bidang Pengamanan Sistem Informasi dan Persandian pada Pusat Data dan Informasi, didukung Pusat Siber dan Intelijen Teknologi Pertahanan"
+                  ],
+                  [
+                    "Forum Satu Data Pertahanan",
+                    "Wadah komunikasi dan koordinasi penyelenggaraan Satu Data Pertahanan",
+                    "Walidata, Produsen, Pengolah, dan Pengaman Sistem Data"
+                  ]
+                ]
+              },
+              {
+                "t": "p",
+                "v": "Berdasarkan pembagian peran tersebut, setiap Data Pertahanan memiliki produsen data (satuan kerja) sebagai penghasil, sedangkan pengelolaan dan penyebarluasannya dipusatkan pada satu Walidata Pertahanan, yaitu Pusat Data dan Informasi yang menyelenggarakan manajemen Satu Data Pertahanan sesuai Permenhan Nomor 30 Tahun 2025 sebagaimana diubah dengan Permenhan Nomor 13 Tahun 2026."
+              }
+            ]
+          },
+          {
+            "no": "1.6",
+            "title": "Arsitektur Data Target",
+            "blocks": [
+              {
+                "t": "p",
+                "v": "Arsitektur data target adalah terwujudnya Satu Data Pertahanan, yaitu Data Pertahanan yang terstandar, terklasifikasi, dimiliki secara jelas, aman, dan dapat dibagipakaikan secara terkendali. Sarana teknis pewujudannya adalah Portal Satu Data Pertahanan, yaitu media bagi-pakai data yang dikelola Walidata Pertahanan dan terhubung dengan Portal Satu Data Indonesia. Arsitektur data target dibangun di atas lima komponen berikut:"
+              },
+              {
+                "t": "p",
+                "v": "a. Kamus data dan standar penamaan sebagai rujukan tunggal definisi, penamaan, dan metadata;"
+              },
+              {
+                "t": "p",
+                "v": "b. Klasifikasi dan kendali akses yang menetapkan tingkat kerahasiaan dan hak akses;"
+              },
+              {
+                "t": "p",
+                "v": "c. Tata kelola dan wali data sesuai penyelenggara Satu Data Pertahanan;"
+              },
+              {
+                "t": "p",
+                "v": "d. Portal Satu Data Pertahanan sebagai platform bagi-pakai dan penyebarluasan data, dilengkapi kode referensi dan data induk;"
+              },
+              {
+                "t": "p",
+                "v": "e. Interoperabilitas data dengan Portal Satu Data Indonesia sesuai kaidah Satu Data Indonesia."
+              }
+            ]
+          },
+          {
+            "no": "1.7",
+            "title": "Analisis Kesenjangan",
+            "blocks": [
+              {
+                "t": "p",
+                "v": "Analisis kesenjangan (gap analysis) membandingkan kondisi arsitektur data baseline (as-is) dengan arsitektur data target (to-be) untuk mengidentifikasi selisih yang harus ditutup beserta tindak lanjutnya. Analisis difokuskan pada enam aspek utama Data Pertahanan, yaitu standar dan definisi data, integrasi dan berbagi-pakai, tata kelola dan kepemilikan, klasifikasi kerahasiaan, keamanan dan akses, serta interoperabilitas. Perbandingannya disajikan pada tabel berikut."
+              },
+              {
+                "t": "table",
+                "title": "Analisis Kesenjangan Arsitektur Data Pertahanan",
+                "header": [
+                  "No.",
+                  "Aspek",
+                  "Baseline (As-Is)",
+                  "Target (To-Be)",
+                  "Kesenjangan dan Tindak Lanjut"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Standar dan definisi data",
+                    "Definisi dan penamaan berbeda antaraplikasi khusus",
+                    "Kamus data dan standar penamaan yang seragam",
+                    "Penetapan dan penerapan kamus data serta standar penamaan"
+                  ],
+                  [
+                    "2",
+                    "Integrasi dan berbagi-pakai",
+                    "Data Pertahanan terkotak (silo) per aplikasi dan satker",
+                    "Berbagi-pakai melalui Portal Satu Data Pertahanan",
+                    "Pembangunan Portal Satu Data Pertahanan"
+                  ],
+                  [
+                    "3",
+                    "Tata kelola dan kepemilikan",
+                    "Belum ada wali data dan produsen data yang baku",
+                    "Walidata Pertahanan dan produsen data sesuai Permenhan 1/2023",
+                    "Penetapan penyelenggara Satu Data Pertahanan"
+                  ],
+                  [
+                    "4",
+                    "Klasifikasi kerahasiaan",
+                    "Belum ada klasifikasi yang tegas",
+                    "Tiga tingkat klasifikasi (Terbuka, Terbatas, Rahasia)",
+                    "Penetapan dan penerapan klasifikasi data"
+                  ],
+                  [
+                    "5",
+                    "Keamanan dan akses",
+                    "Kendali akses parsial per aplikasi",
+                    "Kendali akses berbasis klasifikasi dan pengamanan sistem",
+                    "Penerapan kendali akses dan pengaman sistem data"
+                  ],
+                  [
+                    "6",
+                    "Interoperabilitas",
+                    "Pertukaran data manual/terbatas",
+                    "Interoperabilitas dengan Portal Satu Data Indonesia",
+                    "Penetapan kode referensi, data induk, dan kaidah interoperabilitas"
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "no": "2",
+        "title": "Application Architecture",
+        "blocks": [
+          {
+            "t": "p",
+            "v": "Arsitektur aplikasi merancang portofolio aplikasi yang mendukung proses bisnis pertahanan, mencakup aplikasi yang digunakan, fungsi yang didukung, pengguna, serta keterhubungan (integrasi) antaraplikasi. Sesuai lingkup yang ditetapkan pada arsitektur data, arsitektur aplikasi difokuskan pada 71 aplikasi khusus yang dibina dan diselenggarakan sendiri oleh Kemhan."
+          }
+        ],
+        "subsections": [
+          {
+            "no": "2.1",
+            "title": "Arsitektur Aplikasi Baseline",
+            "blocks": [
+              {
+                "t": "p",
+                "v": "Arsitektur aplikasi baseline menggambarkan 71 aplikasi khusus yang digunakan Kemhan pada tahun 2025 beserta uraian dan penggunanya. Aplikasi dikelompokkan menurut domain agar mudah diteliti. Daftar aplikasi khusus disajikan pada tabel berikut."
+              },
+              {
+                "t": "table",
+                "title": "Daftar Aplikasi Khusus (Baseline)",
+                "header": [
+                  "No.",
+                  "Aplikasi",
+                  "Uraian",
+                  "Pengguna"
+                ],
+                "rows": [
+                  [
+                    "Kepegawaian"
+                  ],
+                  [
+                    "1",
+                    "E-Kinerja",
+                    "Pengelolaan rencana dan capaian kinerja pegawai",
+                    "Biro Kepegawaian"
+                  ],
+                  [
+                    "2",
+                    "SIAC",
+                    "Pelayanan asesmen kompetensi pegawai",
+                    "Biro Kepegawaian"
+                  ],
+                  [
+                    "3",
+                    "SiUdin",
+                    "Pelayanan ujian dinas dan penyesuaian ijazah pegawai",
+                    "Biro Kepegawaian"
+                  ],
+                  [
+                    "4",
+                    "E-KTA",
+                    "Pengajuan dan pencetakan Kartu Tanda Anggota",
+                    "Biro Kepegawaian"
+                  ],
+                  [
+                    "5",
+                    "E-LAPKIN",
+                    "Pelaporan kinerja pegawai",
+                    "Biro Ortala"
+                  ],
+                  [
+                    "Hukum dan Pengawasan"
+                  ],
+                  [
+                    "6",
+                    "Si Rokum",
+                    "Penatausahaan data penanganan perkara hukum",
+                    "Biro Hukum"
+                  ],
+                  [
+                    "7",
+                    "SIMWAS Ver 2.0",
+                    "Pengelolaan dokumen hasil pengawasan intern",
+                    "Inspektorat Jenderal"
+                  ],
+                  [
+                    "Informasi Publik"
+                  ],
+                  [
+                    "8",
+                    "E-PPID",
+                    "Penerimaan permohonan informasi publik",
+                    "Biro Informasi Pertahanan"
+                  ],
+                  [
+                    "9",
+                    "Smart Mobile Reporting",
+                    "Pelaporan dan pemantauan perjalanan dinas",
+                    "Biro Informasi Pertahanan"
+                  ],
+                  [
+                    "Potensi Pertahanan"
+                  ],
+                  [
+                    "10",
+                    "Perizinan",
+                    "Layanan perizinan industri pertahanan daring",
+                    "Ditjen Potensi Pertahanan"
+                  ],
+                  [
+                    "11",
+                    "Veteran",
+                    "Pelayanan administrasi keveteranan daring",
+                    "Ditjen Potensi Pertahanan"
+                  ],
+                  [
+                    "12",
+                    "Sisinfo Sumdahan",
+                    "Manajemen sumber daya pertahanan (Komcad dan Komduk)",
+                    "Ditjen Potensi Pertahanan"
+                  ],
+                  [
+                    "13",
+                    "Daya Serap",
+                    "Pemantauan daya serap program dan anggaran",
+                    "Ditjen Potensi Pertahanan"
+                  ],
+                  [
+                    "Sarana Pertahanan"
+                  ],
+                  [
+                    "14",
+                    "Monitoring Dokumen Elektronik",
+                    "Penyimpanan dan pencarian surat secara digital",
+                    "Badan Logistik Pertahanan"
+                  ],
+                  [
+                    "Pendidikan dan Pelatihan"
+                  ],
+                  [
+                    "15",
+                    "Aplikasi Command Center",
+                    "Pemantauan dan pusat kendali fasilitas diklat",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "16",
+                    "Virtual Collaboration System",
+                    "Aplikasi berbasis web untuk melakukan meeting di dunia maya",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "17",
+                    "Security Management System",
+                    "Pengenalan wajah dan keamanan fasilitas",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "18",
+                    "Energy Management System",
+                    "Pemantauan penggunaan listrik",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "19",
+                    "Access Management System",
+                    "Pengelolaan data dan akses tamu",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "20",
+                    "Sistem Layanan Diklat",
+                    "Layanan bantuan dan informasi diklat",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "21",
+                    "Bahan Ajar Digital Diklat",
+                    "Pembelajaran bahan ajar secara digital",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "22",
+                    "VR Diklat Jemenhan",
+                    "Bahan ajar manajemen pertahanan berbasis VR",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "23",
+                    "Simulasi Manajemen Pertahanan",
+                    "Familiarisasi bahan ajar melalui simulasi 3 dimensi",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "24",
+                    "Sistem Informasi Badiklat",
+                    "Website untuk menyampaikan informasi berkaitan dengan Badiklat dan Pusdiklat",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "25",
+                    "Sistem Pengelolaan Alumni",
+                    "Pemantauan dan penelusuran data alumni",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "26",
+                    "Sistem Pemantauan & Pengelolaan Sisfo Diklat",
+                    "Pemantauan perkembangan diklat",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "27",
+                    "Sistem Dasbor Pimpinan",
+                    "Ringkasan kegiatan diklat bagi pimpinan",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "28",
+                    "VR Diklat Bahasa",
+                    "Bahan ajar bahasa berbasis VR",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "29",
+                    "Lab Bahasa",
+                    "Pembelajaran laboratorium bahasa",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "30",
+                    "Aplikasi Pengelolaan Siswa",
+                    "Data dan pendaftaran siswa",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "31",
+                    "Aplikasi Pengelolaan Akademik",
+                    "Aplikasi berbasis web yang menyediakan layanan data siswa, pendaftaran online, ploting asrama, lapor datang",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "32",
+                    "Sistem Pengelolaan Aset",
+                    "Pengelolaan aset dan inventaris internal Tekfunghan",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "33",
+                    "Ujian Berbasis Komputer",
+                    "Layanan ujian berbasis komputer",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "34",
+                    "Kios Siswa",
+                    "Informasi bagi siswa Tekfunghan",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "35",
+                    "Aplikasi Manajemen Pengajaran",
+                    "Aplikasi berbasis web yang menyediakan layanan jadwal pengajaran, rekapitulasi jam pelajaran widyaiswara, catatan mengajar, perangkat mengajar, penjadwalan widyaiswara",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "36",
+                    "Sistem Konferensi Kelas",
+                    "Pembelajaran jarak jauh (distance learning)",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "37",
+                    "VR Diklat Tekfunghan",
+                    "Bahan ajar diklat Tekfunghan berbasis VR",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "38",
+                    "Bahan Ajar Digital Tekfunghan",
+                    "Aplikasi berbasis desktop untuk menampilkan materi pembelajaran secara interaktif di dalam kelas Tekfunghan",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "39",
+                    "Sistem Pembelajaran Elektronik",
+                    "Pembelajaran daring dan tatap muka",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "40",
+                    "Bahan Ajar Digital Bela Negara",
+                    "Pembelajaran bela negara di ruang kelas",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "41",
+                    "VR Diklat Bela Negara",
+                    "Bahan ajar bela negara berbasis VR",
+                    "Badan Pengembangan Sumber Daya Manusia Pertahanan"
+                  ],
+                  [
+                    "Kesehatan dan Rehabilitasi"
+                  ],
+                  [
+                    "42",
+                    "SimRS",
+                    "Sistem informasi manajemen rumah sakit",
+                    "Pusat Kesehatan Pertahanan"
+                  ],
+                  [
+                    "43",
+                    "Sismadak",
+                    "Manajemen dan akreditasi rumah sakit",
+                    "Pusat Kesehatan Pertahanan"
+                  ],
+                  [
+                    "44",
+                    "E-Klaim",
+                    "Klaim layanan kesehatan secara elektronik",
+                    "Pusat Kesehatan Pertahanan"
+                  ],
+                  [
+                    "45",
+                    "Website RSPPN",
+                    "Situs layanan dan informasi RSPPN",
+                    "Pusat Kesehatan Pertahanan"
+                  ],
+                  [
+                    "Data Strategis dan Geospasial"
+                  ],
+                  [
+                    "46",
+                    "Big Data",
+                    "Penyajian data media daring dan media sosial",
+                    "Pusat Data dan Informasi"
+                  ],
+                  [
+                    "47",
+                    "Program Kerja Pusdatin",
+                    "Layanan monitoring dan koordinasi pelaksanaan program kerja Pusdatin",
+                    "Pusat Data dan Informasi"
+                  ],
+                  [
+                    "48",
+                    "Pusdatin Cloud",
+                    "Layanan penyimpanan dokumen dan file untuk pegawai Pusdatin Kemhan",
+                    "Pusat Data dan Informasi"
+                  ],
+                  [
+                    "49",
+                    "IGD Sumdahan",
+                    "Layanan pendukung Defense Strategic Room Menteri Pertahanan",
+                    "Pusat Data dan Informasi; pimpinan"
+                  ],
+                  [
+                    "50",
+                    "Secure Code Analyzer",
+                    "Sistem untuk melakukan scanning terhadap source code aplikasi",
+                    "Pusat Data dan Informasi; Bid. Sistem Aplikasi"
+                  ],
+                  [
+                    "51",
+                    "Peta Tematik Wilayah Pertahanan",
+                    "Penyajian peta pertahanan dan titik strategis",
+                    "Pusat Data dan Informasi"
+                  ],
+                  [
+                    "52",
+                    "Layanan Peta Digital",
+                    "Analisis dan pemasangan titik (POI) pada peta",
+                    "Pusat Data dan Informasi"
+                  ],
+                  [
+                    "53",
+                    "SIMONAS",
+                    "Pemantauan aplikasi dan server",
+                    "Pusat Data dan Informasi; Bid. Infra TIK"
+                  ],
+                  [
+                    "Keamanan Siber dan Infrastruktur TIK"
+                  ],
+                  [
+                    "54",
+                    "The Dude",
+                    "Pemantauan kondisi perangkat jaringan",
+                    "Badan Informasi dan Komunikasi Intelijen Pertahanan"
+                  ],
+                  [
+                    "55",
+                    "Access Control Pushansiber",
+                    "Pengaturan akses masuk dan keluar gedung Pushansiber",
+                    "Badan Informasi dan Komunikasi Intelijen Pertahanan"
+                  ],
+                  [
+                    "56",
+                    "EMS",
+                    "Pemantauan kondisi dan situasi lapangan (CCTV Gedung) Pushansiber",
+                    "Badan Informasi dan Komunikasi Intelijen Pertahanan"
+                  ],
+                  [
+                    "57",
+                    "Single Sign On (SSO)",
+                    "Otentikasi tunggal akses aplikasi",
+                    "Badan Informasi dan Komunikasi Intelijen Pertahanan"
+                  ],
+                  [
+                    "58",
+                    "Rack Management",
+                    "Pendataan alamat IP dan perangkat server",
+                    "Badan Informasi dan Komunikasi Intelijen Pertahanan"
+                  ],
+                  [
+                    "59",
+                    "Cacti",
+                    "Pemantauan penggunaan bandwidth perangkat",
+                    "Badan Informasi dan Komunikasi Intelijen Pertahanan"
+                  ],
+                  [
+                    "60",
+                    "SIEM",
+                    "Pemantauan anomali trafik dan event keamanan",
+                    "Badan Informasi dan Komunikasi Intelijen Pertahanan"
+                  ],
+                  [
+                    "61",
+                    "DNS Static",
+                    "Penerjemah IP menjadi domain (DNS Static)",
+                    "Badan Informasi dan Komunikasi Intelijen Pertahanan"
+                  ],
+                  [
+                    "62",
+                    "DNS Filtering",
+                    "Pencegahan akses ke situs terlarang",
+                    "Badan Informasi dan Komunikasi Intelijen Pertahanan"
+                  ],
+                  [
+                    "63",
+                    "Log Manajemen",
+                    "Pemantauan anomali/serangan melalui log",
+                    "Badan Informasi dan Komunikasi Intelijen Pertahanan"
+                  ],
+                  [
+                    "64",
+                    "Pelaporan",
+                    "Data laporan operasional siber",
+                    "Badan Informasi dan Komunikasi Intelijen Pertahanan"
+                  ],
+                  [
+                    "65",
+                    "Honeypot",
+                    "Perangkap untuk menganalisa perilaku serangan siber",
+                    "Badan Informasi dan Komunikasi Intelijen Pertahanan"
+                  ],
+                  [
+                    "66",
+                    "Helpdesk CSIRT",
+                    "Tiketing pelaporan insiden siber",
+                    "Badan Informasi dan Komunikasi Intelijen Pertahanan"
+                  ],
+                  [
+                    "67",
+                    "Cloud Pushansiber",
+                    "Penyimpanan data pertahanan siber",
+                    "Badan Informasi dan Komunikasi Intelijen Pertahanan"
+                  ],
+                  [
+                    "68",
+                    "VAPT",
+                    "Layanan pengujian keamanan sistem aplikasi",
+                    "Badan Informasi dan Komunikasi Intelijen Pertahanan"
+                  ],
+                  [
+                    "69",
+                    "Splunk",
+                    "Pemantauan anomali trafik dan syslog perangkat",
+                    "Badan Informasi dan Komunikasi Intelijen Pertahanan"
+                  ],
+                  [
+                    "Litbang dan Keuangan"
+                  ],
+                  [
+                    "70",
+                    "Data Digital Arsip Penelitian",
+                    "Arsip laporan hasil penelitian",
+                    "Badan Teknologi Pertahanan"
+                  ],
+                  [
+                    "71",
+                    "EMINU",
+                    "Input surat-menyurat internal Puslapbinkuhan",
+                    "Pusat Pelaporan dan Pembinaan Keuangan Pertahanan"
+                  ]
+                ]
+              },
+              {
+                "t": "p",
+                "v": "Inventarisasi memperlihatkan bahwa aplikasi khusus sebagian besar berdiri sendiri atau per satuan kerja. Hal menonjol dari inventarisasi ini yaitu:"
+              },
+              {
+                "t": "p",
+                "v": "a. Belum terdapat aplikasi yang berfungsi sebagai integrator atau portal berbagi-pakai data antaraplikasi, sehingga setiap aplikasi mengelola datanya secara terpisah."
+              },
+              {
+                "t": "p",
+                "v": "b. Belum terdapat aplikasi yang mendukung komando dan kendali lintas matra."
+              },
+              {
+                "t": "p",
+                "v": "c. Terdapat sejumlah aplikasi dengan fungsi serupa, antara lain pengelolaan kinerja, bahan ajar dan pembelajaran, serta persuratan dan penyimpanan dokumen, yang berpotensi untuk digabungkan."
+              }
+            ]
+          },
+          {
+            "no": "2.2",
+            "title": "Analisis Integrasi Antar Aplikasi",
+            "blocks": [
+              {
+                "t": "p",
+                "v": "Pada kondisi baseline, ke-71 aplikasi khusus umumnya berdiri sendiri (silo) dan dikelola per satuan kerja tanpa integrasi terpusat. Pertukaran data antaraplikasi (jika ada) dilakukan secara manual atau terbatas, sehingga data yang sama harus dimasukkan berulang dan sulit dipadankan antaraplikasi. Kondisi integrasi aplikasi baseline diilustrasikan pada Gambar IV.9."
+              },
+              {
+                "t": "fig",
+                "src": figISBaselineSilo,
+                "cap": "Kondisi Integrasi Antar Aplikasi Baseline"
+              },
+              {
+                "t": "p",
+                "v": "Ketiadaan integrasi ini menimbulkan persoalan: duplikasi pemasukan data, ketiadaan otentikasi tunggal sehingga pengguna mengelola banyak akun, dan sulitnya menyajikan data terpadu bagi pimpinan. Ketiga persoalan tersebut menjadi sasaran perbaikan pada arsitektur aplikasi target."
+              }
+            ]
+          },
+          {
+            "no": "2.3",
+            "title": "Rasionalisasi Aplikasi",
+            "blocks": [
+              {
+                "t": "p",
+                "v": "Rasionalisasi aplikasi menilai setiap kelompok aplikasi untuk menentukan tindak lanjutnya, yaitu dipertahankan, diperkuat, diganti, atau dihentikan. Penilaian mempertimbangkan tumpang tindih fungsi, tingkat penggunaan, dan kesesuaian dengan kapabilitas target. Hasil rasionalisasi disajikan pada tabel berikut."
+              },
+              {
+                "t": "table",
+                "title": "Rasionalisasi Aplikasi",
+                "header": [
+                  "Kelompok Aplikasi",
+                  "Kondisi",
+                  "Keputusan",
+                  "Alasan"
+                ],
+                "rows": [
+                  [
+                    "Kepegawaian",
+                    "Fungsi kinerja/administrasi tersebar (E-Kinerja, E-LAPKIN)",
+                    "Digabungkan",
+                    "Menyatukan aplikasi berfungsi serupa menjadi layanan kepegawaian terpadu"
+                  ],
+                  [
+                    "Hukum dan Pengawasan",
+                    "Aplikasi layanan spesifik",
+                    "Dipertahankan + integrasi",
+                    "Fungsi unik; dihubungkan ke platform integrasi"
+                  ],
+                  [
+                    "Informasi Publik",
+                    "Layanan informasi dan pelaporan",
+                    "Dipertahankan + integrasi",
+                    "Fungsi unik; dihubungkan ke platform integrasi"
+                  ],
+                  [
+                    "Potensi Pertahanan",
+                    "Aplikasi layanan spesifik per fungsi",
+                    "Dipertahankan + integrasi",
+                    "Fungsi unik; dihubungkan ke platform integrasi"
+                  ],
+                  [
+                    "Sarana Pertahanan",
+                    "Aplikasi persuratan/dokumen",
+                    "Dipertahankan + integrasi",
+                    "Fungsi unik; dihubungkan ke platform integrasi"
+                  ],
+                  [
+                    "Pendidikan dan Pelatihan",
+                    "27 aplikasi, banyak modul bahan ajar/VR terpisah",
+                    "Digabungkan",
+                    "Menyatukan ke platform pembelajaran (LMS) terpadu"
+                  ],
+                  [
+                    "Kesehatan dan Rehabilitasi",
+                    "Aplikasi layanan kesehatan",
+                    "Dipertahankan + integrasi",
+                    "Fungsi unik; dihubungkan ke platform integrasi"
+                  ],
+                  [
+                    "Data Strategis dan Geospasial",
+                    "8 aplikasi data dan geospasial",
+                    "Dipertahankan + integrasi",
+                    "Menjadi sumber utama Portal Satu Data Pertahanan"
+                  ],
+                  [
+                    "Keamanan Siber dan Infrastruktur TIK",
+                    "16 aplikasi teknis spesifik",
+                    "Dipertahankan + integrasi",
+                    "Fungsi teknis berbeda; diintegrasikan pemantauan melalui SIEM/SOC terpadu"
+                  ],
+                  [
+                    "Litbang dan Keuangan",
+                    "Aplikasi arsip dan persuratan",
+                    "Dipertahankan + integrasi",
+                    "Fungsi unik; dihubungkan ke platform integrasi"
+                  ]
+                ]
+              },
+              {
+                "t": "p",
+                "v": "Rasionalisasi ini merampingkan aplikasi dengan menggabungkan aplikasi berfungsi serupa dan mempertahankan aplikasi berfungsi khas/unik, sekaligus menyiapkan seluruh aplikasi untuk terhubung ke platform integrasi pada kondisi target. Rincian status dan tindak lanjut setiap aplikasi hasil rasionalisasi disajikan pada tabel berikut."
+              },
+              {
+                "t": "table",
+                "title": "Daftar Aplikasi Hasil Rasionalisasi",
+                "header": [
+                  "No.",
+                  "Aplikasi",
+                  "Status"
+                ],
+                "rows": [
+                  [
+                    "Kepegawaian"
+                  ],
+                  [
+                    "1",
+                    "E-Kinerja",
+                    "Digabungkan (layanan kepegawaian terpadu)"
+                  ],
+                  [
+                    "2",
+                    "SIAC",
+                    "Digabungkan (layanan kepegawaian terpadu)"
+                  ],
+                  [
+                    "3",
+                    "SiUdin",
+                    "Digabungkan (layanan kepegawaian terpadu)"
+                  ],
+                  [
+                    "4",
+                    "E-KTA",
+                    "Digabungkan (layanan kepegawaian terpadu)"
+                  ],
+                  [
+                    "5",
+                    "E-LAPKIN",
+                    "Digabungkan (layanan kepegawaian terpadu)"
+                  ],
+                  [
+                    "Hukum dan Pengawasan"
+                  ],
+                  [
+                    "6",
+                    "Si Rokum",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "7",
+                    "SIMWAS Ver 2.0",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "Informasi Publik"
+                  ],
+                  [
+                    "8",
+                    "E-PPID",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "9",
+                    "Smart Mobile Reporting",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "Potensi Pertahanan"
+                  ],
+                  [
+                    "10",
+                    "Perizinan",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "11",
+                    "Veteran",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "12",
+                    "Sisinfo Sumdahan",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "13",
+                    "Daya Serap",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "Sarana Pertahanan"
+                  ],
+                  [
+                    "14",
+                    "Monitoring Dokumen Elektronik",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "Pendidikan dan Pelatihan"
+                  ],
+                  [
+                    "15",
+                    "Aplikasi Command Center",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "16",
+                    "Virtual Collaboration System",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "17",
+                    "Security Management System",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "18",
+                    "Energy Management System",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "19",
+                    "Access Management System",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "20",
+                    "Sistem Layanan Diklat",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "21",
+                    "Bahan Ajar Digital Diklat",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "22",
+                    "VR Diklat Jemenhan",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "23",
+                    "Simulasi Manajemen Pertahanan",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "24",
+                    "Sistem Informasi Badiklat",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "25",
+                    "Sistem Pengelolaan Alumni",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "26",
+                    "Sistem Pemantauan & Pengelolaan Sisfo Diklat",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "27",
+                    "Sistem Dasbor Pimpinan",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "28",
+                    "VR Diklat Bahasa",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "29",
+                    "Lab Bahasa",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "30",
+                    "Aplikasi Pengelolaan Siswa",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "31",
+                    "Aplikasi Pengelolaan Akademik",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "32",
+                    "Sistem Pengelolaan Aset",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "33",
+                    "Ujian Berbasis Komputer",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "34",
+                    "Kios Siswa",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "35",
+                    "Aplikasi Manajemen Pengajaran",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "36",
+                    "Sistem Konferensi Kelas",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "37",
+                    "VR Diklat Tekfunghan",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "38",
+                    "Bahan Ajar Digital Tekfunghan",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "39",
+                    "Sistem Pembelajaran Elektronik",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "40",
+                    "Bahan Ajar Digital Bela Negara",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "41",
+                    "VR Diklat Bela Negara",
+                    "Digabungkan (LMS terpadu)"
+                  ],
+                  [
+                    "Kesehatan dan Rehabilitasi"
+                  ],
+                  [
+                    "42",
+                    "SimRS",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "43",
+                    "Sismadak",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "44",
+                    "E-Klaim",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "45",
+                    "Website RSPPN",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "Data Strategis dan Geospasial"
+                  ],
+                  [
+                    "46",
+                    "Big Data",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "47",
+                    "Program Kerja Pusdatin",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "48",
+                    "Pusdatin Cloud",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "49",
+                    "IGD Sumdahan",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "50",
+                    "Secure Code Analyzer",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "51",
+                    "Peta Tematik Wilayah Pertahanan",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "52",
+                    "Layanan Peta Digital",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "53",
+                    "SIMONAS",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "Keamanan Siber dan Infrastruktur TIK"
+                  ],
+                  [
+                    "54",
+                    "The Dude",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "55",
+                    "Access Control",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "56",
+                    "EMS",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "57",
+                    "Single Sign On (SSO)",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "58",
+                    "Rack Management",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "59",
+                    "Cacti",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "60",
+                    "SIEM",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "61",
+                    "DNS Static",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "62",
+                    "DNS Filtering",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "63",
+                    "Log Manajemen",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "64",
+                    "Pelaporan",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "65",
+                    "Honeypot",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "66",
+                    "Helpdesk CSIRT",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "67",
+                    "Cloud Pushansiber",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "68",
+                    "VAPT",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "69",
+                    "Splunk",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "Litbang dan Keuangan"
+                  ],
+                  [
+                    "70",
+                    "Data Digital Arsip Penelitian",
+                    "Dipertahankan + integrasi"
+                  ],
+                  [
+                    "71",
+                    "EMINU",
+                    "Dipertahankan + integrasi"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "no": "2.4",
+            "title": "Arsitektur Aplikasi Target",
+            "blocks": [
+              {
+                "t": "p",
+                "v": "Arsitektur aplikasi target terdiri atas aplikasi inti yang dipertahankan hasil rasionalisasi ditambah sejumlah komponen baru yang menutup kesenjangan kapabilitas. Komponen baru tersebut meliputi:"
+              },
+              {
+                "t": "p",
+                "v": "a. Platform Integrasi Pertahanan yang menyediakan API Gateway dan mekanisme pertukaran data (data exchange) antaraplikasi;"
+              },
+              {
+                "t": "p",
+                "v": "b. Portal Satu Data Pertahanan sebagai sarana bagi-pakai dan penyebarluasan Data Pertahanan;"
+              },
+              {
+                "t": "p",
+                "v": "c. Layanan otentikasi tunggal dan manajemen identitas (Single Sign-On/IAM) tingkat enterprise;"
+              },
+              {
+                "t": "p",
+                "v": "d. Platform pembelajaran (LMS) terpadu sebagai hasil konsolidasi aplikasi kediklatan; dan"
+              },
+              {
+                "t": "p",
+                "v": "e. Portal layanan terpadu bagi pengguna internal dan publik."
+              }
+            ]
+          },
+          {
+            "no": "2.5",
+            "title": "Interoperabilitas dan Integrasi Antar Aplikasi Target",
+            "blocks": [
+              {
+                "t": "p",
+                "v": "Pada kondisi target, aplikasi tidak lagi berdiri sendiri, melainkan terhubung melalui Portal Satu Data Pertahanan sebagai platform integrasi. Pertukaran data antaraplikasi dilakukan melalui API Gateway dan mekanisme data exchange dengan otentikasi tunggal (SSO/IAM), serta dikendalikan sesuai klasifikasi data (Terbuka, Terbatas, Rahasia). Model integrasi aplikasi target diilustrasikan pada Gambar IV.10."
+              },
+              {
+                "t": "fig",
+                "src": figISModelTarget,
+                "cap": "Model Integrasi Aplikasi Target"
+              },
+              {
+                "t": "p",
+                "v": "Model hub ini menggantikan pola silo pada kondisi baseline. Setiap aplikasi cukup terhubung ke platform, sehingga integrasi menjadi lebih sederhana, aman, dan mudah dikelola. Interoperabilitas ini menghubungkan arsitektur aplikasi dengan arsitektur data melalui Portal Satu Data Pertahanan, dan menjadi langkah awal dalam komando-kendali yang dirancang pada arsitektur C5ISR."
+              }
+            ]
+          },
+          {
+            "no": "2.6",
+            "title": "Analisis Kesenjangan Aplikasi",
+            "blocks": [
+              {
+                "t": "p",
+                "v": "Analisis kesenjangan membandingkan kondisi arsitektur aplikasi baseline dengan target untuk mengidentifikasi selisih yang harus ditutup beserta tindak lanjutnya, sebagaimana disajikan pada tabel berikut."
+              },
+              {
+                "t": "table",
+                "title": "Analisis Kesenjangan Arsitektur Aplikasi",
+                "header": [
+                  "No.",
+                  "Aspek",
+                  "Baseline (As-Is)",
+                  "Target (To-Be)",
+                  "Kesenjangan dan Tindak Lanjut"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Integrasi antaraplikasi",
+                    "Aplikasi silo, pertukaran data manual",
+                    "Aplikasi terhubung melalui platform integrasi",
+                    "Pembangunan platform integrasi dan API Gateway"
+                  ],
+                  [
+                    "2",
+                    "Redundansi fungsi",
+                    "Banyak aplikasi berfungsi serupa",
+                    "Portofolio ramping dan terkonsolidasi",
+                    "Konsolidasi aplikasi redundan (kepegawaian, LMS, persuratan)"
+                  ],
+                  [
+                    "3",
+                    "Otentikasi dan akses",
+                    "Akun terpisah per aplikasi",
+                    "Otentikasi tunggal (SSO/IAM) terpusat",
+                    "Penerapan SSO/IAM enterprise"
+                  ],
+                  [
+                    "4",
+                    "Layanan bagi-pakai data",
+                    "Belum ada portal bagi-pakai data",
+                    "Portal Satu Data Pertahanan",
+                    "Pembangunan Portal Satu Data Pertahanan"
+                  ],
+                  [
+                    "5",
+                    "Dukungan kapabilitas",
+                    "Kapabilitas integrasi data dan C2 lintas matra belum didukung",
+                    "Aplikasi/komponen baru sesuai kapabilitas target",
+                    "Pengembangan aplikasi/komponen baru"
+                  ],
+                  [
+                    "6",
+                    "Tata kelola aplikasi",
+                    "Pengelolaan aplikasi tersebar per satker",
+                    "Tata kelola portofolio aplikasi terpusat",
+                    "Penetapan tata kelola portofolio aplikasi (DTO)"
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "technology-architecture",
     "title": "Fase Technology Architecture",
-    "comingSoon": true
+    "intro": [
+      "Fase Technology Architecture merancang infrastruktur teknologi yang menopang arsitektur data dan aplikasi, meliputi lapisan komputasi (compute), penyimpanan (storage), jaringan (network), dan keamanan (security). Perancangan berpedoman pada prinsip Availability & Reliability, Security by Design, Scalability & Flexibility, dan Interoperabilitas, serta mengacu pada Peraturan Menteri Pertahanan Nomor 34 Tahun 2025 tentang Peta Jalan Pelindungan Infrastruktur Informasi Vital Sektor Pertahanan untuk aspek keamanan."
+    ],
+    "sections": [
+      {
+        "no": "1",
+        "title": "Arsitektur Teknologi Baseline",
+        "blocks": [
+          {
+            "t": "p",
+            "v": "Topologi jaringan dan infrastruktur Data Center Kemhan secara rinci tidak tersedia dalam penelitian ini. Oleh karena itu, arsitektur teknologi baseline disusun sebagai model logis berdasarkan informasi yang tersedia. Infrastruktur teknologi Kemhan berpusat pada satu Data Center yang berlokasi di Pondok Labu, Jakarta Selatan. Secara logis, infrastruktur tersebut tersusun atas empat lapisan, yaitu lapisan komputasi, penyimpanan, jaringan, dan keamanan, sebagaimana disajikan pada Gambar IV.12."
+          },
+          {
+            "t": "fig",
+            "src": figTechBaseline,
+            "cap": "Arsitektur Teknologi Baseline"
+          },
+          {
+            "t": "p",
+            "v": "Komponen pada setiap lapisan dirangkum pada tabel berikut."
+          },
+          {
+            "t": "table",
+            "title": "Komponen Arsitektur Teknologi Baseline",
+            "header": [
+              "Lapisan",
+              "Komponen",
+              "Fungsi"
+            ],
+            "rows": [
+              [
+                "Komputasi",
+                "Server",
+                "Menjalankan aplikasi"
+              ],
+              [
+                "Penyimpanan",
+                "Storage",
+                "Menyimpan data"
+              ],
+              [
+                "Jaringan",
+                "Switch dan Router",
+                "Menghubungkan perangkat dan mengatur lalu lintas jaringan"
+              ],
+              [
+                "Keamanan",
+                "Firewall",
+                "Melindungi jaringan sistem"
+              ]
+            ]
+          },
+          {
+            "t": "p",
+            "v": "Dari kondisi baseline teridentifikasi dua karakteristik utama. Pertama, seluruh infrastruktur bertumpu pada satu Data Center tanpa Disaster Recovery Center (DRC) maupun redundansi, sehingga menjadi titik tunggal kegagalan (single point of failure) yang berisiko terhadap ketersediaan layanan pertahanan. Kedua, lapisan keamanan masih bersifat parsial dan belum diterapkan secara menyeluruh."
+          }
+        ]
+      },
+      {
+        "no": "2",
+        "title": "Prinsip dan Standar Teknologi",
+        "blocks": [
+          {
+            "t": "p",
+            "v": "Perancangan arsitektur teknologi target berpedoman pada sejumlah prinsip dan standar sebagaimana disajikan pada tabel berikut."
+          },
+          {
+            "t": "table",
+            "title": "Prinsip dan Standar Teknologi",
+            "header": [
+              "Prinsip",
+              "Penerapan pada Arsitektur Teknologi"
+            ],
+            "rows": [
+              [
+                "Availability & Reliability",
+                "Data Center dilengkapi DRC, redundansi, dan cadangan (backup) untuk menjamin ketersediaan layanan"
+              ],
+              [
+                "Security by Design",
+                "Keamanan diterapkan secara menyeluruh sejak perancangan pada setiap lapisan"
+              ],
+              [
+                "Scalability & Flexibility",
+                "Penggunaan virtualisasi/private cloud agar sumber daya elastis dan mudah diskalakan"
+              ],
+              [
+                "Interoperabilitas",
+                "Penggunaan standar terbuka (open standard) dan antarmuka pemrograman (API) untuk pertukaran data"
+              ],
+              [
+                "Integrated Command & Control",
+                "Jaringan lintas matra untuk mendukung komando dan kendali terpadu"
+              ],
+              [
+                "Data as Strategic Asset",
+                "Penyimpanan redundan dan cadangan terpusat untuk melindungi data pertahanan"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "no": "3",
+        "title": "Arsitektur Teknologi Target",
+        "blocks": [
+          {
+            "t": "p",
+            "v": "Arsitektur teknologi target dirancang untuk menutup kesenjangan baseline dan menopang Platform Integrasi Pertahanan serta Portal Satu Data Pertahanan yang telah dirumuskan pada arsitektur aplikasi dan data. Arsitektur ini disusun secara berlapis, mulai dari presentation layer, security layer, integration layer, compute layer, storage layer, dan network layer yang ditopang oleh infrastruktur fisik Data Center yang redundan. Struktur arsitektur teknologi target disajikan pada Gambar IV.13."
+          },
+          {
+            "t": "fig",
+            "src": figTechTarget,
+            "cap": "Arsitektur Teknologi Target"
+          },
+          {
+            "t": "p",
+            "v": "Komponen utama arsitektur teknologi target meliputi:"
+          },
+          {
+            "t": "p",
+            "v": "a. Presentation Layer sebagai antarmuka bagi pengguna, mencakup Portal Satu Data Pertahanan, antarmuka seluruh aplikasi Kemhan, serta titik akses Joint All-Domain Command and Control (JADC2) sebagai gerbang menuju kapabilitas komando dan kendali lintas domain yang dirinci pada arsitektur C5ISR;"
+          },
+          {
+            "t": "p",
+            "v": "b. Security Layer atau lapisan keamanan yang bersifat menyeluruh, mencakup firewall, IDPS, VAPT, Cyber Threat Intelligence (CTI), dan SIEM, yang dirinci pada subbab Arsitektur Keamanan;"
+          },
+          {
+            "t": "p",
+            "v": "c. Integration Layer, lapisan yang menyediakan API Gateway, Single Sign-On/manajemen identitas (SSO/IAM), dan Data Exchange sebagai tulang punggung interoperabilitas antaraplikasi;"
+          },
+          {
+            "t": "p",
+            "v": "d. Compute Layer, lapisan yang berisi server, virtualisasi, dan kontainer (container) agar sumber daya bersifat elastis dan mudah diskalakan;"
+          },
+          {
+            "t": "p",
+            "v": "e. Storage Layer, lapisan yang terdiri atas penyimpanan utama dan cadangan (backup) untuk menjamin ketersediaan dan pelindungan data;"
+          },
+          {
+            "t": "p",
+            "v": "f. Network Layer, lapisan yang tersegmentasi dan terenkripsi (switch dan router) dengan konektivitas lintas matra (TNI AD, AL, dan AU) untuk mendukung interoperabilitas; dan"
+          },
+          {
+            "t": "p",
+            "v": "g. Infrastruktur Data Center yang redundan, terdiri atas Data Center Utama di Pusat Data dan Informasi (Pondok Labu, Jakarta Selatan) dan Disaster Recovery Center (DRC) yang diusulkan berlokasi di Kemhan IKN, Kalimantan. Kedua pusat data beroperasi dalam konfigurasi aktif-aktif (active-active) dengan replikasi data untuk menghilangkan titik tunggal kegagalan. Konfigurasi aktif-aktif memungkinkan kedua Data Center melayani beban kerja secara bersamaan sekaligus saling menjadi cadangan, sehingga apabila salah satu Data Center terganggu, layanan tetap berjalan pada Data Center lainnya tanpa gangguan yang berarti."
+          }
+        ]
+      },
+      {
+        "no": "4",
+        "title": "Arsitektur Keamanan (Security Layer)",
+        "blocks": [
+          {
+            "t": "p",
+            "v": "Lapisan keamanan dirancang mengacu pada Permenhan Nomor 34 Tahun 2025 tentang Peta Jalan Pelindungan Infrastruktur Informasi Vital Sektor Pertahanan, yang mengelompokkan pelindungan ke dalam empat domain, yaitu identifikasi, proteksi, deteksi, serta penanggulangan dan pemulihan. Komponen teknologi keamanan pada setiap domain disajikan pada tabel berikut."
+          },
+          {
+            "t": "table",
+            "title": "Komponen Keamanan per Domain",
+            "header": [
+              "Domain",
+              "Komponen/Teknologi",
+              "Fungsi"
+            ],
+            "rows": [
+              [
+                "Identifikasi",
+                "Vulnerability Assessment & Penetration Test (VAPT)",
+                "Mengidentifikasi kerentanan dan potensi risiko keamanan sistem"
+              ],
+              [
+                "Proteksi",
+                "Network security (firewall, segmentasi), Endpoint protection, IDPS",
+                "Melindungi jaringan dan perangkat akhir serta mencegah serangan"
+              ],
+              [
+                "Deteksi",
+                "Cyber Threat Intelligence (CTI), SIEM",
+                "Mendeteksi anomali dan peristiwa keamanan siber"
+              ],
+              [
+                "Penanggulangan",
+                "Digital forensic, SOAR, tim tanggap insiden siber (CSIRT)",
+                "Merespons, menganalisis, dan menanggulangi insiden siber"
+              ],
+              [
+                "Pemulihan",
+                "Sistem cadangan (backup) dan DRC",
+                "Memulihkan layanan dan sistem setelah insiden"
+              ]
+            ]
+          },
+          {
+            "t": "p",
+            "v": "Sesuai peta jalan tersebut, kondisi keamanan siber baseline sektor pertahanan umumnya berada pada tingkat kematangan level 1 hingga level 2. Target yang ditetapkan adalah tercapainya tingkat kematangan keamanan siber level 3 (terdefinisi) pada tahun 2029, yaitu kondisi ketika penerapan keamanan siber telah terorganisir dan terdefinisi dengan jelas, bersifat formal, dilakukan secara berulang dan konsisten, serta ditinjau secara berkala."
+          }
+        ]
+      },
+      {
+        "no": "5",
+        "title": "Analisis Kesenjangan Teknologi",
+        "blocks": [
+          {
+            "t": "p",
+            "v": "Analisis kesenjangan membandingkan kondisi arsitektur teknologi baseline dengan target untuk mengidentifikasi kesenjangan yang harus ditutup beserta tindak lanjutnya, sebagaimana disajikan pada tabel berikut."
+          },
+          {
+            "t": "table",
+            "title": "Analisis Kesenjangan Arsitektur Teknologi",
+            "header": [
+              "No.",
+              "Aspek",
+              "Baseline (As-Is)",
+              "Target (To-Be)",
+              "Kesenjangan dan Tindak Lanjut"
+            ],
+            "rows": [
+              [
+                "1",
+                "Ketersediaan",
+                "Satu Data Center (single point of failure)",
+                "Data Center Utama dan DRC dalam konfigurasi aktif-aktif dengan replikasi",
+                "Pembangunan DRC dan mekanisme replikasi aktif-aktif"
+              ],
+              [
+                "2",
+                "Komputasi",
+                "Server fisik",
+                "Server, virtualisasi, dan kontainer (container)",
+                "Penerapan virtualisasi dan kontainerisasi"
+              ],
+              [
+                "3",
+                "Penyimpanan",
+                "Storage operasional",
+                "Penyimpanan utama dan cadangan (backup) redundan",
+                "Penyediaan redundansi dan cadangan data"
+              ],
+              [
+                "4",
+                "Jaringan",
+                "Belum tersegmentasi dan belum lintas matra",
+                "Jaringan tersegmentasi, terenkripsi, dan lintas matra",
+                "Penataan dan pengamanan jaringan"
+              ],
+              [
+                "5",
+                "Integrasi & Platform",
+                "Belum ada lapisan platform integrasi",
+                "Lapisan integrasi (API Gateway, SSO/IAM, Data Exchange) dan Portal Satu Data Pertahanan",
+                "Pembangunan lapisan integrasi dan platform"
+              ],
+              [
+                "6",
+                "Keamanan (Security)",
+                "Parsial (kematangan level 1-2)",
+                "Menyeluruh (kematangan level 3)",
+                "Penerapan komponen keamanan per domain"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "c5isr-architecture",
