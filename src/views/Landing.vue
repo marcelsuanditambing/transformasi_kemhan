@@ -175,7 +175,6 @@ function reset() {
 watch(selectedSubId, scrollToContentOnMobile);
 // Pada layar kecil (tumpuk), gulir ke penjelasan; pada desktop (dua kolom) tidak perlu.
 function scrollToContentOnMobile() {
-  if (window.matchMedia('(min-width: 901px)').matches) return;
   requestAnimationFrame(() => {
     const el = document.querySelector('.togaf .content');
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });

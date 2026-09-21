@@ -150,7 +150,6 @@ function reset() {
 }
 watch(selectedId, scrollToContentOnMobile);
 function scrollToContentOnMobile() {
-  if (window.matchMedia('(min-width: 901px)').matches) return;
   requestAnimationFrame(() => {
     const el = document.querySelector('.arsi .content');
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
