@@ -1,0 +1,1122 @@
+{
+ "kode": "17",
+ "nama": "Bengkulu",
+ "wilayah": [
+  {
+   "kode_bps": "17",
+   "nama": "Bengkulu",
+   "level": "prov",
+   "induk_kode": "",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "17.01",
+   "nama": "Kabupaten Bengkulu Selatan",
+   "level": "kab",
+   "induk_kode": "17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.01.01",
+   "nama": "Kedurang",
+   "level": "kec",
+   "induk_kode": "17.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.01.02",
+   "nama": "Seginim",
+   "level": "kec",
+   "induk_kode": "17.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.01.03",
+   "nama": "Pino",
+   "level": "kec",
+   "induk_kode": "17.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.01.04",
+   "nama": "Manna",
+   "level": "kec",
+   "induk_kode": "17.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.01.05",
+   "nama": "Kota Manna",
+   "level": "kec",
+   "induk_kode": "17.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.01.06",
+   "nama": "Pino Raya",
+   "level": "kec",
+   "induk_kode": "17.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.01.07",
+   "nama": "Kedurang Ilir",
+   "level": "kec",
+   "induk_kode": "17.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.01.08",
+   "nama": "Air Nipis",
+   "level": "kec",
+   "induk_kode": "17.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.01.09",
+   "nama": "Ulu Manna",
+   "level": "kec",
+   "induk_kode": "17.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.01.10",
+   "nama": "Bunga Mas",
+   "level": "kec",
+   "induk_kode": "17.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.01.11",
+   "nama": "Pasar Manna",
+   "level": "kec",
+   "induk_kode": "17.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.02",
+   "nama": "Kabupaten Rejang Lebong",
+   "level": "kab",
+   "induk_kode": "17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.02.06",
+   "nama": "Kota Padang",
+   "level": "kec",
+   "induk_kode": "17.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.02.07",
+   "nama": "Padang Ulak Tanding",
+   "level": "kec",
+   "induk_kode": "17.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.02.08",
+   "nama": "Sindang Kelingi",
+   "level": "kec",
+   "induk_kode": "17.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.02.09",
+   "nama": "Curup",
+   "level": "kec",
+   "induk_kode": "17.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.02.10",
+   "nama": "Bermani Ulu",
+   "level": "kec",
+   "induk_kode": "17.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.02.11",
+   "nama": "Selupu Rejang",
+   "level": "kec",
+   "induk_kode": "17.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.02.16",
+   "nama": "Curup Utara",
+   "level": "kec",
+   "induk_kode": "17.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.02.17",
+   "nama": "Curup Timur",
+   "level": "kec",
+   "induk_kode": "17.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.02.18",
+   "nama": "Curup Selatan",
+   "level": "kec",
+   "induk_kode": "17.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.02.19",
+   "nama": "Curup Tengah",
+   "level": "kec",
+   "induk_kode": "17.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.02.20",
+   "nama": "Binduriang",
+   "level": "kec",
+   "induk_kode": "17.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.02.21",
+   "nama": "Sindang Beliti Ulu",
+   "level": "kec",
+   "induk_kode": "17.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.02.22",
+   "nama": "Sindang Dataran",
+   "level": "kec",
+   "induk_kode": "17.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.02.23",
+   "nama": "Sindang Beliti Ilir",
+   "level": "kec",
+   "induk_kode": "17.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.02.24",
+   "nama": "Bermani Ulu Raya",
+   "level": "kec",
+   "induk_kode": "17.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.03",
+   "nama": "Kabupaten Bengkulu Utara",
+   "level": "kab",
+   "induk_kode": "17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.03.01",
+   "nama": "Enggano",
+   "level": "kec",
+   "induk_kode": "17.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.03.06",
+   "nama": "Kerkap",
+   "level": "kec",
+   "induk_kode": "17.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.03.07",
+   "nama": "Kota Arga Makmur",
+   "level": "kec",
+   "induk_kode": "17.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.03.08",
+   "nama": "Giri Mulya",
+   "level": "kec",
+   "induk_kode": "17.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.03.09",
+   "nama": "Padang Jaya",
+   "level": "kec",
+   "induk_kode": "17.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.03.10",
+   "nama": "Lais",
+   "level": "kec",
+   "induk_kode": "17.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.03.11",
+   "nama": "Batik Nau",
+   "level": "kec",
+   "induk_kode": "17.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.03.12",
+   "nama": "Ketahun",
+   "level": "kec",
+   "induk_kode": "17.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.03.13",
+   "nama": "Napal Putih",
+   "level": "kec",
+   "induk_kode": "17.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.03.14",
+   "nama": "Putri Hijau",
+   "level": "kec",
+   "induk_kode": "17.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.03.15",
+   "nama": "Air Besi",
+   "level": "kec",
+   "induk_kode": "17.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.03.16",
+   "nama": "Air Napal",
+   "level": "kec",
+   "induk_kode": "17.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.03.19",
+   "nama": "Hulu Palik",
+   "level": "kec",
+   "induk_kode": "17.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.03.20",
+   "nama": "Air Padang",
+   "level": "kec",
+   "induk_kode": "17.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.03.21",
+   "nama": "Arma Jaya",
+   "level": "kec",
+   "induk_kode": "17.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.03.22",
+   "nama": "Tanjung Agung Palik",
+   "level": "kec",
+   "induk_kode": "17.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.03.23",
+   "nama": "Ulok Kupai",
+   "level": "kec",
+   "induk_kode": "17.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.03.24",
+   "nama": "Pinang Raya",
+   "level": "kec",
+   "induk_kode": "17.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.03.25",
+   "nama": "Marga Sakti Sebelat",
+   "level": "kec",
+   "induk_kode": "17.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.04",
+   "nama": "Kabupaten Kaur",
+   "level": "kab",
+   "induk_kode": "17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.04.01",
+   "nama": "Kinal",
+   "level": "kec",
+   "induk_kode": "17.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.04.02",
+   "nama": "Tanjung Kemuning",
+   "level": "kec",
+   "induk_kode": "17.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.04.03",
+   "nama": "Kaur Utara",
+   "level": "kec",
+   "induk_kode": "17.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.04.04",
+   "nama": "Kaur Tengah",
+   "level": "kec",
+   "induk_kode": "17.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.04.05",
+   "nama": "Kaur Selatan",
+   "level": "kec",
+   "induk_kode": "17.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.04.06",
+   "nama": "Maje",
+   "level": "kec",
+   "induk_kode": "17.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.04.07",
+   "nama": "Nasal",
+   "level": "kec",
+   "induk_kode": "17.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.04.08",
+   "nama": "Semidang Gumay",
+   "level": "kec",
+   "induk_kode": "17.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.04.09",
+   "nama": "Kelam Tengah",
+   "level": "kec",
+   "induk_kode": "17.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.04.10",
+   "nama": "Luas",
+   "level": "kec",
+   "induk_kode": "17.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.04.11",
+   "nama": "Muara Sahung",
+   "level": "kec",
+   "induk_kode": "17.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.04.12",
+   "nama": "Tetap",
+   "level": "kec",
+   "induk_kode": "17.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.04.13",
+   "nama": "Lungkang Kule",
+   "level": "kec",
+   "induk_kode": "17.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.04.14",
+   "nama": "Padang Guci Hilir",
+   "level": "kec",
+   "induk_kode": "17.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.04.15",
+   "nama": "Padang Guci Hulu",
+   "level": "kec",
+   "induk_kode": "17.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.05",
+   "nama": "Kabupaten Seluma",
+   "level": "kab",
+   "induk_kode": "17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.05.01",
+   "nama": "Sukaraja",
+   "level": "kec",
+   "induk_kode": "17.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.05.02",
+   "nama": "Seluma",
+   "level": "kec",
+   "induk_kode": "17.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.05.03",
+   "nama": "Talo",
+   "level": "kec",
+   "induk_kode": "17.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.05.04",
+   "nama": "Semidang Alas",
+   "level": "kec",
+   "induk_kode": "17.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.05.05",
+   "nama": "Semidang Alas Maras",
+   "level": "kec",
+   "induk_kode": "17.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.05.06",
+   "nama": "Air Periukan",
+   "level": "kec",
+   "induk_kode": "17.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.05.07",
+   "nama": "Lubuk Sandi",
+   "level": "kec",
+   "induk_kode": "17.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.05.08",
+   "nama": "Seluma Barat",
+   "level": "kec",
+   "induk_kode": "17.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.05.09",
+   "nama": "Seluma Timur",
+   "level": "kec",
+   "induk_kode": "17.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.05.10",
+   "nama": "Seluma Utara",
+   "level": "kec",
+   "induk_kode": "17.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.05.11",
+   "nama": "Seluma Selatan",
+   "level": "kec",
+   "induk_kode": "17.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.05.12",
+   "nama": "Talo Kecil",
+   "level": "kec",
+   "induk_kode": "17.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.05.13",
+   "nama": "Ulu Talo",
+   "level": "kec",
+   "induk_kode": "17.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.05.14",
+   "nama": "Ilir Talo",
+   "level": "kec",
+   "induk_kode": "17.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.06",
+   "nama": "Kabupaten Mukomuko",
+   "level": "kab",
+   "induk_kode": "17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.06.01",
+   "nama": "Lubuk Pinang",
+   "level": "kec",
+   "induk_kode": "17.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.06.02",
+   "nama": "Kota Mukomuko",
+   "level": "kec",
+   "induk_kode": "17.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.06.03",
+   "nama": "Teras Terunjam",
+   "level": "kec",
+   "induk_kode": "17.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.06.04",
+   "nama": "Pondok Suguh",
+   "level": "kec",
+   "induk_kode": "17.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.06.05",
+   "nama": "Ipuh",
+   "level": "kec",
+   "induk_kode": "17.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.06.06",
+   "nama": "Malin Deman",
+   "level": "kec",
+   "induk_kode": "17.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.06.07",
+   "nama": "Air Rami",
+   "level": "kec",
+   "induk_kode": "17.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.06.08",
+   "nama": "Teramang Jaya",
+   "level": "kec",
+   "induk_kode": "17.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.06.09",
+   "nama": "Selagan Raya",
+   "level": "kec",
+   "induk_kode": "17.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.06.10",
+   "nama": "Penarik",
+   "level": "kec",
+   "induk_kode": "17.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.06.11",
+   "nama": "XIV Koto",
+   "level": "kec",
+   "induk_kode": "17.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.06.12",
+   "nama": "V Koto",
+   "level": "kec",
+   "induk_kode": "17.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.06.13",
+   "nama": "Air Manjunto",
+   "level": "kec",
+   "induk_kode": "17.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.06.14",
+   "nama": "Air Dikit",
+   "level": "kec",
+   "induk_kode": "17.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.06.15",
+   "nama": "Sungai Rumbai",
+   "level": "kec",
+   "induk_kode": "17.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.07",
+   "nama": "Kabupaten Lebong",
+   "level": "kab",
+   "induk_kode": "17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.07.01",
+   "nama": "Lebong Utara",
+   "level": "kec",
+   "induk_kode": "17.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.07.02",
+   "nama": "Lebong Atas",
+   "level": "kec",
+   "induk_kode": "17.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.07.03",
+   "nama": "Lebong Tengah",
+   "level": "kec",
+   "induk_kode": "17.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.07.04",
+   "nama": "Lebong Selatan",
+   "level": "kec",
+   "induk_kode": "17.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.07.05",
+   "nama": "Rimbo Pengadang",
+   "level": "kec",
+   "induk_kode": "17.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.07.06",
+   "nama": "Topos",
+   "level": "kec",
+   "induk_kode": "17.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.07.07",
+   "nama": "Bingin Kuning",
+   "level": "kec",
+   "induk_kode": "17.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.07.08",
+   "nama": "Lebong Sakti",
+   "level": "kec",
+   "induk_kode": "17.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.07.09",
+   "nama": "Tubei",
+   "level": "kec",
+   "induk_kode": "17.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.07.10",
+   "nama": "Amen",
+   "level": "kec",
+   "induk_kode": "17.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.07.11",
+   "nama": "Uram Jaya",
+   "level": "kec",
+   "induk_kode": "17.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.07.12",
+   "nama": "Pinang Belapis",
+   "level": "kec",
+   "induk_kode": "17.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.08",
+   "nama": "Kabupaten Kepahiang",
+   "level": "kab",
+   "induk_kode": "17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.08.01",
+   "nama": "Bermani Ilir",
+   "level": "kec",
+   "induk_kode": "17.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.08.02",
+   "nama": "Ujan Mas",
+   "level": "kec",
+   "induk_kode": "17.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.08.03",
+   "nama": "Tebat Karai",
+   "level": "kec",
+   "induk_kode": "17.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.08.04",
+   "nama": "Kepahiang",
+   "level": "kec",
+   "induk_kode": "17.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.08.05",
+   "nama": "Merigi",
+   "level": "kec",
+   "induk_kode": "17.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.08.06",
+   "nama": "Kebawetan",
+   "level": "kec",
+   "induk_kode": "17.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.08.07",
+   "nama": "Seberang Musi",
+   "level": "kec",
+   "induk_kode": "17.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.08.08",
+   "nama": "Muara Kemumu",
+   "level": "kec",
+   "induk_kode": "17.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.09",
+   "nama": "Kabupaten Bengkulu Tengah",
+   "level": "kab",
+   "induk_kode": "17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.09.01",
+   "nama": "Karang Tinggi",
+   "level": "kec",
+   "induk_kode": "17.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.09.02",
+   "nama": "Talang Empat",
+   "level": "kec",
+   "induk_kode": "17.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.09.03",
+   "nama": "Pondok Kelapa",
+   "level": "kec",
+   "induk_kode": "17.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.09.04",
+   "nama": "Pematang Tiga",
+   "level": "kec",
+   "induk_kode": "17.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.09.05",
+   "nama": "Pagar Jati",
+   "level": "kec",
+   "induk_kode": "17.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.09.06",
+   "nama": "Taba Penanjung",
+   "level": "kec",
+   "induk_kode": "17.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.09.07",
+   "nama": "Merigi Kelindang",
+   "level": "kec",
+   "induk_kode": "17.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.09.08",
+   "nama": "Merigi Sakti",
+   "level": "kec",
+   "induk_kode": "17.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.09.09",
+   "nama": "Pondok Kubang",
+   "level": "kec",
+   "induk_kode": "17.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.09.10",
+   "nama": "Bang Haji",
+   "level": "kec",
+   "induk_kode": "17.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.09.11",
+   "nama": "Semidang Lagan",
+   "level": "kec",
+   "induk_kode": "17.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.71",
+   "nama": "Kota Bengkulu",
+   "level": "kab",
+   "induk_kode": "17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.71.01",
+   "nama": "Selebar",
+   "level": "kec",
+   "induk_kode": "17.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.71.02",
+   "nama": "Gading Cempaka",
+   "level": "kec",
+   "induk_kode": "17.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.71.03",
+   "nama": "Teluk Segara",
+   "level": "kec",
+   "induk_kode": "17.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.71.04",
+   "nama": "Muara Bangka Hulu",
+   "level": "kec",
+   "induk_kode": "17.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.71.05",
+   "nama": "Kampung Melayu",
+   "level": "kec",
+   "induk_kode": "17.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.71.06",
+   "nama": "Ratu Agung",
+   "level": "kec",
+   "induk_kode": "17.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.71.07",
+   "nama": "Ratu Samban",
+   "level": "kec",
+   "induk_kode": "17.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.71.08",
+   "nama": "Sungai Serut",
+   "level": "kec",
+   "induk_kode": "17.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "17.71.09",
+   "nama": "Singaran Pati",
+   "level": "kec",
+   "induk_kode": "17.71",
+   "pesisir": null
+  }
+ ],
+ "satuan": [
+  {
+   "id": "au-lanud-sutan-sjahrir",
+   "matra": "AU",
+   "tingkat": "Lanud",
+   "nama": "Lanud Sutan Sjahrir",
+   "induk_id": "au-koopsud-1",
+   "markas": "Padang",
+   "sumber": "aturan AU (Lanud provinsi) + Koopsud I",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "sedang",
+   "catatan": ""
+  }
+ ],
+ "pemetaan": [
+  {
+   "kode_wilayah": "17",
+   "satuan_id": "al-kodaeral-2",
+   "peran": "terkait",
+   "aturan_pemetaan": "wilayah pesisir provinsi (Lanal/Posal per kab perlu detail)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "Kodaeral / Koarmada RI",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Bengkulu — via Lanal Bengkulu; kemungkinan Kodaeral II Padang — verifikasi | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "17",
+   "satuan_id": "au-lanud-sutan-sjahrir",
+   "peran": "terkait",
+   "aturan_pemetaan": "Lanud di/terdekat provinsi (aturan AU)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "Koopsud I",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Bengkulu — tidak ada Lanud besar di Bengkulu; terdekat Padang | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "17.01",
+   "satuan_id": "ad-korem-041",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Bengkulu Selatan"
+  },
+  {
+   "kode_wilayah": "17.02",
+   "satuan_id": "ad-korem-041",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Rejang Lebong"
+  },
+  {
+   "kode_wilayah": "17.03",
+   "satuan_id": "ad-korem-041",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Bengkulu Utara"
+  },
+  {
+   "kode_wilayah": "17.04",
+   "satuan_id": "ad-korem-041",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Kaur"
+  },
+  {
+   "kode_wilayah": "17.05",
+   "satuan_id": "ad-korem-041",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Seluma"
+  },
+  {
+   "kode_wilayah": "17.06",
+   "satuan_id": "ad-korem-041",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Mukomuko"
+  },
+  {
+   "kode_wilayah": "17.07",
+   "satuan_id": "ad-korem-041",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Lebong"
+  },
+  {
+   "kode_wilayah": "17.08",
+   "satuan_id": "ad-korem-041",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Kepahiang"
+  },
+  {
+   "kode_wilayah": "17.09",
+   "satuan_id": "ad-korem-041",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Bengkulu Tengah"
+  },
+  {
+   "kode_wilayah": "17.71",
+   "satuan_id": "ad-korem-041",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Bengkulu"
+  }
+ ]
+}

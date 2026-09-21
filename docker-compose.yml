@@ -7,6 +7,7 @@ services:
       dockerfile: Dockerfile
     image: smart-defense:latest
     ports:
-      - "5173:80"
+      - "5173:8080"          # host 5173 (dipakai Cloudflare Tunnel) -> container 8080
+    env_file:
+      - ./server/.env        # APP_USERNAME, APP_PASSWORD_HASH, SESSION_SECRET, NODE_ENV, PORT
     restart: unless-stopped
-    # optional environment variables could be defined here

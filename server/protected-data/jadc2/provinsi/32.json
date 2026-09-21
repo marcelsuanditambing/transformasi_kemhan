@@ -1,0 +1,5053 @@
+{
+ "kode": "32",
+ "nama": "Jawa Barat",
+ "wilayah": [
+  {
+   "kode_bps": "32",
+   "nama": "Jawa Barat",
+   "level": "prov",
+   "induk_kode": "",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "32.01",
+   "nama": "Kabupaten Bogor",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.01",
+   "nama": "Cibinong",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.02",
+   "nama": "Gunungputri",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.03",
+   "nama": "Citeureup",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.04",
+   "nama": "Sukaraja",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.05",
+   "nama": "Babakan Madang",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.06",
+   "nama": "Jonggol",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.07",
+   "nama": "Cileungsi",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.08",
+   "nama": "Cariu",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.09",
+   "nama": "Sukamakmur",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.10",
+   "nama": "Parung",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.11",
+   "nama": "Gunungsindur",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.12",
+   "nama": "Kemang",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.13",
+   "nama": "Bojonggede",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.14",
+   "nama": "Leuwiliang",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.15",
+   "nama": "Ciampea",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.16",
+   "nama": "Cibungbulang",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.17",
+   "nama": "Pamijahan",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.18",
+   "nama": "Rumpin",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.19",
+   "nama": "Jasinga",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.20",
+   "nama": "Parungpanjang",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.21",
+   "nama": "Nanggung",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.22",
+   "nama": "Cigudeg",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.23",
+   "nama": "Tenjo",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.24",
+   "nama": "Ciawi",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.25",
+   "nama": "Cisarua",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.26",
+   "nama": "Megamendung",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.27",
+   "nama": "Caringin",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.28",
+   "nama": "Cijeruk",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.29",
+   "nama": "Ciomas",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.30",
+   "nama": "Dramaga",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.31",
+   "nama": "Tamansari",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.32",
+   "nama": "Klapanunggal",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.33",
+   "nama": "Ciseeng",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.34",
+   "nama": "Rancabungur",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.35",
+   "nama": "Sukajaya",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.36",
+   "nama": "Tanjungsari",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.37",
+   "nama": "Tajurhalang",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.38",
+   "nama": "Cigombong",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.39",
+   "nama": "Leuwisadeng",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.01.40",
+   "nama": "Tenjolaya",
+   "level": "kec",
+   "induk_kode": "32.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02",
+   "nama": "Kabupaten Sukabumi",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.01",
+   "nama": "Palabuhanratu",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.02",
+   "nama": "Simpenan",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.03",
+   "nama": "Cikakak",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.04",
+   "nama": "Bantargadung",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.05",
+   "nama": "Cisolok",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.06",
+   "nama": "Cikidang",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.07",
+   "nama": "Lengkong",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.08",
+   "nama": "Jampangtengah",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.09",
+   "nama": "Warungkiara",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.10",
+   "nama": "Cikembar",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.11",
+   "nama": "Cibadak",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.12",
+   "nama": "Nagrak",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.13",
+   "nama": "Parungkuda",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.14",
+   "nama": "Bojonggenteng",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.15",
+   "nama": "Parakansalak",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.16",
+   "nama": "Cicurug",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.17",
+   "nama": "Cidahu",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.18",
+   "nama": "Kalapanunggal",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.19",
+   "nama": "Kabandungan",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.20",
+   "nama": "Waluran",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.21",
+   "nama": "Jampangkulon",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.22",
+   "nama": "Ciemas",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.23",
+   "nama": "Kalibunder",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.24",
+   "nama": "Surade",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.25",
+   "nama": "Cibitung",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.26",
+   "nama": "Ciracap",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.27",
+   "nama": "Gunungguruh",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.28",
+   "nama": "Cicantayan",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.29",
+   "nama": "Cisaat",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.30",
+   "nama": "Kadudampit",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.31",
+   "nama": "Caringin",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.32",
+   "nama": "Sukabumi",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.33",
+   "nama": "Sukaraja",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.34",
+   "nama": "Kebonpedes",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.35",
+   "nama": "Cireunghas",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.36",
+   "nama": "Sukalarang",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.37",
+   "nama": "Pabuaran",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.38",
+   "nama": "Purabaya",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.39",
+   "nama": "Nyalindung",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.40",
+   "nama": "Gegerbitung",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.41",
+   "nama": "Sagaranten",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.42",
+   "nama": "Curugkembar",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.43",
+   "nama": "Cidolog",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.44",
+   "nama": "Cidadap",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.45",
+   "nama": "Tegalbuleud",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.46",
+   "nama": "Cimanggu",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.02.47",
+   "nama": "Ciambar",
+   "level": "kec",
+   "induk_kode": "32.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03",
+   "nama": "Kabupaten Cianjur",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.01",
+   "nama": "Cianjur",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.02",
+   "nama": "Warungkondang",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.03",
+   "nama": "Cibeber",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.04",
+   "nama": "Cilaku",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.05",
+   "nama": "Ciranjang",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.06",
+   "nama": "Bonjogpicung",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.07",
+   "nama": "Karangtengah",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.08",
+   "nama": "Mande",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.09",
+   "nama": "Sukaluyu",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.10",
+   "nama": "Pacet",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.11",
+   "nama": "Cugenang",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.12",
+   "nama": "Cikalongkulon",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.13",
+   "nama": "Sukaresmi",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.14",
+   "nama": "Sukanagara",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.15",
+   "nama": "Campaka",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.16",
+   "nama": "Takokak",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.17",
+   "nama": "Kadupandak",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.18",
+   "nama": "Pagelarang",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.19",
+   "nama": "Tanggeung",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.20",
+   "nama": "Cubinong",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.21",
+   "nama": "Sindangbarang",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.22",
+   "nama": "Agrabinta",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.23",
+   "nama": "Cidaun",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.24",
+   "nama": "Naringgul",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.25",
+   "nama": "Campakamulya",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.26",
+   "nama": "Cikadu",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.27",
+   "nama": "Gekbrong",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.28",
+   "nama": "Cipanas",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.29",
+   "nama": "Cijati",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.30",
+   "nama": "Leles",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.31",
+   "nama": "Haurwangi",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.03.32",
+   "nama": "Pasirkuda",
+   "level": "kec",
+   "induk_kode": "32.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04",
+   "nama": "Kabupaten Bandung",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.05",
+   "nama": "Cileunyi",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.06",
+   "nama": "Cimenyan",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.07",
+   "nama": "Cilengkrang",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.08",
+   "nama": "Bojongsoang",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.09",
+   "nama": "Margahayu",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.10",
+   "nama": "Margaasih",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.11",
+   "nama": "Katapang",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.12",
+   "nama": "Dayeuhkolot",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.13",
+   "nama": "Banjaran",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.14",
+   "nama": "Pameungpeuk",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.15",
+   "nama": "Pangalengan",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.16",
+   "nama": "Arjasari",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.17",
+   "nama": "Cimaung",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.25",
+   "nama": "Cicalengka",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.26",
+   "nama": "Nagreg",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.27",
+   "nama": "Cikancung",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.28",
+   "nama": "Rancaekek",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.29",
+   "nama": "Ciparay",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.30",
+   "nama": "Pacet",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.31",
+   "nama": "Kertasari",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.32",
+   "nama": "Baleendah",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.33",
+   "nama": "Majalaya",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.34",
+   "nama": "Solokanjeruk",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.35",
+   "nama": "Paseh",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.36",
+   "nama": "Ibun",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.37",
+   "nama": "Soreang",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.38",
+   "nama": "Pasirjambu",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.39",
+   "nama": "Ciwidey",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.40",
+   "nama": "Rancabali",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.44",
+   "nama": "Cangkuang",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.04.46",
+   "nama": "Kutawaringin",
+   "level": "kec",
+   "induk_kode": "32.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05",
+   "nama": "Kabupaten Garut",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.01",
+   "nama": "Garut Kota",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.02",
+   "nama": "Karangpawitan",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.03",
+   "nama": "Wanaraja",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.04",
+   "nama": "Tarogong Kaler",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.05",
+   "nama": "Tarogong Kidul",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.06",
+   "nama": "Banyuresmi",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.07",
+   "nama": "Samarang",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.08",
+   "nama": "Pasirwangi",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.09",
+   "nama": "Leles",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.10",
+   "nama": "Kadungora",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.11",
+   "nama": "Leuwigoong",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.12",
+   "nama": "Cibatu",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.13",
+   "nama": "Kersamanah",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.14",
+   "nama": "Malangbong",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.15",
+   "nama": "Sukawening",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.16",
+   "nama": "Karangtengah",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.17",
+   "nama": "Bayongbong",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.18",
+   "nama": "Cigedug",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.19",
+   "nama": "Cilawu",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.20",
+   "nama": "Cisurupan",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.21",
+   "nama": "Sukaresmi",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.22",
+   "nama": "Cikajang",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.23",
+   "nama": "Banjarwangi",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.24",
+   "nama": "Singajaya",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.25",
+   "nama": "Cihurip",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.26",
+   "nama": "Peundeuy",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.27",
+   "nama": "Pameungpeuk",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.28",
+   "nama": "Cisompet",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.29",
+   "nama": "Cibalong",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.30",
+   "nama": "Cikelet",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.31",
+   "nama": "Bungbulang",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.32",
+   "nama": "Mekarmukti",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.33",
+   "nama": "Pakenjeng",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.34",
+   "nama": "Pamulihan",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.35",
+   "nama": "Cisewu",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.36",
+   "nama": "Caringin",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.37",
+   "nama": "Talegong",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.38",
+   "nama": "Limbangan",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.39",
+   "nama": "Selaawi",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.40",
+   "nama": "Cibiuk",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.41",
+   "nama": "Pangatikan",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.05.42",
+   "nama": "Sucinaraja",
+   "level": "kec",
+   "induk_kode": "32.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06",
+   "nama": "Kabupaten Tasikmalaya",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.01",
+   "nama": "Cipatujah",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.02",
+   "nama": "Karangnunggal",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.03",
+   "nama": "Cikalong",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.04",
+   "nama": "Pancatengah",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.05",
+   "nama": "Cikatomas",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.06",
+   "nama": "Cibalong",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.07",
+   "nama": "Parungponteng",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.08",
+   "nama": "Bantarkalong",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.09",
+   "nama": "Bojongasih",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.10",
+   "nama": "Culamega",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.11",
+   "nama": "Bojonggambir",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.12",
+   "nama": "Sodonghilir",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.13",
+   "nama": "Taraju",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.14",
+   "nama": "Salawu",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.15",
+   "nama": "Puspahiang",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.16",
+   "nama": "Tanjungjaya",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.17",
+   "nama": "Sukaraja",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.18",
+   "nama": "Salopa",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.19",
+   "nama": "Jatiwaras",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.20",
+   "nama": "Cineam",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.21",
+   "nama": "Karang Jaya",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.22",
+   "nama": "Manonjaya",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.23",
+   "nama": "Gunung Tanjung",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.24",
+   "nama": "Singaparna",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.25",
+   "nama": "Mangunreja",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.26",
+   "nama": "Sukarame",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.27",
+   "nama": "Cigalontang",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.28",
+   "nama": "Leuwisari",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.29",
+   "nama": "Padakembang",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.30",
+   "nama": "Sariwangi",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.31",
+   "nama": "Sukaratu",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.32",
+   "nama": "Cisayong",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.33",
+   "nama": "Sukahening",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.34",
+   "nama": "Rajapolah",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.35",
+   "nama": "Jamanis",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.36",
+   "nama": "Ciawi",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.37",
+   "nama": "Kadipaten",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.38",
+   "nama": "Pagerageung",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.06.39",
+   "nama": "Sukaresik",
+   "level": "kec",
+   "induk_kode": "32.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07",
+   "nama": "Kabupaten Ciamis",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.01",
+   "nama": "Ciamis",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.02",
+   "nama": "Cikoneng",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.03",
+   "nama": "Cijeungjing",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.04",
+   "nama": "Sadananya",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.05",
+   "nama": "Cidolog",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.06",
+   "nama": "Cihaurbeuti",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.07",
+   "nama": "Panumbangan",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.08",
+   "nama": "Panjalu",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.09",
+   "nama": "Kawali",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.10",
+   "nama": "Panawangan",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.11",
+   "nama": "Cipaku",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.12",
+   "nama": "Jatinagara",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.13",
+   "nama": "Rajadesa",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.14",
+   "nama": "Sukadana",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.15",
+   "nama": "Rancah",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.16",
+   "nama": "Tambaksari",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.17",
+   "nama": "Lakbok",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.18",
+   "nama": "Banjarsari",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.19",
+   "nama": "Pamarican",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.29",
+   "nama": "Cimaragas",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.30",
+   "nama": "Cisaga",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.31",
+   "nama": "Sindangkasih",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.32",
+   "nama": "Baregbeg",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.33",
+   "nama": "Sukamantri",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.34",
+   "nama": "Lumbung",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.35",
+   "nama": "Purwadadi",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.07.37",
+   "nama": "Banjaranyar",
+   "level": "kec",
+   "induk_kode": "32.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08",
+   "nama": "Kabupaten Kuningan",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.01",
+   "nama": "Kadugede",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.02",
+   "nama": "Ciniru",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.03",
+   "nama": "Subang",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.04",
+   "nama": "Ciwaru",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.05",
+   "nama": "Cibingbin",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.06",
+   "nama": "Luragung",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.07",
+   "nama": "Lebakwangi",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.08",
+   "nama": "Garawangi",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.09",
+   "nama": "Kuningan",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.10",
+   "nama": "Ciawigebang",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.11",
+   "nama": "Cidahu",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.12",
+   "nama": "Jalaksana",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.13",
+   "nama": "Cilimus",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.14",
+   "nama": "Mandirancan",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.15",
+   "nama": "Selajambe",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.16",
+   "nama": "Kramatmulya",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.17",
+   "nama": "Darma",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.18",
+   "nama": "Cigugur",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.19",
+   "nama": "Pasawahan",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.20",
+   "nama": "Nusaherang",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.21",
+   "nama": "Cipicung",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.22",
+   "nama": "Pancalang",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.23",
+   "nama": "Japara",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.24",
+   "nama": "Cimahi",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.25",
+   "nama": "Cilebak",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.26",
+   "nama": "Hantara",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.27",
+   "nama": "Kalimanggis",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.28",
+   "nama": "Cibeureum",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.29",
+   "nama": "Karangkancana",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.30",
+   "nama": "Maleber",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.31",
+   "nama": "Sindangagung",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.08.32",
+   "nama": "Cigandamekar",
+   "level": "kec",
+   "induk_kode": "32.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09",
+   "nama": "Kabupaten Cirebon",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.01",
+   "nama": "Waled",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.02",
+   "nama": "Ciledug",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.03",
+   "nama": "Losari",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.04",
+   "nama": "Pabedilan",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.05",
+   "nama": "Babakan",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.06",
+   "nama": "Karangsembung",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.07",
+   "nama": "Lemahabang",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.08",
+   "nama": "Susukan Lebak",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.09",
+   "nama": "Sedong",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.10",
+   "nama": "Astanajapura",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.11",
+   "nama": "Pangenan",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.12",
+   "nama": "Mundu",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.13",
+   "nama": "Beber",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.14",
+   "nama": "Talun",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.15",
+   "nama": "Sumber",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.16",
+   "nama": "Dukupuntang",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.17",
+   "nama": "Palimanan",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.18",
+   "nama": "Plumbon",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.19",
+   "nama": "Weru",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.20",
+   "nama": "Kedawung",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.21",
+   "nama": "Gunung Jati",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.22",
+   "nama": "Kepetakan",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.23",
+   "nama": "Klangenan",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.24",
+   "nama": "Arjawinangun",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.25",
+   "nama": "Panguragan",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.26",
+   "nama": "Ciwaringin",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.27",
+   "nama": "Susukan",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.28",
+   "nama": "Gegesik",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.29",
+   "nama": "Kaliwedi",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.30",
+   "nama": "Gebang",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.31",
+   "nama": "Depok",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.32",
+   "nama": "Pasaleman",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.33",
+   "nama": "Pabuaran",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.34",
+   "nama": "Karangwareng",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.35",
+   "nama": "Tengah Tani",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.36",
+   "nama": "Plered",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.37",
+   "nama": "Gempol",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.38",
+   "nama": "Greged",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.39",
+   "nama": "Suranenggala",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.09.40",
+   "nama": "Jamblang",
+   "level": "kec",
+   "induk_kode": "32.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10",
+   "nama": "Kabupaten Majalengka",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.01",
+   "nama": "Lemahsugih",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.02",
+   "nama": "Bantarujeg",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.03",
+   "nama": "Cikijing",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.04",
+   "nama": "Talaga",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.05",
+   "nama": "Argapura",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.06",
+   "nama": "Maja",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.07",
+   "nama": "Majalengka",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.08",
+   "nama": "Sukahaji",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.09",
+   "nama": "Rajagaluh",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.10",
+   "nama": "Leuwimunding",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.11",
+   "nama": "Jatiwangi",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.12",
+   "nama": "Dawuan",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.13",
+   "nama": "Kadipaten",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.14",
+   "nama": "Kertajati",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.15",
+   "nama": "Jatitujuh",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.16",
+   "nama": "Ligung",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.17",
+   "nama": "Sumberjaya",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.18",
+   "nama": "Panyingkiran",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.19",
+   "nama": "Palasah",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.20",
+   "nama": "Cigasong",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.21",
+   "nama": "Sindangwangi",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.22",
+   "nama": "Banjaran",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.23",
+   "nama": "Cingambul",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.24",
+   "nama": "Kasokandel",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.25",
+   "nama": "Sindang",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.10.26",
+   "nama": "Malausma",
+   "level": "kec",
+   "induk_kode": "32.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11",
+   "nama": "Kabupaten Sumedang",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.01",
+   "nama": "Wado",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.02",
+   "nama": "Jatinunggal",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.03",
+   "nama": "Darmaraja",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.04",
+   "nama": "Cibugel",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.05",
+   "nama": "Cisitu",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.06",
+   "nama": "Situraja",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.07",
+   "nama": "Conggeang",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.08",
+   "nama": "Paseh",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.09",
+   "nama": "Surian",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.10",
+   "nama": "Buahdua",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.11",
+   "nama": "Tanjungsari",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.12",
+   "nama": "Sukasari",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.13",
+   "nama": "Pamulihan",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.14",
+   "nama": "Cimanggung",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.15",
+   "nama": "Jatinangor",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.16",
+   "nama": "Rancakalong",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.17",
+   "nama": "Sumedang Selatan",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.18",
+   "nama": "Sumedang Utara",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.19",
+   "nama": "Ganeas",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.20",
+   "nama": "Tanjungkerta",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.21",
+   "nama": "Tanjungmedar",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.22",
+   "nama": "Cimalaka",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.23",
+   "nama": "Cisarua",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.24",
+   "nama": "Tomo",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.25",
+   "nama": "Ujungjaya",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.11.26",
+   "nama": "Jatigede",
+   "level": "kec",
+   "induk_kode": "32.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12",
+   "nama": "Kabupaten Indramayu",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.01",
+   "nama": "Haurgeulis",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.02",
+   "nama": "Kroya",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.03",
+   "nama": "Gabuswetan",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.04",
+   "nama": "Cikedung",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.05",
+   "nama": "Lelea",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.06",
+   "nama": "Bangodua",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.07",
+   "nama": "Widasari",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.08",
+   "nama": "Kertasemaya",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.09",
+   "nama": "Krangkeng",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.10",
+   "nama": "Karangampel",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.11",
+   "nama": "Juntinyuat",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.12",
+   "nama": "Sliyeg",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.13",
+   "nama": "Jatibarang",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.14",
+   "nama": "Balongan",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.15",
+   "nama": "Indramayu",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.16",
+   "nama": "Sindang",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.17",
+   "nama": "Cantigi",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.18",
+   "nama": "Lohbener",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.19",
+   "nama": "Arahan",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.20",
+   "nama": "Losarang",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.21",
+   "nama": "Kandanghaur",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.22",
+   "nama": "Bongas",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.23",
+   "nama": "Anjatan",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.24",
+   "nama": "Sukra",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.25",
+   "nama": "Gantar",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.26",
+   "nama": "Terisi",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.27",
+   "nama": "Sukagumiwang",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.28",
+   "nama": "Kedokan Bunder",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.29",
+   "nama": "Pasekan",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.30",
+   "nama": "Tukdana",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.12.31",
+   "nama": "Patrol",
+   "level": "kec",
+   "induk_kode": "32.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13",
+   "nama": "Kabupaten Subang",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.01",
+   "nama": "Sagalaherang",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.02",
+   "nama": "Cisalak",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.03",
+   "nama": "Subang",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.04",
+   "nama": "Kalijati",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.05",
+   "nama": "Pabuaran",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.06",
+   "nama": "Purwadadi",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.07",
+   "nama": "Pagaden",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.08",
+   "nama": "Binong",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.09",
+   "nama": "Ciasem",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.10",
+   "nama": "Pusakanagara",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.11",
+   "nama": "Pamanukan",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.12",
+   "nama": "Jalancagak",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.13",
+   "nama": "Blanakan",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.14",
+   "nama": "Tanjungsiang",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.15",
+   "nama": "Compreng",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.16",
+   "nama": "Patokbeusi",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.17",
+   "nama": "Cibogo",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.18",
+   "nama": "Cipunagara",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.19",
+   "nama": "Cijambe",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.20",
+   "nama": "Cipeundeuy",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.21",
+   "nama": "Legonkulon",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.22",
+   "nama": "Cikaum",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.23",
+   "nama": "Serangpanjang",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.24",
+   "nama": "Sukasari",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.25",
+   "nama": "Tambakdahan",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.26",
+   "nama": "Kasomalang",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.27",
+   "nama": "Dawuan",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.28",
+   "nama": "Pagaden Barat",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.29",
+   "nama": "Ciater",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.13.30",
+   "nama": "Pusakajaya",
+   "level": "kec",
+   "induk_kode": "32.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.14",
+   "nama": "Kabupaten Purwakarta",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.14.01",
+   "nama": "Purwakarta",
+   "level": "kec",
+   "induk_kode": "32.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.14.02",
+   "nama": "Campaka",
+   "level": "kec",
+   "induk_kode": "32.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.14.03",
+   "nama": "Jatiluhur",
+   "level": "kec",
+   "induk_kode": "32.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.14.04",
+   "nama": "Plered",
+   "level": "kec",
+   "induk_kode": "32.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.14.05",
+   "nama": "Sukatani",
+   "level": "kec",
+   "induk_kode": "32.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.14.06",
+   "nama": "Darangdan",
+   "level": "kec",
+   "induk_kode": "32.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.14.07",
+   "nama": "Maniis",
+   "level": "kec",
+   "induk_kode": "32.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.14.08",
+   "nama": "Tegalwaru",
+   "level": "kec",
+   "induk_kode": "32.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.14.09",
+   "nama": "Wanayasa",
+   "level": "kec",
+   "induk_kode": "32.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.14.10",
+   "nama": "Pasawahan",
+   "level": "kec",
+   "induk_kode": "32.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.14.11",
+   "nama": "Bojong",
+   "level": "kec",
+   "induk_kode": "32.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.14.12",
+   "nama": "Babakancikao",
+   "level": "kec",
+   "induk_kode": "32.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.14.13",
+   "nama": "Bungursari",
+   "level": "kec",
+   "induk_kode": "32.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.14.14",
+   "nama": "Cibatu",
+   "level": "kec",
+   "induk_kode": "32.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.14.15",
+   "nama": "Sukasari",
+   "level": "kec",
+   "induk_kode": "32.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.14.16",
+   "nama": "Pondoksalam",
+   "level": "kec",
+   "induk_kode": "32.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.14.17",
+   "nama": "Kiarapedes",
+   "level": "kec",
+   "induk_kode": "32.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15",
+   "nama": "Kabupaten Karawang",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.01",
+   "nama": "Karawang Barat",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.02",
+   "nama": "Pangkalan",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.03",
+   "nama": "Telukjambe Timur",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.04",
+   "nama": "Ciampel",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.05",
+   "nama": "Klari",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.06",
+   "nama": "Rengasdengklok",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.07",
+   "nama": "Kutawaluya",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.08",
+   "nama": "Batujaya",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.09",
+   "nama": "Tirtajaya",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.10",
+   "nama": "Pedes",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.11",
+   "nama": "Cibuaya",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.12",
+   "nama": "Pakisjaya",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.13",
+   "nama": "Cikampek",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.14",
+   "nama": "Jatisari",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.15",
+   "nama": "Cilamaya Wetan",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.16",
+   "nama": "Tirtamulya",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.17",
+   "nama": "Telagasari",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.18",
+   "nama": "Rawamerta",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.19",
+   "nama": "Lemahabang",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.20",
+   "nama": "Tempuran",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.21",
+   "nama": "Majalaya",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.22",
+   "nama": "Jayakerta",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.23",
+   "nama": "Cilamaya Kulon",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.24",
+   "nama": "Banyusari",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.25",
+   "nama": "Kota Baru",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.26",
+   "nama": "Karawang Timur",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.27",
+   "nama": "Telukjambe Barat",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.28",
+   "nama": "Tegalwaru",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.29",
+   "nama": "Purwasari",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.15.30",
+   "nama": "Cilebar",
+   "level": "kec",
+   "induk_kode": "32.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16",
+   "nama": "Kabupaten Bekasi",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.01",
+   "nama": "Tarumajaya",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.02",
+   "nama": "Babelan",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.03",
+   "nama": "Sukawangi",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.04",
+   "nama": "Tambelang",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.05",
+   "nama": "Tambun Utara",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.06",
+   "nama": "Tambun Selatan",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.07",
+   "nama": "Cibitung",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.08",
+   "nama": "Cikarang Barat",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.09",
+   "nama": "Cikarang Utara",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.10",
+   "nama": "Karang Bahagia",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.11",
+   "nama": "Cikarang Timur",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.12",
+   "nama": "Kedung Waringin",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.13",
+   "nama": "Pebayuran",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.14",
+   "nama": "Sukakarya",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.15",
+   "nama": "Sukatani",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.16",
+   "nama": "Cabangbungin",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.17",
+   "nama": "Muaragembong",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.18",
+   "nama": "Setu",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.19",
+   "nama": "Cikarang Selatan",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.20",
+   "nama": "Cikarang Pusat",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.21",
+   "nama": "Serang Baru",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.22",
+   "nama": "Cibarusah",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.16.23",
+   "nama": "Bojongmangu",
+   "level": "kec",
+   "induk_kode": "32.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.17",
+   "nama": "Kabupaten Bandung Barat",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.17.01",
+   "nama": "Lembang",
+   "level": "kec",
+   "induk_kode": "32.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.17.02",
+   "nama": "Parongpong",
+   "level": "kec",
+   "induk_kode": "32.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.17.03",
+   "nama": "Cisarua",
+   "level": "kec",
+   "induk_kode": "32.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.17.04",
+   "nama": "Cikalongwetan",
+   "level": "kec",
+   "induk_kode": "32.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.17.05",
+   "nama": "Cipeundeuy",
+   "level": "kec",
+   "induk_kode": "32.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.17.06",
+   "nama": "Ngamprah",
+   "level": "kec",
+   "induk_kode": "32.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.17.07",
+   "nama": "Cipatat",
+   "level": "kec",
+   "induk_kode": "32.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.17.08",
+   "nama": "Padalarang",
+   "level": "kec",
+   "induk_kode": "32.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.17.09",
+   "nama": "Batujajar",
+   "level": "kec",
+   "induk_kode": "32.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.17.10",
+   "nama": "Cihampelas",
+   "level": "kec",
+   "induk_kode": "32.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.17.11",
+   "nama": "Cililin",
+   "level": "kec",
+   "induk_kode": "32.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.17.12",
+   "nama": "Cipongkor",
+   "level": "kec",
+   "induk_kode": "32.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.17.13",
+   "nama": "Rongga",
+   "level": "kec",
+   "induk_kode": "32.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.17.14",
+   "nama": "Sindangkerta",
+   "level": "kec",
+   "induk_kode": "32.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.17.15",
+   "nama": "Gununghalu",
+   "level": "kec",
+   "induk_kode": "32.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.17.16",
+   "nama": "Saguling",
+   "level": "kec",
+   "induk_kode": "32.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.18",
+   "nama": "Kabupaten Pangandaran",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.18.01",
+   "nama": "Parigi",
+   "level": "kec",
+   "induk_kode": "32.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.18.02",
+   "nama": "Cijulang",
+   "level": "kec",
+   "induk_kode": "32.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.18.03",
+   "nama": "Cimerak",
+   "level": "kec",
+   "induk_kode": "32.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.18.04",
+   "nama": "Cigugur",
+   "level": "kec",
+   "induk_kode": "32.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.18.05",
+   "nama": "Langkaplancar",
+   "level": "kec",
+   "induk_kode": "32.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.18.06",
+   "nama": "Mangunjaya",
+   "level": "kec",
+   "induk_kode": "32.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.18.07",
+   "nama": "Padaherang",
+   "level": "kec",
+   "induk_kode": "32.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.18.08",
+   "nama": "Kalipucang",
+   "level": "kec",
+   "induk_kode": "32.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.18.09",
+   "nama": "Pangandaran",
+   "level": "kec",
+   "induk_kode": "32.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.18.10",
+   "nama": "Sidamulih",
+   "level": "kec",
+   "induk_kode": "32.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.71",
+   "nama": "Kota Bogor",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.71.01",
+   "nama": "Bogor Selatan",
+   "level": "kec",
+   "induk_kode": "32.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.71.02",
+   "nama": "Bogor Timur",
+   "level": "kec",
+   "induk_kode": "32.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.71.03",
+   "nama": "Bogor Tengah",
+   "level": "kec",
+   "induk_kode": "32.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.71.04",
+   "nama": "Bogor Barat",
+   "level": "kec",
+   "induk_kode": "32.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.71.05",
+   "nama": "Bogor Utara",
+   "level": "kec",
+   "induk_kode": "32.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.71.06",
+   "nama": "Tanah Sareal",
+   "level": "kec",
+   "induk_kode": "32.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.72",
+   "nama": "Kota Sukabumi",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.72.01",
+   "nama": "Gunung Puyuh",
+   "level": "kec",
+   "induk_kode": "32.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.72.02",
+   "nama": "Cikole",
+   "level": "kec",
+   "induk_kode": "32.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.72.03",
+   "nama": "Citamiang",
+   "level": "kec",
+   "induk_kode": "32.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.72.04",
+   "nama": "Warudoyong",
+   "level": "kec",
+   "induk_kode": "32.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.72.05",
+   "nama": "Baros",
+   "level": "kec",
+   "induk_kode": "32.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.72.06",
+   "nama": "Lembursitu",
+   "level": "kec",
+   "induk_kode": "32.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.72.07",
+   "nama": "Cibeureum",
+   "level": "kec",
+   "induk_kode": "32.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73",
+   "nama": "Kota Bandung",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.01",
+   "nama": "Sukasari",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.02",
+   "nama": "Coblong",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.03",
+   "nama": "Babakan Ciparay",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.04",
+   "nama": "Bojongloa Kaler",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.05",
+   "nama": "Andir",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.06",
+   "nama": "Cicendo",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.07",
+   "nama": "Sukajadi",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.08",
+   "nama": "Cidadap",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.09",
+   "nama": "Bandung Wetan",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.10",
+   "nama": "Astanaanyar",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.11",
+   "nama": "Regol",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.12",
+   "nama": "Batununggal",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.13",
+   "nama": "Lengkong",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.14",
+   "nama": "Cibeunying Kidul",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.15",
+   "nama": "Bandung Kulon",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.16",
+   "nama": "Kiaracondong",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.17",
+   "nama": "Bojongloa Kidul",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.18",
+   "nama": "Cibeunying Kaler",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.19",
+   "nama": "Sumur Bandung",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.20",
+   "nama": "Antapani",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.21",
+   "nama": "Bandung Kidul",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.22",
+   "nama": "Buahbatu",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.23",
+   "nama": "Rancasari",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.24",
+   "nama": "Arcamanik",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.25",
+   "nama": "Cibiru",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.26",
+   "nama": "Ujungberung",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.27",
+   "nama": "Gedebage",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.28",
+   "nama": "Panyileukan",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.29",
+   "nama": "Cinambo",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.73.30",
+   "nama": "Mandalajati",
+   "level": "kec",
+   "induk_kode": "32.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.74",
+   "nama": "Kota Cirebon",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.74.01",
+   "nama": "Kejaksan",
+   "level": "kec",
+   "induk_kode": "32.74",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.74.02",
+   "nama": "Lemahwungkuk",
+   "level": "kec",
+   "induk_kode": "32.74",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.74.03",
+   "nama": "Harjamukti",
+   "level": "kec",
+   "induk_kode": "32.74",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.74.04",
+   "nama": "Pekalipan",
+   "level": "kec",
+   "induk_kode": "32.74",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.74.05",
+   "nama": "Kesambi",
+   "level": "kec",
+   "induk_kode": "32.74",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.75",
+   "nama": "Kota Bekasi",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.75.01",
+   "nama": "Bekasi Timur",
+   "level": "kec",
+   "induk_kode": "32.75",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.75.02",
+   "nama": "Bekasi Barat",
+   "level": "kec",
+   "induk_kode": "32.75",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.75.03",
+   "nama": "Bekasi Utara",
+   "level": "kec",
+   "induk_kode": "32.75",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.75.04",
+   "nama": "Bekasi Selatan",
+   "level": "kec",
+   "induk_kode": "32.75",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.75.05",
+   "nama": "Rawalumbu",
+   "level": "kec",
+   "induk_kode": "32.75",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.75.06",
+   "nama": "Medansatria",
+   "level": "kec",
+   "induk_kode": "32.75",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.75.07",
+   "nama": "Bantargebang",
+   "level": "kec",
+   "induk_kode": "32.75",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.75.08",
+   "nama": "Pondokgede",
+   "level": "kec",
+   "induk_kode": "32.75",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.75.09",
+   "nama": "Jatiasih",
+   "level": "kec",
+   "induk_kode": "32.75",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.75.10",
+   "nama": "Jatisampurna",
+   "level": "kec",
+   "induk_kode": "32.75",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.75.11",
+   "nama": "Mustikajaya",
+   "level": "kec",
+   "induk_kode": "32.75",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.75.12",
+   "nama": "Pondokmelati",
+   "level": "kec",
+   "induk_kode": "32.75",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.76",
+   "nama": "Kota Depok",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.76.01",
+   "nama": "Pancoran Mas",
+   "level": "kec",
+   "induk_kode": "32.76",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.76.02",
+   "nama": "Cimanggis",
+   "level": "kec",
+   "induk_kode": "32.76",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.76.03",
+   "nama": "Sawangan",
+   "level": "kec",
+   "induk_kode": "32.76",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.76.04",
+   "nama": "Limo",
+   "level": "kec",
+   "induk_kode": "32.76",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.76.05",
+   "nama": "Sukmajaya",
+   "level": "kec",
+   "induk_kode": "32.76",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.76.06",
+   "nama": "Beji",
+   "level": "kec",
+   "induk_kode": "32.76",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.76.07",
+   "nama": "Cipayung",
+   "level": "kec",
+   "induk_kode": "32.76",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.76.08",
+   "nama": "Cilodong",
+   "level": "kec",
+   "induk_kode": "32.76",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.76.09",
+   "nama": "Cinere",
+   "level": "kec",
+   "induk_kode": "32.76",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.76.10",
+   "nama": "Tapos",
+   "level": "kec",
+   "induk_kode": "32.76",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.76.11",
+   "nama": "Bojongsari",
+   "level": "kec",
+   "induk_kode": "32.76",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.77",
+   "nama": "Kota Cimahi",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.77.01",
+   "nama": "Cimahi Selatan",
+   "level": "kec",
+   "induk_kode": "32.77",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.77.02",
+   "nama": "Cimahi Tengah",
+   "level": "kec",
+   "induk_kode": "32.77",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.77.03",
+   "nama": "Cimahi Utara",
+   "level": "kec",
+   "induk_kode": "32.77",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.78",
+   "nama": "Kota Tasikmalaya",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.78.01",
+   "nama": "Cihideung",
+   "level": "kec",
+   "induk_kode": "32.78",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.78.02",
+   "nama": "Cipedes",
+   "level": "kec",
+   "induk_kode": "32.78",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.78.03",
+   "nama": "Tawang",
+   "level": "kec",
+   "induk_kode": "32.78",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.78.04",
+   "nama": "Indihiang",
+   "level": "kec",
+   "induk_kode": "32.78",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.78.05",
+   "nama": "Kawalu",
+   "level": "kec",
+   "induk_kode": "32.78",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.78.06",
+   "nama": "Cibeureum",
+   "level": "kec",
+   "induk_kode": "32.78",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.78.07",
+   "nama": "Tamansari",
+   "level": "kec",
+   "induk_kode": "32.78",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.78.08",
+   "nama": "Mangkubumi",
+   "level": "kec",
+   "induk_kode": "32.78",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.78.09",
+   "nama": "Bungursari",
+   "level": "kec",
+   "induk_kode": "32.78",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.78.10",
+   "nama": "Purbaratu",
+   "level": "kec",
+   "induk_kode": "32.78",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.79",
+   "nama": "Kota Banjar",
+   "level": "kab",
+   "induk_kode": "32",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.79.01",
+   "nama": "Banjar",
+   "level": "kec",
+   "induk_kode": "32.79",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.79.02",
+   "nama": "Pataruman",
+   "level": "kec",
+   "induk_kode": "32.79",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.79.03",
+   "nama": "Purwaharja",
+   "level": "kec",
+   "induk_kode": "32.79",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "32.79.04",
+   "nama": "Langensari",
+   "level": "kec",
+   "induk_kode": "32.79",
+   "pesisir": null
+  }
+ ],
+ "satuan": [
+  {
+   "id": "ad-kodim-0507",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 0507/Kota Bekasi",
+   "induk_id": "ad-korem-051",
+   "markas": "Kota Bekasi",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-0508",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 0508/Kota Depok",
+   "induk_id": "ad-korem-051",
+   "markas": "Kota Depok",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-0604",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 0604/Kab. Karawang",
+   "induk_id": "ad-korem-063",
+   "markas": "Kab. Karawang",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-0605",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 0605/Kab. Subang",
+   "induk_id": "ad-korem-063",
+   "markas": "Kab. Subang",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-0609",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 0609/Kota Cimahi",
+   "induk_id": "ad-korem-062",
+   "markas": "Kota Cimahi",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-0610",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 0610/Kab. Sumedang",
+   "induk_id": "ad-korem-062",
+   "markas": "Kab. Sumedang",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-0614",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 0614/Kota Cirebon",
+   "induk_id": "ad-korem-063",
+   "markas": "Kota Cirebon",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-0615",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 0615/Kab. Kuningan",
+   "induk_id": "ad-korem-063",
+   "markas": "Kab. Kuningan",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-0616",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 0616/Kab. Indramayu",
+   "induk_id": "ad-korem-063",
+   "markas": "Kab. Indramayu",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-0617",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 0617/Kab. Majalengka",
+   "induk_id": "ad-korem-063",
+   "markas": "Kab. Majalengka",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-0618",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 0618/Kota Bandung",
+   "induk_id": "ad-kodam-3-slw",
+   "markas": "Kota Bandung",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-0619",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 0619/Kab. Purwakarta",
+   "induk_id": "ad-korem-063",
+   "markas": "Kab. Purwakarta",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-0620",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 0620/Kab. Cirebon",
+   "induk_id": "ad-korem-063",
+   "markas": "Kab. Cirebon",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "au-lanud-husein",
+   "matra": "AU",
+   "tingkat": "Lanud",
+   "nama": "Lanud Husein Sastranegara",
+   "induk_id": "au-koopsud-1",
+   "markas": "Bandung",
+   "sumber": "aturan AU (Lanud provinsi) + Koopsud I",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "rendah",
+   "catatan": ""
+  }
+ ],
+ "pemetaan": [
+  {
+   "kode_wilayah": "32",
+   "satuan_id": "al-kodaeral-3",
+   "peran": "terkait",
+   "aturan_pemetaan": "wilayah pesisir provinsi (Lanal/Posal per kab perlu detail)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Kodaeral III / Koarmada RI",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Jawa Barat — via Lanal Cirebon & Lanal Bandung (Kodaeral III) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "32",
+   "satuan_id": "au-lanud-husein",
+   "peran": "terkait",
+   "aturan_pemetaan": "Lanud di/terdekat provinsi (aturan AU)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "Koopsud I",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Jawa Barat — Lanud Husein Sastranegara (Bandung); juga Atang Sendjaja/Suryadarma/Wiriadinata | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "32.01",
+   "satuan_id": "ad-korem-061",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Bogor"
+  },
+  {
+   "kode_wilayah": "32.02",
+   "satuan_id": "ad-korem-061",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Sukabumi"
+  },
+  {
+   "kode_wilayah": "32.03",
+   "satuan_id": "ad-korem-061",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Cianjur"
+  },
+  {
+   "kode_wilayah": "32.04",
+   "satuan_id": "ad-kodam-3-slw",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Bandung — Kodam ad-kodam-3-slw TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "32.05",
+   "satuan_id": "ad-korem-062",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Garut"
+  },
+  {
+   "kode_wilayah": "32.06",
+   "satuan_id": "ad-korem-062",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Tasikmalaya"
+  },
+  {
+   "kode_wilayah": "32.07",
+   "satuan_id": "ad-korem-062",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Ciamis"
+  },
+  {
+   "kode_wilayah": "32.08",
+   "satuan_id": "ad-kodim-0615",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Kuningan — Kodim 0615 < Korem 063 < ad-kodam-3-slw. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "32.09",
+   "satuan_id": "ad-kodim-0620",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Cirebon — Kodim 0620 < Korem 063 < ad-kodam-3-slw. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "32.10",
+   "satuan_id": "ad-kodim-0617",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Majalengka — Kodim 0617 < Korem 063 < ad-kodam-3-slw. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "32.11",
+   "satuan_id": "ad-kodim-0610",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Sumedang — Kodim 0610 < Korem 062 < ad-kodam-3-slw. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "32.12",
+   "satuan_id": "ad-kodim-0616",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Indramayu — Kodim 0616 < Korem 063 < ad-kodam-3-slw. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "32.13",
+   "satuan_id": "ad-kodim-0605",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Subang — Kodim 0605 < Korem 063 < ad-kodam-3-slw. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "32.14",
+   "satuan_id": "ad-kodim-0619",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Purwakarta — Kodim 0619 < Korem 063 < ad-kodam-3-slw. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "32.15",
+   "satuan_id": "ad-kodim-0604",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Karawang — Kodim 0604 < Korem 063 < ad-kodam-3-slw. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "32.16",
+   "satuan_id": "ad-kodam-jaya",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Bekasi — Kodam ad-kodam-3-slw TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "32.17",
+   "satuan_id": "ad-kodam-3-slw",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Bandung Barat — Kodam ad-kodam-3-slw TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "32.18",
+   "satuan_id": "ad-kodam-3-slw",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Pangandaran — Kodam ad-kodam-3-slw TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "32.71",
+   "satuan_id": "ad-korem-061",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Bogor"
+  },
+  {
+   "kode_wilayah": "32.72",
+   "satuan_id": "ad-korem-061",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Sukabumi"
+  },
+  {
+   "kode_wilayah": "32.73",
+   "satuan_id": "ad-kodim-0618",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Bandung — Kodim 0618 (langsung Kodam) < ad-kodam-3-slw. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "32.74",
+   "satuan_id": "ad-kodim-0614",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Cirebon — Kodim 0614 < Korem 063 < ad-kodam-3-slw. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "32.75",
+   "satuan_id": "ad-kodim-0507",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Bekasi — Kodim 0507 < Korem 051 < ad-kodam-jaya. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "32.76",
+   "satuan_id": "ad-kodim-0508",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Depok — Kodim 0508 < Korem 051 < ad-kodam-jaya. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "32.77",
+   "satuan_id": "ad-kodim-0609",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Cimahi — Kodim 0609 < Korem 062 < ad-kodam-3-slw. Dikonfirmasi Lampiran II + Perpres 84/2025."
+  },
+  {
+   "kode_wilayah": "32.78",
+   "satuan_id": "ad-korem-062",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Tasikmalaya"
+  },
+  {
+   "kode_wilayah": "32.79",
+   "satuan_id": "ad-kodam-3-slw",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Banjar — Kodam ad-kodam-3-slw TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  }
+ ]
+}

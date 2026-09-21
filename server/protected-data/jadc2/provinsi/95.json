@@ -1,0 +1,1961 @@
+{
+ "kode": "95",
+ "nama": "Papua Pegunungan",
+ "wilayah": [
+  {
+   "kode_bps": "95",
+   "nama": "Papua Pegunungan",
+   "level": "prov",
+   "induk_kode": "",
+   "pesisir": false
+  },
+  {
+   "kode_bps": "95.01",
+   "nama": "Kabupaten Jayawijaya",
+   "level": "kab",
+   "induk_kode": "95",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.01",
+   "nama": "Wamena",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.02",
+   "nama": "Kurulu",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.03",
+   "nama": "Asologaima",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.04",
+   "nama": "Hubikosi",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.05",
+   "nama": "Bolakme",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.06",
+   "nama": "Walelagama",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.07",
+   "nama": "Musatfak",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.08",
+   "nama": "Wolo",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.09",
+   "nama": "Asolokobal",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.10",
+   "nama": "Pelebaga",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.11",
+   "nama": "Yalengga",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.12",
+   "nama": "Trikora",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.13",
+   "nama": "Napua",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.14",
+   "nama": "Walaik",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.15",
+   "nama": "Wouma",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.16",
+   "nama": "Hubikiak",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.17",
+   "nama": "Ibele",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.18",
+   "nama": "Taelarek",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.19",
+   "nama": "Itlay Hisage",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.20",
+   "nama": "Siepkosi",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.21",
+   "nama": "Usilimo",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.22",
+   "nama": "Wita Waya",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.23",
+   "nama": "Libarek",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.24",
+   "nama": "Wadangku",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.25",
+   "nama": "Pisugi",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.26",
+   "nama": "Koragi",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.27",
+   "nama": "Tagime",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.28",
+   "nama": "Molagalome",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.29",
+   "nama": "Tagineri",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.30",
+   "nama": "Silo Karno Doga",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.31",
+   "nama": "Piramid",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.32",
+   "nama": "Muliama",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.33",
+   "nama": "Bugi",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.34",
+   "nama": "Bpiri",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.35",
+   "nama": "Welesi",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.36",
+   "nama": "Asotipo",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.37",
+   "nama": "Maima",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.38",
+   "nama": "Popugoba",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.39",
+   "nama": "Wame",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.01.40",
+   "nama": "Wesaput",
+   "level": "kec",
+   "induk_kode": "95.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02",
+   "nama": "Kabupaten Pegunungan Bintang",
+   "level": "kab",
+   "induk_kode": "95",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.01",
+   "nama": "Oksibil",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.02",
+   "nama": "Kiwirok",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.03",
+   "nama": "Okbibab",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.04",
+   "nama": "Iwur",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.05",
+   "nama": "Batom",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.06",
+   "nama": "Borme",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.07",
+   "nama": "Kiwirok Timur",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.08",
+   "nama": "Aboy",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.09",
+   "nama": "Pepera",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.10",
+   "nama": "Bime",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.11",
+   "nama": "Alemsom",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.12",
+   "nama": "Okbape",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.13",
+   "nama": "Kalomdol",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.14",
+   "nama": "Oksop",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.15",
+   "nama": "Serambakon",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.16",
+   "nama": "Ok Aom",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.17",
+   "nama": "Kawor",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.18",
+   "nama": "Awinbon",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.19",
+   "nama": "Tarup",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.20",
+   "nama": "Okhika",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.21",
+   "nama": "Oksamol",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.22",
+   "nama": "Oklip",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.23",
+   "nama": "Okbemtau",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.24",
+   "nama": "Oksebang",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.25",
+   "nama": "Okbab",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.26",
+   "nama": "Batani",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.27",
+   "nama": "Weime",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.28",
+   "nama": "Murkim",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.29",
+   "nama": "Mofinop",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.30",
+   "nama": "Jetfa",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.31",
+   "nama": "Teiraplu",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.32",
+   "nama": "Eipumek",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.33",
+   "nama": "Pamek",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.02.34",
+   "nama": "Nongme",
+   "level": "kec",
+   "induk_kode": "95.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03",
+   "nama": "Kabupaten Yahukimo",
+   "level": "kab",
+   "induk_kode": "95",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.01",
+   "nama": "Kurima",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.02",
+   "nama": "Anggruk",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.03",
+   "nama": "Ninia",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.04",
+   "nama": "Silimo",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.05",
+   "nama": "Samenage",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.06",
+   "nama": "Nalca",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.07",
+   "nama": "Dekai",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.08",
+   "nama": "Obio",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.09",
+   "nama": "Suru Suru",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.10",
+   "nama": "Wusama",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.11",
+   "nama": "Amuma",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.12",
+   "nama": "Musaik",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.13",
+   "nama": "Pasema",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.14",
+   "nama": "Hogio",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.15",
+   "nama": "Mugi",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.16",
+   "nama": "Soba",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.17",
+   "nama": "Werima",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.18",
+   "nama": "Tangma",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.19",
+   "nama": "Ukha",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.20",
+   "nama": "Panggema",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.21",
+   "nama": "Kosarek",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.22",
+   "nama": "Nipsan",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.23",
+   "nama": "Ubahak",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.24",
+   "nama": "Pronggoli",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.25",
+   "nama": "Walma",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.26",
+   "nama": "Yahuliambut",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.27",
+   "nama": "Hereapini",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.28",
+   "nama": "Ubalihi",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.29",
+   "nama": "Talambo",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.30",
+   "nama": "Puldama",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.31",
+   "nama": "Endomen",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.32",
+   "nama": "Kona",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.33",
+   "nama": "Dirwemna",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.34",
+   "nama": "Holuwon",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.35",
+   "nama": "Lolat",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.36",
+   "nama": "Soloikma",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.37",
+   "nama": "Sela",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.38",
+   "nama": "Korupun",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.39",
+   "nama": "Langda",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.40",
+   "nama": "Bomela",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.41",
+   "nama": "Suntamon",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.42",
+   "nama": "Seradala",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.43",
+   "nama": "Sobaham",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.44",
+   "nama": "Kabianggama",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.45",
+   "nama": "Kwelamdua",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.46",
+   "nama": "Kwikma",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.47",
+   "nama": "Hilipuk",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.48",
+   "nama": "Duram",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.49",
+   "nama": "Yogosem",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.50",
+   "nama": "Kayo",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.03.51",
+   "nama": "Sumo",
+   "level": "kec",
+   "induk_kode": "95.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04",
+   "nama": "Kabupaten Tolikara",
+   "level": "kab",
+   "induk_kode": "95",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.01",
+   "nama": "Karubaga",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.02",
+   "nama": "Bokondini",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.03",
+   "nama": "Kanggime",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.04",
+   "nama": "Kembu",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.05",
+   "nama": "Goyage",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.06",
+   "nama": "Wunim",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.07",
+   "nama": "Wina",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.08",
+   "nama": "Umagi",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.09",
+   "nama": "Panaga",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.10",
+   "nama": "Woniki",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.11",
+   "nama": "Kubu",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.12",
+   "nama": "Konda/Kondaga",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.13",
+   "nama": "Nelawi",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.14",
+   "nama": "Kuari",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.15",
+   "nama": "Bokoneri",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.16",
+   "nama": "Bewani",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.17",
+   "nama": "Nabunage",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.18",
+   "nama": "Gilubandu",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.19",
+   "nama": "Nunggawi",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.20",
+   "nama": "Gundagi",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.21",
+   "nama": "Numba",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.22",
+   "nama": "Timori",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.23",
+   "nama": "Dundu",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.24",
+   "nama": "Geya",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.25",
+   "nama": "Egiam",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.26",
+   "nama": "Poganeri",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.27",
+   "nama": "Kamboneri",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.28",
+   "nama": "Airgaram",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.29",
+   "nama": "Wari/Taiyeve II",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.30",
+   "nama": "Dow",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.31",
+   "nama": "Tagineri",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.32",
+   "nama": "Yuneri",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.33",
+   "nama": "Wakuwo",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.34",
+   "nama": "Gika",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.35",
+   "nama": "Telenggeme",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.36",
+   "nama": "Anawi",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.37",
+   "nama": "Wenam",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.38",
+   "nama": "Wugi",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.39",
+   "nama": "Danime",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.40",
+   "nama": "Tagime",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.41",
+   "nama": "Kai",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.42",
+   "nama": "Aweku",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.43",
+   "nama": "Bogonuk",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.44",
+   "nama": "Li Anogomma",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.45",
+   "nama": "Biuk",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.04.46",
+   "nama": "Yuko",
+   "level": "kec",
+   "induk_kode": "95.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.05",
+   "nama": "Kabupaten Mamberamo Tengah",
+   "level": "kab",
+   "induk_kode": "95",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.05.01",
+   "nama": "Kobakma",
+   "level": "kec",
+   "induk_kode": "95.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.05.02",
+   "nama": "Kelila",
+   "level": "kec",
+   "induk_kode": "95.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.05.03",
+   "nama": "Eragayam",
+   "level": "kec",
+   "induk_kode": "95.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.05.04",
+   "nama": "Megambilis",
+   "level": "kec",
+   "induk_kode": "95.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.05.05",
+   "nama": "Ilugwa",
+   "level": "kec",
+   "induk_kode": "95.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.06",
+   "nama": "Kabupaten Yalimo",
+   "level": "kab",
+   "induk_kode": "95",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.06.01",
+   "nama": "Elelim",
+   "level": "kec",
+   "induk_kode": "95.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.06.02",
+   "nama": "Apalapsili",
+   "level": "kec",
+   "induk_kode": "95.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.06.03",
+   "nama": "Abenaho",
+   "level": "kec",
+   "induk_kode": "95.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.06.04",
+   "nama": "Benawa",
+   "level": "kec",
+   "induk_kode": "95.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.06.05",
+   "nama": "Welarek",
+   "level": "kec",
+   "induk_kode": "95.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07",
+   "nama": "Kabupaten Lanny Jaya",
+   "level": "kab",
+   "induk_kode": "95",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.01",
+   "nama": "Tiom",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.02",
+   "nama": "Pirime",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.03",
+   "nama": "Makki",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.04",
+   "nama": "Gamelia",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.05",
+   "nama": "Dimba",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.06",
+   "nama": "Melagineri",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.07",
+   "nama": "Balingga",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.08",
+   "nama": "Tiomneri",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.09",
+   "nama": "Kuyawage",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.10",
+   "nama": "Poga",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.11",
+   "nama": "Niname",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.12",
+   "nama": "Nogi",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.13",
+   "nama": "Yiginua",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.14",
+   "nama": "Tiom Ollo",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.15",
+   "nama": "Yugungwi",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.16",
+   "nama": "Mokoni",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.17",
+   "nama": "Wereka",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.18",
+   "nama": "Milimbo",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.19",
+   "nama": "Wiringgambut",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.20",
+   "nama": "Gollo",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.21",
+   "nama": "Awina",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.22",
+   "nama": "Ayumnati",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.23",
+   "nama": "Wano Barat",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.24",
+   "nama": "Goa Balim",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.25",
+   "nama": "Bruwa",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.26",
+   "nama": "Balingga Barat",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.27",
+   "nama": "Gupura",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.28",
+   "nama": "Kolawa",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.29",
+   "nama": "Gelok Beam",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.30",
+   "nama": "Kuly Lanny",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.31",
+   "nama": "Lannyna",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.32",
+   "nama": "Karu",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.33",
+   "nama": "Yiluk",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.34",
+   "nama": "Guna",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.35",
+   "nama": "Kelulome",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.36",
+   "nama": "Nikogwe",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.37",
+   "nama": "Muara",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.38",
+   "nama": "Buguk Gona",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.07.39",
+   "nama": "Melagi",
+   "level": "kec",
+   "induk_kode": "95.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08",
+   "nama": "Kabupaten Nduga",
+   "level": "kab",
+   "induk_kode": "95",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.01",
+   "nama": "Kenyam",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.02",
+   "nama": "Mapenduma",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.03",
+   "nama": "Yigi",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.04",
+   "nama": "Wosak",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.05",
+   "nama": "Geselma",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.06",
+   "nama": "Mugi",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.07",
+   "nama": "Mbuwa",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.08",
+   "nama": "Gearek",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.09",
+   "nama": "Koroptak",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.10",
+   "nama": "Kegayem",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.11",
+   "nama": "Paro",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.12",
+   "nama": "Mebarok",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.13",
+   "nama": "Yenggelo",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.14",
+   "nama": "Kilmid",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.15",
+   "nama": "Alama",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.16",
+   "nama": "Yal",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.17",
+   "nama": "Mam",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.18",
+   "nama": "Dal",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.19",
+   "nama": "Nirkuri",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.20",
+   "nama": "Inikgal",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.21",
+   "nama": "Iniye",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.22",
+   "nama": "Mbulmu Yalma",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.23",
+   "nama": "Mbua Tengah",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.24",
+   "nama": "Embetpen",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.25",
+   "nama": "Kora",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.26",
+   "nama": "Wusi",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.27",
+   "nama": "Pija",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.28",
+   "nama": "Moba",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.29",
+   "nama": "Wutpaga",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.30",
+   "nama": "Nenggeagin",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.31",
+   "nama": "Krepkuri",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "95.08.32",
+   "nama": "Pasir Putih",
+   "level": "kec",
+   "induk_kode": "95.08",
+   "pesisir": null
+  }
+ ],
+ "satuan": [
+  {
+   "id": "ad-kodim-1702",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1702/Kab. Jayawijaya",
+   "induk_id": "ad-korem-172",
+   "markas": "Kab. Jayawijaya",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "au-lanud-wamena",
+   "matra": "AU",
+   "tingkat": "Lanud",
+   "nama": "Lanud Wamena",
+   "induk_id": "au-koopsud-3",
+   "markas": "Wamena",
+   "sumber": "aturan AU (Lanud provinsi) + Koopsud III",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "rendah",
+   "catatan": ""
+  }
+ ],
+ "pemetaan": [
+  {
+   "kode_wilayah": "95",
+   "satuan_id": "",
+   "peran": "-",
+   "aturan_pemetaan": "provinsi pedalaman: tidak ada satuan AL",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "geografis",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Papua Pegunungan — provinsi pedalaman/tanpa pantai — tidak ada satuan AL"
+  },
+  {
+   "kode_wilayah": "95",
+   "satuan_id": "au-lanud-wamena",
+   "peran": "terkait",
+   "aturan_pemetaan": "Lanud di/terdekat provinsi (aturan AU)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "Koopsud III",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Papua Pegunungan — Lanud Wamena | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "95.01",
+   "satuan_id": "ad-kodim-1702",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Jayawijaya — Kodim 1702 (Lampiran II 2014). Struktur Korem/Kodam Papua banyak berubah 2016-2025; Kodim terkonfirmasi, induk perlu cek akhir."
+  },
+  {
+   "kode_wilayah": "95.02",
+   "satuan_id": "ad-kodam-17-cdw",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Pegunungan Bintang — Kodam ad-kodam-17-cdw TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "95.03",
+   "satuan_id": "ad-kodam-17-cdw",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Yahukimo — Kodam ad-kodam-17-cdw TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "95.04",
+   "satuan_id": "ad-kodam-17-cdw",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Tolikara — Kodam ad-kodam-17-cdw TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "95.05",
+   "satuan_id": "ad-kodam-17-cdw",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Mamberamo Tengah — Kodam ad-kodam-17-cdw TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "95.06",
+   "satuan_id": "ad-kodam-17-cdw",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Yalimo — Kodam ad-kodam-17-cdw TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "95.07",
+   "satuan_id": "ad-kodam-17-cdw",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Lanny Jaya — Kodam ad-kodam-17-cdw TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "95.08",
+   "satuan_id": "ad-kodam-17-cdw",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Nduga — Kodam ad-kodam-17-cdw TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  }
+ ]
+}

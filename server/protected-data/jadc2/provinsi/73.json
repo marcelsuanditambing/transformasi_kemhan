@@ -1,0 +1,2755 @@
+{
+ "kode": "73",
+ "nama": "Sulawesi Selatan",
+ "wilayah": [
+  {
+   "kode_bps": "73",
+   "nama": "Sulawesi Selatan",
+   "level": "prov",
+   "induk_kode": "",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "73.01",
+   "nama": "Kabupaten Kepulauan Selayar",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.01.01",
+   "nama": "Benteng",
+   "level": "kec",
+   "induk_kode": "73.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.01.02",
+   "nama": "Bontoharu",
+   "level": "kec",
+   "induk_kode": "73.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.01.03",
+   "nama": "Bontomatene",
+   "level": "kec",
+   "induk_kode": "73.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.01.04",
+   "nama": "Bontomanai",
+   "level": "kec",
+   "induk_kode": "73.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.01.05",
+   "nama": "Bontosikuyu",
+   "level": "kec",
+   "induk_kode": "73.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.01.06",
+   "nama": "Pasimasunggu",
+   "level": "kec",
+   "induk_kode": "73.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.01.07",
+   "nama": "Pasimarannu",
+   "level": "kec",
+   "induk_kode": "73.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.01.08",
+   "nama": "Taka Bonerate",
+   "level": "kec",
+   "induk_kode": "73.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.01.09",
+   "nama": "Pasilambena",
+   "level": "kec",
+   "induk_kode": "73.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.01.10",
+   "nama": "Pasimasunggu Timur",
+   "level": "kec",
+   "induk_kode": "73.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.01.11",
+   "nama": "Buki",
+   "level": "kec",
+   "induk_kode": "73.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.02",
+   "nama": "Kabupaten Bulukumba",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.02.01",
+   "nama": "Gantarang",
+   "level": "kec",
+   "induk_kode": "73.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.02.02",
+   "nama": "Ujung Bulu",
+   "level": "kec",
+   "induk_kode": "73.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.02.03",
+   "nama": "Bonto Bahari",
+   "level": "kec",
+   "induk_kode": "73.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.02.04",
+   "nama": "Bonto Tiro",
+   "level": "kec",
+   "induk_kode": "73.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.02.05",
+   "nama": "Herlang",
+   "level": "kec",
+   "induk_kode": "73.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.02.06",
+   "nama": "Kajang",
+   "level": "kec",
+   "induk_kode": "73.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.02.07",
+   "nama": "Bulukumpa",
+   "level": "kec",
+   "induk_kode": "73.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.02.08",
+   "nama": "Kindang",
+   "level": "kec",
+   "induk_kode": "73.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.02.09",
+   "nama": "Ujungloe",
+   "level": "kec",
+   "induk_kode": "73.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.02.10",
+   "nama": "Rilauale",
+   "level": "kec",
+   "induk_kode": "73.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.03",
+   "nama": "Kabupaten Bantaeng",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.03.01",
+   "nama": "Bissappu",
+   "level": "kec",
+   "induk_kode": "73.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.03.02",
+   "nama": "Bantaeng",
+   "level": "kec",
+   "induk_kode": "73.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.03.03",
+   "nama": "Eremerasa",
+   "level": "kec",
+   "induk_kode": "73.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.03.04",
+   "nama": "Tompo Bulu",
+   "level": "kec",
+   "induk_kode": "73.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.03.05",
+   "nama": "Pajukukang",
+   "level": "kec",
+   "induk_kode": "73.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.03.06",
+   "nama": "Uluere",
+   "level": "kec",
+   "induk_kode": "73.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.03.07",
+   "nama": "Gantarang Keke",
+   "level": "kec",
+   "induk_kode": "73.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.03.08",
+   "nama": "Sinoa",
+   "level": "kec",
+   "induk_kode": "73.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.04",
+   "nama": "Kabupaten Jeneponto",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.04.01",
+   "nama": "Bangkala",
+   "level": "kec",
+   "induk_kode": "73.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.04.02",
+   "nama": "Tamalatea",
+   "level": "kec",
+   "induk_kode": "73.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.04.03",
+   "nama": "Binamu",
+   "level": "kec",
+   "induk_kode": "73.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.04.04",
+   "nama": "Batang",
+   "level": "kec",
+   "induk_kode": "73.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.04.05",
+   "nama": "Kelara",
+   "level": "kec",
+   "induk_kode": "73.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.04.06",
+   "nama": "Bangkala Barat",
+   "level": "kec",
+   "induk_kode": "73.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.04.07",
+   "nama": "Bontoramba",
+   "level": "kec",
+   "induk_kode": "73.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.04.08",
+   "nama": "Turatea",
+   "level": "kec",
+   "induk_kode": "73.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.04.09",
+   "nama": "Arungkeke",
+   "level": "kec",
+   "induk_kode": "73.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.04.10",
+   "nama": "Rumbia",
+   "level": "kec",
+   "induk_kode": "73.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.04.11",
+   "nama": "Tarowang",
+   "level": "kec",
+   "induk_kode": "73.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.05",
+   "nama": "Kabupaten Takalar",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.05.01",
+   "nama": "Mappakasunggu",
+   "level": "kec",
+   "induk_kode": "73.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.05.02",
+   "nama": "Mangarabombang",
+   "level": "kec",
+   "induk_kode": "73.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.05.03",
+   "nama": "Polongbangkeng Selatan",
+   "level": "kec",
+   "induk_kode": "73.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.05.04",
+   "nama": "Polongbangkeng Utara",
+   "level": "kec",
+   "induk_kode": "73.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.05.05",
+   "nama": "Galesong Selatan",
+   "level": "kec",
+   "induk_kode": "73.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.05.06",
+   "nama": "Galesong Utara",
+   "level": "kec",
+   "induk_kode": "73.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.05.07",
+   "nama": "Pattallassang",
+   "level": "kec",
+   "induk_kode": "73.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.05.08",
+   "nama": "Sanrobone",
+   "level": "kec",
+   "induk_kode": "73.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.05.09",
+   "nama": "Galesong",
+   "level": "kec",
+   "induk_kode": "73.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.05.10",
+   "nama": "Kepulauan Tanakeke",
+   "level": "kec",
+   "induk_kode": "73.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.05.11",
+   "nama": "Polongbangkeng Timur",
+   "level": "kec",
+   "induk_kode": "73.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.05.12",
+   "nama": "Laikang",
+   "level": "kec",
+   "induk_kode": "73.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.06",
+   "nama": "Kabupaten Gowa",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.06.01",
+   "nama": "Bontonompo",
+   "level": "kec",
+   "induk_kode": "73.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.06.02",
+   "nama": "Bajeng",
+   "level": "kec",
+   "induk_kode": "73.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.06.03",
+   "nama": "Tompobulu",
+   "level": "kec",
+   "induk_kode": "73.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.06.04",
+   "nama": "Tinggimoncong",
+   "level": "kec",
+   "induk_kode": "73.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.06.05",
+   "nama": "Parangloe",
+   "level": "kec",
+   "induk_kode": "73.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.06.06",
+   "nama": "Bontomarannu",
+   "level": "kec",
+   "induk_kode": "73.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.06.07",
+   "nama": "Pallangga",
+   "level": "kec",
+   "induk_kode": "73.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.06.08",
+   "nama": "Somba Opu",
+   "level": "kec",
+   "induk_kode": "73.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.06.09",
+   "nama": "Bungaya",
+   "level": "kec",
+   "induk_kode": "73.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.06.10",
+   "nama": "Tombolopao",
+   "level": "kec",
+   "induk_kode": "73.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.06.11",
+   "nama": "Biringbulu",
+   "level": "kec",
+   "induk_kode": "73.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.06.12",
+   "nama": "Barombong",
+   "level": "kec",
+   "induk_kode": "73.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.06.13",
+   "nama": "Pattallasang",
+   "level": "kec",
+   "induk_kode": "73.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.06.14",
+   "nama": "Manuju",
+   "level": "kec",
+   "induk_kode": "73.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.06.15",
+   "nama": "Bontolempangang",
+   "level": "kec",
+   "induk_kode": "73.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.06.16",
+   "nama": "Bontonompo Selatan",
+   "level": "kec",
+   "induk_kode": "73.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.06.17",
+   "nama": "Parigi",
+   "level": "kec",
+   "induk_kode": "73.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.06.18",
+   "nama": "Bajeng Barat",
+   "level": "kec",
+   "induk_kode": "73.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.07",
+   "nama": "Kabupaten Sinjai",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.07.01",
+   "nama": "Sinjai Barat",
+   "level": "kec",
+   "induk_kode": "73.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.07.02",
+   "nama": "Sinjai Selatan",
+   "level": "kec",
+   "induk_kode": "73.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.07.03",
+   "nama": "Sinjai Timur",
+   "level": "kec",
+   "induk_kode": "73.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.07.04",
+   "nama": "Sinjai Tengah",
+   "level": "kec",
+   "induk_kode": "73.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.07.05",
+   "nama": "Sinjai Utara",
+   "level": "kec",
+   "induk_kode": "73.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.07.06",
+   "nama": "Bulupoddo",
+   "level": "kec",
+   "induk_kode": "73.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.07.07",
+   "nama": "Sinjai Borong",
+   "level": "kec",
+   "induk_kode": "73.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.07.08",
+   "nama": "Tellu Limpoe",
+   "level": "kec",
+   "induk_kode": "73.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.07.09",
+   "nama": "Pulau Sembilan",
+   "level": "kec",
+   "induk_kode": "73.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08",
+   "nama": "Kabupaten Bone",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.01",
+   "nama": "Bontocani",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.02",
+   "nama": "Kahu",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.03",
+   "nama": "Kajuara",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.04",
+   "nama": "Salomekko",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.05",
+   "nama": "Tonra",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.06",
+   "nama": "Libureng",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.07",
+   "nama": "Mare",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.08",
+   "nama": "Sibulue",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.09",
+   "nama": "Barebbo",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.10",
+   "nama": "Cina",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.11",
+   "nama": "Ponre",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.12",
+   "nama": "Lappariaja",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.13",
+   "nama": "Lamuru",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.14",
+   "nama": "Ulaweng",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.15",
+   "nama": "Palakka",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.16",
+   "nama": "Awangpone",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.17",
+   "nama": "Tellu Siattinge",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.18",
+   "nama": "Ajangale",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.19",
+   "nama": "Dua Boccoe",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.20",
+   "nama": "Cenrana",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.21",
+   "nama": "Tanete Riattang",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.22",
+   "nama": "Tanete Riattang Barat",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.23",
+   "nama": "Tanete Riattang Timur",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.24",
+   "nama": "Amali",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.25",
+   "nama": "Tellulimpoe",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.26",
+   "nama": "Bengo",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.08.27",
+   "nama": "Patimpeng",
+   "level": "kec",
+   "induk_kode": "73.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.09",
+   "nama": "Kabupaten Maros",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.09.01",
+   "nama": "Mandai",
+   "level": "kec",
+   "induk_kode": "73.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.09.02",
+   "nama": "Camba",
+   "level": "kec",
+   "induk_kode": "73.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.09.03",
+   "nama": "Bantimurung",
+   "level": "kec",
+   "induk_kode": "73.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.09.04",
+   "nama": "Maros Baru",
+   "level": "kec",
+   "induk_kode": "73.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.09.05",
+   "nama": "Bontoa",
+   "level": "kec",
+   "induk_kode": "73.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.09.06",
+   "nama": "Malllawa",
+   "level": "kec",
+   "induk_kode": "73.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.09.07",
+   "nama": "Tanralili",
+   "level": "kec",
+   "induk_kode": "73.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.09.08",
+   "nama": "Marusu",
+   "level": "kec",
+   "induk_kode": "73.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.09.09",
+   "nama": "Simbang",
+   "level": "kec",
+   "induk_kode": "73.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.09.10",
+   "nama": "Cenrana",
+   "level": "kec",
+   "induk_kode": "73.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.09.11",
+   "nama": "Tompobulu",
+   "level": "kec",
+   "induk_kode": "73.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.09.12",
+   "nama": "Lau",
+   "level": "kec",
+   "induk_kode": "73.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.09.13",
+   "nama": "Moncongloe",
+   "level": "kec",
+   "induk_kode": "73.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.09.14",
+   "nama": "Turikale",
+   "level": "kec",
+   "induk_kode": "73.09",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.10",
+   "nama": "Kabupaten Pangkajene dan Kepulauan",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.10.01",
+   "nama": "Liukang Tangaya",
+   "level": "kec",
+   "induk_kode": "73.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.10.02",
+   "nama": "Liukang Kalmas",
+   "level": "kec",
+   "induk_kode": "73.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.10.03",
+   "nama": "Liukang Tupabbiring",
+   "level": "kec",
+   "induk_kode": "73.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.10.04",
+   "nama": "Pangkajene",
+   "level": "kec",
+   "induk_kode": "73.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.10.05",
+   "nama": "Balocci",
+   "level": "kec",
+   "induk_kode": "73.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.10.06",
+   "nama": "Bungoro",
+   "level": "kec",
+   "induk_kode": "73.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.10.07",
+   "nama": "Labakkang",
+   "level": "kec",
+   "induk_kode": "73.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.10.08",
+   "nama": "Marang",
+   "level": "kec",
+   "induk_kode": "73.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.10.09",
+   "nama": "Segeri",
+   "level": "kec",
+   "induk_kode": "73.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.10.11",
+   "nama": "Mandalle",
+   "level": "kec",
+   "induk_kode": "73.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.10.12",
+   "nama": "Tondong Tallasa",
+   "level": "kec",
+   "induk_kode": "73.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.10.13",
+   "nama": "Liukang Tupabbiring Utara",
+   "level": "kec",
+   "induk_kode": "73.10",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.11",
+   "nama": "Kabupaten Barru",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.11.01",
+   "nama": "Tanete Riaja",
+   "level": "kec",
+   "induk_kode": "73.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.11.02",
+   "nama": "Tanete Rilau",
+   "level": "kec",
+   "induk_kode": "73.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.11.03",
+   "nama": "Barru",
+   "level": "kec",
+   "induk_kode": "73.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.11.04",
+   "nama": "Soppeng Riaja",
+   "level": "kec",
+   "induk_kode": "73.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.11.05",
+   "nama": "Mallusetasi",
+   "level": "kec",
+   "induk_kode": "73.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.11.06",
+   "nama": "Pujananting",
+   "level": "kec",
+   "induk_kode": "73.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.11.07",
+   "nama": "Balusu",
+   "level": "kec",
+   "induk_kode": "73.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.12",
+   "nama": "Kabupaten Soppeng",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.12.01",
+   "nama": "Marioriwawo",
+   "level": "kec",
+   "induk_kode": "73.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.12.02",
+   "nama": "Liliriaja",
+   "level": "kec",
+   "induk_kode": "73.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.12.03",
+   "nama": "Lilirilau",
+   "level": "kec",
+   "induk_kode": "73.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.12.04",
+   "nama": "Lalabata",
+   "level": "kec",
+   "induk_kode": "73.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.12.05",
+   "nama": "Marioriawa",
+   "level": "kec",
+   "induk_kode": "73.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.12.06",
+   "nama": "Donri-Donri",
+   "level": "kec",
+   "induk_kode": "73.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.12.07",
+   "nama": "Ganra",
+   "level": "kec",
+   "induk_kode": "73.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.12.08",
+   "nama": "Citta",
+   "level": "kec",
+   "induk_kode": "73.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.13",
+   "nama": "Kabupaten Wajo",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.13.01",
+   "nama": "Sabangparu",
+   "level": "kec",
+   "induk_kode": "73.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.13.02",
+   "nama": "Pammana",
+   "level": "kec",
+   "induk_kode": "73.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.13.03",
+   "nama": "Takkalalla",
+   "level": "kec",
+   "induk_kode": "73.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.13.04",
+   "nama": "Sajoanging",
+   "level": "kec",
+   "induk_kode": "73.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.13.05",
+   "nama": "Majauleng",
+   "level": "kec",
+   "induk_kode": "73.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.13.06",
+   "nama": "Tempe",
+   "level": "kec",
+   "induk_kode": "73.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.13.07",
+   "nama": "Belawa",
+   "level": "kec",
+   "induk_kode": "73.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.13.08",
+   "nama": "Tanasitolo",
+   "level": "kec",
+   "induk_kode": "73.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.13.09",
+   "nama": "Maniangpajo",
+   "level": "kec",
+   "induk_kode": "73.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.13.10",
+   "nama": "Pitumpanua",
+   "level": "kec",
+   "induk_kode": "73.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.13.11",
+   "nama": "Bola",
+   "level": "kec",
+   "induk_kode": "73.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.13.12",
+   "nama": "Penrang",
+   "level": "kec",
+   "induk_kode": "73.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.13.13",
+   "nama": "Gilireng",
+   "level": "kec",
+   "induk_kode": "73.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.13.14",
+   "nama": "Keera",
+   "level": "kec",
+   "induk_kode": "73.13",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.14",
+   "nama": "Kabupaten Sidenreng Rappang",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.14.01",
+   "nama": "Panca Lautang",
+   "level": "kec",
+   "induk_kode": "73.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.14.02",
+   "nama": "Tellu Limpoe",
+   "level": "kec",
+   "induk_kode": "73.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.14.03",
+   "nama": "Watang Pulu",
+   "level": "kec",
+   "induk_kode": "73.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.14.04",
+   "nama": "Baranti",
+   "level": "kec",
+   "induk_kode": "73.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.14.05",
+   "nama": "Panca Rijang",
+   "level": "kec",
+   "induk_kode": "73.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.14.06",
+   "nama": "Kulo",
+   "level": "kec",
+   "induk_kode": "73.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.14.07",
+   "nama": "Maritengngae",
+   "level": "kec",
+   "induk_kode": "73.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.14.08",
+   "nama": "Watang Sidenreng",
+   "level": "kec",
+   "induk_kode": "73.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.14.09",
+   "nama": "Dua Pitue",
+   "level": "kec",
+   "induk_kode": "73.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.14.10",
+   "nama": "Pitu Riawa",
+   "level": "kec",
+   "induk_kode": "73.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.14.11",
+   "nama": "Pitu Riase",
+   "level": "kec",
+   "induk_kode": "73.14",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.15",
+   "nama": "Kabupaten Pinrang",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.15.01",
+   "nama": "Mattiro Sompe",
+   "level": "kec",
+   "induk_kode": "73.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.15.02",
+   "nama": "Suppa",
+   "level": "kec",
+   "induk_kode": "73.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.15.03",
+   "nama": "Mattiro Bulu",
+   "level": "kec",
+   "induk_kode": "73.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.15.04",
+   "nama": "Watang Sawitto",
+   "level": "kec",
+   "induk_kode": "73.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.15.05",
+   "nama": "Patampanua",
+   "level": "kec",
+   "induk_kode": "73.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.15.06",
+   "nama": "Duampanua",
+   "level": "kec",
+   "induk_kode": "73.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.15.07",
+   "nama": "Lembang",
+   "level": "kec",
+   "induk_kode": "73.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.15.08",
+   "nama": "Cempa",
+   "level": "kec",
+   "induk_kode": "73.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.15.09",
+   "nama": "Tiroang",
+   "level": "kec",
+   "induk_kode": "73.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.15.10",
+   "nama": "Lanrisang",
+   "level": "kec",
+   "induk_kode": "73.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.15.11",
+   "nama": "Paleteang",
+   "level": "kec",
+   "induk_kode": "73.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.15.12",
+   "nama": "Batulappa",
+   "level": "kec",
+   "induk_kode": "73.15",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.16",
+   "nama": "Kabupaten Enrekang",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.16.01",
+   "nama": "Maiwa",
+   "level": "kec",
+   "induk_kode": "73.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.16.02",
+   "nama": "Enrekang",
+   "level": "kec",
+   "induk_kode": "73.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.16.03",
+   "nama": "Baraka",
+   "level": "kec",
+   "induk_kode": "73.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.16.04",
+   "nama": "Anggeraja",
+   "level": "kec",
+   "induk_kode": "73.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.16.05",
+   "nama": "Alla",
+   "level": "kec",
+   "induk_kode": "73.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.16.06",
+   "nama": "Bungin",
+   "level": "kec",
+   "induk_kode": "73.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.16.07",
+   "nama": "Cendana",
+   "level": "kec",
+   "induk_kode": "73.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.16.08",
+   "nama": "Curio",
+   "level": "kec",
+   "induk_kode": "73.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.16.09",
+   "nama": "Malua",
+   "level": "kec",
+   "induk_kode": "73.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.16.10",
+   "nama": "Buntu Batu",
+   "level": "kec",
+   "induk_kode": "73.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.16.11",
+   "nama": "Masalle",
+   "level": "kec",
+   "induk_kode": "73.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.16.12",
+   "nama": "Baroko",
+   "level": "kec",
+   "induk_kode": "73.16",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17",
+   "nama": "Kabupaten Luwu",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17.01",
+   "nama": "Basse Sangtempe",
+   "level": "kec",
+   "induk_kode": "73.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17.02",
+   "nama": "Larompong",
+   "level": "kec",
+   "induk_kode": "73.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17.03",
+   "nama": "Suli",
+   "level": "kec",
+   "induk_kode": "73.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17.04",
+   "nama": "Bajo",
+   "level": "kec",
+   "induk_kode": "73.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17.05",
+   "nama": "Bua Ponrang",
+   "level": "kec",
+   "induk_kode": "73.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17.06",
+   "nama": "Walenrang",
+   "level": "kec",
+   "induk_kode": "73.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17.07",
+   "nama": "Belopa",
+   "level": "kec",
+   "induk_kode": "73.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17.08",
+   "nama": "Bua",
+   "level": "kec",
+   "induk_kode": "73.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17.09",
+   "nama": "Lamasi",
+   "level": "kec",
+   "induk_kode": "73.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17.10",
+   "nama": "Larompong Selatan",
+   "level": "kec",
+   "induk_kode": "73.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17.11",
+   "nama": "Ponrang",
+   "level": "kec",
+   "induk_kode": "73.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17.12",
+   "nama": "Latimojong",
+   "level": "kec",
+   "induk_kode": "73.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17.13",
+   "nama": "Kamanre",
+   "level": "kec",
+   "induk_kode": "73.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17.14",
+   "nama": "Belopa Utara",
+   "level": "kec",
+   "induk_kode": "73.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17.15",
+   "nama": "Walenrang Barat",
+   "level": "kec",
+   "induk_kode": "73.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17.16",
+   "nama": "Walenrang Utara",
+   "level": "kec",
+   "induk_kode": "73.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17.17",
+   "nama": "Walenrang Timur",
+   "level": "kec",
+   "induk_kode": "73.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17.18",
+   "nama": "Lamasi Timur",
+   "level": "kec",
+   "induk_kode": "73.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17.19",
+   "nama": "Suli Barat",
+   "level": "kec",
+   "induk_kode": "73.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17.20",
+   "nama": "Bajo Barat",
+   "level": "kec",
+   "induk_kode": "73.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17.21",
+   "nama": "Ponrang Selatan",
+   "level": "kec",
+   "induk_kode": "73.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.17.22",
+   "nama": "Basse Sangtempe Utara",
+   "level": "kec",
+   "induk_kode": "73.17",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.18",
+   "nama": "Kabupaten Tana Toraja",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.18.01",
+   "nama": "Salupputti",
+   "level": "kec",
+   "induk_kode": "73.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.18.02",
+   "nama": "Bittuang",
+   "level": "kec",
+   "induk_kode": "73.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.18.03",
+   "nama": "Bonggakaradeng",
+   "level": "kec",
+   "induk_kode": "73.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.18.05",
+   "nama": "Makale",
+   "level": "kec",
+   "induk_kode": "73.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.18.09",
+   "nama": "Simbuang",
+   "level": "kec",
+   "induk_kode": "73.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.18.11",
+   "nama": "Rantetayo",
+   "level": "kec",
+   "induk_kode": "73.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.18.12",
+   "nama": "Mengkendek",
+   "level": "kec",
+   "induk_kode": "73.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.18.19",
+   "nama": "Gandangbatu Sillanan",
+   "level": "kec",
+   "induk_kode": "73.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.18.20",
+   "nama": "Rembon",
+   "level": "kec",
+   "induk_kode": "73.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.18.27",
+   "nama": "Makale Utara",
+   "level": "kec",
+   "induk_kode": "73.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.18.28",
+   "nama": "Mappak",
+   "level": "kec",
+   "induk_kode": "73.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.18.29",
+   "nama": "Makale Selatan",
+   "level": "kec",
+   "induk_kode": "73.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.18.31",
+   "nama": "Masanda",
+   "level": "kec",
+   "induk_kode": "73.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.18.37",
+   "nama": "Rano",
+   "level": "kec",
+   "induk_kode": "73.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.18.38",
+   "nama": "Kurra",
+   "level": "kec",
+   "induk_kode": "73.18",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.22",
+   "nama": "Kabupaten Luwu Utara",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.22.01",
+   "nama": "Malangke",
+   "level": "kec",
+   "induk_kode": "73.22",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.22.02",
+   "nama": "Bone Bone",
+   "level": "kec",
+   "induk_kode": "73.22",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.22.03",
+   "nama": "Masamba",
+   "level": "kec",
+   "induk_kode": "73.22",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.22.04",
+   "nama": "Sabbang",
+   "level": "kec",
+   "induk_kode": "73.22",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.22.05",
+   "nama": "Rongkong",
+   "level": "kec",
+   "induk_kode": "73.22",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.22.06",
+   "nama": "Sukamaju",
+   "level": "kec",
+   "induk_kode": "73.22",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.22.07",
+   "nama": "Seko",
+   "level": "kec",
+   "induk_kode": "73.22",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.22.08",
+   "nama": "Malangke Barat",
+   "level": "kec",
+   "induk_kode": "73.22",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.22.09",
+   "nama": "Rampi",
+   "level": "kec",
+   "induk_kode": "73.22",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.22.10",
+   "nama": "Mappedeceng",
+   "level": "kec",
+   "induk_kode": "73.22",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.22.11",
+   "nama": "Baebunta",
+   "level": "kec",
+   "induk_kode": "73.22",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.22.12",
+   "nama": "Tana Lili",
+   "level": "kec",
+   "induk_kode": "73.22",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.22.13",
+   "nama": "Sukamaju Selatan",
+   "level": "kec",
+   "induk_kode": "73.22",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.22.14",
+   "nama": "Baebunta Selatan",
+   "level": "kec",
+   "induk_kode": "73.22",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.22.15",
+   "nama": "Sabbang Selatan",
+   "level": "kec",
+   "induk_kode": "73.22",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.24",
+   "nama": "Kabupaten Luwu Timur",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.24.01",
+   "nama": "Mangkutana",
+   "level": "kec",
+   "induk_kode": "73.24",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.24.02",
+   "nama": "Nuha",
+   "level": "kec",
+   "induk_kode": "73.24",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.24.03",
+   "nama": "Towuti",
+   "level": "kec",
+   "induk_kode": "73.24",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.24.04",
+   "nama": "Malili",
+   "level": "kec",
+   "induk_kode": "73.24",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.24.05",
+   "nama": "Angkona",
+   "level": "kec",
+   "induk_kode": "73.24",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.24.06",
+   "nama": "Wotu",
+   "level": "kec",
+   "induk_kode": "73.24",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.24.07",
+   "nama": "Burau",
+   "level": "kec",
+   "induk_kode": "73.24",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.24.08",
+   "nama": "Tomoni",
+   "level": "kec",
+   "induk_kode": "73.24",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.24.09",
+   "nama": "Tomoni Timur",
+   "level": "kec",
+   "induk_kode": "73.24",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.24.10",
+   "nama": "Kalaena",
+   "level": "kec",
+   "induk_kode": "73.24",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.24.11",
+   "nama": "Wasuponda",
+   "level": "kec",
+   "induk_kode": "73.24",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.26",
+   "nama": "Kabupaten Toraja Utara",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.26.01",
+   "nama": "Rantepao",
+   "level": "kec",
+   "induk_kode": "73.26",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.26.02",
+   "nama": "Sesean",
+   "level": "kec",
+   "induk_kode": "73.26",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.26.03",
+   "nama": "Nanggala",
+   "level": "kec",
+   "induk_kode": "73.26",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.26.04",
+   "nama": "Rindingallo",
+   "level": "kec",
+   "induk_kode": "73.26",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.26.05",
+   "nama": "Buntao",
+   "level": "kec",
+   "induk_kode": "73.26",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.26.07",
+   "nama": "Sanggalangi",
+   "level": "kec",
+   "induk_kode": "73.26",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.26.08",
+   "nama": "Sopai",
+   "level": "kec",
+   "induk_kode": "73.26",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.26.09",
+   "nama": "Tikala",
+   "level": "kec",
+   "induk_kode": "73.26",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.26.10",
+   "nama": "Balusu",
+   "level": "kec",
+   "induk_kode": "73.26",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.26.11",
+   "nama": "Tallunglipu",
+   "level": "kec",
+   "induk_kode": "73.26",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.26.13",
+   "nama": "Buntu Pepasan",
+   "level": "kec",
+   "induk_kode": "73.26",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.26.14",
+   "nama": "Baruppu",
+   "level": "kec",
+   "induk_kode": "73.26",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.26.15",
+   "nama": "Kesu",
+   "level": "kec",
+   "induk_kode": "73.26",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.26.16",
+   "nama": "Tondon",
+   "level": "kec",
+   "induk_kode": "73.26",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.26.17",
+   "nama": "Bangkelekila",
+   "level": "kec",
+   "induk_kode": "73.26",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.26.18",
+   "nama": "Rantebua",
+   "level": "kec",
+   "induk_kode": "73.26",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.26.19",
+   "nama": "Sesean Suloara",
+   "level": "kec",
+   "induk_kode": "73.26",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.26.20",
+   "nama": "Kapala Pitu",
+   "level": "kec",
+   "induk_kode": "73.26",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.26.21",
+   "nama": "Awan Rante Karua",
+   "level": "kec",
+   "induk_kode": "73.26",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.71",
+   "nama": "Kota Makassar",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.71.01",
+   "nama": "Mariso",
+   "level": "kec",
+   "induk_kode": "73.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.71.02",
+   "nama": "Mamajang",
+   "level": "kec",
+   "induk_kode": "73.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.71.03",
+   "nama": "Makassar",
+   "level": "kec",
+   "induk_kode": "73.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.71.04",
+   "nama": "Ujung Pandang",
+   "level": "kec",
+   "induk_kode": "73.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.71.05",
+   "nama": "Wajo",
+   "level": "kec",
+   "induk_kode": "73.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.71.06",
+   "nama": "Bontoala",
+   "level": "kec",
+   "induk_kode": "73.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.71.07",
+   "nama": "Tallo",
+   "level": "kec",
+   "induk_kode": "73.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.71.08",
+   "nama": "Ujung Tanah",
+   "level": "kec",
+   "induk_kode": "73.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.71.09",
+   "nama": "Panakkukang",
+   "level": "kec",
+   "induk_kode": "73.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.71.10",
+   "nama": "Tamalate",
+   "level": "kec",
+   "induk_kode": "73.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.71.11",
+   "nama": "Biringkanaya",
+   "level": "kec",
+   "induk_kode": "73.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.71.12",
+   "nama": "Manggala",
+   "level": "kec",
+   "induk_kode": "73.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.71.13",
+   "nama": "Rappocini",
+   "level": "kec",
+   "induk_kode": "73.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.71.14",
+   "nama": "Tamalanrea",
+   "level": "kec",
+   "induk_kode": "73.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.71.15",
+   "nama": "Kepulauan Sangkarrang",
+   "level": "kec",
+   "induk_kode": "73.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.72",
+   "nama": "Kota Parepare",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.72.01",
+   "nama": "Bacukiki",
+   "level": "kec",
+   "induk_kode": "73.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.72.02",
+   "nama": "Ujung",
+   "level": "kec",
+   "induk_kode": "73.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.72.03",
+   "nama": "Soreang",
+   "level": "kec",
+   "induk_kode": "73.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.72.04",
+   "nama": "Bacukiki Barat",
+   "level": "kec",
+   "induk_kode": "73.72",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.73",
+   "nama": "Kota Palopo",
+   "level": "kab",
+   "induk_kode": "73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.73.01",
+   "nama": "Wara",
+   "level": "kec",
+   "induk_kode": "73.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.73.02",
+   "nama": "Wara Utara",
+   "level": "kec",
+   "induk_kode": "73.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.73.03",
+   "nama": "Wara Selatan",
+   "level": "kec",
+   "induk_kode": "73.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.73.04",
+   "nama": "Telluwanua",
+   "level": "kec",
+   "induk_kode": "73.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.73.05",
+   "nama": "Wara Timur",
+   "level": "kec",
+   "induk_kode": "73.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.73.06",
+   "nama": "Wara Barat",
+   "level": "kec",
+   "induk_kode": "73.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.73.07",
+   "nama": "Sendana",
+   "level": "kec",
+   "induk_kode": "73.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.73.08",
+   "nama": "Mungkajang",
+   "level": "kec",
+   "induk_kode": "73.73",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "73.73.09",
+   "nama": "Bara",
+   "level": "kec",
+   "induk_kode": "73.73",
+   "pesisir": null
+  }
+ ],
+ "satuan": [
+  {
+   "id": "ad-kodim-1406",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1406/Wajo",
+   "induk_id": "ad-korem-141",
+   "markas": "",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "sedang",
+   "catatan": "Verifikasi cakupan kab (bisa >1 kabupaten)."
+  },
+  {
+   "id": "ad-kodim-1407",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1407/Bone",
+   "induk_id": "ad-korem-141",
+   "markas": "",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "sedang",
+   "catatan": "Verifikasi cakupan kab (bisa >1 kabupaten)."
+  },
+  {
+   "id": "ad-kodim-1408",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1408/Makassar",
+   "induk_id": "ad-kodam-14-hsn",
+   "markas": "",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "sedang",
+   "catatan": "Verifikasi cakupan kab (bisa >1 kabupaten)."
+  },
+  {
+   "id": "ad-kodim-1409",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1409/Gowa",
+   "induk_id": "ad-korem-141",
+   "markas": "",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "sedang",
+   "catatan": "Verifikasi cakupan kab (bisa >1 kabupaten)."
+  },
+  {
+   "id": "ad-kodim-1410",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1410/Bantaeng",
+   "induk_id": "ad-korem-141",
+   "markas": "",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "sedang",
+   "catatan": "Verifikasi cakupan kab (bisa >1 kabupaten)."
+  },
+  {
+   "id": "ad-kodim-1411",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1411/Bulukumba",
+   "induk_id": "ad-korem-141",
+   "markas": "",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "sedang",
+   "catatan": "Verifikasi cakupan kab (bisa >1 kabupaten)."
+  },
+  {
+   "id": "ad-kodim-1415",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1415/Kep. Selayar",
+   "induk_id": "ad-korem-141",
+   "markas": "",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "sedang",
+   "catatan": "Verifikasi cakupan kab (bisa >1 kabupaten)."
+  },
+  {
+   "id": "ad-kodim-1421",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1421/Pangkep",
+   "induk_id": "ad-korem-141",
+   "markas": "",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "sedang",
+   "catatan": "Verifikasi cakupan kab (bisa >1 kabupaten)."
+  },
+  {
+   "id": "ad-kodim-1422",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1422/Maros",
+   "induk_id": "ad-korem-141",
+   "markas": "",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "sedang",
+   "catatan": "Verifikasi cakupan kab (bisa >1 kabupaten)."
+  },
+  {
+   "id": "ad-kodim-1423",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1423/Soppeng",
+   "induk_id": "ad-korem-141",
+   "markas": "",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "sedang",
+   "catatan": "Verifikasi cakupan kab (bisa >1 kabupaten)."
+  },
+  {
+   "id": "ad-kodim-1424",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1424/Sinjai",
+   "induk_id": "ad-korem-141",
+   "markas": "",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "sedang",
+   "catatan": "Verifikasi cakupan kab (bisa >1 kabupaten)."
+  },
+  {
+   "id": "ad-kodim-1425",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1425/Jeneponto",
+   "induk_id": "ad-korem-141",
+   "markas": "",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "sedang",
+   "catatan": "Verifikasi cakupan kab (bisa >1 kabupaten)."
+  },
+  {
+   "id": "ad-kodim-1426",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1426/Takalar",
+   "induk_id": "ad-korem-141",
+   "markas": "",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "sedang",
+   "catatan": "Verifikasi cakupan kab (bisa >1 kabupaten)."
+  },
+  {
+   "id": "au-lanud-hasanuddin",
+   "matra": "AU",
+   "tingkat": "Lanud",
+   "nama": "Lanud Sultan Hasanuddin",
+   "induk_id": "au-koopsud-2",
+   "markas": "Makassar",
+   "sumber": "aturan pemetaan (Lanud provinsi) + Koopsud II",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "sedang",
+   "catatan": "Tipe A."
+  }
+ ],
+ "pemetaan": [
+  {
+   "kode_wilayah": "73",
+   "satuan_id": "al-kodaeral-6",
+   "peran": "terkait",
+   "aturan_pemetaan": "wilayah pesisir provinsi (Lanal/Posal per kab perlu detail)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "koarmada2.tnial.mil.id (transformasi Kodaeral, Agt 2025)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Sulawesi Selatan — Mako Kodaeral VI Makassar; Lanal Makassar/Bone dll (verifikasi) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "73",
+   "satuan_id": "au-lanud-hasanuddin",
+   "peran": "terkait",
+   "aturan_pemetaan": "Lanud di/terdekat provinsi (aturan AU)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "aturan pemetaan (Lanud provinsi) + Koopsud II",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Sulawesi Selatan — Lanud Sultan Hasanuddin (Tipe A), Makassar | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "73.01",
+   "satuan_id": "ad-kodim-1415",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Kepulauan Selayar"
+  },
+  {
+   "kode_wilayah": "73.02",
+   "satuan_id": "ad-kodim-1411",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Bulukumba"
+  },
+  {
+   "kode_wilayah": "73.03",
+   "satuan_id": "ad-kodim-1410",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Bantaeng"
+  },
+  {
+   "kode_wilayah": "73.04",
+   "satuan_id": "ad-kodim-1425",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Jeneponto"
+  },
+  {
+   "kode_wilayah": "73.05",
+   "satuan_id": "ad-kodim-1426",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Takalar"
+  },
+  {
+   "kode_wilayah": "73.06",
+   "satuan_id": "ad-kodim-1409",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Gowa"
+  },
+  {
+   "kode_wilayah": "73.07",
+   "satuan_id": "ad-kodim-1424",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Sinjai"
+  },
+  {
+   "kode_wilayah": "73.08",
+   "satuan_id": "ad-kodim-1407",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Bone"
+  },
+  {
+   "kode_wilayah": "73.09",
+   "satuan_id": "ad-kodim-1422",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Maros"
+  },
+  {
+   "kode_wilayah": "73.10",
+   "satuan_id": "ad-kodim-1421",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Pangkajene dan Kepulauan"
+  },
+  {
+   "kode_wilayah": "73.11",
+   "satuan_id": "ad-kodam-14-hsn",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Barru — Kodam ad-kodam-14-hsn TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "73.12",
+   "satuan_id": "ad-kodim-1423",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Soppeng"
+  },
+  {
+   "kode_wilayah": "73.13",
+   "satuan_id": "ad-kodim-1406",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Wajo"
+  },
+  {
+   "kode_wilayah": "73.14",
+   "satuan_id": "ad-korem-141",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Korem",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Sidenreng Rappang — 2014: Kodim 1420 di bawah Korem 142 (Pare-pare). Pasca Perpres 84/2025, Korem 142 -> Kodam XXIII (Sulbar); penempatan kab Sulsel utara ini LINTAS-PROVINSI, perlu verifikasi Kodam XIV."
+  },
+  {
+   "kode_wilayah": "73.15",
+   "satuan_id": "ad-korem-141",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Korem",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Pinrang — 2014: Kodim 1404 di bawah Korem 142 (Pare-pare). Pasca Perpres 84/2025, Korem 142 -> Kodam XXIII (Sulbar); penempatan kab Sulsel utara ini LINTAS-PROVINSI, perlu verifikasi Kodam XIV."
+  },
+  {
+   "kode_wilayah": "73.16",
+   "satuan_id": "ad-korem-141",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Korem",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Enrekang — 2014: Kodim 1419 di bawah Korem 142 (Pare-pare). Pasca Perpres 84/2025, Korem 142 -> Kodam XXIII (Sulbar); penempatan kab Sulsel utara ini LINTAS-PROVINSI, perlu verifikasi Kodam XIV."
+  },
+  {
+   "kode_wilayah": "73.17",
+   "satuan_id": "ad-kodam-14-hsn",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Luwu — Kodam ad-kodam-14-hsn TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "73.18",
+   "satuan_id": "ad-korem-141",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Korem",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Tana Toraja — 2014: Kodim 1414 di bawah Korem 142 (Pare-pare). Pasca Perpres 84/2025, Korem 142 -> Kodam XXIII (Sulbar); penempatan kab Sulsel utara ini LINTAS-PROVINSI, perlu verifikasi Kodam XIV."
+  },
+  {
+   "kode_wilayah": "73.22",
+   "satuan_id": "ad-kodam-14-hsn",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Luwu Utara — Kodam ad-kodam-14-hsn TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "73.24",
+   "satuan_id": "ad-kodam-14-hsn",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Luwu Timur — Kodam ad-kodam-14-hsn TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "73.26",
+   "satuan_id": "ad-kodam-14-hsn",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Toraja Utara — Kodam ad-kodam-14-hsn TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "73.71",
+   "satuan_id": "ad-kodim-1408",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Makassar"
+  },
+  {
+   "kode_wilayah": "73.72",
+   "satuan_id": "ad-korem-141",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Korem",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Parepare — 2014: Kodim 1405 di bawah Korem 142 (Pare-pare). Pasca Perpres 84/2025, Korem 142 -> Kodam XXIII (Sulbar); penempatan kab Sulsel utara ini LINTAS-PROVINSI, perlu verifikasi Kodam XIV."
+  },
+  {
+   "kode_wilayah": "73.73",
+   "satuan_id": "ad-korem-141",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Korem",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "situs Kodam/Korem terkait + Wikipedia (verifikasi)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Palopo — 2014: Kodim 1403 di bawah Korem 142 (Pare-pare). Pasca Perpres 84/2025, Korem 142 -> Kodam XXIII (Sulbar); penempatan kab Sulsel utara ini LINTAS-PROVINSI, perlu verifikasi Kodam XIV."
+  }
+ ]
+}

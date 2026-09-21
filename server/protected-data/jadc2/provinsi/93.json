@@ -1,0 +1,715 @@
+{
+ "kode": "93",
+ "nama": "Papua Selatan",
+ "wilayah": [
+  {
+   "kode_bps": "93",
+   "nama": "Papua Selatan",
+   "level": "prov",
+   "induk_kode": "",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "93.01",
+   "nama": "Kabupaten Merauke",
+   "level": "kab",
+   "induk_kode": "93",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.01.01",
+   "nama": "Merauke",
+   "level": "kec",
+   "induk_kode": "93.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.01.02",
+   "nama": "Muting",
+   "level": "kec",
+   "induk_kode": "93.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.01.03",
+   "nama": "Okaba",
+   "level": "kec",
+   "induk_kode": "93.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.01.04",
+   "nama": "Kimaam",
+   "level": "kec",
+   "induk_kode": "93.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.01.05",
+   "nama": "Semangga",
+   "level": "kec",
+   "induk_kode": "93.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.01.06",
+   "nama": "Tanah Miring",
+   "level": "kec",
+   "induk_kode": "93.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.01.07",
+   "nama": "Jagebob",
+   "level": "kec",
+   "induk_kode": "93.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.01.08",
+   "nama": "Sota",
+   "level": "kec",
+   "induk_kode": "93.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.01.09",
+   "nama": "Ulilin",
+   "level": "kec",
+   "induk_kode": "93.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.01.10",
+   "nama": "Elikobal",
+   "level": "kec",
+   "induk_kode": "93.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.01.11",
+   "nama": "Kurik",
+   "level": "kec",
+   "induk_kode": "93.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.01.12",
+   "nama": "Naukenjerai",
+   "level": "kec",
+   "induk_kode": "93.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.01.13",
+   "nama": "Animha",
+   "level": "kec",
+   "induk_kode": "93.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.01.14",
+   "nama": "Malind",
+   "level": "kec",
+   "induk_kode": "93.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.01.15",
+   "nama": "Tubang",
+   "level": "kec",
+   "induk_kode": "93.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.01.16",
+   "nama": "Ngguti",
+   "level": "kec",
+   "induk_kode": "93.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.01.17",
+   "nama": "Kaptel",
+   "level": "kec",
+   "induk_kode": "93.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.01.18",
+   "nama": "Tabonji",
+   "level": "kec",
+   "induk_kode": "93.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.01.19",
+   "nama": "Waan",
+   "level": "kec",
+   "induk_kode": "93.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.01.20",
+   "nama": "Ilwayab",
+   "level": "kec",
+   "induk_kode": "93.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.01.21",
+   "nama": "Padua",
+   "level": "kec",
+   "induk_kode": "93.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.01.22",
+   "nama": "Kontuar",
+   "level": "kec",
+   "induk_kode": "93.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.02",
+   "nama": "Kabupaten Boven Digoel",
+   "level": "kab",
+   "induk_kode": "93",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.02.01",
+   "nama": "Mandobo",
+   "level": "kec",
+   "induk_kode": "93.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.02.02",
+   "nama": "Mindiptana",
+   "level": "kec",
+   "induk_kode": "93.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.02.03",
+   "nama": "Waropko",
+   "level": "kec",
+   "induk_kode": "93.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.02.04",
+   "nama": "Kouh",
+   "level": "kec",
+   "induk_kode": "93.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.02.05",
+   "nama": "Jair",
+   "level": "kec",
+   "induk_kode": "93.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.02.06",
+   "nama": "Bomakia",
+   "level": "kec",
+   "induk_kode": "93.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.02.07",
+   "nama": "Kombut",
+   "level": "kec",
+   "induk_kode": "93.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.02.08",
+   "nama": "Iniyandit",
+   "level": "kec",
+   "induk_kode": "93.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.02.09",
+   "nama": "Arimop",
+   "level": "kec",
+   "induk_kode": "93.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.02.10",
+   "nama": "Fofi",
+   "level": "kec",
+   "induk_kode": "93.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.02.11",
+   "nama": "Ambatkwi",
+   "level": "kec",
+   "induk_kode": "93.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.02.12",
+   "nama": "Manggelum",
+   "level": "kec",
+   "induk_kode": "93.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.02.13",
+   "nama": "Firiwage",
+   "level": "kec",
+   "induk_kode": "93.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.02.14",
+   "nama": "Yaniruma",
+   "level": "kec",
+   "induk_kode": "93.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.02.15",
+   "nama": "Subur",
+   "level": "kec",
+   "induk_kode": "93.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.02.16",
+   "nama": "Kombay",
+   "level": "kec",
+   "induk_kode": "93.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.02.17",
+   "nama": "Ninati",
+   "level": "kec",
+   "induk_kode": "93.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.02.18",
+   "nama": "Sesnuk",
+   "level": "kec",
+   "induk_kode": "93.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.02.19",
+   "nama": "Ki",
+   "level": "kec",
+   "induk_kode": "93.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.02.20",
+   "nama": "Kawagit",
+   "level": "kec",
+   "induk_kode": "93.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.03",
+   "nama": "Kabupaten Mappi",
+   "level": "kab",
+   "induk_kode": "93",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.03.01",
+   "nama": "Obaa",
+   "level": "kec",
+   "induk_kode": "93.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.03.02",
+   "nama": "Mambioman Bapai",
+   "level": "kec",
+   "induk_kode": "93.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.03.03",
+   "nama": "Citak-Mitak",
+   "level": "kec",
+   "induk_kode": "93.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.03.04",
+   "nama": "Edera",
+   "level": "kec",
+   "induk_kode": "93.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.03.05",
+   "nama": "Haju",
+   "level": "kec",
+   "induk_kode": "93.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.03.06",
+   "nama": "Assue",
+   "level": "kec",
+   "induk_kode": "93.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.03.07",
+   "nama": "Kaibar",
+   "level": "kec",
+   "induk_kode": "93.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.03.08",
+   "nama": "Passue",
+   "level": "kec",
+   "induk_kode": "93.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.03.09",
+   "nama": "Minyamur",
+   "level": "kec",
+   "induk_kode": "93.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.03.10",
+   "nama": "Venaha",
+   "level": "kec",
+   "induk_kode": "93.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.03.11",
+   "nama": "Syahcame",
+   "level": "kec",
+   "induk_kode": "93.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.03.12",
+   "nama": "Yakomi",
+   "level": "kec",
+   "induk_kode": "93.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.03.13",
+   "nama": "Bamgi",
+   "level": "kec",
+   "induk_kode": "93.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.03.14",
+   "nama": "Passue Bawah",
+   "level": "kec",
+   "induk_kode": "93.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.03.15",
+   "nama": "Ti Zain",
+   "level": "kec",
+   "induk_kode": "93.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04",
+   "nama": "Kabupaten Asmat",
+   "level": "kab",
+   "induk_kode": "93",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.01",
+   "nama": "Agats",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.02",
+   "nama": "Atsj",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.03",
+   "nama": "Sawa Erma",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.04",
+   "nama": "Akat",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.05",
+   "nama": "Fayit",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.06",
+   "nama": "Pantai Kasuari",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.07",
+   "nama": "Suator",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.08",
+   "nama": "Suru-suru",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.09",
+   "nama": "Kolf Braza",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.10",
+   "nama": "Unir Sirau",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.11",
+   "nama": "Joerat",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.12",
+   "nama": "Pulau Tiga",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.13",
+   "nama": "Jetsy",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.14",
+   "nama": "Der Koumur",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.15",
+   "nama": "Kopay",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.16",
+   "nama": "Safan",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.17",
+   "nama": "Sirets",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.18",
+   "nama": "Ayib",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.19",
+   "nama": "Betcbamu",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.20",
+   "nama": "Joutu",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.21",
+   "nama": "Aswi",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.22",
+   "nama": "Awyu",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.23",
+   "nama": "Koroway Buluanop",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.24",
+   "nama": "Tomor Birip",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "93.04.25",
+   "nama": "Sor Ep",
+   "level": "kec",
+   "induk_kode": "93.04",
+   "pesisir": null
+  }
+ ],
+ "satuan": [
+  {
+   "id": "ad-kodim-1707",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1707/Kab. Merauke",
+   "induk_id": "ad-korem-174",
+   "markas": "Kab. Merauke",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-1711",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1711/Kab. Bouven Digul",
+   "induk_id": "ad-korem-174",
+   "markas": "Kab. Bouven Digul",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "au-lanud-merauke",
+   "matra": "AU",
+   "tingkat": "Lanud",
+   "nama": "Lanud Merauke",
+   "induk_id": "au-koopsud-3",
+   "markas": "Merauke",
+   "sumber": "aturan AU (Lanud provinsi) + Koopsud III",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "rendah",
+   "catatan": ""
+  }
+ ],
+ "pemetaan": [
+  {
+   "kode_wilayah": "93",
+   "satuan_id": "al-kodaeral-11",
+   "peran": "terkait",
+   "aturan_pemetaan": "wilayah pesisir provinsi (Lanal/Posal per kab perlu detail)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Kodaeral / Koarmada RI",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Papua Selatan — Kodaeral XI Merauke (eks-Lantamal XI) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "93",
+   "satuan_id": "au-lanud-merauke",
+   "peran": "terkait",
+   "aturan_pemetaan": "Lanud di/terdekat provinsi (aturan AU)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "Koopsud III",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Papua Selatan — Lanud Merauke (J.A. Dimara) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "93.01",
+   "satuan_id": "ad-kodim-1707",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Merauke — Kodim 1707 (Lampiran II 2014). Struktur Korem/Kodam Papua banyak berubah 2016-2025; Kodim terkonfirmasi, induk perlu cek akhir."
+  },
+  {
+   "kode_wilayah": "93.02",
+   "satuan_id": "ad-kodim-1711",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Boven Digoel — Kodim 1711 (Lampiran II 2014). Struktur Korem/Kodam Papua banyak berubah 2016-2025; Kodim terkonfirmasi, induk perlu cek akhir."
+  },
+  {
+   "kode_wilayah": "93.03",
+   "satuan_id": "ad-kodam-24-mt",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Mappi — Kodam ad-kodam-24-mt TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "93.04",
+   "satuan_id": "ad-kodam-24-mt",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Asmat — Kodam ad-kodam-24-mt TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  }
+ ]
+}

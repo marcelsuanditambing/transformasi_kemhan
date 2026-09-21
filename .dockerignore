@@ -1,17 +1,17 @@
-# Ignore node modules and logs
+# dependencies (diinstal di dalam image)
 node_modules
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+**/node_modules
 
-# Build output
-/dist
-
-# Local env files
+# rahasia — jangan pernah masuk image
 .env
+server/.env
 
-# Vite cache
+# output build & cache
+dist
+server/dist
 .vite
 
-# Misc
+# lain-lain
+.git
+*.log
 .DS_Store

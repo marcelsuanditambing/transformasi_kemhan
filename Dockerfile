@@ -1,36 +1,35 @@
-# Stage 1: build the application
+# ============================================================================
+# Stage 1 — build SPA (Vite) menjadi /app/dist
+# ============================================================================
 FROM node:18-alpine AS builder
-
-# set workdir
 WORKDIR /app
-
-# copy package definitions and install deps first for better caching
-COPY package.json package-lock.json* yarn.lock* ./
-
-# install dependencies
-RUN npm ci --production=false
-
-# copy all source files
+COPY package.json package-lock.json* ./
+RUN npm ci
 COPY . .
-
-# build the static assets
 RUN npm run build
 
-# Stage 2: serve with nginx
-FROM nginx:alpine
+# ============================================================================
+# Stage 2 — runtime: Express menyajikan SPA (dist) + API ber-gate
+# ============================================================================
+FROM node:18-alpine
+WORKDIR /app
+ENV NODE_ENV=production
 
-# remove default nginx html
-RUN rm -rf /usr/share/nginx/html/*
+# install dependency backend saja (produksi)
+COPY server/package.json server/package-lock.json* ./
+RUN npm ci --omit=dev
 
-# copy built files from builder
-COPY --from=builder /app/dist /usr/share/nginx/html
+# kode server + data/gambar terkunci
+COPY server/server.js ./
+COPY server/protected-data ./protected-data
+COPY server/protected-assets ./protected-assets
 
-# expose port (default nginx listens on 80)
-EXPOSE 80
+# hasil build SPA dari stage 1
+COPY --from=builder /app/dist ./dist
 
-# healthcheck (optional)
-HEALTHCHECK --interval=30s --timeout=5s --start-period=5s --retries=3 \
-  CMD wget -qO- http://localhost/ || exit 1
+EXPOSE 8080
 
-# run nginx in foreground
-CMD ["nginx", "-g", "daemon off;"]
+HEALTHCHECK --interval=30s --timeout=5s --start-period=8s --retries=3 \
+  CMD wget -qO- http://localhost:8080/api/me || exit 1
+
+CMD ["node", "server.js"]

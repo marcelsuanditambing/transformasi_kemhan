@@ -6,7 +6,12 @@
       </h1>
     </header>
 
-    <div class="layout">
+    <p v-if="loadErr" class="state state--error">
+      Gagal memuat data. Coba muat ulang halaman, atau login kembali bila sesi berakhir.
+    </p>
+    <p v-else-if="!loaded" class="state">Memuat data arsitektur…</p>
+
+    <div v-else class="layout">
       <!-- Kiri (desktop) / atas (mobile): roda TOGAF (komponen bersama) -->
       <TogafWheel :active="selectedId" @select="selectPhase" />
 
@@ -27,13 +32,10 @@
           <p v-if="selected.comingSoon" class="coming">Content coming soon…</p>
 
           <template v-else>
-            <!-- Pengantar fase -->
             <PhaseBlocks v-if="(selected.intro || []).length" :blocks="introBlocks" />
 
-            <!-- Blok bersama yang selalu tampil (mis. tabel Rekapitulasi Aplikasi Baseline di Fase C) -->
             <PhaseBlocks v-if="(selected.sharedBlocks || []).length" :blocks="selected.sharedBlocks" />
 
-            <!-- Pilihan sub-domain (Fase C: Data Architecture / Application Architecture) -->
             <div v-if="selected.subDomains" class="subchoice">
               <button
                 v-for="s in selected.subDomains"
@@ -49,10 +51,8 @@
               </button>
             </div>
 
-            <!-- Pengantar sub-domain aktif -->
             <PhaseBlocks v-if="activeSub && (activeSub.intro || []).length" :blocks="subIntroBlocks" />
 
-            <!-- Seksi utama: fase biasa -> selected.sections; fase ber-sub-domain -> sub-domain aktif -->
             <section v-for="sec in renderSections" :key="'s-' + sec.no + sec.title" class="sec">
               <h3 class="sec-title"><span v-if="sec.no" class="sec-no">{{ sec.no }}.</span>{{ sec.title }}</h3>
               <PhaseBlocks :blocks="sec.blocks" />
@@ -63,8 +63,6 @@
               </section>
             </section>
 
-            <!-- Seksi akhir fase (mis. Roadmap Implementasi Fase Information System). -->
-            <!-- Untuk fase ber-sub-domain, baru tampil setelah salah satu sub-domain dibuka. -->
             <template v-if="showTrailing">
               <section v-for="sec in selected.trailingSections || []" :key="'t-' + sec.title" class="sec">
                 <h3 class="sec-title"><span v-if="sec.no" class="sec-no">{{ sec.no }}.</span>{{ sec.title }}</h3>
@@ -79,22 +77,35 @@
 </template>
 
 <script setup>
-import { ref, computed, watch } from 'vue';
+import { ref, computed, watch, onMounted } from 'vue';
 import TogafWheel from '@/components/TogafWheel.vue';
 import PhaseBlocks from '@/components/PhaseBlocks.vue';
-import { phases } from '@/data/arsitekturFase.js';
+
+// Data Bab IV diambil dari API ber-gate (tidak lagi di-bundle).
+const phases = ref([]);
+const loaded = ref(false);
+const loadErr = ref(false);
+
+onMounted(async () => {
+  try {
+    const r = await fetch('/api/arsitektur', { credentials: 'same-origin' });
+    if (!r.ok) throw new Error('gagal');
+    phases.value = await r.json();
+    loaded.value = true;
+  } catch {
+    loadErr.value = true;
+  }
+});
 
 const selectedId = ref(null);
 const selectedSubId = ref(null);
 
-const selected = computed(() => phases.find((p) => p.id === selectedId.value) || null);
+const selected = computed(() => phases.value.find((p) => p.id === selectedId.value) || null);
 
-// Paragraf pengantar fase diubah jadi blok agar dirender oleh PhaseBlocks.
 const introBlocks = computed(() =>
   ((selected.value && selected.value.intro) || []).map((v) => ({ t: 'p', v }))
 );
 
-// Sub-domain aktif (hanya untuk fase yang memiliki subDomains, mis. Information System).
 const activeSub = computed(() => {
   if (!selected.value || !selected.value.subDomains) return null;
   return selected.value.subDomains.find((s) => s.id === selectedSubId.value) || null;
@@ -103,8 +114,6 @@ const subIntroBlocks = computed(() =>
   ((activeSub.value && activeSub.value.intro) || []).map((v) => ({ t: 'p', v }))
 );
 
-// Seksi yang dirender: fase biasa memakai sections; fase ber-sub-domain memakai
-// sections milik sub-domain aktif (kosong bila belum ada yang dipilih).
 const renderSections = computed(() => {
   const p = selected.value;
   if (!p) return [];
@@ -112,8 +121,6 @@ const renderSections = computed(() => {
   return p.sections || [];
 });
 
-// Seksi trailing (mis. Roadmap): untuk fase ber-sub-domain baru tampil setelah
-// salah satu sub-domain dibuka; untuk fase biasa tampil seperti biasa.
 const showTrailing = computed(() => {
   const p = selected.value;
   if (!p || !(p.trailingSections && p.trailingSections.length)) return false;
@@ -177,6 +184,9 @@ function scrollToContentOnMobile() {
 }
 .brand-btn:hover { color: var(--ember); }
 
+.state { text-align: center; color: var(--muted); padding: 2rem 0; font-size: 1.02rem; }
+.state--error { color: #b23b3b; }
+
 .layout {
   display: grid;
   grid-template-columns: minmax(320px, 430px) minmax(0, 1fr);
@@ -197,7 +207,6 @@ function scrollToContentOnMobile() {
   border-radius: 50%; background: var(--gold-soft); color: var(--ink); font-size: 1rem; font-weight: 700;
 }
 
-/* Pilihan sub-domain (Fase C) */
 .subchoice {
   display: grid;
   grid-template-columns: 1fr 1fr;

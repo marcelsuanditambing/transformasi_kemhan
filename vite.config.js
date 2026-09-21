@@ -11,5 +11,9 @@ export default defineConfig({
   },
   server: {
     open: true,
+    // Saat `npm run dev`, teruskan /api ke backend Express (jalankan `npm start` di folder server).
+    proxy: {
+      '/api': { target: 'http://localhost:8080', changeOrigin: true },
+    },
   },
 });

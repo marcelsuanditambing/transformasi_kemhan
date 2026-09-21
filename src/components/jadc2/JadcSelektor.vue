@@ -83,7 +83,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
 import { useJadc2 } from '@/data/jadc2/useJadc2.js';
 
 const emit = defineEmits(['pilih']);
@@ -127,7 +127,10 @@ function pilih(r) {
 }
 
 /* ---- mode bertingkat ---- */
-const provinsi = daftarProvinsi();
+const provinsi = ref([]);
+onMounted(async () => {
+  try { provinsi.value = await daftarProvinsi(); } catch { /* data butuh login; abaikan */ }
+});
 const selProv = ref('');
 const selKab = ref('');
 const selKec = ref('');

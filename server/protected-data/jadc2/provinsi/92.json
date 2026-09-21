@@ -1,0 +1,841 @@
+{
+ "kode": "92",
+ "nama": "Papua Barat",
+ "wilayah": [
+  {
+   "kode_bps": "92",
+   "nama": "Papua Barat",
+   "level": "prov",
+   "induk_kode": "",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "92.02",
+   "nama": "Kabupaten Manokwari",
+   "level": "kab",
+   "induk_kode": "92",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.02.03",
+   "nama": "Warmare",
+   "level": "kec",
+   "induk_kode": "92.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.02.04",
+   "nama": "Prafi",
+   "level": "kec",
+   "induk_kode": "92.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.02.05",
+   "nama": "Masni",
+   "level": "kec",
+   "induk_kode": "92.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.02.12",
+   "nama": "Manokwari Barat",
+   "level": "kec",
+   "induk_kode": "92.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.02.13",
+   "nama": "Manokwari Timur",
+   "level": "kec",
+   "induk_kode": "92.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.02.14",
+   "nama": "Manokwari Utara",
+   "level": "kec",
+   "induk_kode": "92.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.02.15",
+   "nama": "Manokwari Selatan",
+   "level": "kec",
+   "induk_kode": "92.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.02.17",
+   "nama": "Tanah Rubuh",
+   "level": "kec",
+   "induk_kode": "92.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.02.21",
+   "nama": "Sidey",
+   "level": "kec",
+   "induk_kode": "92.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.02.31",
+   "nama": "Aimasi",
+   "level": "kec",
+   "induk_kode": "92.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.02.32",
+   "nama": "Mokwam",
+   "level": "kec",
+   "induk_kode": "92.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.02.33",
+   "nama": "Masni Utara",
+   "level": "kec",
+   "induk_kode": "92.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.02.34",
+   "nama": "Wasirawi",
+   "level": "kec",
+   "induk_kode": "92.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.02.35",
+   "nama": "Moruj Mega",
+   "level": "kec",
+   "induk_kode": "92.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.03",
+   "nama": "Kabupaten Fak Fak",
+   "level": "kab",
+   "induk_kode": "92",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.03.01",
+   "nama": "Fak-Fak",
+   "level": "kec",
+   "induk_kode": "92.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.03.02",
+   "nama": "Fak-Fak Barat",
+   "level": "kec",
+   "induk_kode": "92.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.03.03",
+   "nama": "Fak-Fak Timur",
+   "level": "kec",
+   "induk_kode": "92.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.03.04",
+   "nama": "Kokas",
+   "level": "kec",
+   "induk_kode": "92.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.03.05",
+   "nama": "Fak-Fak Tengah",
+   "level": "kec",
+   "induk_kode": "92.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.03.06",
+   "nama": "Karas",
+   "level": "kec",
+   "induk_kode": "92.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.03.07",
+   "nama": "Bomberay",
+   "level": "kec",
+   "induk_kode": "92.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.03.08",
+   "nama": "Kramongmongga",
+   "level": "kec",
+   "induk_kode": "92.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.03.09",
+   "nama": "Teluk Patipi",
+   "level": "kec",
+   "induk_kode": "92.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.03.10",
+   "nama": "Pariwari",
+   "level": "kec",
+   "induk_kode": "92.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.03.11",
+   "nama": "Wartutin",
+   "level": "kec",
+   "induk_kode": "92.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.03.12",
+   "nama": "Fakfak Timur Tengah",
+   "level": "kec",
+   "induk_kode": "92.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.03.13",
+   "nama": "Arguni",
+   "level": "kec",
+   "induk_kode": "92.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.03.14",
+   "nama": "Mbahamdandara",
+   "level": "kec",
+   "induk_kode": "92.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.03.15",
+   "nama": "Kayauni",
+   "level": "kec",
+   "induk_kode": "92.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.03.16",
+   "nama": "Furwagi",
+   "level": "kec",
+   "induk_kode": "92.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.03.17",
+   "nama": "Tomage",
+   "level": "kec",
+   "induk_kode": "92.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06",
+   "nama": "Kabupaten Teluk Bintuni",
+   "level": "kab",
+   "induk_kode": "92",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.01",
+   "nama": "Bintuni",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.02",
+   "nama": "Merdey",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.03",
+   "nama": "Babo",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.04",
+   "nama": "Aranday",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.05",
+   "nama": "Moskona Selatan",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.06",
+   "nama": "Moskona Utara",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.07",
+   "nama": "Wamesa",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.08",
+   "nama": "Fafurwar",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.09",
+   "nama": "Tembuni",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.10",
+   "nama": "Kuri",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.11",
+   "nama": "Manimeri",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.12",
+   "nama": "Tuhiba",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.13",
+   "nama": "Dataran Beimes",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.14",
+   "nama": "Sumuri",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.15",
+   "nama": "Kaitaro",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.16",
+   "nama": "Aroba",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.17",
+   "nama": "Masyeta",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.18",
+   "nama": "Biscoop",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.19",
+   "nama": "Tomu",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.20",
+   "nama": "Kamundan",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.21",
+   "nama": "Weriagar",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.22",
+   "nama": "Moskona Barat",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.23",
+   "nama": "Meyado",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.06.24",
+   "nama": "Moskona Timur",
+   "level": "kec",
+   "induk_kode": "92.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.07",
+   "nama": "Kabupaten Teluk Wondama",
+   "level": "kab",
+   "induk_kode": "92",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.07.01",
+   "nama": "Wasior",
+   "level": "kec",
+   "induk_kode": "92.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.07.02",
+   "nama": "Windesi",
+   "level": "kec",
+   "induk_kode": "92.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.07.03",
+   "nama": "Teluk Duairi",
+   "level": "kec",
+   "induk_kode": "92.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.07.04",
+   "nama": "Wondiboy",
+   "level": "kec",
+   "induk_kode": "92.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.07.05",
+   "nama": "Wamesa",
+   "level": "kec",
+   "induk_kode": "92.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.07.06",
+   "nama": "Rumberpon",
+   "level": "kec",
+   "induk_kode": "92.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.07.07",
+   "nama": "Naikere",
+   "level": "kec",
+   "induk_kode": "92.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.07.08",
+   "nama": "Rasiei",
+   "level": "kec",
+   "induk_kode": "92.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.07.09",
+   "nama": "Kuri Wamesa",
+   "level": "kec",
+   "induk_kode": "92.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.07.10",
+   "nama": "Roon",
+   "level": "kec",
+   "induk_kode": "92.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.07.11",
+   "nama": "Roswar",
+   "level": "kec",
+   "induk_kode": "92.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.07.12",
+   "nama": "Nikiwar",
+   "level": "kec",
+   "induk_kode": "92.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.07.13",
+   "nama": "Soug Jaya",
+   "level": "kec",
+   "induk_kode": "92.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.08",
+   "nama": "Kabupaten Kaimana",
+   "level": "kab",
+   "induk_kode": "92",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.08.01",
+   "nama": "Kaimana",
+   "level": "kec",
+   "induk_kode": "92.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.08.02",
+   "nama": "Buruway",
+   "level": "kec",
+   "induk_kode": "92.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.08.03",
+   "nama": "Teluk Arguni Atas",
+   "level": "kec",
+   "induk_kode": "92.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.08.04",
+   "nama": "Teluk Etna",
+   "level": "kec",
+   "induk_kode": "92.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.08.05",
+   "nama": "Kambrau",
+   "level": "kec",
+   "induk_kode": "92.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.08.06",
+   "nama": "Teluk Arguni Bawah",
+   "level": "kec",
+   "induk_kode": "92.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.08.07",
+   "nama": "Yamor",
+   "level": "kec",
+   "induk_kode": "92.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.11",
+   "nama": "Kabupaten Manokwari Selatan",
+   "level": "kab",
+   "induk_kode": "92",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.11.01",
+   "nama": "Ransiki",
+   "level": "kec",
+   "induk_kode": "92.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.11.02",
+   "nama": "Oransbari",
+   "level": "kec",
+   "induk_kode": "92.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.11.03",
+   "nama": "Neney",
+   "level": "kec",
+   "induk_kode": "92.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.11.04",
+   "nama": "Dataran Isim",
+   "level": "kec",
+   "induk_kode": "92.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.11.05",
+   "nama": "Momi Waren",
+   "level": "kec",
+   "induk_kode": "92.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.11.06",
+   "nama": "Tahota",
+   "level": "kec",
+   "induk_kode": "92.11",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.12",
+   "nama": "Kabupaten Pegunungan Arfak",
+   "level": "kab",
+   "induk_kode": "92",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.12.01",
+   "nama": "Anggi",
+   "level": "kec",
+   "induk_kode": "92.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.12.02",
+   "nama": "Anggi Gida",
+   "level": "kec",
+   "induk_kode": "92.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.12.03",
+   "nama": "Membey",
+   "level": "kec",
+   "induk_kode": "92.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.12.04",
+   "nama": "Sururey",
+   "level": "kec",
+   "induk_kode": "92.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.12.05",
+   "nama": "Didohu",
+   "level": "kec",
+   "induk_kode": "92.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.12.06",
+   "nama": "Taige",
+   "level": "kec",
+   "induk_kode": "92.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.12.07",
+   "nama": "Catubouw",
+   "level": "kec",
+   "induk_kode": "92.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.12.08",
+   "nama": "Testega",
+   "level": "kec",
+   "induk_kode": "92.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.12.09",
+   "nama": "Minyambaouw",
+   "level": "kec",
+   "induk_kode": "92.12",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "92.12.10",
+   "nama": "Hingk",
+   "level": "kec",
+   "induk_kode": "92.12",
+   "pesisir": null
+  }
+ ],
+ "satuan": [
+  {
+   "id": "ad-kodim-1703",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1703/Kab. Manokwari",
+   "induk_id": "ad-korem-171",
+   "markas": "Kab. Manokwari",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-1706",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1706/Kab. Fak Fak",
+   "induk_id": "ad-korem-171",
+   "markas": "Kab. Fak Fak",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "ad-kodim-1713",
+   "matra": "AD",
+   "tingkat": "Kodim",
+   "nama": "Kodim 1713/Kab. Kaimana",
+   "induk_id": "ad-korem-171",
+   "markas": "Kab. Kaimana",
+   "sumber": "PP 68/2014 Lampiran II",
+   "berlaku_per_tanggal": "2026-09-02",
+   "tingkat_keyakinan": "tinggi",
+   "catatan": ""
+  },
+  {
+   "id": "au-lanud-manokwari",
+   "matra": "AU",
+   "tingkat": "Lanud",
+   "nama": "Lanud Manokwari",
+   "induk_id": "au-koopsud-3",
+   "markas": "Manokwari",
+   "sumber": "aturan AU (Lanud provinsi) + Koopsud III",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "rendah",
+   "catatan": ""
+  }
+ ],
+ "pemetaan": [
+  {
+   "kode_wilayah": "92",
+   "satuan_id": "al-kodaeral-14",
+   "peran": "terkait",
+   "aturan_pemetaan": "wilayah pesisir provinsi (Lanal/Posal per kab perlu detail)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Kodaeral / Koarmada RI",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Papua Barat — Kodaeral XIV Sorong (eks-Lantamal XIV); Lanal Manokwari | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "92",
+   "satuan_id": "au-lanud-manokwari",
+   "peran": "terkait",
+   "aturan_pemetaan": "Lanud di/terdekat provinsi (aturan AU)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "Koopsud III",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Papua Barat — Lanud Manokwari | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "92.02",
+   "satuan_id": "ad-kodim-1703",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Manokwari — Kodim 1703 (Lampiran II 2014). Struktur Korem/Kodam Papua banyak berubah 2016-2025; Kodim terkonfirmasi, induk perlu cek akhir."
+  },
+  {
+   "kode_wilayah": "92.03",
+   "satuan_id": "ad-kodim-1706",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Fak Fak — Kodim 1706 (Lampiran II 2014). Struktur Korem/Kodam Papua banyak berubah 2016-2025; Kodim terkonfirmasi, induk perlu cek akhir."
+  },
+  {
+   "kode_wilayah": "92.06",
+   "satuan_id": "ad-kodam-18-ksr",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Teluk Bintuni — Kodam ad-kodam-18-ksr TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "92.07",
+   "satuan_id": "ad-kodam-18-ksr",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Teluk Wondama — Kodam ad-kodam-18-ksr TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "92.08",
+   "satuan_id": "ad-kodim-1713",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif Kodim (dikonfirmasi Lampiran II PP 68/2014)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "PP 68/2014 Lampiran II + Perpres 84/2025",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Kaimana — Kodim 1713 (Lampiran II 2014). Struktur Korem/Kodam Papua banyak berubah 2016-2025; Kodim terkonfirmasi, induk perlu cek akhir."
+  },
+  {
+   "kode_wilayah": "92.11",
+   "satuan_id": "ad-kodam-18-ksr",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Manokwari Selatan — Kodam ad-kodam-18-ksr TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  },
+  {
+   "kode_wilayah": "92.12",
+   "satuan_id": "ad-kodam-18-ksr",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (Kodam terkonfirmasi; Kodim/Korem perlu situs Korem)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Perpres 84/2025 (Kodam); PP 68/2014 Lampiran II (Kodim tak eksplisit)",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Pegunungan Arfak — Kodam ad-kodam-18-ksr TERKONFIRMASI (Perpres 84/2025). Kabupaten ini berbagi Kodim (bukan lokasi HQ Kodim di Lampiran II) -> Kodim/Korem spesifik perlu diverifikasi ke situs Korem."
+  }
+ ]
+}

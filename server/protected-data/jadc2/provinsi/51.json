@@ -1,0 +1,601 @@
+{
+ "kode": "51",
+ "nama": "Bali",
+ "wilayah": [
+  {
+   "kode_bps": "51",
+   "nama": "Bali",
+   "level": "prov",
+   "induk_kode": "",
+   "pesisir": true
+  },
+  {
+   "kode_bps": "51.01",
+   "nama": "Kabupaten Jembrana",
+   "level": "kab",
+   "induk_kode": "51",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.01.01",
+   "nama": "Negara",
+   "level": "kec",
+   "induk_kode": "51.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.01.02",
+   "nama": "Mendoyo",
+   "level": "kec",
+   "induk_kode": "51.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.01.03",
+   "nama": "Pekutatan",
+   "level": "kec",
+   "induk_kode": "51.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.01.04",
+   "nama": "Melaya",
+   "level": "kec",
+   "induk_kode": "51.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.01.05",
+   "nama": "Jembrana",
+   "level": "kec",
+   "induk_kode": "51.01",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.02",
+   "nama": "Kabupaten Tabanan",
+   "level": "kab",
+   "induk_kode": "51",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.02.01",
+   "nama": "Selemadeg",
+   "level": "kec",
+   "induk_kode": "51.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.02.02",
+   "nama": "Selemadeg Timur",
+   "level": "kec",
+   "induk_kode": "51.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.02.03",
+   "nama": "Selemadeg Barat",
+   "level": "kec",
+   "induk_kode": "51.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.02.04",
+   "nama": "Kerambitan",
+   "level": "kec",
+   "induk_kode": "51.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.02.05",
+   "nama": "Tabanan",
+   "level": "kec",
+   "induk_kode": "51.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.02.06",
+   "nama": "Kediri",
+   "level": "kec",
+   "induk_kode": "51.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.02.07",
+   "nama": "Marga",
+   "level": "kec",
+   "induk_kode": "51.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.02.08",
+   "nama": "Penebel",
+   "level": "kec",
+   "induk_kode": "51.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.02.09",
+   "nama": "Baturiti",
+   "level": "kec",
+   "induk_kode": "51.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.02.10",
+   "nama": "Pupuan",
+   "level": "kec",
+   "induk_kode": "51.02",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.03",
+   "nama": "Kabupaten Badung",
+   "level": "kab",
+   "induk_kode": "51",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.03.01",
+   "nama": "Kuta",
+   "level": "kec",
+   "induk_kode": "51.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.03.02",
+   "nama": "Mengwi",
+   "level": "kec",
+   "induk_kode": "51.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.03.03",
+   "nama": "Abiansemal",
+   "level": "kec",
+   "induk_kode": "51.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.03.04",
+   "nama": "Petang",
+   "level": "kec",
+   "induk_kode": "51.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.03.05",
+   "nama": "Kuta Selatan",
+   "level": "kec",
+   "induk_kode": "51.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.03.06",
+   "nama": "Kuta Utara",
+   "level": "kec",
+   "induk_kode": "51.03",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.04",
+   "nama": "Kabupaten Gianyar",
+   "level": "kab",
+   "induk_kode": "51",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.04.01",
+   "nama": "Sukawati",
+   "level": "kec",
+   "induk_kode": "51.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.04.02",
+   "nama": "Blahbatuh",
+   "level": "kec",
+   "induk_kode": "51.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.04.03",
+   "nama": "Gianyar",
+   "level": "kec",
+   "induk_kode": "51.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.04.04",
+   "nama": "Tampaksiring",
+   "level": "kec",
+   "induk_kode": "51.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.04.05",
+   "nama": "Ubud",
+   "level": "kec",
+   "induk_kode": "51.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.04.06",
+   "nama": "Tegallalang",
+   "level": "kec",
+   "induk_kode": "51.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.04.07",
+   "nama": "Payangan",
+   "level": "kec",
+   "induk_kode": "51.04",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.05",
+   "nama": "Kabupaten Klungkung",
+   "level": "kab",
+   "induk_kode": "51",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.05.01",
+   "nama": "Nusa Penida",
+   "level": "kec",
+   "induk_kode": "51.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.05.02",
+   "nama": "Banjarangkan",
+   "level": "kec",
+   "induk_kode": "51.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.05.03",
+   "nama": "Klungkung",
+   "level": "kec",
+   "induk_kode": "51.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.05.04",
+   "nama": "Dawan",
+   "level": "kec",
+   "induk_kode": "51.05",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.06",
+   "nama": "Kabupaten Bangli",
+   "level": "kab",
+   "induk_kode": "51",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.06.01",
+   "nama": "Susut",
+   "level": "kec",
+   "induk_kode": "51.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.06.02",
+   "nama": "Bangli",
+   "level": "kec",
+   "induk_kode": "51.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.06.03",
+   "nama": "Tembuku",
+   "level": "kec",
+   "induk_kode": "51.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.06.04",
+   "nama": "Kintamani",
+   "level": "kec",
+   "induk_kode": "51.06",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.07",
+   "nama": "Kabupaten Karangasem",
+   "level": "kab",
+   "induk_kode": "51",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.07.01",
+   "nama": "Rendang",
+   "level": "kec",
+   "induk_kode": "51.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.07.02",
+   "nama": "Sidemen",
+   "level": "kec",
+   "induk_kode": "51.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.07.03",
+   "nama": "Manggis",
+   "level": "kec",
+   "induk_kode": "51.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.07.04",
+   "nama": "Karangasem",
+   "level": "kec",
+   "induk_kode": "51.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.07.05",
+   "nama": "Abang",
+   "level": "kec",
+   "induk_kode": "51.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.07.06",
+   "nama": "Bebandem",
+   "level": "kec",
+   "induk_kode": "51.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.07.07",
+   "nama": "Selat",
+   "level": "kec",
+   "induk_kode": "51.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.07.08",
+   "nama": "Kubu",
+   "level": "kec",
+   "induk_kode": "51.07",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.08",
+   "nama": "Kabupaten Buleleng",
+   "level": "kab",
+   "induk_kode": "51",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.08.01",
+   "nama": "Gerokgak",
+   "level": "kec",
+   "induk_kode": "51.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.08.02",
+   "nama": "Seririt",
+   "level": "kec",
+   "induk_kode": "51.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.08.03",
+   "nama": "Busungbiu",
+   "level": "kec",
+   "induk_kode": "51.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.08.04",
+   "nama": "Banjar",
+   "level": "kec",
+   "induk_kode": "51.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.08.05",
+   "nama": "Sukasada",
+   "level": "kec",
+   "induk_kode": "51.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.08.06",
+   "nama": "Buleleng",
+   "level": "kec",
+   "induk_kode": "51.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.08.07",
+   "nama": "Sawan",
+   "level": "kec",
+   "induk_kode": "51.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.08.08",
+   "nama": "Kubutambahan",
+   "level": "kec",
+   "induk_kode": "51.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.08.09",
+   "nama": "Tejakula",
+   "level": "kec",
+   "induk_kode": "51.08",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.71",
+   "nama": "Kota Denpasar",
+   "level": "kab",
+   "induk_kode": "51",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.71.01",
+   "nama": "Denpasar Selatan",
+   "level": "kec",
+   "induk_kode": "51.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.71.02",
+   "nama": "Denpasar Timur",
+   "level": "kec",
+   "induk_kode": "51.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.71.03",
+   "nama": "Denpasar Barat",
+   "level": "kec",
+   "induk_kode": "51.71",
+   "pesisir": null
+  },
+  {
+   "kode_bps": "51.71.04",
+   "nama": "Denpasar Utara",
+   "level": "kec",
+   "induk_kode": "51.71",
+   "pesisir": null
+  }
+ ],
+ "satuan": [
+  {
+   "id": "au-lanud-ngurahrai",
+   "matra": "AU",
+   "tingkat": "Lanud",
+   "nama": "Lanud I Gusti Ngurah Rai",
+   "induk_id": "au-koopsud-2",
+   "markas": "Denpasar",
+   "sumber": "aturan AU (Lanud provinsi) + Koopsud II",
+   "berlaku_per_tanggal": "2026-09-01",
+   "tingkat_keyakinan": "rendah",
+   "catatan": ""
+  }
+ ],
+ "pemetaan": [
+  {
+   "kode_wilayah": "51",
+   "satuan_id": "al-kodaeral-5",
+   "peran": "terkait",
+   "aturan_pemetaan": "wilayah pesisir provinsi (Lanal/Posal per kab perlu detail)",
+   "tingkat_keyakinan": "sedang",
+   "sumber": "Kodaeral / Koarmada RI",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Bali — via Lanal Benoa/Denpasar (Kodaeral V) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "51",
+   "satuan_id": "au-lanud-ngurahrai",
+   "peran": "terkait",
+   "aturan_pemetaan": "Lanud di/terdekat provinsi (aturan AU)",
+   "tingkat_keyakinan": "rendah",
+   "sumber": "Koopsud II",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Bali — Lanud I Gusti Ngurah Rai (Denpasar) | Validasi: matra AL/AU tidak diatur rinci di PP 68/2014 (pangkalan terverifikasi di Lampiran II) maupun Perpres 84/2025 (khusus Kodam AD); induk Kodaeral/Koopsud tetap perlu verifikasi TNI AL/AU."
+  },
+  {
+   "kode_wilayah": "51.01",
+   "satuan_id": "ad-korem-163",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Jembrana"
+  },
+  {
+   "kode_wilayah": "51.02",
+   "satuan_id": "ad-korem-163",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Tabanan"
+  },
+  {
+   "kode_wilayah": "51.03",
+   "satuan_id": "ad-korem-163",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Badung"
+  },
+  {
+   "kode_wilayah": "51.04",
+   "satuan_id": "ad-korem-163",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Gianyar"
+  },
+  {
+   "kode_wilayah": "51.05",
+   "satuan_id": "ad-korem-163",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Klungkung"
+  },
+  {
+   "kode_wilayah": "51.06",
+   "satuan_id": "ad-korem-163",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Bangli"
+  },
+  {
+   "kode_wilayah": "51.07",
+   "satuan_id": "ad-korem-163",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Karangasem"
+  },
+  {
+   "kode_wilayah": "51.08",
+   "satuan_id": "ad-korem-163",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kabupaten Buleleng"
+  },
+  {
+   "kode_wilayah": "51.71",
+   "satuan_id": "ad-korem-163",
+   "peran": "definitif",
+   "aturan_pemetaan": "batas administratif (kab->Korem; Kodim = lapisan isian)",
+   "tingkat_keyakinan": "tinggi",
+   "sumber": "situs Korem + Wikipedia",
+   "berlaku_per_tanggal": "2026-09-01",
+   "catatan": "Kota Denpasar"
+  }
+ ]
+}

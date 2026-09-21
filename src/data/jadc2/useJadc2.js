@@ -1,30 +1,24 @@
 // ============================================================================
 // useJadc2.js — Composable data JADC2 (Vue 3)
-// Letak: src/data/jadc2/useJadc2.js  (satu folder dengan index.js)
 //
-// Tanggung jawab (LANGKAH 2 = logika, tanpa UI):
-//   - Memuat data secara lazy: satuan-nasional (sekali) + provinsi saat dibutuhkan.
-//   - resolveChain(kodeWilayah): merakit rantai komando AD/AL/AU untuk satu wilayah,
-//     mewarisi baris kabupaten/provinsi bila yang dipilih adalah kecamatan.
-//   - Pencarian nama (cariWilayah) + helper dropdown bertingkat.
-//
-// Catatan desain:
-//   - Cache & Map disimpan di level modul → dibagikan antar semua pemanggil composable
-//     (tidak dibangun ulang tiap komponen mount).
-//   - Rantai tiap leaf sudah lengkap sampai Korem di file provinsi; Kodam ke atas
-//     ada di satuan-nasional.json (selalu dimuat).
+// Perubahan RBAC: seluruh data kini diambil lewat API ber-gate (lihat index.js),
+// bukan lagi di-bundle. Satuan nasional & indeks wilayah dimuat lazy sekali,
+// detail provinsi dimuat saat dibutuhkan. Cache disimpan di level modul.
 // ============================================================================
 
 import { ref, shallowRef } from 'vue';
-import { satuanNasional, loadProvinsi, PROVINSI } from './index.js';
+import { loadProvinsi, fetchSatuanNasional, fetchWilayahIndex, fetchProvinsiIndex } from './index.js';
 
 // ---- singleton level-modul ----------------------------------------------
-const _satuanNasional = new Map(satuanNasional.map((s) => [s.id, s]));
+let _satuanNasional = null;       // Map id -> satuan (nasional), lazy
+let _satuanPromise = null;
 const _provCache = new Map();     // kodeProv -> objek provinsi terparse (+ Map bantu)
 const _provPromise = new Map();   // kodeProv -> promise in-flight (dedupe permintaan)
-let _indexPromise = null;         // promise pemuatan wilayah-index.json
+let _indexPromise = null;         // promise pemuatan wilayah-index
 let _wilayahIndex = null;         // [{ kode, nama }]
 let _namaByKode = null;           // Map kode -> nama (breadcrumb & pencarian)
+let _provinsiIndex = null;        // daftar provinsi (metadata), lazy
+let _provinsiIndexPromise = null;
 
 const MATRA = ['AD', 'AL', 'AU'];
 
@@ -39,13 +33,27 @@ function levelOf(kode) {
   return n === 3 ? 'kec' : n === 2 ? 'kab' : 'prov';
 }
 
+// ---- pemuatan satuan nasional (lazy, sekali) ------------------------------
+function ensureSatuanNasional() {
+  if (_satuanNasional) return Promise.resolve(_satuanNasional);
+  if (!_satuanPromise) {
+    _satuanPromise = fetchSatuanNasional()
+      .then((arr) => {
+        _satuanNasional = new Map(arr.map((s) => [s.id, s]));
+        return _satuanNasional;
+      })
+      .catch((e) => { _satuanPromise = null; throw e; });
+  }
+  return _satuanPromise;
+}
+
 // ---- pemuatan provinsi (lazy + cache + dedupe) ----------------------------
 function ensureProvinsi(kodeProv) {
   if (_provCache.has(kodeProv)) return Promise.resolve(_provCache.get(kodeProv));
   if (!_provPromise.has(kodeProv)) {
-    const pr = loadProvinsi(kodeProv)
-      .then((data) => {
-        const satuanMap = new Map(_satuanNasional);
+    const pr = Promise.all([ensureSatuanNasional(), loadProvinsi(kodeProv)])
+      .then(([nas, data]) => {
+        const satuanMap = new Map(nas);
         for (const s of data.satuan) satuanMap.set(s.id, s); // leaf lokal menimpa/menambah
         const wilayahMap = new Map(data.wilayah.map((w) => [w.kode_bps, w]));
         const pemByKode = new Map();
@@ -78,18 +86,14 @@ function buildRantai(satuanMap, satuanId) {
     rantai.push({ id: s.id, nama: s.nama, tingkat: s.tingkat, markas: s.markas });
     cur = s.induk_id;
   }
-  // cur masih ada tapi tak ada di Map => induk hilang (rantai terputus)
   const terputus = Boolean(cur) && !satuanMap.has(cur);
   return { rantai, terputus };
 }
 
-// menentukan matra sebuah baris pemetaan
 function matraDari(row, satuanMap) {
   if (row.satuan_id && satuanMap.has(row.satuan_id)) {
     return satuanMap.get(row.satuan_id).matra;
   }
-  // baris N/A (peran '-', tanpa satuan_id): pada data ini selalu matra laut
-  // (kabupaten pedalaman tanpa satuan AL).
   if (row.peran === '-') return 'AL';
   const t = `${row.aturan_pemetaan || ''} ${row.catatan || ''}`.toUpperCase();
   if (/\bAL\b|LAUT|LANAL|KODAERAL|LANTAMAL/.test(t)) return 'AL';
@@ -98,9 +102,7 @@ function matraDari(row, satuanMap) {
 }
 
 // ============================================================================
-// resolveChain — jawaban inti: "wilayah ini di bawah pengawasan siapa?"
-//   kodeWilayah: kode provinsi / kabupaten / kecamatan (mis. "72.06.10").
-//   return: { kode, level, breadcrumb, matra:{AD,AL,AU}, adaKuning, perluTinjau }
+// resolveChain — "wilayah ini di bawah pengawasan siapa?"
 // ============================================================================
 async function resolveChain(kodeWilayah) {
   const kode = String(kodeWilayah).trim();
@@ -113,14 +115,12 @@ async function resolveChain(kodeWilayah) {
     .filter(Boolean)
     .map((k) => ({ kode: k, nama: (wilayahMap.get(k) || {}).nama || k }));
 
-  // lineage: dari paling spesifik -> umum
   const lineage = [kode];
   if (kodeKab && kodeKab !== kode) lineage.push(kodeKab);
   if (kodeProv !== kode && kodeProv !== kodeKab) lineage.push(kodeProv);
 
   const hasil = { AD: [], AL: [], AU: [] };
   for (const m of MATRA) {
-    // ambil baris matra ini dari level PALING spesifik yang punya data
     for (const lvlKode of lineage) {
       const rows = (pemByKode.get(lvlKode) || []).filter((r) => matraDari(r, satuanMap) === m);
       if (!rows.length) continue;
@@ -137,16 +137,15 @@ async function resolveChain(kodeWilayah) {
           na: false, peran: r.peran,
           tingkat_keyakinan: r.tingkat_keyakinan, aturan: r.aturan_pemetaan,
           catatan: r.catatan, sumber: r.sumber, level: lvlKode,
-          diwarisiDari: lvlKode === kode ? null : lvlKode, // null = tepat di wilayah ini
+          diwarisiDari: lvlKode === kode ? null : lvlKode,
           rantaiTerputus: terputus,
-          rantai: rantai.slice().reverse(), // urut ATAS -> bawah (Kodam ... Koramil)
+          rantai: rantai.slice().reverse(),
         };
       });
       break;
     }
   }
 
-  // ringkasan status kuning
   const perluTinjau = [];
   for (const m of MATRA) {
     for (const e of hasil[m]) {
@@ -167,15 +166,17 @@ async function resolveChain(kodeWilayah) {
   };
 }
 
-// ---- pencarian nama (butuh wilayah-index.json) ----------------------------
+// ---- pencarian nama (butuh wilayah-index) ---------------------------------
 function ensureIndex() {
   if (_wilayahIndex) return Promise.resolve(_wilayahIndex);
   if (!_indexPromise) {
-    _indexPromise = import('./wilayah-index.json').then((m) => {
-      _wilayahIndex = m.default.map(([kode, nama]) => ({ kode, nama }));
-      _namaByKode = new Map(_wilayahIndex.map((w) => [w.kode, w.nama]));
-      return _wilayahIndex;
-    });
+    _indexPromise = fetchWilayahIndex()
+      .then((arr) => {
+        _wilayahIndex = arr.map(([kode, nama]) => ({ kode, nama }));
+        _namaByKode = new Map(_wilayahIndex.map((w) => [w.kode, w.nama]));
+        return _wilayahIndex;
+      })
+      .catch((e) => { _indexPromise = null; throw e; });
   }
   return _indexPromise;
 }
@@ -184,7 +185,7 @@ function jalurNama(kode) {
   const out = [];
   if (p.length >= 1) out.push(_namaByKode.get(p[0]) || p[0]);
   if (p.length >= 2) out.push(_namaByKode.get(`${p[0]}.${p[1]}`) || '');
-  return out.filter(Boolean); // [provinsi, kabupaten]
+  return out.filter(Boolean);
 }
 async function cariWilayah(query, opts = {}) {
   const { level = null, limit = 20 } = opts;
@@ -203,8 +204,14 @@ async function cariWilayah(query, opts = {}) {
 }
 
 // ---- helper dropdown bertingkat -------------------------------------------
-function daftarProvinsi() {
-  return PROVINSI; // sudah termuat via index.js
+async function daftarProvinsi() {
+  if (_provinsiIndex) return _provinsiIndex;
+  if (!_provinsiIndexPromise) {
+    _provinsiIndexPromise = fetchProvinsiIndex()
+      .then((arr) => { _provinsiIndex = arr; return arr; })
+      .catch((e) => { _provinsiIndexPromise = null; throw e; });
+  }
+  return _provinsiIndexPromise;
 }
 async function daftarKabupaten(kodeProv) {
   const prov = await ensureProvinsi(kodeProv);
@@ -216,12 +223,12 @@ async function daftarKecamatan(kodeKab) {
 }
 
 // ============================================================================
-// Composable: state reaktif + semua fungsi.
+// Composable
 // ============================================================================
 export function useJadc2() {
   const loading = ref(false);
   const error = ref(null);
-  const hasil = shallowRef(null); // hasil resolveChain terakhir
+  const hasil = shallowRef(null);
 
   async function pilih(kodeWilayah) {
     loading.value = true;
@@ -239,15 +246,8 @@ export function useJadc2() {
   }
 
   return {
-    // state reaktif
-    loading, error, hasil,
-    // aksi utama
-    pilih, resolveChain,
-    // pencarian & navigasi
-    cariWilayah, daftarProvinsi, daftarKabupaten, daftarKecamatan,
-    PROVINSI,
+    loading, error, hasil, pilih,
+    resolveChain, cariWilayah,
+    daftarProvinsi, daftarKabupaten, daftarKecamatan,
   };
 }
-
-// ekspor fungsi murni juga (mis. untuk unit test / pemakaian non-komponen)
-export { resolveChain, cariWilayah, daftarProvinsi, daftarKabupaten, daftarKecamatan };
