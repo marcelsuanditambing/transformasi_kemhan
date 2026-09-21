@@ -4,9 +4,9 @@
       <!-- Paragraf -->
       <p v-if="b.t === 'p'" class="para">{{ b.v }}</p>
 
-      <!-- Gambar -->
+      <!-- Gambar (lebar opsional lewat b.w, mis. "460px") -->
       <figure v-else-if="b.t === 'fig'" class="fig">
-        <img :src="b.src" :alt="b.cap" />
+        <img :src="b.src" :alt="b.cap" :style="b.w ? { maxWidth: b.w } : null" />
         <figcaption v-if="b.cap">{{ b.cap }}</figcaption>
       </figure>
 

@@ -1,7 +1,7 @@
 <template>
   <section class="jadc2 container">
     <header class="jadc2__head">
-      <h1>Navigasi Komando JADC2</h1>
+      <h1>Navigasi Komando JAD</h1>
       <p class="jadc2__sub">
         Pilih sebuah wilayah — sistem menampilkan rantai komando pengawasan TNI Angkatan Darat, Laut, dan Udara.
       </p>

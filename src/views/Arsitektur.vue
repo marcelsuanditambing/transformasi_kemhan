@@ -27,10 +27,34 @@
           <p v-if="selected.comingSoon" class="coming">Content coming soon…</p>
 
           <template v-else>
+            <!-- Pengantar fase -->
             <PhaseBlocks v-if="(selected.intro || []).length" :blocks="introBlocks" />
 
-            <section v-for="sec in selected.sections" :key="sec.no" class="sec">
-              <h3 class="sec-title"><span class="sec-no">{{ sec.no }}.</span>{{ sec.title }}</h3>
+            <!-- Blok bersama yang selalu tampil (mis. tabel Rekapitulasi Aplikasi Baseline di Fase C) -->
+            <PhaseBlocks v-if="(selected.sharedBlocks || []).length" :blocks="selected.sharedBlocks" />
+
+            <!-- Pilihan sub-domain (Fase C: Data Architecture / Application Architecture) -->
+            <div v-if="selected.subDomains" class="subchoice">
+              <button
+                v-for="s in selected.subDomains"
+                :key="s.id"
+                type="button"
+                class="subcard"
+                :class="{ active: s.id === selectedSubId }"
+                :aria-pressed="s.id === selectedSubId"
+                @click="toggleSub(s.id)"
+              >
+                <span class="subcard-title">{{ s.title }}</span>
+                <span class="subcard-go">{{ s.id === selectedSubId ? 'Sedang dibaca' : 'Baca →' }}</span>
+              </button>
+            </div>
+
+            <!-- Pengantar sub-domain aktif -->
+            <PhaseBlocks v-if="activeSub && (activeSub.intro || []).length" :blocks="subIntroBlocks" />
+
+            <!-- Seksi utama: fase biasa -> selected.sections; fase ber-sub-domain -> sub-domain aktif -->
+            <section v-for="sec in renderSections" :key="'s-' + sec.no + sec.title" class="sec">
+              <h3 class="sec-title"><span v-if="sec.no" class="sec-no">{{ sec.no }}.</span>{{ sec.title }}</h3>
               <PhaseBlocks :blocks="sec.blocks" />
 
               <section v-for="sub in sec.subsections || []" :key="sub.no" class="subsec">
@@ -38,6 +62,15 @@
                 <PhaseBlocks :blocks="sub.blocks" />
               </section>
             </section>
+
+            <!-- Seksi akhir fase (mis. Roadmap Implementasi Fase Information System). -->
+            <!-- Untuk fase ber-sub-domain, baru tampil setelah salah satu sub-domain dibuka. -->
+            <template v-if="showTrailing">
+              <section v-for="sec in selected.trailingSections || []" :key="'t-' + sec.title" class="sec">
+                <h3 class="sec-title"><span v-if="sec.no" class="sec-no">{{ sec.no }}.</span>{{ sec.title }}</h3>
+                <PhaseBlocks :blocks="sec.blocks" />
+              </section>
+            </template>
           </template>
         </template>
       </div>
@@ -52,11 +85,41 @@ import PhaseBlocks from '@/components/PhaseBlocks.vue';
 import { phases } from '@/data/arsitekturFase.js';
 
 const selectedId = ref(null);
+const selectedSubId = ref(null);
+
 const selected = computed(() => phases.find((p) => p.id === selectedId.value) || null);
+
 // Paragraf pengantar fase diubah jadi blok agar dirender oleh PhaseBlocks.
 const introBlocks = computed(() =>
   ((selected.value && selected.value.intro) || []).map((v) => ({ t: 'p', v }))
 );
+
+// Sub-domain aktif (hanya untuk fase yang memiliki subDomains, mis. Information System).
+const activeSub = computed(() => {
+  if (!selected.value || !selected.value.subDomains) return null;
+  return selected.value.subDomains.find((s) => s.id === selectedSubId.value) || null;
+});
+const subIntroBlocks = computed(() =>
+  ((activeSub.value && activeSub.value.intro) || []).map((v) => ({ t: 'p', v }))
+);
+
+// Seksi yang dirender: fase biasa memakai sections; fase ber-sub-domain memakai
+// sections milik sub-domain aktif (kosong bila belum ada yang dipilih).
+const renderSections = computed(() => {
+  const p = selected.value;
+  if (!p) return [];
+  if (p.subDomains) return activeSub.value ? activeSub.value.sections : [];
+  return p.sections || [];
+});
+
+// Seksi trailing (mis. Roadmap): untuk fase ber-sub-domain baru tampil setelah
+// salah satu sub-domain dibuka; untuk fase biasa tampil seperti biasa.
+const showTrailing = computed(() => {
+  const p = selected.value;
+  if (!p || !(p.trailingSections && p.trailingSections.length)) return false;
+  if (p.subDomains) return !!activeSub.value;
+  return true;
+});
 
 const letters = {
   'architecture-vision': 'A', 'business-architecture': 'B', 'information-system-architecture': 'C',
@@ -65,8 +128,19 @@ const letters = {
 };
 function badge(phase) { return letters[phase.id] || ''; }
 
-function selectPhase(id) { selectedId.value = id; scrollToContentOnMobile(); }
-function reset() { selectedId.value = null; }
+function toggleSub(id) {
+  selectedSubId.value = selectedSubId.value === id ? null : id;
+  scrollToContentOnMobile();
+}
+function selectPhase(id) {
+  selectedId.value = id;
+  selectedSubId.value = null;
+  scrollToContentOnMobile();
+}
+function reset() {
+  selectedId.value = null;
+  selectedSubId.value = null;
+}
 watch(selectedId, scrollToContentOnMobile);
 function scrollToContentOnMobile() {
   if (window.matchMedia('(min-width: 901px)').matches) return;
@@ -85,6 +159,7 @@ function scrollToContentOnMobile() {
   --gold: #c68a12;
   --gold-soft: #f8ce45;
   --ember: #fa6800;
+  --surface: #ffffff;
   --line: #e2e5ea;
 
   max-width: 1140px;
@@ -122,6 +197,40 @@ function scrollToContentOnMobile() {
   border-radius: 50%; background: var(--gold-soft); color: var(--ink); font-size: 1rem; font-weight: 700;
 }
 
+/* Pilihan sub-domain (Fase C) */
+.subchoice {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  max-width: 70ch;
+  margin: 1.5rem 0 0.5rem;
+}
+.subcard {
+  text-align: left;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1.15rem 1.25rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+.subcard:hover {
+  border-color: var(--gold);
+  box-shadow: 0 6px 20px rgba(23, 33, 58, 0.08);
+  transform: translateY(-2px);
+}
+.subcard.active {
+  border-color: var(--ember);
+  box-shadow: 0 0 0 1px var(--ember);
+  background: #fff7f1;
+}
+.subcard.active .subcard-go { color: var(--ember); }
+.subcard-title { font-size: 1.1rem; font-weight: 700; color: var(--ink); }
+.subcard-go { font-size: 0.85rem; color: var(--ember); font-weight: 600; }
+
 .sec { margin: 0 0 2.25rem; }
 .sec-title {
   font-size: 1.28rem; margin: 1.6rem 0 0.9rem; letter-spacing: -0.01em;
@@ -134,5 +243,6 @@ function scrollToContentOnMobile() {
 
 @media (max-width: 900px) {
   .layout { grid-template-columns: 1fr; gap: 1.75rem; }
+  .subchoice { grid-template-columns: 1fr; }
 }
 </style>

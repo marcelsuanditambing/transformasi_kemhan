@@ -3,17 +3,21 @@
 
 import fig1 from '@/assets/images/preliminary-ruang-lingkup.drawio.svg';
 import fig2 from '@/assets/images/solusi-arsitektur-target.drawio.svg';
-import fig3 from '@/assets/images/struktur-organisasi-kemhan-baru.drawio.svg';
+import fig3 from '@/assets/images/struktur-organisasi-kemhan-permenhan-30-2025-dan-13-2026.drawio.svg';
 import fig4 from '@/assets/images/value-stream-kemhan.drawio.svg';
 import fig5 from '@/assets/images/business-capability-map-kemhan.drawio.svg';
-import fig6 from '@/assets/images/struktur-organisasi-kemhan-to-be.drawio.svg';
+import fig6 from '@/assets/images/struktur-organisasi-kemhan-permenhan-30-2025-dan-13-2026-to-be.drawio.svg';
 import fig7 from '@/assets/images/business-capability-map-kemhan-to-be.drawio.svg';
 import fig8 from '@/assets/images/roadmap-implementasi-fase-business-architecture.drawio.svg';
 // Fase Information System Architecture (IV.4) & Technology Architecture (IV.5)
-import figISBaselineSilo from '@/assets/images/Baseline Integrasi antar Aplikasi (Silo).drawio.svg';
-import figISModelTarget from '@/assets/images/Model Integrasi Target dengan Rasionalisasi Aplikasi.drawio.svg';
-import figTechBaseline from '@/assets/images/Arsitektur Teknologi Baseline.drawio.svg';
-import figTechTarget from '@/assets/images/Arsitektur Teknologi Target.drawio.svg';
+import figISBaselineSilo from '@/assets/images/baseline-integrasi-antar-aplikasi-(silo).drawio.svg';
+import figISModelTarget from '@/assets/images/model-integrasi-target-denga-rasionalisasi-aplikasi.drawio.svg';
+import figTechBaseline from '@/assets/images/arsitektur-teknologi-baseline.drawio.svg';
+import figTechTarget from '@/assets/images/arsitektur-teknologi-target.drawio.svg';
+// Roadmap implementasi per fase & gambar C5ISR
+import figISRoadmap from '@/assets/images/roadmap-implementasi-fase-information-system-architecture.drawio.svg';
+import figTechRoadmap from '@/assets/images/roadmap-implementasi-fase-technology-architecture.drawio.svg';
+import figC5Satelit from '@/assets/images/arsitektur-satelit.drawio.svg';
 
 export const phases = [
   {
@@ -975,197 +979,196 @@ export const phases = [
       "Fase Information Systems Architecture menentukan arsitektur sistem informasi yang mendukung proses bisnis pertahanan, mencakup arsitektur data (data architecture) dan arsitektur aplikasi (application architecture) yang dikerjakan berurutan dengan arsitektur data didahulukan. Arsitektur data dirancang berdasarkan Peraturan Presiden Nomor 39 Tahun 2019 tentang Satu Data Indonesia dan Peraturan Menteri Pertahanan Nomor 1 Tahun 2023 tentang Satu Data Pertahanan, sehingga penataan data pertahanan selaras dengan kebijakan tata kelola data nasional maupun sektor pertahanan.",
       "Kedua sub-domain arsitektur sistem informasi bermula dari inventarisasi aplikasi Kemhan tahun 2025 yang menjadi kondisi baseline bersama. Inventaris mencatat 247 aplikasi yang terdiri atas 176 aplikasi umum dan 71 aplikasi khusus."
     ],
-    "sections": [
+    "sharedBlocks": [
       {
-        "no": "1",
-        "title": "Data Architecture",
-        "blocks": [
-          {
-            "t": "p",
-            "v": "Arsitektur data merancang struktur definisi, klasifikasi, dan tata kelola kepemilikan Data Pertahanan. Mengacu Permenhan Nomor 1 Tahun 2023, Data Pertahanan adalah data yang dibina dan diselenggarakan oleh Kementerian Pertahanan dan Tentara Nasional Indonesia untuk kepentingan penyelenggaraan pertahanan negara. Perancangan berpedoman pada prinsip Data as Strategic Asset serta empat prinsip Satu Data Indonesia, yaitu pemenuhan standar data, metadata, kaidah interoperabilitas data, dan penggunaan kode referensi serta data induk."
-          },
-          {
-            "t": "p",
-            "v": "Rekapitulasi aplikasi baseline per satuan kerja yang menjadi dasar bersama arsitektur data dan aplikasi disajikan pada tabel berikut."
-          },
-          {
-            "t": "table",
-            "title": "Rekapitulasi Aplikasi Baseline per Satuan Kerja",
-            "header": [
-              "No.",
-              "Satuan Kerja",
-              "Umum",
-              "Khusus",
-              "Jumlah"
-            ],
-            "rows": [
-              [
-                "1",
-                "Direktorat Jenderal Strategi Pertahanan",
-                "10",
-                "0",
-                "10"
-              ],
-              [
-                "2",
-                "Direktorat Jenderal Perencanaan Pertahanan",
-                "22",
-                "0",
-                "22"
-              ],
-              [
-                "3",
-                "Direktorat Jenderal Potensi Pertahanan",
-                "8",
-                "4",
-                "12"
-              ],
-              [
-                "4",
-                "Direktorat Jenderal Kekuatan Pertahanan",
-                "21",
-                "0",
-                "21"
-              ],
-              [
-                "5",
-                "Inspektorat Jenderal",
-                "2",
-                "1",
-                "3"
-              ],
-              [
-                "6",
-                "Biro Perencanaan dan Keuangan",
-                "2",
-                "0",
-                "2"
-              ],
-              [
-                "7",
-                "Biro Kepegawaian",
-                "2",
-                "4",
-                "6"
-              ],
-              [
-                "8",
-                "Biro Hukum",
-                "0",
-                "1",
-                "1"
-              ],
-              [
-                "9",
-                "Biro Tata Usaha dan Protokol",
-                "16",
-                "0",
-                "16"
-              ],
-              [
-                "10",
-                "Biro Umum",
-                "17",
-                "0",
-                "17"
-              ],
-              [
-                "11",
-                "Biro Informasi Pertahanan",
-                "0",
-                "2",
-                "2"
-              ],
-              [
-                "12",
-                "Biro Organisasi dan Tata Laksana",
-                "0",
-                "1",
-                "1"
-              ],
-              [
-                "13",
-                "Biro Peraturan Perundang-undangan",
-                "1",
-                "0",
-                "1"
-              ],
-              [
-                "14",
-                "Badan Logistik Pertahanan",
-                "5",
-                "1",
-                "6"
-              ],
-              [
-                "15",
-                "Badan Teknologi Pertahanan",
-                "18",
-                "1",
-                "19"
-              ],
-              [
-                "16",
-                "Badan Pengembangan Sumber Daya Manusia Pertahanan",
-                "0",
-                "27",
-                "27"
-              ],
-              [
-                "17",
-                "Pusat Data dan Informasi",
-                "6",
-                "8",
-                "14"
-              ],
-              [
-                "18",
-                "Badan Informasi dan Komunikasi Intelijen Pertahanan",
-                "0",
-                "16",
-                "16"
-              ],
-              [
-                "19",
-                "Pusat Kelaikan",
-                "13",
-                "0",
-                "13"
-              ],
-              [
-                "20",
-                "Pusat Kesehatan Pertahanan",
-                "14",
-                "4",
-                "18"
-              ],
-              [
-                "21",
-                "Pusat Pelaporan dan Pembinaan Keuangan Pertahanan",
-                "12",
-                "1",
-                "13"
-              ],
-              [
-                "22",
-                "Universitas Pertahanan",
-                "7",
-                "0",
-                "7"
-              ],
-              [
-                "",
-                "Total",
-                "176",
-                "71",
-                "247"
-              ]
-            ]
-          }
+        "t": "p",
+        "v": "Rekapitulasi aplikasi baseline per satuan kerja yang menjadi dasar bersama arsitektur data dan aplikasi disajikan pada tabel berikut."
+      },
+      {
+        "t": "table",
+        "title": "Rekapitulasi Aplikasi Baseline per Satuan Kerja",
+        "header": [
+          "No.",
+          "Satuan Kerja",
+          "Umum",
+          "Khusus",
+          "Jumlah"
         ],
-        "subsections": [
+        "rows": [
+          [
+            "1",
+            "Direktorat Jenderal Strategi Pertahanan",
+            "10",
+            "0",
+            "10"
+          ],
+          [
+            "2",
+            "Direktorat Jenderal Perencanaan Pertahanan",
+            "22",
+            "0",
+            "22"
+          ],
+          [
+            "3",
+            "Direktorat Jenderal Potensi Pertahanan",
+            "8",
+            "4",
+            "12"
+          ],
+          [
+            "4",
+            "Direktorat Jenderal Kekuatan Pertahanan",
+            "21",
+            "0",
+            "21"
+          ],
+          [
+            "5",
+            "Inspektorat Jenderal",
+            "2",
+            "1",
+            "3"
+          ],
+          [
+            "6",
+            "Biro Perencanaan dan Keuangan",
+            "2",
+            "0",
+            "2"
+          ],
+          [
+            "7",
+            "Biro Kepegawaian",
+            "2",
+            "4",
+            "6"
+          ],
+          [
+            "8",
+            "Biro Hukum",
+            "0",
+            "1",
+            "1"
+          ],
+          [
+            "9",
+            "Biro Tata Usaha dan Protokol",
+            "16",
+            "0",
+            "16"
+          ],
+          [
+            "10",
+            "Biro Umum",
+            "17",
+            "0",
+            "17"
+          ],
+          [
+            "11",
+            "Biro Informasi Pertahanan",
+            "0",
+            "2",
+            "2"
+          ],
+          [
+            "12",
+            "Biro Organisasi dan Tata Laksana",
+            "0",
+            "1",
+            "1"
+          ],
+          [
+            "13",
+            "Biro Peraturan Perundang-undangan",
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "14",
+            "Badan Logistik Pertahanan",
+            "5",
+            "1",
+            "6"
+          ],
+          [
+            "15",
+            "Badan Teknologi Pertahanan",
+            "18",
+            "1",
+            "19"
+          ],
+          [
+            "16",
+            "Badan Pengembangan Sumber Daya Manusia Pertahanan",
+            "0",
+            "27",
+            "27"
+          ],
+          [
+            "17",
+            "Pusat Data dan Informasi",
+            "6",
+            "8",
+            "14"
+          ],
+          [
+            "18",
+            "Badan Informasi dan Komunikasi Intelijen Pertahanan",
+            "0",
+            "16",
+            "16"
+          ],
+          [
+            "19",
+            "Pusat Kelaikan",
+            "13",
+            "0",
+            "13"
+          ],
+          [
+            "20",
+            "Pusat Kesehatan Pertahanan",
+            "14",
+            "4",
+            "18"
+          ],
+          [
+            "21",
+            "Pusat Pelaporan dan Pembinaan Keuangan Pertahanan",
+            "12",
+            "1",
+            "13"
+          ],
+          [
+            "22",
+            "Universitas Pertahanan",
+            "7",
+            "0",
+            "7"
+          ],
+          [
+            "",
+            "Total",
+            "176",
+            "71",
+            "247"
+          ]
+        ]
+      }
+    ],
+    "subDomains": [
+      {
+        "id": "data-architecture",
+        "title": "Data Architecture",
+        "intro": [
+          "Arsitektur data merancang struktur definisi, klasifikasi, dan tata kelola kepemilikan Data Pertahanan. Mengacu Permenhan Nomor 1 Tahun 2023, Data Pertahanan adalah data yang dibina dan diselenggarakan oleh Kementerian Pertahanan dan Tentara Nasional Indonesia untuk kepentingan penyelenggaraan pertahanan negara. Perancangan berpedoman pada prinsip Data as Strategic Asset serta empat prinsip Satu Data Indonesia, yaitu pemenuhan standar data, metadata, kaidah interoperabilitas data, dan penggunaan kode referensi serta data induk."
+        ],
+        "sections": [
           {
-            "no": "1.1",
+            "no": "1",
             "title": "Arsitektur Data Baseline",
             "blocks": [
               {
@@ -1175,7 +1178,7 @@ export const phases = [
             ]
           },
           {
-            "no": "1.2",
+            "no": "2",
             "title": "Model Entitas Data Pertahanan",
             "blocks": [
               {
@@ -1329,7 +1332,7 @@ export const phases = [
             ]
           },
           {
-            "no": "1.3",
+            "no": "3",
             "title": "Klasifikasi Data menurut Tingkat Kerahasiaan",
             "blocks": [
               {
@@ -1365,7 +1368,7 @@ export const phases = [
             ]
           },
           {
-            "no": "1.4",
+            "no": "4",
             "title": "Kamus Data dan Standar Penamaan",
             "blocks": [
               {
@@ -1395,7 +1398,7 @@ export const phases = [
             ]
           },
           {
-            "no": "1.5",
+            "no": "5",
             "title": "Matriks Kepemilikan dan Tata Kelola Data",
             "blocks": [
               {
@@ -1450,7 +1453,7 @@ export const phases = [
             ]
           },
           {
-            "no": "1.6",
+            "no": "6",
             "title": "Arsitektur Data Target",
             "blocks": [
               {
@@ -1480,7 +1483,7 @@ export const phases = [
             ]
           },
           {
-            "no": "1.7",
+            "no": "7",
             "title": "Analisis Kesenjangan",
             "blocks": [
               {
@@ -1547,17 +1550,14 @@ export const phases = [
         ]
       },
       {
-        "no": "2",
+        "id": "application-architecture",
         "title": "Application Architecture",
-        "blocks": [
-          {
-            "t": "p",
-            "v": "Arsitektur aplikasi merancang portofolio aplikasi yang mendukung proses bisnis pertahanan, mencakup aplikasi yang digunakan, fungsi yang didukung, pengguna, serta keterhubungan (integrasi) antaraplikasi. Sesuai lingkup yang ditetapkan pada arsitektur data, arsitektur aplikasi difokuskan pada 71 aplikasi khusus yang dibina dan diselenggarakan sendiri oleh Kemhan."
-          }
+        "intro": [
+          "Arsitektur aplikasi merancang portofolio aplikasi yang mendukung proses bisnis pertahanan, mencakup aplikasi yang digunakan, fungsi yang didukung, pengguna, serta keterhubungan (integrasi) antaraplikasi. Sesuai lingkup yang ditetapkan pada arsitektur data, arsitektur aplikasi difokuskan pada 71 aplikasi khusus yang dibina dan diselenggarakan sendiri oleh Kemhan."
         ],
-        "subsections": [
+        "sections": [
           {
-            "no": "2.1",
+            "no": "1",
             "title": "Arsitektur Aplikasi Baseline",
             "blocks": [
               {
@@ -2051,7 +2051,7 @@ export const phases = [
             ]
           },
           {
-            "no": "2.2",
+            "no": "2",
             "title": "Analisis Integrasi Antar Aplikasi",
             "blocks": [
               {
@@ -2070,7 +2070,7 @@ export const phases = [
             ]
           },
           {
-            "no": "2.3",
+            "no": "3",
             "title": "Rasionalisasi Aplikasi",
             "blocks": [
               {
@@ -2552,7 +2552,7 @@ export const phases = [
             ]
           },
           {
-            "no": "2.4",
+            "no": "4",
             "title": "Arsitektur Aplikasi Target",
             "blocks": [
               {
@@ -2582,7 +2582,7 @@ export const phases = [
             ]
           },
           {
-            "no": "2.5",
+            "no": "5",
             "title": "Interoperabilitas dan Integrasi Antar Aplikasi Target",
             "blocks": [
               {
@@ -2601,7 +2601,7 @@ export const phases = [
             ]
           },
           {
-            "no": "2.6",
+            "no": "6",
             "title": "Analisis Kesenjangan Aplikasi",
             "blocks": [
               {
@@ -2667,6 +2667,49 @@ export const phases = [
           }
         ]
       }
+    ],
+    "trailingSections": [
+      {
+        "no": "",
+        "title": "Roadmap Implementasi Fase Information System Architecture",
+        "blocks": [
+          {
+            "t": "fig",
+            "src": figISRoadmap,
+            "cap": "Roadmap Implementasi Fase Information System Architecture"
+          },
+          {
+            "t": "p",
+            "v": "Roadmap implementasi fase Information System Architecture menyusun urutan pelaksanaan inisiatif arsitektur data dan arsitektur aplikasi untuk menutup kesenjangan yang teridentifikasi pada analisis kesenjangan arsitektur data dan arsitektur aplikasi. Inisiatif dibagi ke dalam tiga horizon waktu, yaitu jangka pendek, jangka menengah, dan jangka panjang."
+          },
+          {
+            "t": "table",
+            "title": "Rincian Roadmap Implementasi Fase Information System Architecture",
+            "header": [
+              "Horizon Waktu",
+              "Inisiatif (Data dan Aplikasi)",
+              "Keluaran dan Kesenjangan yang Ditutup"
+            ],
+            "rows": [
+              [
+                "Jangka Pendek (0–12 bulan)",
+                "Penetapan penyelenggara Satu Data Pertahanan (Walidata, Produsen, Pengolah, dan Pengaman Sistem); penetapan klasifikasi, kamus data, dan standar penamaan; rasionalisasi awal portofolio aplikasi",
+                "Tata kelola dan standar data berjalan serta peta rasionalisasi aplikasi tersedia (menutup kesenjangan data pada aspek standar, kepemilikan, dan klasifikasi, serta kesenjangan aplikasi pada aspek redundansi)"
+              ],
+              [
+                "Jangka Menengah (1–3 tahun)",
+                "Pembangunan Portal Satu Data Pertahanan; pembangunan platform integrasi dan API Gateway; penerapan SSO/IAM enterprise; konsolidasi aplikasi redundan (kepegawaian, LMS, dan persuratan)",
+                "Portal dan platform integrasi operasional, otentikasi tunggal berjalan, serta portofolio aplikasi menjadi ramping (menutup kesenjangan data pada aspek integrasi dan keamanan, serta kesenjangan aplikasi pada aspek integrasi, otentikasi, dan layanan data)"
+              ],
+              [
+                "Jangka Panjang (3–5 tahun)",
+                "Interoperabilitas penuh antaraplikasi dan dengan Portal Satu Data Indonesia; pengembangan aplikasi/komponen baru untuk kapabilitas yang belum terdukung; pelembagaan tata kelola portofolio data dan aplikasi; penyediaan layanan data dan aplikasi terpadu berorientasi pengguna",
+                "Ekosistem data dan aplikasi yang terintegrasi, aman, dan berkelanjutan (menutup kesenjangan aplikasi pada aspek dukungan kapabilitas dan tata kelola)"
+              ]
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -2687,7 +2730,8 @@ export const phases = [
           {
             "t": "fig",
             "src": figTechBaseline,
-            "cap": "Arsitektur Teknologi Baseline"
+            "cap": "Arsitektur Teknologi Baseline",
+            "w": "240px"
           },
           {
             "t": "p",
@@ -2793,7 +2837,7 @@ export const phases = [
           },
           {
             "t": "p",
-            "v": "a. Presentation Layer sebagai antarmuka bagi pengguna, mencakup Portal Satu Data Pertahanan, antarmuka seluruh aplikasi Kemhan, serta titik akses Joint All-Domain Command and Control (JADC2) sebagai gerbang menuju kapabilitas komando dan kendali lintas domain yang dirinci pada arsitektur C5ISR;"
+            "v": "a. Presentation Layer sebagai antarmuka bagi pengguna, mencakup Portal Satu Data Pertahanan, antarmuka seluruh aplikasi Kemhan, serta titik akses Joint All Defense (JAD) sebagai gerbang menuju kapabilitas komando dan kendali lintas domain yang dirinci pada arsitektur C5ISR;"
           },
           {
             "t": "p",
@@ -2935,13 +2979,73 @@ export const phases = [
             ]
           }
         ]
+      },
+      {
+        "no": "6",
+        "title": "Roadmap Implementasi Teknologi",
+        "blocks": [
+          {
+            "t": "fig",
+            "src": figTechRoadmap,
+            "cap": "Roadmap Implementasi Fase Technology Architecture"
+          },
+          {
+            "t": "p",
+            "v": "Kesenjangan pada analisis kesenjangan teknologi diterjemahkan menjadi roadmap implementasi teknologi yang dibagi ke dalam tiga horizon waktu, sebagaimana disajikan pada gambar dan tabel berikut."
+          },
+          {
+            "t": "table",
+            "title": "Roadmap Implementasi Arsitektur Teknologi",
+            "header": [
+              "Horizon Waktu",
+              "Inisiatif",
+              "Keluaran"
+            ],
+            "rows": [
+              [
+                "Jangka Pendek (0–12 bulan)",
+                "Pembangunan DRC dan mekanisme cadangan (backup) serta replikasi; penguatan keamanan dasar (firewall, endpoint protection, IDPS); penilaian kerentanan (VAPT)",
+                "Redundansi dasar dan pengamanan dasar"
+              ],
+              [
+                "Jangka Menengah (1–3 tahun)",
+                "Penerapan virtualisasi dan kontainer; pembangunan lapisan integrasi (API Gateway, SSO/IAM, Data Exchange), Portal Satu Data Pertahanan, dan lapisan penyajian; penataan jaringan tersegmentasi; penguatan deteksi (CTI, SIEM) dan SOAR",
+                "Platform integrasi dan kapabilitas pendeteksian kerentanan"
+              ],
+              [
+                "Jangka Panjang (3–5 tahun)",
+                "Interoperabilitas lintas matra penuh dan integrasi JAD; otomasi keamanan; pencapaian tingkat kematangan level 3 berdasarkan Permenhan Nomor 35 Tahun 2025; operasionalisasi Data Center Utama dan DRC dalam mode aktif-aktif",
+                "Infrastruktur teknologi terintegrasi, aman, dan andal"
+              ]
+            ]
+          }
+        ]
       }
     ]
   },
   {
     "id": "c5isr-architecture",
     "title": "Fase C5ISR Architecture",
-    "comingSoon": true
+    "intro": [
+      "Fase C5ISR Architecture merancang kapabilitas komando, kendali, komunikasi, komputer, siber, intelijen, surveilans, dan pengintaian (C5ISR) sebagai inti operasional pertahanan cerdas. Fase ini menyatukan arsitektur data, aplikasi, dan teknologi untuk mendukung komando dan kendali lintas domain (multi-domain). Gambaran arsitektur C5ISR pertahanan disajikan pada gambar berikut."
+    ],
+    "sections": [
+      {
+        "no": "",
+        "title": "Arsitektur C5ISR",
+        "blocks": [
+          {
+            "t": "fig",
+            "src": figC5Satelit,
+            "cap": "Arsitektur C5ISR Pertahanan"
+          },
+          {
+            "t": "p",
+            "v": "Uraian lengkap fase C5ISR sedang dilengkapi dan akan ditambahkan menyusul."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "opportunities-solutions",
