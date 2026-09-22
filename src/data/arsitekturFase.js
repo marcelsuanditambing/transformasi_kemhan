@@ -3027,7 +3027,7 @@ export const phases = [
     "id": "c5isr-architecture",
     "title": "Fase C5ISR Architecture",
     "intro": [
-      "Fase C5ISR Architecture merancang kapabilitas komando, kendali, komunikasi, komputer, siber, intelijen, surveilans, dan pengintaian (C5ISR) sebagai inti operasional pertahanan cerdas. Fase ini menyatukan arsitektur data, aplikasi, dan teknologi untuk mendukung komando dan kendali lintas domain (multi-domain). Gambaran arsitektur C5ISR pertahanan disajikan pada gambar berikut."
+      "Fase C5ISR Architecture merancang kapabilitas Command, Control, Communications, Computers, Cyber, Intelligence, Surveillance, and Reconnaissance (C5ISR) sebagai inti operasional pertahanan cerdas. Fase ini menyatukan arsitektur data, aplikasi, dan teknologi untuk mendukung komando dan kendali lintas domain (multi-domain). Gambaran arsitektur C5ISR pertahanan disajikan pada gambar berikut."
     ],
     "sections": [
       {
