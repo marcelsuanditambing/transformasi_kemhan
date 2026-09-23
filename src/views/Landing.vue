@@ -7,22 +7,8 @@
     </header>
 
     <div class="layout">
-      <!-- Kiri (desktop) / atas (mobile): diagram roda interaktif -->
-      <figure class="wheel">
-        <img :src="wheel" alt="Diagram TOGAF ADM Pertahanan Indonesia" class="wheel-img" />
-        <button
-          v-for="n in nodes"
-          :key="n.id"
-          type="button"
-          class="hotspot"
-          :class="{ active: n.id === selectedId }"
-          :style="{ left: n.left + '%', top: n.top + '%' }"
-          :aria-label="'Buka penjelasan ' + n.title"
-          @click="selectPhase(n.id)"
-        >
-          <span class="sr-only">{{ n.title }}</span>
-        </button>
-      </figure>
+      <!-- Kiri (desktop) / atas (mobile): diagram roda interaktif (komponen bersama) -->
+      <TogafWheel :active="selectedId" @select="selectPhase" />
 
       <!-- Kanan (desktop) / bawah (mobile): penjelasan -->
       <div class="content">
@@ -94,7 +80,7 @@
 
 <script setup>
 import { ref, computed, watch } from 'vue';
-import wheel from '@/assets/images/togaf-pertahanan-indoneisa.svg';
+import TogafWheel from '@/components/TogafWheel.vue';
 import dataArchFigure from '@/assets/images/data-architecture.drawio.svg';
 import appArchFigure from '@/assets/images/application-architecture.drawio.svg';
 import { overview, phases } from '@/data/togafPhases.js';
@@ -105,26 +91,6 @@ const figures = {
   'application-architecture': appArchFigure,
 };
 
-// Posisi tiap node pada diagram, dalam persen (dihitung dari koordinat SVG).
-const nodePos = {
-  'preliminary': { left: 49.7, top: 12.7 },
-  'architecture-vision': { left: 49.7, top: 34.5 },
-  'business-architecture': { left: 77.9, top: 41.8 },
-  'information-system-architecture': { left: 90.1, top: 59.9 },
-  'technology-architecture': { left: 87.6, top: 80.1 },
-  'c5isr-architecture': { left: 65.8, top: 92.6 },
-  'opportunities-solutions': { left: 36.6, top: 92.6 },
-  'migration-planning': { left: 14.7, top: 80.1 },
-  'implementation-governance': { left: 9.8, top: 59.9 },
-  'architecture-change-management': { left: 21.3, top: 41.8 },
-};
-
-const nodes = phases.map((p) => ({
-  id: p.id,
-  title: p.title,
-  left: nodePos[p.id].left,
-  top: nodePos[p.id].top,
-}));
 
 const selectedId = ref(null);
 const selectedSubId = ref(null);
@@ -223,35 +189,6 @@ function scrollToContentOnMobile() {
   grid-template-columns: minmax(320px, 430px) 1fr;
   gap: 2.75rem;
   align-items: start;
-}
-
-/* ---- Wheel ---- */
-.wheel {
-  position: relative;
-  width: 100%;
-  max-width: 430px;
-  margin: 0;
-  aspect-ratio: 2056 / 2753;
-  position: sticky;
-  top: 1.25rem;
-}
-.wheel-img { display: block; width: 100%; height: 100%; }
-.hotspot {
-  position: absolute;
-  width: 19.4%;
-  aspect-ratio: 1;
-  transform: translate(-50%, -50%);
-  border: 0;
-  border-radius: 50%;
-  background: transparent;
-  cursor: pointer;
-  transition: background 0.15s ease, box-shadow 0.15s ease;
-}
-.hotspot:hover { background: rgba(23, 33, 58, 0.09); }
-.hotspot:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
-.hotspot.active {
-  background: rgba(250, 104, 0, 0.14);
-  box-shadow: 0 0 0 3px var(--ember);
 }
 
 /* ---- Content ---- */
@@ -365,12 +302,11 @@ function scrollToContentOnMobile() {
 /* ---- Responsif: tumpuk (gambar di atas, penjelasan di bawah) ---- */
 @media (max-width: 900px) {
   .layout { grid-template-columns: 1fr; gap: 1.75rem; }
-  .wheel { position: static; margin: 0 auto; }
   .io { grid-template-columns: 1fr; }
   .subchoice { grid-template-columns: 1fr; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .hotspot, .subcard { transition: none; }
+  .subcard { transition: none; }
 }
 
 .sr-only {
