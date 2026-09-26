@@ -15,3 +15,6 @@ server/dist
 .git
 *.log
 .DS_Store
+
+# data mentah sumber peta (tidak dipakai saat build)
+data-sumber
