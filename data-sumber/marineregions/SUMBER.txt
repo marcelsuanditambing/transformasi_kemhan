@@ -1,0 +1,9 @@
+Sumber: Flanders Marine Institute (VLIZ), Maritime Boundaries Geodatabase
+Portal : https://www.marineregions.org (lisensi CC BY 4.0 — cantumkan sumber)
+
+eez_v12_sekitar_indonesia.gpkg  <- eez_v12.shp  (ZEE 200 mil laut, v12, 2023-10-25)
+12nm_v4_sekitar_indonesia.gpkg  <- eez_12nm_v4.shp  (laut teritorial 12 mil laut, v4, 2023-10-25)
+
+Dipotong oleh scripts/potong-laut.py pada 2026-09-26
+Kotak potong: bujur 88.0..148.0, lintang -18.0..14.0 (negatif = LS)
+Atribut asli dipertahankan.
