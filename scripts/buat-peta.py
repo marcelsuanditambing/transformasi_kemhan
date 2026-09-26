@@ -2,18 +2,24 @@
 # -*- coding: utf-8 -*-
 """
 buat-peta.py — Mengolah data batas wilayah BIG menjadi berkas peta untuk fitur
-"Simulasi" di halaman JAD.
+"Simulasi" di halaman JADC2.
 
 Masukan
   data-sumber/RBI50K_ADMINISTRASI_KABKOTA_20230907.gdb
       FileGDB dari Ina-Geoportal BIG, layer ADMINISTRASI_AR_KABKOTA.
+  data-sumber/marineregions/*.gpkg
+      ZEE dan laut teritorial 12 mil laut (Marine Regions, hasil potong-laut.py).
+  data-sumber/naturalearth/ne_10m_admin_0_countries.shp
+      Daratan negara tetangga (Natural Earth).
   server/protected-data/jadc2/wilayah-index.json
-      Daftar kode + nama wilayah Kemendagri yang dipakai data JAD. Dipakai
+      Daftar kode + nama wilayah Kemendagri yang dipakai data JADC2. Dipakai
       sebagai rujukan kode dan nama resmi (nama wilayah adalah data umum).
 
 Keluaran (publik, ikut dibundel Vite)
   src/data/peta/provinsi.json        38 provinsi (TopoJSON, dimuat di awal)
   src/data/peta/kab/{kode}.json      kabupaten/kota per provinsi (TopoJSON, lazy)
+  src/data/peta/laut.json            zona laut + negara tetangga (mode pin)
+  src/data/peta/pantai.json          indeks garis pantai per kab/kota (mode pin)
   src/data/peta/meta.json            sumber data + parameter olah
 
 Berkas keluaran HANYA berisi bentuk wilayah, kode, dan nama. Jangan menambahkan
@@ -47,6 +53,8 @@ ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_GDB = ROOT / "data-sumber" / "RBI50K_ADMINISTRASI_KABKOTA_20230907.gdb"
 DEFAULT_REF = ROOT / "server" / "protected-data" / "jadc2" / "wilayah-index.json"
 DEFAULT_OUT = ROOT / "src" / "data" / "peta"
+DEFAULT_LAUT = ROOT / "data-sumber" / "marineregions"
+DEFAULT_NEGARA = ROOT / "data-sumber" / "naturalearth" / "ne_10m_admin_0_countries.shp"
 
 LAYER = "ADMINISTRASI_AR_KABKOTA"
 KOLOM_KODE = "KDPKAB"            # Kode PUM Kabupaten/Kota (format Kemendagri, mis. "21.03")
@@ -61,6 +69,7 @@ LUAS_PER_METER = 4e5         # toleransi = luas(m²) / nilai ini, dibatasi 40–
 SEDERHANA_PROV_M = 1000      # toleransi penyederhanaan peta nasional (meter)
 PULAU_NASIONAL_KM2 = 10      # pulau lebih kecil dari ini tidak tampil di peta nasional
 KUANTISASI = 100000          # presisi koordinat TopoJSON
+SEDERHANA_PANTAI_M = 800     # toleransi garis pantai untuk pencarian pesisir terdekat (meter)
 
 KM_PER_DERAJAT = 111.32
 
@@ -236,6 +245,38 @@ def olah_topojson(tmp, sederhana_kab, sederhana_prov, pulau_nasional):
     ], tmp)
 
 
+def olah_pantai_laut(tmp, arg, kab_ref, prov_ref, np, pyogrio, shapely):
+    """Mode pin: indeks garis pantai (pantai.json) dan zona laut (laut.json)."""
+    import olah_laut as ol
+
+    npx = cari_npx()
+    negara = ol.muat_negara(arg.negara, pyogrio, shapely)
+    darat_asing = shapely.union_all([g for kode, _, g in negara if kode != "IDN"])
+
+    # (a) garis pantai: topologi nasional kab/kota yang disederhanakan
+    mapshaper(npx, [
+        "-i", "kab.shp", "encoding=utf8",
+        "-simplify", f"interval={arg.sederhana_pantai}", "keep-shapes",
+        "-filter-fields", "kode",
+        "-o", "pantai.topo.json", "format=topojson", "quantization=1000000",
+    ], tmp)
+    info_pantai = ol.buat_pantai(tmp / "pantai.topo.json", tmp / "keluar" / "pantai.json",
+                                 kab_ref, prov_ref, darat_asing, np, shapely)
+    cetak(f"  pantai: {info_pantai['garis']:,} garis, {info_pantai['titik']:,} titik "
+          f"({info_pantai['segmen_batas_darat']:,} segmen ditandai batas darat negara tetangga)")
+
+    # (b) zona laut + negara tetangga
+    jumlah = ol.siapkan_lapisan_laut(arg.laut, negara, tmp, pyogrio, shapely)
+    for nama, interval in ol.SEDERHANA_LAUT.items():
+        mapshaper(npx, [
+            "-i", f"{nama}.json",
+            "-simplify", f"interval={interval}", "keep-shapes",
+            "-o", f"laut-{nama}.topo.json", "format=topojson", f"quantization={KUANTISASI}",
+        ], tmp)
+    ol.gabung_laut(tmp, tmp / "keluar" / "laut.json")
+    cetak("  laut: " + ", ".join(f"{k} {v}" for k, v in jumlah.items()))
+
+
 # ---------------------------------------------------------------------------
 # 4. Validasi hasil
 # ---------------------------------------------------------------------------
@@ -279,7 +320,7 @@ def validasi(keluar, prov_ref, kab_ref):
 # 5. Utama
 # ---------------------------------------------------------------------------
 def main():
-    ap = argparse.ArgumentParser(description="Olah batas wilayah BIG menjadi berkas peta Simulasi JAD.")
+    ap = argparse.ArgumentParser(description="Olah batas wilayah BIG menjadi berkas peta Simulasi JADC2.")
     ap.add_argument("--gdb", type=Path, default=DEFAULT_GDB, help="FileGDB batas kab/kota BIG")
     ap.add_argument("--rujukan", type=Path, default=DEFAULT_REF, help="wilayah-index.json (kode & nama Kemendagri)")
     ap.add_argument("--keluar", type=Path, default=DEFAULT_OUT, help="folder keluaran (src/data/peta)")
@@ -287,33 +328,50 @@ def main():
     ap.add_argument("--sederhana-kab", type=int, default=SEDERHANA_KAB_M, help="toleransi kab/kota (m)")
     ap.add_argument("--sederhana-prov", type=int, default=SEDERHANA_PROV_M, help="toleransi provinsi (m)")
     ap.add_argument("--pulau-nasional", type=float, default=PULAU_NASIONAL_KM2, help="pulau minimum peta nasional (km²)")
+    ap.add_argument("--laut", type=Path, default=DEFAULT_LAUT, help="folder data Marine Regions (hasil potong-laut.py)")
+    ap.add_argument("--negara", type=Path, default=DEFAULT_NEGARA, help="shapefile negara Natural Earth")
+    ap.add_argument("--sederhana-pantai", type=int, default=SEDERHANA_PANTAI_M, help="toleransi garis pantai (m)")
     ap.add_argument("--simpan-sementara", action="store_true", help="jangan hapus folder kerja sementara")
     arg = ap.parse_args()
 
     mulai = time.time()
-    cetak("1/5 Membaca rujukan kode wilayah …")
+    cetak("1/6 Membaca rujukan kode wilayah …")
     prov_ref, kab_ref = muat_rujukan(arg.rujukan)
     cetak(f"  {len(prov_ref)} provinsi, {len(kab_ref)} kab/kota")
 
-    cetak("2/5 Membaca dan menggabungkan poligon BIG …")
+    cetak("2/6 Membaca dan menggabungkan poligon BIG …")
     kode, geoms, np, pyogrio, shapely = baca_dan_gabung(arg.gdb, kab_ref, arg.pulau_min, PULAU_RELATIF)
 
     tmp = Path(tempfile.mkdtemp(prefix="buat-peta-"))
     try:
-        cetak("3/5 Menulis berkas antara …")
+        cetak("3/6 Menulis berkas antara …")
         tulis_shapefile(tmp / "kab.shp", kode, geoms, kab_ref, prov_ref, np, pyogrio, shapely)
 
-        cetak("4/5 Menyederhanakan dan memecah per provinsi (mapshaper) …")
+        cetak("4/6 Menyederhanakan dan memecah per provinsi (mapshaper) …")
         olah_topojson(tmp, arg.sederhana_kab, arg.sederhana_prov, arg.pulau_nasional)
 
-        cetak("5/5 Memvalidasi dan menyalin hasil …")
+        cetak("5/6 Garis pantai dan zona laut untuk mode pin …")
+        try:
+            olah_pantai_laut(tmp, arg, kab_ref, prov_ref, np, pyogrio, shapely)
+        except (FileNotFoundError, ValueError) as e:
+            gagal(str(e))
+
+        cetak("6/6 Memvalidasi dan menyalin hasil …")
         n_prov, n_kab = validasi(tmp / "keluar", prov_ref, kab_ref)
+        try:
+            import olah_laut as ol
+            n_uji = ol.validasi_laut(tmp / "keluar" / "laut.json", tmp / "keluar" / "pantai.json",
+                                     kab_ref, prov_ref, shapely)
+        except ValueError as e:
+            gagal(str(e))
+        cetak(f"  {n_uji} titik uji zona laut sesuai")
 
         keluar = arg.keluar
         (keluar / "kab").mkdir(parents=True, exist_ok=True)
         for lama in (keluar / "kab").glob("*.json"):
             lama.unlink()
-        shutil.copy2(tmp / "keluar" / "provinsi.json", keluar / "provinsi.json")
+        for nama in ("provinsi.json", "laut.json", "pantai.json"):
+            shutil.copy2(tmp / "keluar" / nama, keluar / nama)
         for berkas in sorted((tmp / "keluar" / "kab").glob("*.json")):
             shutil.copy2(berkas, keluar / "kab" / berkas.name)
 
@@ -338,6 +396,19 @@ def main():
                 "alat": MAPSHAPER,
             },
             "jumlah": {"provinsi": n_prov, "kabkota": n_kab},
+            "laut": {
+                "sumber": "Flanders Marine Institute (VLIZ), Maritime Boundaries Geodatabase: "
+                          "ZEE v12 dan laut teritorial 12 mil laut v4 (2023)",
+                "portal": "https://www.marineregions.org",
+                "lisensi": "CC BY 4.0",
+                "catatan": "Perairan kepulauan diturunkan dari pita 12 mil laut + daratan (perkiraan).",
+            },
+            "negara": {
+                "sumber": "Natural Earth, Admin 0 – Countries 1:10m v5.1.1",
+                "portal": "https://www.naturalearthdata.com",
+                "lisensi": "Domain publik",
+            },
+            "pantai": {"sederhana_m": arg.sederhana_pantai},
         }
         (keluar / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -348,6 +419,8 @@ def main():
         cetak(f"  {keluar / 'provinsi.json'}  ({ukuran_prov:.0f} KB, {n_prov} provinsi)")
         cetak(f"  {keluar / 'kab'}/*.json  ({len(ukuran_kab)} berkas, {min(ukuran_kab):.0f}–{max(ukuran_kab):.0f} KB, "
               f"total {sum(ukuran_kab):.0f} KB, {n_kab} kab/kota)")
+        for nama in ("laut.json", "pantai.json"):
+            cetak(f"  {keluar / nama}  ({(keluar / nama).stat().st_size / 1024:.0f} KB)")
     finally:
         if arg.simpan_sementara:
             cetak(f"  folder kerja disimpan: {tmp}")

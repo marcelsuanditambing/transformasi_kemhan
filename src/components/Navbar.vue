@@ -12,7 +12,7 @@
           <router-link to="/roadmap" active-class="active">Roadmap Transformasi Digital</router-link>
         </li>
         <li>
-          <router-link to="/jadc2" active-class="active">JAD (Joint All Defense)</router-link>
+          <router-link to="/jadc2" active-class="active">JADC2 (Joint All-Domain Command and Control)</router-link>
         </li>
       </template>
     </ul>

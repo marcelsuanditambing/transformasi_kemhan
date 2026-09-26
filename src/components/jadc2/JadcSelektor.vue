@@ -83,9 +83,10 @@
 
     <!-- MODE: simulasi peta -->
     <div v-else-if="mode === 'simulasi'" class="simulasi">
-      <JadcPeta :kode-terpilih="kodeTerpilih" @pilih="onPeta" />
+      <JadcPeta :kode-terpilih="kodeTerpilih" :titik="titik" @pin="onPin" />
 
-      <div v-if="simKab" class="simulasi__kec">
+      <!-- kecamatan hanya relevan untuk wilayah darat -->
+      <div v-if="simKab && (!titik || titik.jenis === 'darat')" class="simulasi__kec">
         <label for="sim-kec">Kecamatan <span class="tingkat__opt">(opsional)</span></label>
         <select
           id="sim-kec"
@@ -121,8 +122,10 @@ const JadcPeta = defineAsyncComponent({
 const props = defineProps({
   /** Kode wilayah yang sedang dipilih di halaman (dari mode mana pun). */
   kodeTerpilih: { type: String, default: null },
+  /** Titik simulasi (pin) yang sedang aktif, atau null. */
+  titik: { type: Object, default: null },
 });
-const emit = defineEmits(['pilih']);
+const emit = defineEmits(['pilih', 'pin']);
 const mode = defineModel('mode', { type: String, default: 'cari' });
 
 const { cariWilayah, daftarProvinsi, daftarKabupaten, daftarKecamatan } = useJadc2();
@@ -242,8 +245,8 @@ watch([simKab, mode], async ([kab, m]) => {
   }
 }, { immediate: true });
 
-function onPeta(kodeKab) {
-  emit('pilih', kodeKab);
+function onPin(hasilTitik) {
+  emit('pin', hasilTitik);
 }
 function onSimKec(kodeKec) {
   emit('pilih', kodeKec || simKab.value);

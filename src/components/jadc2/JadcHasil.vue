@@ -9,8 +9,17 @@
     </nav>
 
     <p class="hasil__lead">
-      Rantai komando pengawasan untuk
-      <strong>{{ namaWilayah }}</strong>.
+      <template v-if="!titik || titik.dasar === 'wilayah'">
+        Rantai komando pengawasan untuk <strong>{{ namaWilayah }}</strong>.
+      </template>
+      <template v-else-if="titik.jenis === 'laut'">
+        Rantai komando pengawasan untuk titik laut ini, mengikuti pesisir terdekat:
+        <strong>{{ namaWilayah }}</strong>.
+      </template>
+      <template v-else>
+        Rantai komando pengawasan untuk titik ini, mengikuti wilayah terdekat:
+        <strong>{{ namaWilayah }}</strong>.
+      </template>
     </p>
 
     <div class="hasil__grid">
@@ -25,7 +34,17 @@
           <h2 class="matra__nama">{{ META[m].label }}</h2>
         </header>
 
-        <template v-if="hasil.matra[m] && hasil.matra[m].length">
+        <!-- titik di laut: matra darat tidak berlaku -->
+        <div v-if="m === 'AD' && adTidakBerlaku" class="entri">
+          <div class="entri__meta">
+            <span class="pill pill--na">Tidak berlaku</span>
+          </div>
+          <p class="entri__na">
+            Titik berada di laut. Pengawasan wilayah laut dan udara di atasnya oleh TNI AL dan TNI AU.
+          </p>
+        </div>
+
+        <template v-else-if="hasil.matra[m] && hasil.matra[m].length">
           <div v-for="(e, idx) in hasil.matra[m]" :key="idx" class="entri">
             <!-- status + peran -->
             <div class="entri__meta">
@@ -88,7 +107,11 @@ const props = defineProps({
   hasil: { type: Object, required: true },
   /** Tampil di samping peta (tab Simulasi): kartu matra disusun satu kolom. */
   samping: { type: Boolean, default: false },
+  /** Titik simulasi (pin) bila hasil ini berasal dari klik peta. */
+  titik: { type: Object, default: null },
 });
+
+const adTidakBerlaku = computed(() => Boolean(props.titik && props.titik.jenis === 'laut'));
 
 const MATRA = ['AD', 'AL', 'AU'];
 const META = {

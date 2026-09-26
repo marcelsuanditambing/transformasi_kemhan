@@ -22,7 +22,7 @@
       <div class="peta__zoom" role="group" aria-label="Kontrol zoom">
         <button type="button" class="peta__zbtn" title="Perbesar" aria-label="Perbesar" @click="zoomRelatif(1.6)">+</button>
         <button type="button" class="peta__zbtn" title="Perkecil" aria-label="Perkecil" @click="zoomRelatif(1 / 1.6)">−</button>
-        <button type="button" class="peta__zbtn" title="Paskan tampilan" aria-label="Paskan tampilan" @click="paskan()">
+        <button type="button" class="peta__zbtn" title="Seluruh Indonesia" aria-label="Paskan tampilan" @click="paskan()">
           <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false">
             <path
               d="M2 6V2h4M10 2h4v4M14 10v4h-4M6 14H2v-4"
@@ -41,30 +41,41 @@
         class="peta__svg"
         :viewBox="`0 0 ${W} ${H}`"
         role="group"
+        :aria-label="labelPeta"
         @click="klikPeta"
-        :aria-label="provAktif
-          ? `Peta ${provAktif.nama}. Pilih kabupaten atau kota.`
-          : 'Peta Indonesia. Pilih provinsi.'"
+        @pointermove="gerakKursor"
+        @pointerleave="sembunyikanKursor"
       >
         <rect class="peta__laut" x="0" y="0" :width="W" :height="H" />
 
         <!-- transform zoom dipasang langsung oleh d3-zoom pada <g> ini -->
         <g ref="gEl">
+          <!-- daratan negara tetangga (hanya konteks; tidak bisa dipilih) -->
+          <g class="lapis-negara">
+            <path
+              v-for="n in negaraPaths"
+              :key="n.kode"
+              :d="n.d"
+              class="negara"
+              @pointerenter="masukPointer(n, 'negara', $event)"
+              @pointermove="gerakPointer(n, 'negara', $event)"
+              @pointerleave="lepasSorot"
+            />
+          </g>
+          <!-- batas terluar ZEE Indonesia -->
+          <path v-if="garisZee" class="garis garis--zee" :d="garisZee" />
+
           <!--
-            Area klik tambahan (tak terlihat) di sekeliling setiap wilayah agar pulau
-            kecil tetap mudah diklik. Lapis ini sengaja berada DI BAWAH semua isian
-            wilayah: ia hanya menangkap klik di laut, tidak pernah merebut klik dari
-            daratan wilayah tetangga (mis. DKI Jakarta yang diapit Banten dan Jawa Barat).
-            Urutannya dari yang terluas ke yang terkecil, jadi di laut yang sempit
-            pulau yang lebih kecil menang. Hanya untuk pointer; keyboard memakai isian.
+            Area hover tambahan (tak terlihat) di sekeliling setiap wilayah agar nama
+            pulau kecil tetap muncul saat disorot. Berada DI BAWAH isian wilayah, jadi
+            tidak pernah menutupi daratan wilayah tetangga. Klik tidak memakai lapis
+            ini: titik pin selalu diambil dari koordinat klik yang sebenarnya.
           -->
           <g class="lapis-halo" aria-hidden="true">
             <path
               v-for="p in haloProv"
               :key="`p${p.kode}`"
               :d="p.d"
-              :data-kode="p.kode"
-              data-level="prov"
               :class="['halo', { 'is-mati': provAktif && p.kode === provAktif.kode }]"
               @pointerenter="masukPointer(p, 'prov', $event)"
               @pointermove="gerakPointer(p, 'prov', $event)"
@@ -74,8 +85,6 @@
               v-for="k in haloKab"
               :key="`k${k.kode}`"
               :d="k.d"
-              :data-kode="k.kode"
-              data-level="kab"
               class="halo"
               @pointerenter="masukPointer(k, 'kab', $event)"
               @pointermove="gerakPointer(k, 'kab', $event)"
@@ -83,16 +92,14 @@
             />
           </g>
 
-          <!-- lapis provinsi (peta nasional; provinsi lain diredupkan saat satu provinsi dibuka) -->
+          <!-- lapis provinsi -->
           <g class="lapis">
             <path
               v-for="p in provinsiPaths"
               :key="p.kode"
               :d="p.d"
               :data-kode="p.kode"
-              data-level="prov"
               :class="['wil', 'wil--prov', {
-                'is-redup': provAktif && p.kode !== provAktif.kode,
                 'is-tersembunyi': provAktif && p.kode === provAktif.kode,
                 'is-berisi': !provAktif && p.kode === provTerpilih,
                 'is-sorot': sorotan && sorotan.level === 'prov' && sorotan.kode === p.kode,
@@ -100,8 +107,8 @@
               :tabindex="provAktif ? -1 : 0"
               role="button"
               :aria-label="`Provinsi ${p.nama}`"
-              @keydown.enter.prevent="klikProvinsi(p, true)"
-              @keydown.space.prevent="klikProvinsi(p, true)"
+              @keydown.enter.prevent="bukaLewatKeyboard(p)"
+              @keydown.space.prevent="bukaLewatKeyboard(p)"
               @pointerenter="masukPointer(p, 'prov', $event)"
               @pointermove="gerakPointer(p, 'prov', $event)"
               @pointerleave="lepasSorot"
@@ -112,14 +119,13 @@
             <path v-if="garisProv.luar" class="garis garis--prov-luar" :d="garisProv.luar" />
           </g>
 
-          <!-- lapis kab/kota provinsi yang dibuka -->
+          <!-- lapis kab/kota provinsi yang sedang tampil -->
           <g v-if="kabPaths.length" class="lapis">
             <path
               v-for="k in kabPaths"
               :key="k.kode"
               :d="k.d"
               :data-kode="k.kode"
-              data-level="kab"
               :class="['wil', 'wil--kab', {
                 'is-terpilih': k.kode === kabTerpilih,
                 'is-sorot': sorotan && sorotan.level === 'kab' && sorotan.kode === k.kode,
@@ -128,8 +134,8 @@
               role="button"
               :aria-label="k.nama"
               :aria-pressed="k.kode === kabTerpilih ? 'true' : 'false'"
-              @keydown.enter.prevent="klikKab(k)"
-              @keydown.space.prevent="klikKab(k)"
+              @keydown.enter.prevent="tandaiKab(k)"
+              @keydown.space.prevent="tandaiKab(k)"
               @pointerenter="masukPointer(k, 'kab', $event)"
               @pointermove="gerakPointer(k, 'kab', $event)"
               @pointerleave="lepasSorot"
@@ -144,60 +150,109 @@
           <path v-if="dTerpilih" class="garis garis--terpilih" :d="dTerpilih" />
           <path v-if="dSorot" class="garis garis--sorot" :d="dSorot" />
         </g>
+
+        <!--
+          Penanda berukuran tetap (tidak ikut membesar saat zoom). Posisinya
+          dihitung ulang setiap kali peta digeser/di-zoom (perbaruiPenanda).
+        -->
+        <g class="penanda" aria-hidden="true">
+          <line v-if="pinTampil && pesisirTampil" ref="garisPesisirEl" class="penanda__garis" />
+          <circle v-if="pinTampil && pesisirTampil" ref="titikPesisirEl" r="3.5" class="penanda__pesisir" />
+          <g v-if="pinTampil" ref="pinEl" :class="['pin', { 'is-menganalisis': menganalisis }]">
+            <circle r="16" class="pin__denyut" />
+            <circle r="6.5" class="pin__inti" />
+            <path d="M-12 0h-7M12 0h7M0 -12v-7M0 12v7" class="pin__silang" />
+          </g>
+        </g>
       </svg>
 
       <div v-if="tip" class="peta__tip" :style="gayaTip" aria-hidden="true">
         <span class="peta__tip-nama">{{ tip.nama }}</span>
-        <span class="peta__tip-aksi">{{ aksiTip }}</span>
+        <span v-if="aksiTip" class="peta__tip-aksi">{{ aksiTip }}</span>
       </div>
+
+      <p ref="kursorEl" class="peta__kursor" hidden aria-hidden="true"></p>
 
       <p v-if="memuat" class="peta__status" role="status">Memuat peta…</p>
       <p v-else-if="galat" class="peta__status peta__status--galat" role="alert">
         {{ galat }}
         <button type="button" class="peta__ulang" @click="cobaLagi">Coba lagi</button>
       </p>
+      <p v-else-if="menganalisisLama" class="peta__status" role="status">Menganalisis titik…</p>
     </div>
 
     <div class="peta__kaki">
       <p class="peta__petunjuk">{{ petunjuk }}</p>
-      <p class="peta__sumber">Batas wilayah: {{ sumberSingkat }}</p>
+      <ul class="peta__legenda" aria-label="Keterangan peta">
+        <li>
+          <svg viewBox="0 0 14 14" width="14" height="14" aria-hidden="true" focusable="false">
+            <circle cx="7" cy="7" r="4" class="legenda__pin" />
+          </svg>
+          Titik simulasi
+        </li>
+        <li>
+          <svg viewBox="0 0 22 10" width="22" height="10" aria-hidden="true" focusable="false">
+            <path d="M1 5h20" class="legenda__zee" />
+          </svg>
+          Batas ZEE Indonesia
+        </li>
+        <li>
+          <svg viewBox="0 0 14 14" width="14" height="14" aria-hidden="true" focusable="false">
+            <rect x="1.5" y="1.5" width="11" height="11" rx="2" class="legenda__negara" />
+          </svg>
+          Negara tetangga
+        </li>
+      </ul>
+      <p class="peta__sumber">
+        Batas wilayah: {{ sumberSingkat }} · Batas laut: Marine Regions (VLIZ, CC BY 4.0) · Negara: Natural Earth
+      </p>
     </div>
   </div>
 </template>
 
 <script setup>
 // ============================================================================
-// JadcPeta.vue — peta Indonesia untuk tab "Simulasi" di halaman JAD.
+// JadcPeta.vue — peta Indonesia untuk tab "Simulasi" di halaman JADC2.
 //
-// Alur: peta nasional (38 provinsi) -> klik provinsi -> kab/kota provinsi itu
-// dimuat dan peta memperbesar ke sana -> klik kab/kota -> emit('pilih', kode).
-// Rantai komando TIDAK dihitung di sini; halaman induk meneruskan kode ke
-// resolveChain (API terkunci). Peta hanya memakai data publik src/data/peta.
+// Mode pin: klik di MANA SAJA (darat atau laut) menjatuhkan titik simulasi,
+// misalnya kontak radar. Titik dianalisis oleh analisisTitik.js (data umum):
+// darat -> kab/kota yang memuatnya; laut -> kab/kota pesisir terdekat; di luar
+// yurisdiksi Indonesia -> tanpa rantai komando (hanya jarak). Hasilnya
+// dipancarkan lewat emit('pin', hasil); halaman induk lalu mengambil rantai
+// komando kab/kota itu dari API terkunci (useJadc2). Klik berikutnya
+// menggantikan titik sebelumnya; hanya hasil klik terakhir yang dipakai.
 //
-// Zoom/geser memakai d3-zoom. Transform dipasang langsung ke <g> (bukan lewat
-// reaktivitas Vue) agar zoom tetap mulus tanpa render ulang tiap frame.
+// Zoom/geser memakai d3-zoom (roda/cubit, seret, klik ganda, tombol + −).
+// Transform dipasang langsung ke <g> (bukan lewat reaktivitas Vue) agar zoom
+// tetap mulus tanpa render ulang tiap frame.
 // ============================================================================
 import { ref, shallowRef, computed, watch, onMounted, onBeforeUnmount, nextTick } from 'vue';
 import { geoMercator, geoPath } from 'd3-geo';
-import { select } from 'd3-selection';
-import { zoom as d3Zoom, zoomIdentity } from 'd3-zoom';
+import { pointer, select } from 'd3-selection';
+import { zoom as d3Zoom, zoomIdentity, zoomTransform } from 'd3-zoom';
 import 'd3-transition';
 import { muatPetaProvinsi, muatPetaKab, garisBatas } from '@/data/peta/usePeta.js';
+import {
+  analisisTitik, formatKoordinat, muatLaut, muatPantai, titikWakil,
+} from '@/data/peta/analisisTitik.js';
 import meta from '@/data/peta/meta.json';
 
 const props = defineProps({
   /** Kode wilayah terpilih (provinsi, kab/kota, atau kecamatan); disorot di peta. */
   kodeTerpilih: { type: String, default: null },
+  /** Hasil analisis titik (pin) yang sedang aktif, atau null. */
+  titik: { type: Object, default: null },
 });
-const emit = defineEmits(['pilih']);
+const emit = defineEmits(['pin']);
 
 // ---- konstanta tampilan ---------------------------------------------------
 const W = 1000;          // lebar koordinat peta (viewBox)
 const H = 540;           // tinggi koordinat peta
 const PAD = 18;          // jarak tepi saat memaskan Indonesia
-const K_MAKS = 120;      // zoom maksimum (pulau kecil tetap bisa diklik)
+const K_MAKS = 120;      // zoom maksimum
 const ISI_PROVINSI = 0.9; // porsi layar yang diisi provinsi saat dibuka
 const DURASI = 650;      // ms animasi masuk/keluar provinsi
+const JEDA_STATUS = 200; // ms sebelum "Menganalisis titik…" ditampilkan
 const cocokMedia = (q) => typeof window !== 'undefined'
   && typeof window.matchMedia === 'function'
   && window.matchMedia(q).matches;
@@ -214,24 +269,38 @@ const kabOf = (kode) => {
 const kanvasEl = ref(null);
 const svgEl = ref(null);
 const gEl = ref(null);
+const kursorEl = ref(null);
+const pinEl = ref(null);
+const garisPesisirEl = ref(null);
+const titikPesisirEl = ref(null);
 
 const provinsiPaths = shallowRef([]);          // [{ kode, nama, d, luas }] urut kode (= urutan Tab)
-const kabPaths = shallowRef([]);               // [{ kode, nama, d, luas }]
+const kabPaths = shallowRef([]);               // [{ kode, nama, d, luas, geo }]
+const negaraPaths = shallowRef([]);            // [{ kode, nama, d }]
+const garisZee = ref('');
 const garisProv = shallowRef({ dalam: '', luar: '' });
 const garisKab = shallowRef({ dalam: '', luar: '' });
 const provAktif = shallowRef(null);            // { kode, nama } | null
+const siap = ref(false);                       // proyeksi sudah dibuat
 const memuat = ref(false);
 const galat = ref('');
 const sorotan = shallowRef(null);              // { kode, level, nama }
-const tip = ref(null);                         // { kode, level, nama, x, y, kiri, atas }
+const tip = ref(null);                         // { kode, level, nama, lewat, x, y, kiri, atas }
+const pinLokal = shallowRef(null);             // { lon, lat } selama titik baru dianalisis
+const menganalisis = ref(false);
+const menganalisisLama = ref(false);
 
 let dataProv = null;       // hasil muatPetaProvinsi()
+let proyeksi = null;       // geoMercator yang dipaskan ke Indonesia
 let pembuatPath = null;    // geoPath dengan proyeksi tetap
 let perilakuZoom = null;
 let batasAktif = null;     // bounding box provinsi yang dibuka (koordinat peta)
-let tokenMuat = 0;         // mencegah hasil pemuatan lama menimpa yang baru
+let tokenMuat = 0;         // mencegah hasil pemuatan provinsi lama menimpa yang baru
+let tokenTitik = 0;        // hanya analisis klik terakhir yang dipakai
 let kodeGagal = null;      // provinsi yang gagal dimuat (untuk "Coba lagi")
+let titikGagal = null;     // titik yang gagal dianalisis (untuk "Coba lagi")
 let sedangGeser = false;
+let pewaktuStatus = null;
 
 // ---- turunan --------------------------------------------------------------
 const terluasDulu = (a, b) => b.luas - a.luas;
@@ -261,18 +330,34 @@ const dSorot = computed(() => {
     const k = kabPaths.value.find((x) => x.kode === s.kode);
     return k ? k.d : null;
   }
+  if (s.level === 'negara') {
+    const n = negaraPaths.value.find((x) => x.kode === s.kode);
+    return n ? n.d : null;
+  }
   if (provAktif.value && s.kode === provAktif.value.kode) return null;
   const p = provinsiPaths.value.find((x) => x.kode === s.kode);
   return p ? p.d : null;
 });
 
+// titik yang digambar: titik baru yang sedang dianalisis, atau titik aktif dari induk
+const pinGeo = computed(() => pinLokal.value
+  || (props.titik ? { lon: props.titik.lon, lat: props.titik.lat } : null));
+const pesisirGeo = computed(() => {
+  const t = props.titik;
+  if (pinLokal.value || !t || t.jenis === 'darat' || !t.titikPesisir || !t.adaRantai) return null;
+  return t.titikPesisir;
+});
+const pinTampil = computed(() => siap.value && !!pinGeo.value);
+const pesisirTampil = computed(() => siap.value && !!pesisirGeo.value);
+
 const aksiTip = computed(() => {
   const t = tip.value;
   if (!t) return '';
-  if (t.level === 'kab') {
-    return t.kode === kabTerpilih.value ? 'Wilayah terpilih' : 'Klik untuk melihat rantai komando';
+  if (t.level === 'negara') return 'Di luar wilayah NKRI';
+  if (t.lewat === 'keyboard') {
+    return t.level === 'prov' ? 'Enter untuk membuka provinsi' : 'Enter untuk menandai titik di wilayah ini';
   }
-  return provAktif.value ? 'Klik untuk pindah ke provinsi ini' : 'Klik untuk membuka';
+  return SENTUH ? '' : 'Klik untuk menandai titik';
 });
 
 const gayaTip = computed(() => {
@@ -283,16 +368,13 @@ const gayaTip = computed(() => {
   return { left: `${t.x}px`, top: `${t.y}px`, transform: `translate(${tx}, ${ty})` };
 });
 
-const petunjuk = computed(() => {
-  if (SENTUH) {
-    return provAktif.value
-      ? 'Ketuk kabupaten/kota untuk melihat rantai komandonya. Ketuk “Indonesia” untuk kembali.'
-      : 'Ketuk provinsi untuk memperbesar. Cubit untuk zoom, geser untuk memindahkan peta.';
-  }
-  return provAktif.value
-    ? 'Klik kabupaten/kota untuk melihat rantai komandonya. Tekan Esc atau klik “Indonesia” untuk kembali.'
-    : 'Klik provinsi untuk memperbesar. Gulir untuk zoom, seret untuk menggeser.';
-});
+const labelPeta = computed(() => (provAktif.value
+  ? `Peta ${provAktif.value.nama}. Klik di mana saja untuk menandai titik simulasi.`
+  : 'Peta Indonesia. Klik di mana saja, darat maupun laut, untuk menandai titik simulasi.'));
+
+const petunjuk = computed(() => (SENTUH
+  ? 'Ketuk di mana saja (darat atau laut) untuk menandai titik. Cubit untuk zoom, geser untuk memindahkan peta.'
+  : 'Klik di mana saja (darat atau laut) untuk menandai titik. Gulir atau klik ganda untuk zoom, seret untuk menggeser.'));
 
 const sumberSingkat = computed(() => {
   const tahun = meta && meta.edisi ? String(meta.edisi).slice(0, 4) : '';
@@ -311,13 +393,13 @@ function pasangZoom() {
     })
     .on('zoom', (e) => {
       if (gEl.value) gEl.value.setAttribute('transform', e.transform.toString());
+      perbaruiPenanda(e.transform);
       if (tip.value) tip.value = null; // posisi tooltip tidak lagi tepat
     })
     .on('end', () => { sedangGeser = false; });
 
-  select(svgEl.value)
-    .call(perilakuZoom)
-    .on('dblclick.zoom', null); // klik ganda tidak dipakai untuk zoom
+  // klik ganda = zoom 2× di titik itu (bawaan d3-zoom)
+  select(svgEl.value).call(perilakuZoom);
 }
 
 function transformUntuk([[x0, y0], [x1, y1]]) {
@@ -346,7 +428,32 @@ function zoomRelatif(faktor) {
 }
 
 function paskan() {
-  terapkan(provAktif.value && batasAktif ? transformUntuk(batasAktif) : zoomIdentity);
+  terapkan(zoomIdentity);
+}
+
+// ---- penanda (pin, garis ke pesisir) ----------------------------------------
+function perbaruiPenanda(transform) {
+  if (!proyeksi || !svgEl.value) return;
+  const t = transform || zoomTransform(svgEl.value);
+  const layar = (lonlat) => t.apply(proyeksi(lonlat));
+  let xy = null;
+  if (pinEl.value && pinGeo.value) {
+    xy = layar([pinGeo.value.lon, pinGeo.value.lat]);
+    pinEl.value.setAttribute('transform', `translate(${xy[0]},${xy[1]})`);
+  }
+  if (pesisirGeo.value && xy) {
+    const ps = layar(pesisirGeo.value);
+    if (titikPesisirEl.value) {
+      titikPesisirEl.value.setAttribute('cx', ps[0]);
+      titikPesisirEl.value.setAttribute('cy', ps[1]);
+    }
+    if (garisPesisirEl.value) {
+      garisPesisirEl.value.setAttribute('x1', xy[0]);
+      garisPesisirEl.value.setAttribute('y1', xy[1]);
+      garisPesisirEl.value.setAttribute('x2', ps[0]);
+      garisPesisirEl.value.setAttribute('y2', ps[1]);
+    }
+  }
 }
 
 // ---- pemuatan -------------------------------------------------------------
@@ -356,6 +463,7 @@ function keJalur(fitur) {
     nama: f.nama,
     d: pembuatPath(f.geo) || '',
     luas: pembuatPath.area(f.geo) || 0,
+    geo: f.geo,
   }));
 }
 
@@ -368,120 +476,149 @@ async function muatNasional() {
   memuat.value = true;
   galat.value = '';
   try {
-    dataProv = await muatPetaProvinsi();
-    const proyeksi = geoMercator().fitExtent([[PAD, PAD], [W - PAD, H - PAD]], dataProv.koleksi);
+    const [dp, laut] = await Promise.all([muatPetaProvinsi(), muatLaut()]);
+    dataProv = dp;
+    proyeksi = geoMercator().fitExtent([[PAD, PAD], [W - PAD, H - PAD]], dataProv.koleksi);
     pembuatPath = geoPath(proyeksi);
     provinsiPaths.value = keJalur(dataProv.fitur);
     perbaruiGarisProv(null);
+    negaraPaths.value = laut.fiturNegara.map((f) => ({
+      kode: String(f.properties.kode),
+      nama: String(f.properties.nama),
+      d: pembuatPath(f) || '',
+    }));
+    garisZee.value = laut.garisZee.map((f) => pembuatPath(f) || '').join('');
+    siap.value = true;
   } catch (e) {
     galat.value = 'Peta gagal dimuat.';
     return;
   } finally {
     memuat.value = false;
   }
-  // wilayah yang sudah dipilih lewat tab lain (kab/kota, kecamatan, atau
-  // provinsi) langsung ditampilkan tanpa animasi
-  if (provTerpilih.value) await bukaProvinsi(provTerpilih.value, { animasi: false });
+  muatPantai().catch(() => { /* dimuat ulang saat titik pertama dianalisis */ });
+
+  // tampilkan kembali keadaan sebelumnya (mis. setelah pindah tab)
+  const t = props.titik;
+  if (t && t.kab && t.adaRantai) await bukaProvinsi(t.kab.provKode, { zoom: false });
+  else if (!t && provTerpilih.value) await bukaProvinsi(provTerpilih.value, { animasi: false });
 }
 
-async function bukaProvinsi(kode, { animasi = true } = {}) {
+/**
+ * Tampilkan kab/kota sebuah provinsi.
+ *   zoom: true  -> peta memperbesar ke provinsi itu (pilihan dari tab lain / keyboard)
+ *   zoom: false -> hanya lapis kab/kota yang muncul; tampilan tidak berpindah (mode pin)
+ */
+async function bukaProvinsi(kode, { animasi = true, zoom = true } = {}) {
   if (!pembuatPath) return;
   const info = provinsiPaths.value.find((p) => p.kode === kode);
   if (!info) return;
-  if (provAktif.value && provAktif.value.kode === kode && kabPaths.value.length) return;
+  if (provAktif.value && provAktif.value.kode === kode && kabPaths.value.length) {
+    if (zoom && batasAktif) terapkan(transformUntuk(batasAktif), animasi);
+    return;
+  }
 
   const token = ++tokenMuat;
-  memuat.value = true;
   galat.value = '';
   kodeGagal = null;
-  sorotan.value = null;
-  tip.value = null;
   try {
     const data = await muatPetaKab(kode);
-    if (token !== tokenMuat) return; // pengguna sudah memilih yang lain
+    if (token !== tokenMuat) return; // sudah ada permintaan yang lebih baru
     provAktif.value = { kode, nama: info.nama };
     kabPaths.value = keJalur(data.fitur);
     const g = garisBatas(data);
     garisKab.value = { dalam: pembuatPath(g.dalam) || '', luar: pembuatPath(g.luar) || '' };
     perbaruiGarisProv(kode);
     batasAktif = pembuatPath.bounds(data.koleksi);
-    terapkan(transformUntuk(batasAktif), animasi);
+    if (zoom) terapkan(transformUntuk(batasAktif), animasi);
   } catch (e) {
     if (token === tokenMuat) {
       kodeGagal = kode;
       galat.value = `Peta ${info.nama} gagal dimuat.`;
     }
-  } finally {
-    if (token === tokenMuat) memuat.value = false;
   }
 }
 
-function keNasional(fokuskan = false) {
-  const kodeLama = provAktif.value ? provAktif.value.kode : null;
+/** Sembunyikan lapis kab/kota (kembali ke tampilan provinsi) tanpa mengubah zoom. */
+function tutupProvinsi() {
   tokenMuat++; // batalkan pemuatan provinsi yang masih berjalan
-  memuat.value = false;
-  galat.value = '';
+  if (kodeGagal) galat.value = '';
   kodeGagal = null;
   provAktif.value = null;
   kabPaths.value = [];
   garisKab.value = { dalam: '', luar: '' };
   batasAktif = null;
+  if (dataProv) perbaruiGarisProv(null);
+}
+
+function keNasional(fokuskan = false) {
+  const kodeLama = provAktif.value ? provAktif.value.kode : null;
+  tutupProvinsi();
   sorotan.value = null;
   tip.value = null;
-  if (dataProv) perbaruiGarisProv(null);
   terapkan(zoomIdentity);
   if (fokuskan && kodeLama) fokusElemen(`.wil--prov[data-kode="${kodeLama}"]`);
 }
 
 function cobaLagi() {
-  if (!dataProv) muatNasional();
+  if (!dataProv || !siap.value) muatNasional();
+  else if (titikGagal) tandaiTitik(titikGagal.lon, titikGagal.lat);
   else if (kodeGagal) bukaProvinsi(kodeGagal);
 }
 
-// ---- interaksi ------------------------------------------------------------
-function wilayahDari(el) {
-  if (!el || !svgEl.value || !svgEl.value.contains(el) || typeof el.getAttribute !== 'function') return null;
-  const kode = el.getAttribute('data-kode');
-  const level = el.getAttribute('data-level');
-  return kode && level ? { kode, level } : null;
+// ---- titik (pin) ------------------------------------------------------------
+function keGeo(e) {
+  if (!proyeksi || !svgEl.value) return null;
+  const [x, y] = pointer(e, svgEl.value);
+  const [mx, my] = zoomTransform(svgEl.value).invert([x, y]);
+  const g = proyeksi.invert([mx, my]);
+  return g && Number.isFinite(g[0]) && Number.isFinite(g[1]) ? g : null;
 }
 
-/**
- * Satu penangan klik untuk seluruh peta. Wilayah ditentukan dari titik klik yang
- * sebenarnya (elementFromPoint), bukan dari event.target: di layar sentuh peramban
- * dapat "menyesuaikan" target ketukan ke elemen di sekitar jari (touch adjustment,
- * berbasis kotak batas elemen), sehingga ketukan pada kota kecil yang dikelilingi
- * kabupaten (mis. Kota Samarinda di dalam Kutai Kartanegara) bisa berpindah ke
- * kabupaten di sekitarnya. event.target hanya dipakai bila titik klik tidak
- * mengenai wilayah mana pun (mis. ketukan di laut dekat pulau kecil) atau klik
- * tidak berasal dari pointer (detail 0: pembaca layar).
- */
 function klikPeta(e) {
-  let w = null;
-  if (e.detail !== 0 && typeof document.elementFromPoint === 'function') {
-    w = wilayahDari(document.elementFromPoint(e.clientX, e.clientY));
-  }
-  if (!w) w = wilayahDari(e.target); // mis. ketukan di laut dekat pulau kecil
-  if (!w) return;
-  if (w.level === 'kab') {
-    const k = kabPaths.value.find((x) => x.kode === w.kode);
-    if (k) klikKab(k);
-  } else {
-    const p = provinsiPaths.value.find((x) => x.kode === w.kode);
-    if (p) klikProvinsi(p, false);
+  const g = keGeo(e);
+  if (g) tandaiTitik(g[0], g[1]);
+}
+
+async function tandaiTitik(lon, lat) {
+  const token = ++tokenTitik;
+  pinLokal.value = { lon, lat };
+  menganalisis.value = true;
+  titikGagal = null;
+  if (galat.value && !kodeGagal) galat.value = '';
+  clearTimeout(pewaktuStatus);
+  pewaktuStatus = setTimeout(() => {
+    if (token === tokenTitik && menganalisis.value) menganalisisLama.value = true;
+  }, JEDA_STATUS);
+  try {
+    const hasil = await analisisTitik(lon, lat);
+    if (token !== tokenTitik) return; // sudah ada klik yang lebih baru
+    emit('pin', hasil);
+    pinLokal.value = null; // titik kini dipegang induk (props.titik)
+  } catch (e) {
+    if (token === tokenTitik) {
+      titikGagal = { lon, lat };
+      galat.value = 'Titik gagal dianalisis.';
+    }
+  } finally {
+    if (token === tokenTitik) {
+      menganalisis.value = false;
+      menganalisisLama.value = false;
+      clearTimeout(pewaktuStatus);
+    }
   }
 }
 
-async function klikProvinsi(p, viaKeyboard) {
-  if (provAktif.value && p.kode === provAktif.value.kode) return;
-  await bukaProvinsi(p.kode);
-  if (viaKeyboard && provAktif.value && provAktif.value.kode === p.kode) {
+// keyboard: Enter pada provinsi membuka provinsi, Enter pada kab/kota menandai titik di dalamnya
+async function bukaLewatKeyboard(p) {
+  await bukaProvinsi(p.kode, { zoom: true });
+  if (provAktif.value && provAktif.value.kode === p.kode) {
     fokusElemen('.wil--kab.is-terpilih', '.wil--kab');
   }
 }
 
-function klikKab(k) {
-  emit('pilih', k.kode);
+function tandaiKab(k) {
+  const [lon, lat] = titikWakil(k.geo);
+  tandaiTitik(lon, lat);
 }
 
 function onEsc(e) {
@@ -500,7 +637,20 @@ function fokusElemen(...selektor) {
   });
 }
 
-// tooltip & sorotan
+// ---- koordinat kursor (mouse saja) ------------------------------------------
+function gerakKursor(e) {
+  if (!kursorEl.value || e.pointerType === 'touch') return;
+  const g = keGeo(e);
+  if (!g) { kursorEl.value.hidden = true; return; }
+  kursorEl.value.textContent = formatKoordinat(g[0], g[1]).dms;
+  kursorEl.value.hidden = false;
+}
+
+function sembunyikanKursor() {
+  if (kursorEl.value) kursorEl.value.hidden = true;
+}
+
+// ---- tooltip & sorotan -------------------------------------------------------
 function posisi(clientX, clientY) {
   if (!kanvasEl.value) return null;
   const r = kanvasEl.value.getBoundingClientRect();
@@ -509,16 +659,16 @@ function posisi(clientX, clientY) {
   return { x, y, kiri: x > r.width - 230, atas: y > r.height - 70 };
 }
 
-function tampilkanTip(item, level, clientX, clientY) {
+function tampilkanTip(item, level, clientX, clientY, lewat) {
   const pos = posisi(clientX, clientY);
   if (!pos) return;
   sorotan.value = { kode: item.kode, level, nama: item.nama };
-  tip.value = { kode: item.kode, level, nama: item.nama, ...pos };
+  tip.value = { kode: item.kode, level, nama: item.nama, lewat, ...pos };
 }
 
 function masukPointer(item, level, e) {
   if (sedangGeser || e.pointerType === 'touch') return; // di layar sentuh tooltip tidak membantu
-  tampilkanTip(item, level, e.clientX, e.clientY);
+  tampilkanTip(item, level, e.clientX, e.clientY, 'pointer');
 }
 
 function gerakPointer(item, level, e) {
@@ -529,17 +679,17 @@ function gerakPointer(item, level, e) {
     if (pos) tip.value = { ...t, ...pos };
   } else {
     // tooltip disembunyikan selama zoom/geser; tampilkan lagi begitu pointer bergerak
-    tampilkanTip(item, level, e.clientX, e.clientY);
+    tampilkanTip(item, level, e.clientX, e.clientY, 'pointer');
   }
 }
 
 function fokus(item, level, e) {
-  // hanya untuk fokus lewat keyboard; klik mouse sudah ditangani pointerenter
+  // hanya untuk fokus lewat keyboard; pointer sudah ditangani pointerenter
   let lewatKeyboard = true;
   try { lewatKeyboard = e.target.matches(':focus-visible'); } catch { /* peramban lama */ }
   if (!lewatKeyboard) return;
   const r = e.target.getBoundingClientRect();
-  tampilkanTip(item, level, r.left + r.width / 2, r.top + r.height / 2);
+  tampilkanTip(item, level, r.left + r.width / 2, r.top + r.height / 2, 'keyboard');
 }
 
 function lepasSorot() {
@@ -547,12 +697,26 @@ function lepasSorot() {
   tip.value = null;
 }
 
-// ---- siklus hidup ---------------------------------------------------------
-// pilihan berubah ke provinsi lain -> buka provinsi itu
+// ---- siklus hidup -----------------------------------------------------------
+// titik baru dari induk -> tampilkan kab/kota provinsinya tanpa memindah tampilan
+watch(() => props.titik, (t) => {
+  if (!t || !siap.value) return;
+  if (t.kab && t.adaRantai) {
+    if (!provAktif.value || provAktif.value.kode !== t.kab.provKode) bukaProvinsi(t.kab.provKode, { zoom: false });
+  } else if (provAktif.value) {
+    // titik di luar yurisdiksi: tidak ada wilayah Indonesia yang disorot
+    tutupProvinsi();
+  }
+});
+
+// pilihan dari tab lain (tanpa titik) -> buka provinsinya seperti biasa
 watch(provTerpilih, (p) => {
-  if (!p || !dataProv) return;
+  if (!p || !siap.value || props.titik) return;
   if (!provAktif.value || provAktif.value.kode !== p) bukaProvinsi(p);
 });
+
+// posisikan penanda setiap kali titiknya berubah (setelah DOM diperbarui)
+watch([pinGeo, pesisirGeo, pinTampil, pesisirTampil], () => perbaruiPenanda(), { flush: 'post' });
 
 onMounted(() => {
   pasangZoom();
@@ -561,6 +725,8 @@ onMounted(() => {
 
 onBeforeUnmount(() => {
   tokenMuat++;
+  tokenTitik++;
+  clearTimeout(pewaktuStatus);
   if (svgEl.value) select(svgEl.value).interrupt().on('.zoom', null);
 });
 </script>
@@ -606,37 +772,41 @@ onBeforeUnmount(() => {
 }
 .peta__svg {
   display: block; width: 100%; height: auto; aspect-ratio: 1000 / 540;
-  cursor: grab; touch-action: none;
+  cursor: crosshair; touch-action: none;
   -webkit-user-select: none; user-select: none;
 }
 .peta__svg:active { cursor: grabbing; }
 .peta__laut { fill: #e6edf4; }
 
-/* area klik tambahan di sekeliling wilayah (tak terlihat, hanya menangkap pointer) */
+/* negara tetangga: daratan abu-abu hangat, beda dari laut dan dari Indonesia */
+.negara {
+  fill: #e7e5dc; stroke: #bab7ab; stroke-width: 0.6px;
+  vector-effect: non-scaling-stroke; stroke-linejoin: round;
+}
+
+/* area hover tambahan di sekeliling wilayah (tak terlihat, hanya menangkap pointer) */
 .halo {
   fill: none; stroke: transparent; stroke-width: 8px;
   stroke-linejoin: round; vector-effect: non-scaling-stroke;
-  pointer-events: stroke; cursor: pointer;
+  pointer-events: stroke;
 }
 .halo.is-mati { display: none; }
 @media (pointer: coarse) {
   .halo { stroke-width: 16px; } /* jari lebih besar dari kursor */
 }
 
-/* isian wilayah: hanya bagian daratan yang menerima klik */
+/* isian wilayah */
 .wil {
   stroke: none; pointer-events: fill;
-  cursor: pointer; outline: none;
+  outline: none;
   transition: fill 0.12s ease;
 }
 /* sorotan memakai kelas (bukan :hover) agar juga menyala saat pointer berada di
-   area klik tambahan, dan tidak "tertinggal" setelah diketuk di layar sentuh */
+   area hover tambahan, dan tidak "tertinggal" setelah diketuk di layar sentuh */
 .wil--prov { fill: #ffffff; }
 .wil--prov.is-sorot, .wil--prov:focus-visible { fill: #e3ebfc; }
 .wil--prov.is-berisi { fill: #d3e0fb; }
 .wil--prov.is-berisi.is-sorot { fill: #c6d6fa; }
-.wil--prov.is-redup { fill: #eef2f6; }
-.wil--prov.is-redup.is-sorot { fill: #e2e8f0; }
 .wil--prov.is-tersembunyi { visibility: hidden; pointer-events: none; }
 
 .wil--kab { fill: #ffffff; }
@@ -649,14 +819,36 @@ onBeforeUnmount(() => {
   vector-effect: non-scaling-stroke;
   stroke-linejoin: round; stroke-linecap: round;
 }
+.garis--zee { stroke: #7f9ab5; stroke-width: 1px; stroke-dasharray: 5 4; }
 .garis--prov-dalam { stroke: #b7c1cc; stroke-width: 0.8px; }
 .garis--prov-luar { stroke: #93a0ad; stroke-width: 0.9px; }
-.is-provinsi .garis--prov-dalam { stroke: #d3dae2; }
-.is-provinsi .garis--prov-luar { stroke: #c2cbd5; }
+.is-provinsi .garis--prov-dalam { stroke: #cfd6de; }
 .garis--kab-dalam { stroke: #aeb8c3; stroke-width: 0.8px; }
 .garis--kab-luar { stroke: #7d8a98; stroke-width: 1.1px; }
 .garis--terpilih { stroke: #1f3f99; stroke-width: 2px; }
 .garis--sorot { stroke: #1e272e; stroke-width: 1.6px; }
+
+/* ---- penanda titik ---- */
+.penanda { pointer-events: none; }
+.penanda__garis {
+  stroke: #c0392b; stroke-width: 1.4px; stroke-dasharray: 4 3; opacity: 0.85;
+}
+.penanda__pesisir { fill: #fff; stroke: #c0392b; stroke-width: 1.6px; }
+.pin__inti { fill: #d63031; stroke: #fff; stroke-width: 2px; }
+.pin__silang { stroke: #d63031; stroke-width: 2px; stroke-linecap: round; }
+.pin__denyut {
+  fill: rgba(214, 48, 49, 0.14); stroke: #d63031; stroke-width: 1.2px;
+  transform-box: fill-box; transform-origin: center;
+  animation: denyut 1.8s ease-out infinite;
+}
+.pin.is-menganalisis .pin__inti { fill: #7a828d; }
+.pin.is-menganalisis .pin__silang,
+.pin.is-menganalisis .pin__denyut { stroke: #7a828d; }
+.pin.is-menganalisis .pin__denyut { fill: rgba(122, 130, 141, 0.12); }
+@keyframes denyut {
+  0% { transform: scale(0.55); opacity: 1; }
+  100% { transform: scale(1.25); opacity: 0; }
+}
 
 /* ---- tooltip ---- */
 .peta__tip {
@@ -668,6 +860,16 @@ onBeforeUnmount(() => {
 }
 .peta__tip-nama { display: block; font-weight: 600; }
 .peta__tip-aksi { display: block; margin-top: 0.1rem; font-size: 0.74rem; color: #c3cbd4; }
+
+/* ---- koordinat kursor ---- */
+.peta__kursor {
+  position: absolute; right: 0.6rem; bottom: 0.6rem; z-index: 3; margin: 0;
+  padding: 0.2rem 0.5rem; border-radius: 4px;
+  background: rgba(30, 39, 46, 0.78); color: #fff;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.74rem; pointer-events: none; white-space: nowrap;
+}
+.peta__kursor[hidden] { display: none; }
 
 /* ---- status ---- */
 .peta__status {
@@ -684,14 +886,21 @@ onBeforeUnmount(() => {
 }
 
 /* ---- kaki ---- */
-.peta__kaki {
-  display: flex; justify-content: space-between; align-items: baseline;
-  gap: 0.4rem 1rem; flex-wrap: wrap;
+.peta__kaki { display: flex; flex-direction: column; gap: 0.35rem; }
+.peta__petunjuk { margin: 0; font-size: 0.82rem; color: #5a6472; }
+.peta__legenda {
+  display: flex; flex-wrap: wrap; gap: 0.3rem 1rem;
+  margin: 0; padding: 0; list-style: none;
+  font-size: 0.78rem; color: #5a6472;
 }
-.peta__petunjuk { margin: 0; font-size: 0.82rem; color: #5a6472; max-width: 62ch; }
-.peta__sumber { margin: 0; font-size: 0.75rem; color: #8a929c; }
+.peta__legenda li { display: inline-flex; align-items: center; gap: 0.35rem; }
+.legenda__pin { fill: #d63031; stroke: #fff; stroke-width: 1.5px; }
+.legenda__zee { stroke: #7f9ab5; stroke-width: 1.4px; stroke-dasharray: 4 3; fill: none; }
+.legenda__negara { fill: #e7e5dc; stroke: #bab7ab; }
+.peta__sumber { margin: 0; font-size: 0.72rem; color: #8a929c; }
 
 @media (prefers-reduced-motion: reduce) {
   .wil { transition: none; }
+  .pin__denyut { animation: none; opacity: 0.6; }
 }
 </style>

@@ -261,8 +261,16 @@ export function useJadc2() {
     }
   }
 
+  /** Kosongkan hasil (mis. titik simulasi terlalu jauh dari wilayah Indonesia). */
+  function kosongkan() {
+    urutan++; // abaikan jawaban yang masih ditunggu
+    loading.value = false;
+    error.value = null;
+    hasil.value = null;
+  }
+
   return {
-    loading, error, hasil, pilih,
+    loading, error, hasil, pilih, kosongkan,
     resolveChain, cariWilayah,
     daftarProvinsi, daftarKabupaten, daftarKecamatan,
   };

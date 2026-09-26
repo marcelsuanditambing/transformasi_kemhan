@@ -1,7 +1,7 @@
 # Login / RBAC — Setup & Deploy
 
 Situs kini punya login. Halaman **TOGAF** tetap publik; **Arsitektur**, **Roadmap**,
-dan **JAD** hanya bisa diakses setelah login. Data & gambar dari ketiga halaman
+dan **JADC2** hanya bisa diakses setelah login. Data & gambar dari ketiga halaman
 terkunci itu **tidak lagi ikut ke dalam bundel publik** — semuanya dilayani oleh
 backend hanya jika sesi sah (tanpa login → HTTP 401).
 

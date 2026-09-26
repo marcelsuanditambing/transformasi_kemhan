@@ -19,5 +19,19 @@
   "jumlah": {
     "provinsi": 38,
     "kabkota": 514
+  },
+  "laut": {
+    "sumber": "Flanders Marine Institute (VLIZ), Maritime Boundaries Geodatabase: ZEE v12 dan laut teritorial 12 mil laut v4 (2023)",
+    "portal": "https://www.marineregions.org",
+    "lisensi": "CC BY 4.0",
+    "catatan": "Perairan kepulauan diturunkan dari pita 12 mil laut + daratan (perkiraan)."
+  },
+  "negara": {
+    "sumber": "Natural Earth, Admin 0 – Countries 1:10m v5.1.1",
+    "portal": "https://www.naturalearthdata.com",
+    "lisensi": "Domain publik"
+  },
+  "pantai": {
+    "sederhana_m": 800
   }
 }

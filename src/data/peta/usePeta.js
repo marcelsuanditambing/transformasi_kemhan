@@ -1,5 +1,5 @@
 // ============================================================================
-// usePeta.js — pemuat data peta untuk tab Simulasi JAD.
+// usePeta.js — pemuat data peta untuk tab Simulasi JADC2.
 //
 // Data di folder ini PUBLIK (ikut dibundel Vite): hanya bentuk wilayah, kode
 // Kemendagri, dan nama. Rantai komando TIDAK ada di sini; itu tetap diambil

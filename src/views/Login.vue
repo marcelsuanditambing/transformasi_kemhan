@@ -2,7 +2,7 @@
   <section class="login">
     <div class="card">
       <h1 class="title">Masuk</h1>
-      <p class="sub">Konten Arsitektur, Roadmap, dan JAD hanya untuk pengguna terautentikasi.</p>
+      <p class="sub">Konten Arsitektur, Roadmap, dan JADC2 hanya untuk pengguna terautentikasi.</p>
 
       <form class="form" @submit.prevent="submit">
         <label class="field">
