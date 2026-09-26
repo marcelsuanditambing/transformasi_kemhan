@@ -1,5 +1,5 @@
 <template>
-  <div class="hasil">
+  <div :class="['hasil', { 'hasil--samping': samping }]">
     <!-- breadcrumb wilayah -->
     <nav class="hasil__bc" aria-label="Wilayah terpilih">
       <span v-for="(b, i) in hasil.breadcrumb" :key="b.kode">
@@ -37,6 +37,11 @@
             <!-- N/A -->
             <p v-if="e.na" class="entri__na">
               Tidak ada satuan matra ini untuk wilayah tersebut{{ m === 'AL' ? ' (wilayah pedalaman/tanpa pantai)' : '' }}.
+            </p>
+
+            <!-- satuan pengampu belum ditetapkan di data -->
+            <p v-else-if="e.belumDitentukan" class="entri__na">
+              Satuan pengampu belum ditentukan — perlu verifikasi.
             </p>
 
             <!-- tangga rantai komando -->
@@ -81,6 +86,8 @@ import { computed } from 'vue';
 
 const props = defineProps({
   hasil: { type: Object, required: true },
+  /** Tampil di samping peta (tab Simulasi): kartu matra disusun satu kolom. */
+  samping: { type: Boolean, default: false },
 });
 
 const MATRA = ['AD', 'AL', 'AU'];
@@ -131,6 +138,11 @@ function pillLabel(e) {
 }
 @media (max-width: 880px) {
   .hasil__grid { grid-template-columns: 1fr; }
+}
+/* di samping peta (layar lebar): satu kolom, rata atas dengan peta */
+@media (min-width: 1024px) {
+  .hasil--samping { margin-top: 0; }
+  .hasil--samping .hasil__grid { grid-template-columns: 1fr; }
 }
 
 /* kartu matra — dibedakan lewat warna cabang TNI di sisi kiri */

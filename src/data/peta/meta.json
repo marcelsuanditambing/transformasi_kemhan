@@ -1,0 +1,23 @@
+{
+  "sumber": "Badan Informasi Geospasial (BIG)",
+  "dataset": "Batas Wilayah Administrasi Kabupaten/Kota, RBI skala 1:50.000",
+  "berkas": "RBI50K_ADMINISTRASI_KABKOTA_20230907.gdb",
+  "edisi": "2023-09-07",
+  "portal": "https://tanahair.indonesia.go.id",
+  "kode_wilayah": "Kemendagri (atribut KDPKAB)",
+  "diolah": "2026-09-26",
+  "parameter": {
+    "pulau_min_km2": 0.5,
+    "pulau_relatif": 0.1,
+    "sederhana_kab_m": 250,
+    "sederhana_kab_kecil_m": 40,
+    "sederhana_prov_m": 1000,
+    "pulau_nasional_min_km2": 10,
+    "kuantisasi": 100000,
+    "alat": "mapshaper@0.7.67"
+  },
+  "jumlah": {
+    "provinsi": 38,
+    "kabkota": 514
+  }
+}

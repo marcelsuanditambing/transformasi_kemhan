@@ -4,6 +4,7 @@
     <div class="modebar" role="tablist" aria-label="Cara memilih wilayah">
       <button
         v-for="m in modes" :key="m.id"
+        type="button"
         role="tab" :aria-selected="mode === m.id"
         :class="['modebar__btn', { 'is-on': mode === m.id }]"
         @click="mode = m.id"
@@ -56,7 +57,7 @@
     </div>
 
     <!-- MODE: pilih bertingkat -->
-    <div v-else class="tingkat">
+    <div v-else-if="mode === 'bertingkat'" class="tingkat">
       <div class="tingkat__field">
         <label for="sel-prov">Provinsi</label>
         <select id="sel-prov" v-model="selProv" @change="onProv">
@@ -79,21 +80,65 @@
         </select>
       </div>
     </div>
+
+    <!-- MODE: simulasi peta -->
+    <div v-else-if="mode === 'simulasi'" class="simulasi">
+      <JadcPeta :kode-terpilih="kodeTerpilih" @pilih="onPeta" />
+
+      <div v-if="simKab" class="simulasi__kec">
+        <label for="sim-kec">Kecamatan <span class="tingkat__opt">(opsional)</span></label>
+        <select
+          id="sim-kec"
+          :value="simKec"
+          :disabled="!simKecList.length"
+          @change="onSimKec($event.target.value)"
+        >
+          <option value="">— seluruh kabupaten/kota —</option>
+          <option v-for="c in simKecList" :key="c.kode_bps" :value="c.kode_bps">{{ c.nama }}</option>
+        </select>
+      </div>
+    </div>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, computed, watch, onMounted, defineAsyncComponent, h } from 'vue';
 import { useJadc2 } from '@/data/jadc2/useJadc2.js';
 
+// Peta (d3 + data batas wilayah) baru diunduh saat tab Simulasi dibuka.
+const JadcPeta = defineAsyncComponent({
+  loader: () => import('./JadcPeta.vue'),
+  delay: 150,
+  loadingComponent: {
+    render: () => h('p', { style: 'margin:0;padding:1rem 0;color:#5a6472;font-size:0.9rem' }, 'Memuat peta…'),
+  },
+  errorComponent: {
+    render: () => h('p', { style: 'margin:0;padding:1rem 0;color:#b23b3b;font-size:0.9rem' },
+      'Peta gagal dimuat. Muat ulang halaman untuk mencoba lagi.'),
+  },
+});
+
+const props = defineProps({
+  /** Kode wilayah yang sedang dipilih di halaman (dari mode mana pun). */
+  kodeTerpilih: { type: String, default: null },
+});
 const emit = defineEmits(['pilih']);
+const mode = defineModel('mode', { type: String, default: 'cari' });
+
 const { cariWilayah, daftarProvinsi, daftarKabupaten, daftarKecamatan } = useJadc2();
 
 const modes = [
   { id: 'cari', label: 'Cari wilayah' },
   { id: 'bertingkat', label: 'Pilih bertingkat' },
+  { id: 'simulasi', label: 'Simulasi' },
 ];
-const mode = ref('cari');
+
+const provOf = (kode) => String(kode).split('.')[0];
+const kabOf = (kode) => {
+  const p = String(kode || '').split('.');
+  return p.length >= 2 ? `${p[0]}.${p[1]}` : null;
+};
+const isKec = (kode) => String(kode || '').split('.').length === 3;
 
 /* ---- mode cari ---- */
 const inputEl = ref(null);
@@ -120,9 +165,11 @@ function pilihSorot() {
   const i = sorot.value >= 0 ? sorot.value : 0;
   if (hasilCari.value[i]) pilih(hasilCari.value[i]);
 }
+let kodeDariCari = null; // wilayah terakhir yang dipilih lewat kotak cari
 function pilih(r) {
   query.value = r.nama;
   buka.value = false;
+  kodeDariCari = r.kode;
   emit('pilih', r.kode);
 }
 
@@ -153,6 +200,64 @@ function onKec() {
   if (selKec.value) emit('pilih', selKec.value);
   else if (selKab.value) emit('pilih', selKab.value);
 }
+
+// Saat pindah ke "Pilih bertingkat", isian mengikuti wilayah yang sedang dipilih
+// (mis. hasil klik di peta). Tidak memancarkan 'pilih' lagi.
+async function sinkronBertingkat(kode) {
+  const p = provOf(kode);
+  const k = kabOf(kode);
+  try {
+    if (selProv.value !== p) {
+      selProv.value = p;
+      selKab.value = ''; selKec.value = ''; kecList.value = [];
+      kabList.value = await daftarKabupaten(p);
+    }
+    if (k && selKab.value !== k) {
+      selKab.value = k;
+      selKec.value = '';
+      kecList.value = await daftarKecamatan(k);
+    }
+    selKec.value = isKec(kode) ? kode : '';
+  } catch { /* biarkan isian apa adanya bila data gagal dimuat */ }
+}
+
+/* ---- mode simulasi ---- */
+const simKab = computed(() => kabOf(props.kodeTerpilih));
+const simKec = computed(() => (isKec(props.kodeTerpilih) ? props.kodeTerpilih : ''));
+const simKecList = ref([]);
+let simKecUntuk = null; // kab/kota yang daftar kecamatannya sedang dimuat/tampil
+let tokenKec = 0;
+
+watch([simKab, mode], async ([kab, m]) => {
+  if (m !== 'simulasi' || kab === simKecUntuk) return;
+  const token = ++tokenKec;
+  simKecUntuk = kab;
+  simKecList.value = [];
+  if (!kab) return;
+  try {
+    const list = await daftarKecamatan(kab);
+    if (token === tokenKec) simKecList.value = list;
+  } catch {
+    if (token === tokenKec) simKecUntuk = null; // daftar kecamatan opsional; coba lagi nanti
+  }
+}, { immediate: true });
+
+function onPeta(kodeKab) {
+  emit('pilih', kodeKab);
+}
+function onSimKec(kodeKec) {
+  emit('pilih', kodeKec || simKab.value);
+}
+
+watch(mode, (m) => {
+  if (m === 'bertingkat' && props.kodeTerpilih) sinkronBertingkat(props.kodeTerpilih);
+  // kotak cari tidak lagi menampilkan nama lama bila wilayah sudah diganti di tab lain
+  if (m === 'cari' && props.kodeTerpilih !== kodeDariCari) {
+    query.value = '';
+    hasilCari.value = [];
+    buka.value = false;
+  }
+});
 </script>
 
 <style scoped>
@@ -166,7 +271,7 @@ function onKec() {
 .modebar__btn.is-on { background: #fff; color: #1e272e; font-weight: 600; box-shadow: 0 1px 2px rgba(30,39,46,0.08); }
 .modebar__btn:focus-visible { outline: 2px solid #4b7bec; outline-offset: 1px; }
 
-.cari__label, .tingkat__field label { display: block; font-size: 0.85rem; color: #3d4653; margin-bottom: 0.35rem; }
+.cari__label, .tingkat__field label, .simulasi__kec label { display: block; font-size: 0.85rem; color: #3d4653; margin-bottom: 0.35rem; }
 .cari__box { position: relative; max-width: 460px; }
 .cari__input {
   width: 100%; box-sizing: border-box; padding: 0.6rem 0.75rem;
@@ -197,10 +302,12 @@ function onKec() {
 .tingkat { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.9rem; }
 @media (max-width: 760px) { .tingkat { grid-template-columns: 1fr; } }
 .tingkat__opt { color: #9aa2ac; font-weight: 400; }
-.tingkat select {
+.tingkat select, .simulasi__kec select {
   width: 100%; box-sizing: border-box; padding: 0.55rem 0.6rem;
   border: 1px solid #cfd6dd; border-radius: 6px; font: inherit; color: #2f3542; background: #fff;
 }
-.tingkat select:disabled { background: #f4f6f8; color: #9aa2ac; }
-.tingkat select:focus { outline: none; border-color: #4b7bec; box-shadow: 0 0 0 3px rgba(75,123,236,0.15); }
+.tingkat select:disabled, .simulasi__kec select:disabled { background: #f4f6f8; color: #9aa2ac; }
+.tingkat select:focus, .simulasi__kec select:focus { outline: none; border-color: #4b7bec; box-shadow: 0 0 0 3px rgba(75,123,236,0.15); }
+
+.simulasi__kec { margin-top: 0.9rem; max-width: 360px; }
 </style>

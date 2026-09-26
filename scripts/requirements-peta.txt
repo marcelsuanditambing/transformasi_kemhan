@@ -1,0 +1,4 @@
+# Kebutuhan skrip scripts/buat-peta.py (hanya untuk mengolah ulang data peta)
+pyogrio>=0.7
+shapely>=2.0
+numpy>=1.22

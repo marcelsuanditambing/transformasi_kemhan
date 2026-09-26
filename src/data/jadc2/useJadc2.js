@@ -125,11 +125,22 @@ async function resolveChain(kodeWilayah) {
       const rows = (pemByKode.get(lvlKode) || []).filter((r) => matraDari(r, satuanMap) === m);
       if (!rows.length) continue;
       hasil[m] = rows.map((r) => {
-        if (r.peran === '-' || !r.satuan_id) {
+        if (r.peran === '-') {
+          // memang tidak ada satuan matra ini (mis. AL di wilayah pedalaman)
           return {
             na: true, peran: 'tidak ada',
             tingkat_keyakinan: r.tingkat_keyakinan, aturan: r.aturan_pemetaan,
             catatan: r.catatan, sumber: r.sumber, level: lvlKode, rantai: [],
+          };
+        }
+        if (!r.satuan_id) {
+          // ada pemetaan, tetapi satuan pengampunya belum ditetapkan di data
+          return {
+            na: false, belumDitentukan: true, peran: r.peran,
+            tingkat_keyakinan: r.tingkat_keyakinan, aturan: r.aturan_pemetaan,
+            catatan: r.catatan, sumber: r.sumber, level: lvlKode,
+            diwarisiDari: lvlKode === kode ? null : lvlKode,
+            rantai: [],
           };
         }
         const { rantai, terputus } = buildRantai(satuanMap, r.satuan_id);
@@ -229,19 +240,24 @@ export function useJadc2() {
   const loading = ref(false);
   const error = ref(null);
   const hasil = shallowRef(null);
+  let urutan = 0; // hanya jawaban permintaan terakhir yang ditampilkan
 
   async function pilih(kodeWilayah) {
+    const ini = ++urutan;
     loading.value = true;
     error.value = null;
     try {
-      hasil.value = await resolveChain(kodeWilayah);
-      return hasil.value;
+      const r = await resolveChain(kodeWilayah);
+      if (ini !== urutan) return r; // sudah ada pilihan yang lebih baru
+      hasil.value = r;
+      return r;
     } catch (e) {
+      if (ini !== urutan) return null;
       error.value = e;
       hasil.value = null;
       throw e;
     } finally {
-      loading.value = false;
+      if (ini === urutan) loading.value = false;
     }
   }
 
